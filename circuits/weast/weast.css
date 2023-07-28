@@ -1,0 +1,3465 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 1cm;
+  width: 10%;
+  position: fixed;
+  z-index: 4;
+}
+
+.header {
+  background-color: white;
+  height: 2.1cm;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+}
+
+.logo {
+  width: 169px;
+  height: 65px;
+  left: 2rem;
+  position: fixed;
+  z-index: 4;
+  top: 1rem;
+}
+
+.logoBurger {
+  position: absolute;
+  left: -8rem;
+}
+
+header ul {
+  position: relative;
+  top: -2.5rem;
+  right: 4rem;
+  display: flex;
+  list-style-type: none;
+  height: 1cm;
+  padding-top: 5rem;
+  padding-bottom: 14rem;
+  overflow: hidden;
+  float: right;
+}
+
+li a {
+  margin: 6px;
+  font-size: 19px;
+  padding: 17px;
+  color: rgb(64, 56, 56);
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+  border: opx solid;
+  border-width: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #d6d61e;
+  border-radius: 8px;
+  text-decoration: none;
+  color: rgb(64, 56, 56);
+}
+
+.versionAng {
+  margin-left: 11rem;
+  font-size: 19px;
+  color: rgb(64, 56, 56);
+}
+
+.imgAng {
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  width: 30px;
+  border-radius: 40%;
+  height: 30px;
+}
+
+.fenetreFrancais {
+  position: relative;
+  display: none;
+  float: right;
+  left: 94rem;
+  top: 8.3rem;
+  width: 5cm;
+  height: 2cm;
+  background-color: #04AA6D;
+  z-index: 4;
+  transform: translateY(-4.5cm);
+  transition: 0;
+}
+
+.imgAng1 {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 1rem;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.fenetreFrancais p {
+  position: absolute;
+  left: 7rem;
+  top: 2rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.couvertureOuest img {
+  position: absolute;
+  top: 19rem;
+  left: 2vw;
+  width: 60vw;
+  height: 52rem;
+  border-radius: 6px;
+}
+
+.couvertureOuest-responsive img {
+  display: none;
+  position: absolute;
+  top: 0rem;
+  width: 100%;
+  height: 100vh;
+}
+
+font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("../../../fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("../../../fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+b {
+  color: rgb(62, 56, 56);
+}
+
+.title_weast {
+  color: rgb(0, 34, 96);
+  font-size: 39px;
+  position: absolute;
+  top: 9.5rem;
+  left: 5rem;
+  font-weight: 800;
+  width: 69vw;
+  font-family: "yeseva_oneregular";
+}
+
+.weast .desc {
+  position: absolute;
+  width: 55vw;
+  top: 75rem;
+  left: 8rem;
+  font-size: 20px;
+  color: rgb(93, 93, 97);
+}
+
+.detailTour h1 {
+  color: rgb(212, 139, 3);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 38px;
+  position: absolute;
+  top: 21rem;
+  left: 73vw;
+  font-weight: bold;
+  width: 20vw;
+}
+.detailTour .details {
+  border-radius: 6px;
+  box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
+  background-color: rgb(223, 220, 215);
+  border: 1.5px solid rgb(212, 139, 3);
+  width: 32vw;
+  height: 20rem;
+  position: absolute;
+  right: 2vw;
+  top: 33rem;
+}
+.detailTour .details .days {
+  position: absolute;
+  top: -18rem;
+  left: -65vw;
+}
+.detailTour .details .days img {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 67vw;
+  top: 22rem;
+}
+.detailTour .details .days h1 {
+  font-size: 24px;
+  color: rgb(67, 66, 66);
+  position: absolute;
+  left: 71vw;
+}
+.detailTour .details .localisation {
+  position: absolute;
+  top: 7rem;
+  left: 0vw;
+}
+.detailTour .details .localisation img {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 67vw;
+  top: 22rem;
+}
+.detailTour .details .localisation h1 {
+  font-size: 22px;
+  position: absolute;
+  left: 71vw;
+  width: 27vw;
+  color: rgb(67, 66, 66);
+}
+
+@media screen and (min-width: 1024px) {
+  .weast_day {
+    position: absolute;
+    top: 125rem;
+    left: 0rem;
+  }
+  .weast_day .titre_weast {
+    font-size: 36px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 60vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .weast_day .anim_1 {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .weast_day .day1 {
+    width: 60vw;
+    height: 19rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day1 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day1 img {
+    width: 45.5px;
+    height: 45.5px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day2 {
+    width: 60vw;
+    height: 22rem;
+    position: absolute;
+    top: 28.4rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day2 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day3 {
+    width: 60vw;
+    height: 20rem;
+    position: absolute;
+    top: 60.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day3 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day4 {
+    width: 60vw;
+    height: 33.6rem;
+    position: absolute;
+    top: 91rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day4 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day5 {
+    width: 60vw;
+    height: 27.6rem;
+    position: absolute;
+    top: 134.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day5 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day6 {
+    width: 60vw;
+    height: 19.2rem;
+    position: absolute;
+    top: 172.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day6 h1 {
+    font-size: 23.6px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day6 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day7 {
+    width: 60vw;
+    height: 18.5rem;
+    position: absolute;
+    top: 202rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day7 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day7 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day8 {
+    width: 60vw;
+    height: 17.6rem;
+    position: absolute;
+    top: 230.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day8 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day8 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .weast_day .day9 {
+    width: 60vw;
+    height: 18.8rem;
+    position: absolute;
+    top: 258.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .weast_day .day9 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .weast_day .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day9 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .with-tsingy-bemaraha {
+    position: absolute;
+    top: 465rem;
+    left: 0rem;
+  }
+  .with-tsingy-bemaraha .titre_weast {
+    font-size: 36px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 60vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .with-tsingy-bemaraha .anim_2 {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .with-tsingy-bemaraha .day1 {
+    width: 60vw;
+    height: 19rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day1 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day1 img {
+    width: 45.5px;
+    height: 45.5px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day2 {
+    width: 60vw;
+    height: 22rem;
+    position: absolute;
+    top: 28.4rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day2 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day3 {
+    width: 60vw;
+    height: 20rem;
+    position: absolute;
+    top: 60.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day3 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day4 {
+    width: 60vw;
+    height: 33.6rem;
+    position: absolute;
+    top: 91rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day4 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day5 {
+    width: 60vw;
+    height: 27.6rem;
+    position: absolute;
+    top: 134.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day5 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day6 {
+    width: 60vw;
+    height: 19.2rem;
+    position: absolute;
+    top: 172.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day6 h1 {
+    font-size: 23.6px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day6 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day7 {
+    width: 60vw;
+    height: 21.5rem;
+    position: absolute;
+    top: 202rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day7 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day7 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day8 {
+    width: 60vw;
+    height: 27.6rem;
+    position: absolute;
+    top: 234.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day8 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day8 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day9 {
+    width: 60vw;
+    height: 21.5rem;
+    position: absolute;
+    top: 272.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day9 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day9 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day10 {
+    width: 60vw;
+    height: 19.3rem;
+    position: absolute;
+    top: 304.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day10 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day10 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .with-tsingy-bemaraha .day11 {
+    width: 60vw;
+    height: 18.8rem;
+    position: absolute;
+    top: 334.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .with-tsingy-bemaraha .day11 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .with-tsingy-bemaraha .day11 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day11 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .tsingy-tour {
+    position: absolute;
+    top: 885rem;
+    left: 0rem;
+  }
+  .tsingy-tour .titre_weast {
+    font-size: 36px;
+    position: absolute;
+    left: 10vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 60vw;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .tsingy-tour .anim_3 {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: -12.5rem;
+    left: 5vw;
+    border-radius: 4px;
+    background-color: rgb(222, 167, 1);
+    border-radius: 0;
+    animation: rotate 5s linear infinite;
+  }
+  @keyframes rotate2 {
+    0% {
+      transform: rotate(155deg);
+    }
+    20% {
+      transform: rotate(205deg);
+    }
+    40% {
+      transform: rotate(255deg);
+    }
+    60% {
+      transform: rotate(305deg);
+    }
+    80% {
+      transform: rotate(355deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  .tsingy-tour .day1 {
+    width: 60vw;
+    height: 19rem;
+    position: absolute;
+    top: 0rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day1 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day1 img {
+    width: 45.5px;
+    height: 45.5px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day2 {
+    width: 60vw;
+    height: 22rem;
+    position: absolute;
+    top: 28.4rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day2 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day2 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day3 {
+    width: 60vw;
+    height: 20rem;
+    position: absolute;
+    top: 60.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day3 h1 {
+    font-size: 27px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day3 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day4 {
+    width: 60vw;
+    height: 19.6rem;
+    position: absolute;
+    top: 91rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day4 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day4 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day5 {
+    width: 60vw;
+    height: 27.6rem;
+    position: absolute;
+    top: 120.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day5 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day5 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day6 {
+    width: 60vw;
+    height: 24.6rem;
+    position: absolute;
+    top: 158.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day6 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day6 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day7 {
+    width: 60vw;
+    height: 18.8rem;
+    position: absolute;
+    top: 194rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day7 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day7 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day8 {
+    width: 60vw;
+    height: 17.6rem;
+    position: absolute;
+    top: 223.5rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day8 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day8 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day9 {
+    width: 60vw;
+    height: 22.8rem;
+    position: absolute;
+    top: 250.8rem;
+    left: 6vw;
+    border-radius: 4px;
+    background-color: rgba(102, 98, 98, 0.122);
+  }
+  .tsingy-tour .day9 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 6rem;
+    font-weight: 550;
+    color: rgb(35, 34, 34);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .tsingy-tour .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day9 img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1.5rem;
+  }
+  .tsingy-tour .day10 {
+    width: 16cm;
+    height: 32vh;
+    position: absolute;
+    top: 315rem;
+    left: 60vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day10 h1 {
+    font-size: 32px;
+    position: absolute;
+    left: 3rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day11 {
+    width: 16cm;
+    height: 24vh;
+    position: absolute;
+    top: 381rem;
+    left: 60vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day11 h1 {
+    font-size: 28px;
+    position: absolute;
+    left: 3rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day11 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day12 {
+    width: 16cm;
+    height: 32vh;
+    position: absolute;
+    top: 378rem;
+    left: 60vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day12 h1 {
+    font-size: 24px;
+    position: absolute;
+    left: 3rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day12 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+    top: 9rem;
+  }
+  .tsingy-tour .day13 {
+    width: 16cm;
+    height: 25vh;
+    position: absolute;
+    top: 411rem;
+    left: 60vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day13 h1 {
+    font-size: 24px;
+    position: absolute;
+    left: 3rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day13 p {
+    font-size: 21.5px;
+    position: absolute;
+    left: 4rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+    left: 13rem;
+  }
+  .tsingy-tour .day14 {
+    width: 16cm;
+    height: 22vh;
+    position: absolute;
+    top: 439rem;
+    left: 60vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day14 h1 {
+    font-size: 24px;
+    position: absolute;
+    left: 3rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day14 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .border_vertical1 {
+    width: 5.4px;
+    height: 200rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 125rem;
+    left: 65rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .border_vertical4 {
+    width: 5.4px;
+    height: 305rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 135rem;
+    left: 65rem;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 380rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 470rem;
+    left: 65rem;
+  }
+  .border_vertical1 {
+    width: 5.4px;
+    height: 270rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 900rem;
+    left: 65rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    position: relative;
+    top: 1165rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 40.6rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: relative;
+    top: 7rem;
+    left: 39%;
+  }
+  .footer_contact h1 {
+    font-size: 36px;
+    color: #ffffff;
+    position: absolute;
+    top: -3rem;
+    left: 2vw;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 20px;
+    position: absolute;
+    top: 8rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 22px;
+    position: absolute;
+    top: 11.1rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  div.icones img:nth-last-child(1) {
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+  }
+  .img_fb {
+    position: absolute;
+    top: 0rem;
+    left: 7rem;
+  }
+  div.icones img:nth-last-child(3) {
+    position: absolute;
+    top: 20rem;
+    left: 14rem;
+  }
+  .icones {
+    position: relative;
+    top: -1rem;
+    left: 4vw;
+  }
+  .border_ {
+    position: absolute;
+    top: 17rem;
+    left: 7.2vw;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright center {
+    position: absolute;
+    top: 34.4rem;
+    width: 100%;
+    height: 1.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 20px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+  .up img {
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    top: 54rem;
+    right: 3vw;
+    z-index: 20;
+  }
+}
+@media screen and (max-width: 763px) and (min-width: 284px) {
+  .texte {
+    font-size: 27.4px;
+    position: absolute;
+    left: 1rem;
+    top: 37rem;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 20.4vw;
+    align-items: center;
+    justify-content: center;
+    top: -2.8rem;
+    padding-bottom: 12.5cm;
+  }
+  header ul li {
+    margin: 23px;
+  }
+  header ul li a {
+    font-size: 23px;
+    padding: 6px;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3cm;
+    height: 1.5cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 43rem;
+    background-color: #1ed661;
+    z-index: 200;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: -1rem;
+    width: 40vw;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    right: -102vw;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .couvertureOuest img {
+    display: none;
+  }
+  .couvertureOuest-responsive img {
+    display: block;
+    position: relative;
+  }
+  .title_weast {
+    font-size: 35px;
+    left: 1.4rem;
+    top: 62rem;
+    text-align: center;
+  }
+  .weast .desc {
+    font-size: 18px;
+    left: 2.2rem;
+    top: 72rem;
+    width: 82vw;
+  }
+  .weast_day {
+    position: absolute;
+    top: 108rem;
+    left: -30rem;
+  }
+  .weast_day .titre_weast {
+    font-size: 21px;
+    position: absolute;
+    left: 90vw;
+    font-weight: 800;
+    color: rgb(8, 158, 63);
+    top: 19.5rem;
+    width: 88vw;
+    position: absolute;
+  }
+  .weast_day .day1 {
+    width: 83vw;
+    height: 24rem;
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .weast_day .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .weast_day .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day2 {
+    width: 85vw;
+    height: 34rem;
+    position: absolute;
+    top: 68rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .weast_day .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+    top: 2rem;
+  }
+  .weast_day .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day3 {
+    width: 85vw;
+    height: 24rem;
+    position: absolute;
+    top: 112rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day3 h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .weast_day .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day4 {
+    width: 85vw;
+    height: 63rem;
+    position: absolute;
+    top: 147rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day4 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 10rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day5 {
+    width: 85vw;
+    height: 53rem;
+    position: absolute;
+    top: 222rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 10rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day6 {
+    width: 85vw;
+    height: 27.4rem;
+    position: absolute;
+    top: 287rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day6 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 9.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day7 {
+    width: 85vw;
+    height: 30rem;
+    position: absolute;
+    top: 325rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day7 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day9 {
+    width: 85vw;
+    height: 30rem;
+    position: absolute;
+    top: 391rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .weast_day .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day8 {
+    width: 85vw;
+    height: 15rem;
+    position: absolute;
+    top: 365rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .weast_day .day8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 5.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day10 {
+    width: 85vw;
+    height: 29rem;
+    position: absolute;
+    top: 372rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day10 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day11 {
+    display: none;
+    width: 85vw;
+    height: 41rem;
+    position: absolute;
+    top: 403rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day11 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day11 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day12 {
+    display: none;
+    width: 85vw;
+    height: 26.5rem;
+    position: absolute;
+    top: 456rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day12 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day12 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 12rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day13 {
+    display: none;
+    width: 85vw;
+    height: 15.6rem;
+    position: absolute;
+    top: 494rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day13 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day13 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day14 {
+    display: none;
+    width: 85vw;
+    height: 17.5rem;
+    position: absolute;
+    top: 520.1rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day14 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day14 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha {
+    position: absolute;
+    top: 516rem;
+    left: -30rem;
+  }
+  .with-tsingy-bemaraha .titre_weast {
+    font-size: 20px;
+    position: absolute;
+    left: 87vw;
+    font-weight: 800;
+    color: rgb(8, 158, 63);
+    top: 21.5rem;
+    width: 88vw;
+    position: absolute;
+  }
+  .with-tsingy-bemaraha .titre_weast span {
+    color: rgb(8, 158, 63);
+  }
+  .with-tsingy-bemaraha .day1 {
+    width: 85vw;
+    height: 26rem;
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .with-tsingy-bemaraha .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day2 {
+    width: 85vw;
+    height: 35.4rem;
+    position: absolute;
+    top: 71rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .with-tsingy-bemaraha .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+    top: 2rem;
+  }
+  .with-tsingy-bemaraha .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day3 {
+    width: 85vw;
+    height: 22rem;
+    position: absolute;
+    top: 117rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day3 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day4 {
+    width: 85vw;
+    height: 61rem;
+    position: absolute;
+    top: 148rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day5 {
+    width: 85vw;
+    height: 50rem;
+    position: absolute;
+    top: 218.4rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day5 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 9rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day6 {
+    width: 85vw;
+    height: 28.4rem;
+    position: absolute;
+    top: 276rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day6 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day8 {
+    width: 85vw;
+    height: 49.4rem;
+    position: absolute;
+    top: 351rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day7 {
+    width: 85vw;
+    height: 27rem;
+    position: absolute;
+    top: 315rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day7 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day9 {
+    width: 85vw;
+    height: 37rem;
+    position: absolute;
+    top: 408rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day9 h1 {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day10 {
+    width: 85vw;
+    height: 21rem;
+    position: absolute;
+    top: 455rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day10 h1 {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day11 {
+    width: 85vw;
+    height: 15rem;
+    position: absolute;
+    top: 488rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day11 h1 {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day11 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour {
+    position: absolute;
+    top: 1005rem;
+    left: -30rem;
+  }
+  .tsingy-tour .titre_weast {
+    font-size: 28px;
+    position: absolute;
+    left: 99vw;
+    font-weight: 800;
+    color: rgb(8, 158, 63);
+    top: 24.5rem;
+    width: 80vw;
+    position: absolute;
+  }
+  .tsingy-tour .day1 {
+    width: 85vw;
+    height: 25rem;
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .tsingy-tour .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day2 {
+    width: 85vw;
+    height: 34rem;
+    position: absolute;
+    top: 71rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .tsingy-tour .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+    top: 2rem;
+  }
+  .tsingy-tour .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day3 {
+    width: 85vw;
+    height: 26rem;
+    position: absolute;
+    top: 113rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day3 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day4 {
+    width: 85vw;
+    height: 27rem;
+    position: absolute;
+    top: 148rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day5 {
+    width: 85vw;
+    height: 51rem;
+    position: absolute;
+    top: 185.4rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 9rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day6 {
+    width: 85vw;
+    height: 34.4rem;
+    position: absolute;
+    top: 247rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day6 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day8 {
+    width: 85vw;
+    height: 15.4rem;
+    position: absolute;
+    top: 324rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day8 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day7 {
+    width: 85vw;
+    height: 21rem;
+    position: absolute;
+    top: 292rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day7 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day9 {
+    width: 85vw;
+    height: 26.5rem;
+    position: absolute;
+    top: 351rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 5rem;
+    color: rgb(45, 45, 45);
+  }
+  .NosyBe {
+    display: none;
+  }
+  footer {
+    position: absolute;
+    top: 1389.5rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 96vw;
+    left: 0rem;
+    height: 35.9rem;
+    padding-bottom: -24rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 45%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 21rem;
+    left: -8rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -4.8rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright {
+    position: absolute;
+    top: 35.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 0rem;
+    color: rgb(212, 205, 205);
+  }
+  .border_vertical3 {
+    width: 5.4px;
+    height: 305rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 1055rem;
+    left: 47vw;
+  }
+  .border_vertical4 {
+    width: 5.4px;
+    height: 350rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 155rem;
+    left: 47vw;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 445rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 574rem;
+    left: 47vw;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 765px) {
+  .texte {
+    font-size: 32px;
+    position: absolute;
+    left: 4rem;
+    top: 36rem;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 35.4vw;
+    align-items: center;
+    justify-content: center;
+    top: -2.8rem;
+    padding-bottom: 12.5cm;
+  }
+  header ul li {
+    margin: 23px;
+  }
+  header ul li a {
+    font-size: 23px;
+    padding: 6px;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3cm;
+    height: 1.5cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 43rem;
+    background-color: #1ed661;
+    z-index: 200;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: -1rem;
+    width: 40vw;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    right: -102vw;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .couvertureOuest img {
+    display: none;
+  }
+  .couvertureOuest-responsive img {
+    display: block;
+  }
+  .title_weast {
+    font-size: 35px;
+    left: 1.4rem;
+    top: 62rem;
+    text-align: center;
+  }
+  .weast .desc {
+    font-size: 18px;
+    left: 2.2rem;
+    top: 72rem;
+    width: 82vw;
+  }
+  .weast_day {
+    position: absolute;
+    top: 80rem;
+    left: -35vw;
+  }
+  .weast_day .titre_weast {
+    font-size: 24px;
+    position: absolute;
+    left: 45vw;
+    font-weight: 800;
+    color: rgb(8, 158, 63);
+    top: 19.5rem;
+    width: 78vw;
+    position: absolute;
+  }
+  .weast_day .day1 {
+    width: 83vw;
+    height: 20rem;
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .weast_day .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .weast_day .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day2 {
+    width: 85vw;
+    height: 24rem;
+    position: absolute;
+    top: 68rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .weast_day .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+    top: 2rem;
+  }
+  .weast_day .day2 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day3 {
+    width: 85vw;
+    height: 19rem;
+    position: absolute;
+    top: 105rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day3 h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .weast_day .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day4 {
+    width: 85vw;
+    height: 33rem;
+    position: absolute;
+    top: 137rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day4 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day5 {
+    width: 85vw;
+    height: 28rem;
+    position: absolute;
+    top: 185rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day6 {
+    width: 85vw;
+    height: 19.4rem;
+    position: absolute;
+    top: 227rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day6 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day6 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day7 {
+    width: 85vw;
+    height: 22rem;
+    position: absolute;
+    top: 262rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day7 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day7 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day9 {
+    width: 85vw;
+    height: 22rem;
+    position: absolute;
+    top: 325rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .weast_day .day9 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day8 {
+    width: 85vw;
+    height: 15rem;
+    position: absolute;
+    top: 297rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .weast_day .day8 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 5.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .weast_day .day10 {
+    width: 85vw;
+    height: 29rem;
+    position: absolute;
+    top: 302rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .weast_day .day10 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .weast_day .day10 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha {
+    position: absolute;
+    top: 416rem;
+    left: -35vw;
+  }
+  .with-tsingy-bemaraha .titre_weast {
+    font-size: 25px;
+    position: absolute;
+    left: 50vw;
+    font-weight: 800;
+    color: rgb(8, 158, 63);
+    top: 21.5rem;
+    display: none;
+    width: 80vw;
+    position: absolute;
+  }
+  .with-tsingy-bemaraha .titre_weast span {
+    color: rgb(8, 158, 63);
+    position: absolute;
+    left: 6rem;
+    top: 4rem;
+  }
+  .with-tsingy-bemaraha .day1 {
+    width: 85vw;
+    height: 20rem;
+    position: absolute;
+    top: 35rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .with-tsingy-bemaraha .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day2 {
+    width: 85vw;
+    height: 28rem;
+    position: absolute;
+    top: 67rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .with-tsingy-bemaraha .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+    top: 2rem;
+  }
+  .with-tsingy-bemaraha .day2 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 4rem;
+    top: 9rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day3 {
+    width: 85vw;
+    height: 19rem;
+    position: absolute;
+    top: 107rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day3 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day4 {
+    width: 85vw;
+    height: 35rem;
+    position: absolute;
+    top: 139rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day5 {
+    width: 85vw;
+    height: 30rem;
+    position: absolute;
+    top: 188.4rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day5 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day6 {
+    width: 85vw;
+    height: 20.4rem;
+    position: absolute;
+    top: 233rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day6 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day6 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day8 {
+    width: 85vw;
+    height: 28.4rem;
+    position: absolute;
+    top: 304rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day8 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day7 {
+    width: 85vw;
+    height: 21rem;
+    position: absolute;
+    top: 268rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day7 h1 {
+    font-size: 19px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day7 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day9 {
+    width: 85vw;
+    height: 23.4rem;
+    position: absolute;
+    top: 345rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day9 h1 {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day9 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day10 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 382rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day10 h1 {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day10 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .with-tsingy-bemaraha .day11 {
+    width: 85vw;
+    height: 15rem;
+    position: absolute;
+    top: 413rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .with-tsingy-bemaraha .day11 h1 {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .with-tsingy-bemaraha .day11 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour {
+    position: absolute;
+    top: 830rem;
+    left: -35vw;
+  }
+  .tsingy-tour .titre_weast {
+    font-size: 34px;
+    position: absolute;
+    left: 66vw;
+    font-weight: 800;
+    color: rgb(8, 158, 63);
+    top: 24.5rem;
+    width: 50vw;
+    position: absolute;
+  }
+  .tsingy-tour .day1 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 37rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .tsingy-tour .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day2 {
+    width: 85vw;
+    height: 24rem;
+    position: absolute;
+    top: 68rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .tsingy-tour .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+    top: 2rem;
+  }
+  .tsingy-tour .day2 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day3 {
+    width: 85vw;
+    height: 21rem;
+    position: absolute;
+    top: 108rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day3 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day4 {
+    width: 85vw;
+    height: 20rem;
+    position: absolute;
+    top: 143rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day5 {
+    width: 85vw;
+    height: 32rem;
+    position: absolute;
+    top: 178.4rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day6 {
+    width: 85vw;
+    height: 23.8rem;
+    position: absolute;
+    top: 224rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day6 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day6 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day8 {
+    width: 85vw;
+    height: 15.4rem;
+    position: absolute;
+    top: 295rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day8 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6.5rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day7 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 263rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day7 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day7 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .tsingy-tour .day9 {
+    width: 85vw;
+    height: 20.5rem;
+    position: absolute;
+    top: 323rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .tsingy-tour .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1rem;
+    font-weight: 550;
+  }
+  .tsingy-tour .day9 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 5rem;
+    color: rgb(45, 45, 45);
+  }
+  .NosyBe {
+    display: none;
+  }
+  footer {
+    position: absolute;
+    top: 1189.5rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100vw;
+    left: 0rem;
+    height: 35.9rem;
+    padding-bottom: -24rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 45%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 21rem;
+    left: -8rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -4.8rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright {
+    position: absolute;
+    top: 35.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 0rem;
+    color: rgb(212, 205, 205);
+  }
+  .border_vertical3 {
+    width: 5.4px;
+    height: 280rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 875rem;
+    left: 47vw;
+  }
+  .border_vertical4 {
+    width: 5.4px;
+    height: 285rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 125rem;
+    left: 47vw;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 387rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 455rem;
+    left: 47vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .texte {
+    font-size: 55px;
+    position: absolute;
+    top: 50rem;
+    font-weight: 1600;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    left: 15vw;
+    color: #ffffff;
+  }
+}
+
+/*# sourceMappingURL=weast.css.map */

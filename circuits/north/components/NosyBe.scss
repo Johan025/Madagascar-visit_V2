@@ -1,0 +1,57 @@
+.NosyBe{
+     position: absolute;
+     top: 291rem;
+
+
+     .anim_3{
+      @include div(37px, 37px, 5vw, -12.5rem,rgb(222, 167, 1) );
+        border-radius: 0;
+        animation: rotate 5s linear infinite;
+   }
+
+    @keyframes rotate2 {
+      0%{
+            transform: rotate(155deg);
+      }
+  
+      20%{
+          transform: rotate(205deg);
+      }
+  
+      40%{
+          transform: rotate(255deg);
+      }
+  
+      60%{
+          transform: rotate(305deg);
+      }
+  
+      80%{
+          transform: rotate(355deg);
+      }
+  
+      100%{
+          transform: rotate(405deg);
+      }
+    }
+  
+     h1{
+
+      @include h1(36px, 700, 10vw);
+      color: rgb(0, 0, 0);
+      top: -14.5rem;
+      width: 60vw;
+      position: absolute;
+     font-family:  Verdana, Geneva, Tahoma, sans-serif; 
+          
+     }
+
+     p{
+        position: absolute;
+        width: 50vw;
+        top: -5rem;
+        left: 8vw;
+        font-size: 20px;
+        color: rgb(93, 93, 97);
+     }
+}

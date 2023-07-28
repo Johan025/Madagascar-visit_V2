@@ -1,0 +1,298 @@
+@media screen and (min-width: 1024px) {
+    
+
+    .tsingy-tour{
+      position: absolute;
+      top: 885rem;
+      left: 0rem;
+    
+      .titre_weast{
+        @include h1(36px, 700, 10vw);
+        color: rgb(0, 0, 0);
+        top: -14.5rem;
+        width: 60vw;
+        position: absolute;
+       font-family:  Verdana, Geneva, Tahoma, sans-serif; 
+      }
+      .anim_3{
+        @include div(37px, 37px, 5vw, -12.5rem,rgb(222, 167, 1) );
+          border-radius: 0;
+          animation: rotate 5s linear infinite;
+     }
+  
+      @keyframes rotate2 {
+        0%{
+              transform: rotate(155deg);
+        }
+    
+        20%{
+            transform: rotate(205deg);
+        }
+    
+        40%{
+            transform: rotate(255deg);
+        }
+    
+        60%{
+            transform: rotate(305deg);
+        }
+    
+        80%{
+            transform: rotate(355deg);
+        }
+    
+        100%{
+            transform: rotate(405deg);
+        }
+      }
+      
+    
+    
+      .day1{
+        @include div(60vw, 19rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(27px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45.5px;
+             height: 45.5px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day2{
+        @include div(60vw, 22rem, 6vw, 28.4rem, rgba(102, 98, 98, 0.122));
+    
+    
+        h1{
+            @include h1(27px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+    
+        p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+       
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day3{
+        @include div(60vw, 20rem, 6vw, 60.5rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(27px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    
+    .day4{
+        @include div(60vw, 19.6rem, 6vw, 91rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(25px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day5{
+        @include div(60vw, 27.6rem, 6vw, 120.8rem, rgba(102, 98, 98, 0.122));
+    
+        h1{
+            @include h1(23px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day6{
+        @include div(60vw, 24.6rem, 6vw, 158.8rem, rgba(102, 98, 98, 0.122));
+
+        h1{
+            @include h1(25px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day7{
+        @include div(60vw, 18.8rem, 6vw, 194rem, rgba(102, 98, 98, 0.122));
+
+        h1{
+            @include h1(25px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day8{
+        @include div(60vw, 17.6rem, 6vw, 223.5rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(25px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+    }
+    
+    .day9{
+        @include div(60vw, 22.8rem, 6vw, 250.8rem, rgba(102, 98, 98, 0.122));
+
+        h1{
+            @include h1(25px, 550, 6rem);
+            color: $color-2;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1.5rem;
+         }
+    }
+    
+    .day10{
+        @include div(16cm, 32vh, 60vh, 315rem, $color_3);
+    
+        h1{
+            @include h1(32px, 550, 3rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .day11{
+        @include div(16cm, 24vh, 60vh, 381rem, $color_3);
+    
+        h1{
+            @include h1(28px, 550, 3rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .day12{
+        @include div(16cm, 32vh, 60vh, 378rem, $color_3);
+    
+        h1{
+            @include h1(24px, 550, 3rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+            top: 9rem;
+         }
+    }
+    
+    .day13{
+        @include div(16cm, 25vh, 60vh, 411rem, $color_3);
+    
+        h1{
+            @include h1(24px, 550, 3rem);
+        }
+         p{
+            @include p( 21.5px, 4rem ,  6rem);
+            left: 13rem;
+         }
+    }
+    
+    .day14{
+        @include div(16cm, 22vh, 60vh, 439rem, $color_3);
+    
+        h1{
+            @include h1(24px, 550, 3rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .border_vertical1{
+        @include border(200rem, 5.4px,rgb(215, 141, 3), 65rem, 125rem);
+    }
+    
+    }
+    
+    }

@@ -1,0 +1,193 @@
+@import "./../settings.scss";
+@media screen and (min-width: 1024px) and (max-width: 2880px) {
+
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+
+  }
+.container_responsive{
+    display: none;
+  }
+  #prev1, #next1,  #prev2, #next2{
+      color: aliceblue;
+  }
+
+
+/* carousel */
+.container{
+position:absolute;
+top:3.1rem;
+width:100vw;
+z-index: 20;
+height: 97vh;
+left: -5rem;
+}
+
+#inner img{
+  width: 110vw;
+height:97vh;
+position: relative;
+top: 0rem;
+left: 0rem;
+}
+
+#Carousel{
+  width: 108vw;
+height:97vh;
+position: relative;
+left: 0rem;
+top: 2.5rem;
+}
+
+ #myCarousel {
+   width:100.5vw;
+  height: 97vh;
+  position: absolute;
+  top: 0rem;
+  left: 3.4rem;
+
+}
+
+
+#inner{
+  width:100.5vw;
+  height: 97vh;
+position: absolute;
+top: 0;
+align-items: center;
+left: 0;
+      
+      button{
+            padding-left: 25px;
+            padding-right: 25px;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: $color-1;
+            font-size: 25px;
+            color: white;
+            border: 0;
+            border-radius: 9px;
+            position: relative;
+            top: -18vh;
+            left: -5%;
+            transform: translate(27%, 50%);
+            box-shadow: -4px 4px 18px rgb(0, 0, 0);;
+      }
+
+      h1{
+        position :relative;
+        top: -18vh;
+        left: -7vw;
+        font-size: 57px;
+        width: 75vw;
+        font-family:'yeseva_oneregular';
+      }
+
+      h3{
+           color: $color-4;
+           position: relative;
+           top: -18vh;
+           font-weight: 1000;
+           left: 0%;
+           font-size: 35px;
+           font-family: 'coneria_script_demoregular';
+         
+      }
+}
+
+}
+
+@media screen and (min-width: 1251px) {
+  .container_responsive{
+    display: none;
+  }
+  #prev1, #next1,  #prev2, #next2{
+      color: aliceblue;
+  }
+
+
+/* carousel */
+.container{
+position:absolute;
+top:3.1rem;
+width:100vw;
+height: 97vh;
+left: -5rem;
+}
+
+#inner img{
+  width: 110vw;
+height:97vh;
+position: relative;
+top: 0rem;
+left: 0rem;
+}
+
+#Carousel{
+  width: 108vw;
+height:97vh;
+position: relative;
+left: 0rem;
+top: 2.5rem;
+}
+
+ #myCarousel {
+   width:100vw;
+  height: 97vh;
+  position: absolute;
+  top: 0rem;
+  left: 3.4rem;
+
+}
+
+
+#inner{
+  width:100.2vw;
+  height: 97vh;
+position: absolute;
+top: 0;
+align-items: center;
+left: 0;
+      
+      button{
+            padding-left: 25px;
+            padding-right: 25px;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: $color-1;
+            font-size: 25px;
+            color: white;
+            border: 0;
+            border-radius: 9px;
+            position: relative;
+            top: -18vh;
+            left: -5%;
+            transform: translate(27%, 50%);
+            box-shadow: -4px 4px 18px rgb(0, 0, 0);;
+      }
+
+      h1{
+        position :relative;
+        top: -18vh;
+        left: -7vw;
+        font-size: 57px;
+        width: 75vw;
+        font-family:'yeseva_oneregular';
+      }
+
+      h3{
+           color: $color-4;
+           position: relative;
+           top: -18vh;
+           font-weight: 1000;
+           left: 0%;
+           font-size: 35px;
+           font-family: 'coneria_script_demoregular';
+         
+      }
+}
+
+}

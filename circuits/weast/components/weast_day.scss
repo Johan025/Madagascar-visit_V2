@@ -1,0 +1,239 @@
+@media screen and (min-width: 1024px) {
+    
+
+.weast_day{
+  position: absolute;
+  top: 125rem;
+  left: 0rem;
+
+  .titre_weast{
+    @include h1(36px, 700, 10vw);
+    color: rgb(0, 0, 0);
+    top: -14.5rem;
+    width: 60vw;
+    position: absolute;
+   font-family:  Verdana, Geneva, Tahoma, sans-serif; 
+  }
+
+  .anim_1{
+    @include div(37px, 37px, 5vw, -12.5rem,rgb(222, 167, 1) );
+      border-radius: 0;
+      animation: rotate 5s linear infinite;
+ }
+
+ @keyframes rotate {
+   0%{
+         transform: rotate(155deg);
+   }
+
+   20%{
+       transform: rotate(205deg);
+   }
+
+   40%{
+       transform: rotate(255deg);
+   }
+
+   60%{
+       transform: rotate(305deg);
+   }
+
+   80%{
+       transform: rotate(355deg);
+   }
+
+   100%{
+       transform: rotate(405deg);
+   }
+ }
+
+
+
+.day1{
+    @include div(60vw, 19rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(27px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45.5px;
+         height: 45.5px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day2{
+    @include div(60vw, 22rem, 6vw, 28.4rem, rgba(102, 98, 98, 0.122));
+
+
+    h1{
+        @include h1(27px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+   
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day3{
+    @include div(60vw, 20rem, 6vw, 60.5rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(27px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+
+.day4{
+    @include div(60vw, 33.6rem, 6vw, 91rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(25px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day5{
+    @include div(60vw, 27.6rem, 6vw, 134.8rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(23px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day6{
+    @include div(60vw, 19.2rem, 6vw, 172.8rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(23.6px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day7{
+    @include div(60vw, 18.5rem, 6vw, 202rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(25px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day8{
+    @include div(60vw, 17.6rem, 6vw, 230.5rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(25px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+.day9{
+    @include div(60vw, 18.8rem, 6vw, 258.8rem, rgba(102, 98, 98, 0.122));
+
+    h1{
+        @include h1(25px, 550, 6rem);
+        color: $color-2;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+     p{
+        @include p( 18.5px, 4rem ,  7rem);
+     }
+
+     img{
+         width: 45px;
+         height: 45px;
+         position: absolute;
+         top: 1.5rem;
+     }
+}
+
+
+}
+
+}

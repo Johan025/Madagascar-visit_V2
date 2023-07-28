@@ -1,0 +1,309 @@
+// version telephone 
+// entre 385px et 340px
+
+
+@media  screen and (max-width: 1023px) and (min-width: 760px) {
+       /* barre de navigation */
+       header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 2cm;
+        background-color: #ffffff;
+
+          ul{
+            display: block;
+            z-index: 4;
+            position: absolute;
+            left: 00.1rem;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            top: -0rem;
+            padding-bottom: 14.5cm;
+
+             li{
+                margin: 29px;
+                }
+            }
+        }
+        
+        .logo{
+        position: fixed;
+        top: 1rem;
+        left: 3rem;
+        width: 3.6cm;
+        height: 1.7cm;
+        z-index: 6;
+        }
+        
+         
+        .header{
+          position :absolute;
+          top: 7.78rem;
+          transform: translateY(-140rem);
+          width: 100%;
+          height: 100vh;
+          background-color: #fffffff1;
+          z-index: 4;
+          transition : 1s;
+          }
+          
+          .versionAng{
+          margin: 7rem;
+          position: absolute;
+          top: 34rem;
+          left: 24.5rem;
+          text-align: center;
+          }
+        
+          #ang{
+            cursor: pointer;
+            position: absolute;
+            top:0;
+          }
+          
+          .logoBurger i{
+          font-size: 36px;
+          position: absolute;
+          float: right; 
+          left: 76.6rem;
+          top: 1.5rem;
+          border-radius: 50%;
+          padding: 7px;
+          border: 1.5px solid black;
+          z-index: -4;
+          color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+          }
+        
+         
+          .hideshow{
+            transform: translateY(-0.2rem);
+            transition: 0.5s;
+          }
+
+    
+
+    .guestBook{
+            position :absolute;
+            top:1.5rem;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 300rem;
+        
+            h1{
+                position: absolute;
+                top: 11rem;
+                font-size: 30px;
+                color:rgb(11, 9, 9);
+                left: 49rem;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+        }
+        
+        .border{
+        @include border(7px, 1.7cm, green, 58.6rem, 18rem);
+    }
+
+    .recommandation{
+        position: absolute;
+        top: 22rem;
+        font-size: 18px;
+        color: black;
+        left: 25.4rem;
+        width: 90rem;
+    }
+    
+    .affichage{
+        position: absolute;
+        top: 50rem;
+        left: 15rem;
+    }
+    
+    .comments {
+    position: absolute;
+    top: 27rem;
+    left: -4rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    
+        //   ul{
+        //     @extend .comments;
+        //     top: 4rem;
+        //     background-color: rgb(255, 236, 236);
+        //     height: 90vh;
+        //     width: 68vw;
+        //     left: 8rem;
+        //   }
+    
+          h1{
+            font-size: 25px;
+            position: absolute;
+            left: -1.5rem;
+            top: 1rem;
+            width: 20rem;
+            margin-bottom: 5rem;
+          }
+    
+        li{
+        background-color: rgb(156, 206, 7);
+        height: 72%;
+        width: 164%;
+        border-radius: 8px;
+        color: rgb(25, 21, 21);
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 8rem;
+    
+            .a_com{
+                font-size: 22.6px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(31, 27, 27);
+    
+                    &:hover{
+                        cursor: pointer;
+                        background-color: rgba(156, 206, 7, 0);
+                        color: black;
+                    }
+                }
+    
+                span{
+                    font-size: 15.5px;
+                    color:rgb(15, 70, 5);
+                    font-weight: bold;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+    
+                 p{
+                    font-size: 16px;
+                    color: rgb(52, 47, 47);
+                 }
+            }
+
+        }
+
+        .commentaire{
+            position :absolute;
+            top: 365rem;
+            width: 161%;
+        }
+        
+        #email{
+            @include input(8cm, 15px, 5px, 0, solid, 10rem, 22rem);
+            font-size: 18px;
+            color: black;
+        }
+        
+        #name{
+            @include input(6cm ,15px, 5px, 0, solid, 10rem, 58rem);
+            font-size: 18px;
+            color: black
+        }
+        
+        #coms{
+            @include input(14cm ,15px, 5px, 0, solid, 22rem, 22rem);
+            font-size: 18px;
+            color: black;
+        }
+        
+        #submit{
+            position: absolute;
+            top: 33.6rem;
+            left: 30rem;
+            padding: 9px;
+            font-size: 19.5px;
+            border:0 solid;
+            border-radius: 5px;
+             background-color: rgb(20, 131, 20);
+        }
+
+        footer{
+            position: absolute;
+            top: 405.5rem;
+            background-color: rgba(0, 0, 0, 0.705);
+            width :161%;
+            height: 45rem;
+            padding-bottom: -20rem;
+          }
+          
+          .footer_contact{
+             width: 45%;
+             position: relative;
+             top: 5rem;
+             left: 40%;
+          }
+          
+          .footer_contact h1{
+            font-size: 36px;
+            color: #ffffff;
+            margin-left: 3.8rem;
+          }
+          
+          .mail{
+            font-size: 20px;
+            position: absolute;
+            top: 5rem;
+            left :-0.5rem;
+            color: #ffffff;
+          }
+          
+          .phone{
+            font-size: 20px;
+            position: absolute;
+            top: 8rem;
+            left :-0.5rem;
+            color: #ffffff;
+          }
+          
+          .footer_contact p:nth-last-child(3){
+            font-size: 22px;
+            position: absolute;
+            top: 11.1rem;
+            left :-0.5rem;
+            color: #ffffff;
+          }
+          
+          
+           .icones{
+            position: relative;
+            top: -6rem;
+            left: 3rem;
+           }
+          
+           .border_{
+            position: absolute;
+            top: 17rem;
+            left: 7.2rem;
+            width: 2.6cm;
+            height: 4px;
+            background-color: #ffffff;
+           }
+          
+           .footCopright{
+            position: absolute;
+            top: 39.4rem;
+            width: 100%;
+            height: 1.6cm;
+            background-color: rgba(40, 37, 37, 0.921);
+            font-size: 20px;
+            padding-top: 1.5rem;
+            color: rgb(212, 205, 205);
+           }
+          
+          
+
+                
+}
+
+

@@ -1,0 +1,192 @@
+@media screen and (min-width: 1024px) and (max-width: 2880px) {
+  
+
+.choice {
+    @include div(100%, 94rem, 0, 103vh, #ffffff);
+    position: relative;
+
+    h3{
+      color: $color-4;
+      position: absolute;
+      top: -0.7rem;
+      font-weight: 1000;
+      left: 46%;
+      width: 30vw;
+      font-size: 28.6px;
+      font-family: 'coneria_script_demoregular';
+    
+ }
+    }
+  
+    .choice h1{
+     top: 5.6rem;
+    font-family:'yeseva_oneregular';
+    @include h1(40px, 600, 17vw);
+    position: relative;
+    width: 80vw;
+    color:rgba(0, 0, 0, 0.829);
+    // width: 76vw;
+    }
+  
+  .images_choice{
+        position: absolute;
+        display: flex;
+        top: 19rem;
+        left: -0.6vw;
+
+           img{
+               width: 35vw;
+               box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.684);
+               margin-left: 11vw;
+               height: 40rem;
+               border-radius: 6px;
+                   
+                 &:nth-last-child(2){
+                    position:relative;
+                    top: 2rem;
+                    width: 35vw;
+                 }
+           }
+  }
+
+  .reason{
+         position:relative ;
+         top: 60.6rem;
+         left: 5%;
+       width: 50vw;
+       display: block;
+              h1{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                   width: 30vw;
+                   margin-top: 5rem;
+                   color:rgba(0, 0, 0, 0.647);
+                   @include h1(35px, bolder, 23);
+                  }
+          .item{
+              position: absolute;
+              top: 14rem;
+
+                div{
+                    background-color: $color-4;
+                    margin-top: 8.9rem;
+                    width: 29px;
+                    border-radius: 50%;
+                    height: 29px;
+                    margin-left: 10.6vw;
+                    
+
+                       h1{
+                          font-size: 23px;
+                          position: relative;
+                          left: 3vw;
+                          top: 0rem;
+                          
+                          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                       }
+
+                       p{
+                        width: 35vw;
+                       
+                           @include p(16px,14.2vw , 12rem );
+                       }
+
+                       .p_item_1{
+                           position: absolute;
+                           top: 12rem;
+                       }
+
+                       .p_item_2{
+                        position: absolute;
+                        top: 23.7rem;
+                    }
+                
+                }
+
+                // .item_1{
+                //    background-image: url(./../p);
+                // }
+              }
+  }
+   
+  
+    
+       
+    
+}
+
+@media screen and (min-width: 1251px) {
+  
+  
+  .images_choice{
+        position: absolute;
+        display: flex;
+        top: 19rem;
+        left: -0.6vw;
+
+           img{
+               width: 22vw;
+               box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.684);
+               margin-left: 5vw;
+               height: 40rem;
+               border-radius: 6px;
+                   
+                 &:nth-last-child(2){
+                    position:relative;
+                    top: 2rem;
+                    width: 22vw;
+                 }
+           }
+  }
+
+  .reason{
+         position:relative ;
+         top: 10.1rem;
+         left: 48%;
+       width: 50vw;
+       display: block;
+        
+          .item{
+              position: absolute;
+              top: 14rem;
+
+                div{
+                    background-color: $color-4;
+                    margin-top: 8.9rem;
+                    width: 29px;
+                    border-radius: 50%;
+                    height: 29px;
+                    margin-left: 10.6vw;
+                    
+
+                       h1{
+                          font-size: 23px;
+                          position: relative;
+                          left: 3vw;
+                          top: 0rem;
+                          
+                          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                       }
+
+                       p{
+                        width: 35vw;
+                       
+                           @include p(16px,14.2vw , 12rem );
+                       }
+
+                       .p_item_1{
+                           position: absolute;
+                           top: 12rem;
+                       }
+
+                       .p_item_2{
+                        position: absolute;
+                        top: 23.7rem;
+                    }
+                
+                }
+              }
+  }
+   
+
+
+}

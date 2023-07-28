@@ -1,0 +1,15 @@
+@media screen and (min-width:1024px ) {
+    
+
+.border_vertical4{
+    @include border(305rem, 5.4px,rgb(215, 141, 3), 65rem, 135rem);
+}
+
+.border_vertical5{
+    @include border(380rem, 5.4px, rgb(215, 141, 3), 65rem, 470rem);
+}
+
+.border_vertical1{
+    @include border(270rem, 5.4px, rgb(215, 141, 3), 65rem, 900rem);
+}
+}
