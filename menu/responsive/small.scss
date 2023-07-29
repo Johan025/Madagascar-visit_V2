@@ -10,7 +10,26 @@
       
         height: 2.2cm;
         z-index: 20;
-        background-color: #ffffff;
+        background-color: hsl(0, 0%, 100%);
+
+        #bord{
+              width: 55vw;
+              display: block;
+              height: 3px;
+              background-color: #fff;
+              position: relative;
+              left: 25vw;
+              top: 5.7rem;
+        }
+ 
+        .h_bord{
+         display: block;
+         position: relative;
+         top: 6rem;
+         font-size: 25px;
+         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-weight: bolder;
+        }
 
         ul{
             display: none;
@@ -20,14 +39,14 @@
             text-align: center;
             align-items: center;
             justify-content: center;
-            top: -15rem;
+            top: -10rem;
             padding-bottom: 12.5cm;
 
              li{
                 margin: 17px;
                  
                 a{
-                  font-size: 23.5px;
+                  font-size: 24.6px;
                   padding: 6px;
                   color: #1d1a1a;
                   font-family: 'font-1';
@@ -76,7 +95,8 @@
           
         .versionAng{
             margin-left: 3rem;
-            font-size: 19px;
+            margin-top: -9rem;
+            font-size: 21px;
             color: rgb(64, 56, 56);
             }
         
@@ -148,7 +168,7 @@
     .hideshow2{
         display: block;
         position: absolute;
-        top: 1rem;
+        top: 2.5rem;
       
     }
 

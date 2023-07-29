@@ -148,6 +148,12 @@ body {
     position: fixed;
     z-index: 30;
   }
+  header #bord {
+    display: none;
+  }
+  header .h_bord {
+    display: none;
+  }
   .header {
     background-color: white;
     height: 2.2cm;
@@ -2129,7 +2135,24 @@ body {
     width: 100%;
     height: 2.2cm;
     z-index: 20;
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
+  }
+  header #bord {
+    width: 55vw;
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    left: 25vw;
+    top: 5.7rem;
+  }
+  header .h_bord {
+    display: block;
+    position: relative;
+    top: 6rem;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: bolder;
   }
   header ul {
     display: none;
@@ -2139,14 +2162,14 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    top: -15rem;
+    top: -10rem;
     padding-bottom: 12.5cm;
   }
   header ul li {
     margin: 17px;
   }
   header ul li a {
-    font-size: 23.5px;
+    font-size: 24.6px;
     padding: 6px;
     color: #1d1a1a;
     font-family: "font-1";
@@ -2182,7 +2205,8 @@ body {
   }
   .versionAng {
     margin-left: 3rem;
-    font-size: 19px;
+    margin-top: -9rem;
+    font-size: 21px;
     color: rgb(64, 56, 56);
   }
   .imgAng {
@@ -2239,7 +2263,7 @@ body {
   .hideshow2 {
     display: block;
     position: absolute;
-    top: 1rem;
+    top: 2.5rem;
   }
   .container {
     display: none;
