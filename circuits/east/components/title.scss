@@ -23,77 +23,52 @@ b{
     color: rgb(62, 56, 56);
 }
 
+#titre{
+  position:relative;
+  color:rgb(209, 118, 6);
+  top: -11.5rem;
+  font-weight: 1000;
+  left: -2%;
+  font-weight: 800;
+ font-size: 32.6px;
+ font-family: 'coneria_script_demoregular';
+
+}
+
+.details_title{
+  position:relative;
+  color:rgb(209, 118, 6);
+  top: 12rem;
+  font-weight: 1000;
+  left: 5%;
+  width: 35vw;
+  font-weight: 800;
+ font-size: 39.6px;
+ font-family: 'yeseva_oneregular';
+}
+
 .title_east{
-    color: rgb(0, 34, 96);
-    @include h(45px, 9.5rem, 8rem, 800, 60vw);
+    color: rgb(228, 232, 240);
+    @include h(45px, -8.5rem, 18vw, 800, 60vw);
     font-family: 'yeseva_oneregular';
 }
 
-.east .desc{
+.east{
+  position: absolute;
+  top: 37rem;
+  width: 100%;
+  height: 55rem;
+
+      .desc{
      position: absolute;
-     width: 55vw;
-     top: 75rem;
-     left: 8rem;
+     width: 90%;
+     top: 24rem;
+     left: 3vw;
      font-size: 20px;
      color: rgb(93, 93, 97);
 }
-
-.detailTour{
-
-       h1{
-       color: rgb(212, 139, 3);
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       @include h(38px, 21rem,73vw, bold, 20vw);
-       }
-
-       .details{
-            border-radius: 6px;
-            box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
-            background-color: rgb(223, 220, 215);
-            border: 1.5px solid rgb(212, 139, 3);
-            @include div-right(20rem, 32vw, 2vw, 33rem);
-
-                .days{
-                     position: absolute;
-                     top: -18rem;
-                     left: -65vw;
-                       img{
-                         width: 52px;
-                         height: 52px; 
-                         position: absolute;
-                        left: 67vw;
-                        top: 22rem;
-                       }  
-
-                       h1{
-                          font-size: 24px;
-                          color: rgb(67, 66, 66);
-                          position: absolute;
-                          left:71vw;
-                       }
-                }
-
-                .localisation{
-                    position: absolute;
-                    top: 7rem;
-                    left: 0vw;
-                      img{
-                        width: 52px;
-                        height: 52px; 
-                        position: absolute;
-                       left: 67vw;
-                       top: 22rem;
-                      }  
-
-                      h1{
-                         font-size: 22px;
-                         position: absolute;
-                         left:71vw;
-                        width: 27vw;
-                         color: rgb(67, 66, 66);
-                      }
-               }
-       }
 }
+
+
 
 }

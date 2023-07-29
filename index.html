@@ -66,9 +66,11 @@
     <div class="header">
  
   <!-- <ul role="menu" class="hzmenu"> -->
+    
     <ul id="ul">
       <li id="Home" class="Home"><a title="Home" class="active"  href="#">Home</a></li>
-      <li id="tour" class="tour"><a title="tour" class="t" href="#tours">Our tours</a></li>
+      <li id="tour" class="tour"><a title="tour" class="t">our tours <i id="tour_sort"class="fa fa-sort-down"></i></a></li>
+      
       <li id="Contact" class="Contact"><a title="contact" class="c"  href="#footer" >Contact</a></li>
       <li id="Blog" class="Blog"><a title="Blog" href="#">Blog</a></li>
       <li id="Guest_Book" class="Guest_Book"><a title="Guest_Book" class="g" href="guestBook.php">Guest Book</a></li>
@@ -78,7 +80,13 @@
     
     <li class="versionAng" id="C"><img  class="imgAng" src="logo/ang.jpg" alt=""> English <i class="fa fa-sort-desc" id="ang"></i></li>
 </ul>
-    
+<div id="tour_js">
+  <li><a title="tour" class="t" href="#tours">Tous nos circuits</a></li>
+  <li>Circuit Nord</li>
+  <li>Circuit Est</li>
+  <li>Circuit Ouest</li>
+  <li>Circuit Sud</li>
+</div>
     
     </div>
 
@@ -390,6 +398,7 @@
  <script src="css/bootstrap_file/jquery.min.js"></script>
   <script src="css/bootstrap_file/bootstrap.min.js"></script> 
   <script src="./button_scroll.js"></script>
+  <script src="./tour.js"></script>
 </body>
 
 </html>

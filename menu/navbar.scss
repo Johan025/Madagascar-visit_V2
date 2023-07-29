@@ -1,7 +1,14 @@
 @import "./../settings.scss";
+
+
 @media screen and (min-width: 1024px) and (max-width: 2880px) {
     
-
+  .ok{
+ 
+    box-sizing: border-box;
+   
+    }
+  
 header{
     background-color:white;
     height:2.2cm;
@@ -24,6 +31,41 @@ header{
     width:100%;
     position: fixed;
     z-index: 4;
+   }
+
+   
+
+   #tour_js{
+    width: 22vw;
+    height: 29rem;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #212424;
+    position: relative;
+    left: 30vw;
+    top: -12rem;
+
+    box-sizing: border-box;
+
+       li{
+         
+          top: 0.6rem;
+          margin-top: 2rem;
+          font-size: 24px;
+          font-family: 'abril_fatfaceregular';
+          position: relative;
+          left: 2vw;
+
+            a{
+              font-size: 24px;
+              font-family: 'abril_fatfaceregular';
+              color: antiquewhite;
+              position: relative;
+              left: -1vw;
+
+                
+            }
+       }
    }
 
     .logo{
@@ -59,6 +101,9 @@ header{
      font-size: 19px;
      padding:17px;
      color:rgb(64, 56, 56);
+       i{
+         color: #000;
+       }
 
     
         &:hover:not(.active) {

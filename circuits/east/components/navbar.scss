@@ -1,27 +1,81 @@
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 2880px) {
+    
+  .ok{
+ 
+    box-sizing: border-box;
+   
+    }
+  
 header{
     background-color:white;
-    height:1cm;
-    width:10%;
+    height:2.2cm;
+    width:100%;
     position: fixed;
-    z-index: 4;
+    z-index: 30;
+    top:0;
+
+       #bord{
+         display: none;
+       }
+
+      .h_bord{
+        display: none;
+       }
    }
 
-.header{
+   .header{
     background-color:white;
-    height:2.1cm;
+    height:2.2cm;
     width:100%;
     position: fixed;
     z-index: 4;
-    top: 0;
+   }
+
+   
+
+   #tour_js{
+    width: 22vw;
+    height: 29rem;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #212424;
+    position: relative;
+    left: 30vw;
+    top: -12rem;
+
+    box-sizing: border-box;
+
+       li{
+         
+          top: 0.6rem;
+          margin-top: 2rem;
+          font-size: 24px;
+          font-family: 'abril_fatfaceregular';
+          position: relative;
+          left: 2vw;
+
+            a{
+              font-size: 24px;
+              font-family: 'abril_fatfaceregular';
+              color: antiquewhite;
+              position: relative;
+              left: -1vw;
+
+                
+            }
+       }
    }
 
     .logo{
-    width: 169px;
-    height: 65px;
-    left: 2rem;
-    position: fixed;
-    z-index: 4;
-    top: 1rem;
+        width: 155px;
+        height: 68px;
+        left: 2rem;
+        position: fixed;
+        z-index: 40;
+        top: 1rem;
     }
 
   .logoBurger{
@@ -33,46 +87,41 @@ header{
   header ul {
   position: relative;
   top: -2.5rem;
-  right: 4rem;
+  right: 3vw;
   display: flex;
   list-style-type: none;
   height:1cm;
   padding-top:5rem;
   padding-bottom: 14rem;
   overflow: hidden;
-      float: right;
+  float: right;
     }
     
     li a{
-     margin : 6px;
+     margin : 1.7px;
      font-size: 19px;
      padding:17px;
      color:rgb(64, 56, 56);
-    }
+       i{
+         color: #000;
+       }
 
-     
-    li a.active {
-    color: white;
-    background-color: #04AA6D;
-    border: opx solid;
-    border-width: 20px;
-    border-radius: 8px;
-    text-decoration: none;
     
-    } 
-
-    li a:hover:not(.active) {
-    background-color: #d6d61e;
-    border-radius: 8px;
-    text-decoration: none;
-    color:rgb(64, 56, 56);
+        &:hover:not(.active) {
+            background-color: #d6d61e;
+            border-radius: 8px;
+            text-decoration: none;
+            color:rgb(64, 56, 56);
+            }
     }
 
+    
     .versionAng{
-    margin-left: 11rem;
+    margin-left: 1vw;
     font-size: 19px;
     color: rgb(64, 56, 56);
     }
+
 
   .imgAng{
   position: relative;
@@ -81,35 +130,47 @@ header{
   width:30px;
   border-radius: 40%;
   height: 30px;
-    }
 
-    .fenetreFrancais{
-  position: relative;
-  display: none;
-  float: right;
-  left: 94rem;
-  top:8.3rem;
-  width:5cm;
-  height:2cm;
-  background-color: #04AA6D;
-  z-index: 4;
-  transform: translateY(-4.5cm);
-  transition: 0;
-  }
-
-    .imgAng1{
-    width: 35px;
-    height: 35px;
+  .fenetreFrancais{
     position: relative;
-    left: 1rem;
-    border-radius: 40%;
-    cursor: pointer;
+    float: right;
+    z-index: 4;
+    transform: translateY(-4.5cm);
+    @include div(5cm, 2cm, 94rem, 8.3rem, #04AA6D);
     }
- 
-    .fenetreFrancais p{
-    position: absolute;
-    left: 7rem;
-    top: 2rem;
-    font-size: 20px;
-    cursor: pointer;
+
+   
+
+        p{
+            cursor: pointer;
+            @include p(20px, 7rem, 2rem);
+            }
+
+}
+
+    .show{
+      transform: translateY(0);
+      transition: 0.14s;
     }
+
+    
+    #ang{
+      cursor: pointer;
+    }
+
+    .container_responsive{
+      display: none;
+    }
+
+    .active {
+      color: white;
+      background-color: #04AA6D;
+      border: opx solid;
+      border-width: 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      
+      } 
+
+
+}

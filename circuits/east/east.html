@@ -11,9 +11,13 @@
     <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
     <link rel="stylesheet" href="east.css">
     <link rel="stylesheet" href="../../css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../css/bootstrap_file/bootstrap.min.css">
-    <script src="../../css/bootstrap_file/jquery.min.js"></script>
-    <script src="../../css/bootstrap_file/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 </head>
 <body>
     <header>
@@ -40,13 +44,17 @@
     </header>
     <img  class="logo" src="../../logo/madagascar-visite-logo.png">
 
-    <div class="couvertureEst"><img src="../../pictures/parallax.jpg" alt=""></div>
+    <div class="couvertureEst img-fluid"><img src="../pictures/COUVERTURE_EST.jpg" alt=""></div>
     <div class="couvertureEst_responsive"><img src="../../pictures/parallax-resp.png" alt=""></div>
    <div class="texte"></div>
 
+    
     <div class="east">
-        <h1 class="title_east">EAST TOUR 
+      
+        <h1 class="title_east text-center">EAST TOUR 
         </h1>
+        <h4 id="titre" class=" text-center">Trip to</h4>
+        <h1 class="details_title">Tour details</h1>
           <p class="desc">The biggest lemur’s INDRI INDRI  in Andasibe park ,with his magical call in the morning .  Madagascar Excotic reserve which gives you opportunity to see different chameleons, reptiles, Vakona reserv that you have possibility to see come close the lemurs without forgetting the night walking that you gives you opportunity to see the microcebus or mouse lemurs, the smallest lemurs in the world with 50g of weight  , frog , chameleon …
             <br><br>
             This is also the shortest itinerary to reach the sea ; Indian Ocean 
@@ -57,23 +65,59 @@
             
            </p>
 
-
-
     </div>
 
-    <div class="detailTour">
-          <h1>Tour detail</h1>
-          <div class="details">
-               <div class="days"><img src="../../logo/calendar-icon-png-4100.png" alt=""><h1> About 10 days</h1></div>
-               <div class="localisation"> <div class="days"><img src="../../logo/localisation.png" alt=""><h1>Antananarivo ~ Sainte-Marie </h1></div></div>
-          </div>
+   <div class="east_day">
+
+     <div class="anim_1"></div> <h1 class="titre_east">CLASSICAL EAST TOUR</h1>
+
+     <div class="photo text-center">
+
+      <div class="container">
+
+         <div id="myCarousel" class="carousel slide">
+          
+            <!-- Wrapper for slides  -->
+           <div class="carousel-inner" id="inner">
+             <div class="item  active">
+               <img src="../pictures/couvertureNord.jpg" alt="Lemur Catta" style="width:100%;">
+             </div>
+       
+             <div class="item">
+               <img src="../pictures/EST.jpg" alt="Allée des Baobab" style="width:100%;">
+             </div>
+       
+           <div class="item">
+               <img src="../pictures/nosy-be.jpg" alt="Lakana" style="width:100%;">
+             </div>
+       
+             <div class="item">
+               <img src="../pictures/c.jpg" alt="Ambato" style="width:100%;">
+
+             </div>
+            
+            
+         
+           </div>
+       
+           <!-- Left and right controls  -->
+           <div class="controls">
+           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+             <span id="left" class="glyphicon glyphicon glyphicon-arrow-left"></span>
+             <span class="sr-only"id="prev1">Previous</span>
+           </a>
+           <a class="right carousel-control" href="#myCarousel" data-slide="next">
+             <span id="right" class="glyphicon glyphicon glyphicon-arrow-right" id="Next1"></span>
+             <span class="sr-only">Next</span>
+           </a>
+         </div>
+         </div>
+       </div>
+       
           
     </div>
 
-    <div class="border_vertical1"></div>
-
-   <div class="east_day">
-     <div class="anim_1"></div> <h1 class="titre_east">CLASSICAL EAST TOUR</h1>
+    
 
       <div class="day1">
         <img src="../../logo/localisation.png" alt=""> <h1>Day 1 : TANA</h1>
@@ -136,6 +180,8 @@
             <p>Transfert to the airport for your international flight               
            </p>
         </div>
+
+        <div id="map"></div>
 
    </div>
   
@@ -252,7 +298,8 @@
 </center>
 </div>
 </footer>  
-<script src="../../writer.js"></script>
+
+
 <script src="./components/script.js"></script>
 
 

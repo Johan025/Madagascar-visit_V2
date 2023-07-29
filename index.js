@@ -2,10 +2,22 @@
 const fenetreAng=document.querySelector('.fenetreFrancais');
 const button=document.getElementById('ang');
 const form=document.querySelector('form');
+const touri=document.getElementById('tour_js');
+const tour_sort=document.getElementById('tour_sort');
+
+touri.style.display="none"
+
 
 button.addEventListener ('click' , () =>{
    fenetreAng.classList.toggle('show');
 })
+
+tour_sort.addEventListener ('click' , () =>{
+  touri.classList.toggle('ok')
+  console.log('clické')
+})
+
+touri.classList.add('ok')
 
 //evenement responsive version telephone
 const button_menu=document.querySelector('.logoBurger');
@@ -30,9 +42,17 @@ about.addEventListener('click',() =>{
 })
 
 tour.addEventListener('click',() =>{
-    head.classList.remove('hideshow');
-    ul.classList.toggle('hideshow2');
+    touri.style.display="block"
+    console.log('ok')
 })
+
+// tour.addEventListener('mouseover',() =>{
+// tour_imbrication.style.display="block";
+// });
+
+// tour.addEventListener('mouseout',() =>{
+//   tour_imbrication.style.display="none";
+//   });
 
 contact.addEventListener('click',() =>{
     head.classList.remove('hideshow');
