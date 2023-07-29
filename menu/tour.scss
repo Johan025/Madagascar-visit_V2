@@ -88,13 +88,13 @@
             font-family:'yeseva_oneregular';
               text-align: center;
               color: #000;
-              @include h(24px, 18.6rem, 35.4vw, 800, 35vw);
+              @include h(24px, 18.6rem, 35vw, 800, 35vw);
               
          }
 
          p{
-            @include p_left(43.6vw, 23.5rem, 18px);
-            width: 18vw;
+            @include p_left(42.5vw, 23.5rem, 18px);
+            width: 20vw;
             color: #000;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
          }
