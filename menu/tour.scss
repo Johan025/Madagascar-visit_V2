@@ -56,7 +56,7 @@
         
 
              h1{
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-family:'yeseva_oneregular';
                   text-align: center;
                   color: #000;
                   @include h(24px, 18.6rem, 1.4vw, 800, 35vw);
@@ -85,7 +85,7 @@
           background-size: 100%;
 
           h1{
-              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family:'yeseva_oneregular';
               text-align: center;
               color: #000;
               @include h(24px, 18.6rem, 35.4vw, 800, 35vw);
@@ -100,7 +100,7 @@
          }
 
          button{
-             @include button($color-3, 4px, 49vw, 32.5rem, 19px);
+             @include button($color-3, 4px, 49.5vw, 32.5rem, 19px);
           border-radius: 6px;
           border: 0 solid;
       
@@ -125,21 +125,21 @@
           background-size: cover;
 
           h1{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family:'yeseva_oneregular';
             text-align: center;
             color: #000;
-              @include h(24px, 18.6rem, 71vw, 600, 29vw);
+              @include h(24px, 18.6rem, 71.2vw, 600, 29vw);
          }
 
          p{
-            @include p_left(77vw, 23.5rem, 18px);
+            @include p_left(77.3vw, 23.5rem, 18px);
             width: 18vw;
             color: #000;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
          }
 
           button{
-            @include button($color-3, 4px, 82.7vw, 32rem, 19px);
+            @include button($color-3, 4px, 83.5vw, 32rem, 19px);
            border-radius: 6px;
            border: 0 solid;
            }
@@ -177,7 +177,7 @@
              }
  
              h1{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-family:'yeseva_oneregular';
                 text-align: center;
                 color: #000;
                 @include h(24px, 18.2rem, 2.8vw, 800, 33vw);
@@ -213,7 +213,7 @@
 
    }
 
-   @media screen and (min-width: 1251px) {
+   @media screen and (min-width: 1280px) {
       .sites{
          position: relative;
          top: 70vh;
@@ -221,5 +221,182 @@
          height: 78rem;
          left: 0
       }
+      #sites_item1{
+         display: flex;
+          position: absolute;
+          top: 18rem;
+          left: -2.2vw;
+         text-align: center;
+ 
+              
+         div{
+           height:45rem;
+           width: 15vw;
+           background-color: rgb(255, 255, 255);
+           margin-left:4.5vw;
+           border-radius: 9px;
+         box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+      }
+ 
+      img{
+         height:19rem;
+         width: 29vw;
+         border-radius: 9px;
+      }
+ 
+     
+        .contain1{
+         background-size: cover;
+         
+ 
+              h1{
+                   font-family: Verdana, Geneva, Tahoma, sans-serif;
+                   text-align: center;
+                   color: #000;
+                   @include h(24px, 18.6rem, 1.4vw, 800, 35vw);
+              }
+ 
+              p{
+                 @include p_left(8.7vw, 23.8rem, 18px);
+                 width: 20vw;
+                 color: #000;
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              }
+ 
+              button{
+                  @include button($color-3, 4px, 15.5vw, 32.5rem, 19px);
+               border-radius: 6px;
+               border: 0 solid;
+           
+                 }
+ 
+                 &:hover{
+                    box-shadow: 5px 8px 35px black;
+                 }
+        }
+ 
+        .contain2{
+           background-size: 100%;
+ 
+           h1{
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               text-align: center;
+               color: #000;
+               @include h(24px, 18.6rem, 35.4vw, 800, 35vw);
+               
+          }
+ 
+          p{
+             @include p_left(43.6vw, 23.5rem, 18px);
+             width: 18vw;
+             color: #000;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+ 
+          button{
+              @include button($color-3, 4px, 49vw, 32.5rem, 19px);
+           border-radius: 6px;
+           border: 0 solid;
+       
+             }
+ 
+             &:hover{
+                box-shadow: 5px 8px 35px black;
+             }
+ 
+ 
+ 
+          }
+ 
+          
+          .c3{
+           height:19rem;
+           width: 29vw;
+           border-radius: 9px;
+        }
+ 
+          .contain3{
+           background-size: cover;
+ 
+           h1{
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             text-align: center;
+             color: #000;
+               @include h(24px, 18.6rem, 71vw, 600, 29vw);
+          }
+ 
+          p{
+             @include p_left(77vw, 23.5rem, 18px);
+             width: 18vw;
+             color: #000;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+ 
+           button{
+             @include button($color-3, 4px, 82.7vw, 32rem, 19px);
+            border-radius: 6px;
+            border: 0 solid;
+            }
+ 
+            &:hover{
+             box-shadow: 5px 8px 35px black;
+            }
+ 
+           }
+        }
+ 
+        #sites_item2{
+         position: absolute;
+         top: 63rem;
+         left: -2.1vw;
+ 
+         div{
+           height:38rem;
+           width: 29vw;
+           background-color: rgb(255, 255, 255);
+           margin-left:4rem;
+           border-radius: 9px;
+         box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  
+         }
+  
+         .contain_4{
+          background-size: cover;
+          margin-left: 5.5rem;
+ 
+              img{
+               height:19rem;
+              width: 29vw;
+              border-radius: 9px;
+              }
+  
+              h1{
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 text-align: center;
+                 color: #000;
+                 @include h(24px, 18.2rem, 2.8vw, 800, 33vw);
+                 }
+  
+                 p{
+                    @include p_left(9vw, 23.7rem, 18px);
+                    width: 20vw;
+                    color: #000;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+       
+                   button{
+                     @include button($color-3, 4px, 15.5vw, 32.6rem, 19px);
+                    border-radius: 6px;
+                    border: 0 solid;
+                    color: #fff;
+                    }
+       
+                    &:hover{
+                     box-shadow: 5px 8px 35px black;
+                  }
+                 
+       
+     }
+        }
 
    }

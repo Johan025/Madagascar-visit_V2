@@ -98,10 +98,15 @@ footer{
    .up img{
      width: 45px;
      height: 45px;
+     cursor: pointer;
      position: fixed;
      top: 89vh;
      right: 3vw;
      z-index: 20;
    }
   
+}
+
+.up img{
+cursor: pointer;
 }

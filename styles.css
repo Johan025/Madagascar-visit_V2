@@ -332,14 +332,14 @@ body {
     top: 2.5rem;
   }
   #myCarousel {
-    width: 100.5vw;
+    width: 102vw;
     height: 97vh;
     position: absolute;
     top: 0rem;
     left: 3.4rem;
   }
   #inner {
-    width: 100.5vw;
+    width: 102vw;
     height: 97vh;
     position: absolute;
     top: 0;
@@ -381,7 +381,7 @@ body {
     font-family: "coneria_script_demoregular";
   }
 }
-@media screen and (min-width: 1251px) {
+@media screen and (min-width: 1251px) and (max-width: 1280px) {
   .container_responsive {
     display: none;
   }
@@ -411,14 +411,14 @@ body {
     top: 2.5rem;
   }
   #myCarousel {
-    width: 100vw;
+    width: 101.2vw;
     height: 97vh;
     position: absolute;
     top: 0rem;
     left: 3.4rem;
   }
   #inner {
-    width: 100.2vw;
+    width: 101.3vw;
     height: 97vh;
     position: absolute;
     top: 0;
@@ -458,6 +458,23 @@ body {
     left: 0%;
     font-size: 35px;
     font-family: "coneria_script_demoregular";
+  }
+}
+@media screen and (min-width: 1281px) {
+  #myCarousel {
+    width: 100.4vw;
+    height: 97vh;
+    position: absolute;
+    top: 0rem;
+    left: 3.4rem;
+  }
+  #inner {
+    width: 100.4vw;
+    height: 97vh;
+    position: absolute;
+    top: 0;
+    align-items: center;
+    left: 0;
   }
 }
 .about {
@@ -743,7 +760,7 @@ body {
     background-size: cover;
   }
   .sites #sites_item1 .contain1 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
     color: #000;
     font-size: 24px;
@@ -780,7 +797,7 @@ body {
     background-size: 100%;
   }
   .sites #sites_item1 .contain2 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
     color: #000;
     font-size: 24px;
@@ -802,7 +819,7 @@ body {
   }
   .sites #sites_item1 .contain2 button {
     position: absolute;
-    left: 49vw;
+    left: 49.5vw;
     top: 32.5rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
@@ -822,19 +839,19 @@ body {
     background-size: cover;
   }
   .sites #sites_item1 .contain3 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
     color: #000;
     font-size: 24px;
     position: absolute;
     top: 18.6rem;
-    left: 71vw;
+    left: 71.2vw;
     font-weight: 600;
     width: 29vw;
   }
   .sites #sites_item1 .contain3 p {
     position: absolute;
-    left: 77vw;
+    left: 77.3vw;
     top: 23.5rem;
     font-size: 18px;
     text-align: center;
@@ -844,7 +861,7 @@ body {
   }
   .sites #sites_item1 .contain3 button {
     position: absolute;
-    left: 82.7vw;
+    left: 83.5vw;
     top: 32rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
@@ -878,7 +895,7 @@ body {
     border-radius: 9px;
   }
   .sites #sites_item2 .contain_4 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
     color: #000;
     font-size: 24px;
@@ -913,13 +930,206 @@ body {
     box-shadow: 5px 8px 35px black;
   }
 }
-@media screen and (min-width: 1251px) {
+@media screen and (min-width: 1280px) {
   .sites {
     position: relative;
     top: 70vh;
     width: 100%;
     height: 78rem;
     left: 0;
+  }
+  #sites_item1 {
+    display: flex;
+    position: absolute;
+    top: 18rem;
+    left: -2.2vw;
+    text-align: center;
+  }
+  #sites_item1 div {
+    height: 45rem;
+    width: 15vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4.5vw;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  }
+  #sites_item1 img {
+    height: 19rem;
+    width: 29vw;
+    border-radius: 9px;
+  }
+  #sites_item1 .contain1 {
+    background-size: cover;
+  }
+  #sites_item1 .contain1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    position: absolute;
+    top: 18.6rem;
+    left: 1.4vw;
+    font-weight: 800;
+    width: 35vw;
+  }
+  #sites_item1 .contain1 p {
+    position: absolute;
+    left: 8.7vw;
+    top: 23.8rem;
+    font-size: 18px;
+    text-align: center;
+    width: 20vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #sites_item1 .contain1 button {
+    position: absolute;
+    left: 15.5vw;
+    top: 32.5rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  #sites_item1 .contain1:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  #sites_item1 .contain2 {
+    background-size: 100%;
+  }
+  #sites_item1 .contain2 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    position: absolute;
+    top: 18.6rem;
+    left: 35.4vw;
+    font-weight: 800;
+    width: 35vw;
+  }
+  #sites_item1 .contain2 p {
+    position: absolute;
+    left: 43.6vw;
+    top: 23.5rem;
+    font-size: 18px;
+    text-align: center;
+    width: 18vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #sites_item1 .contain2 button {
+    position: absolute;
+    left: 49vw;
+    top: 32.5rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  #sites_item1 .contain2:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  #sites_item1 .c3 {
+    height: 19rem;
+    width: 29vw;
+    border-radius: 9px;
+  }
+  #sites_item1 .contain3 {
+    background-size: cover;
+  }
+  #sites_item1 .contain3 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    position: absolute;
+    top: 18.6rem;
+    left: 71vw;
+    font-weight: 600;
+    width: 29vw;
+  }
+  #sites_item1 .contain3 p {
+    position: absolute;
+    left: 77vw;
+    top: 23.5rem;
+    font-size: 18px;
+    text-align: center;
+    width: 18vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #sites_item1 .contain3 button {
+    position: absolute;
+    left: 82.7vw;
+    top: 32rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+  }
+  #sites_item1 .contain3:hover {
+    box-shadow: 5px 8px 35px black;
+  }
+  #sites_item2 {
+    position: absolute;
+    top: 63rem;
+    left: -2.1vw;
+  }
+  #sites_item2 div {
+    height: 38rem;
+    width: 29vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4rem;
+    border-radius: 9px;
+    box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+  }
+  #sites_item2 .contain_4 {
+    background-size: cover;
+    margin-left: 5.5rem;
+  }
+  #sites_item2 .contain_4 img {
+    height: 19rem;
+    width: 29vw;
+    border-radius: 9px;
+  }
+  #sites_item2 .contain_4 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    position: absolute;
+    top: 18.2rem;
+    left: 2.8vw;
+    font-weight: 800;
+    width: 33vw;
+  }
+  #sites_item2 .contain_4 p {
+    position: absolute;
+    left: 9vw;
+    top: 23.7rem;
+    font-size: 18px;
+    text-align: center;
+    width: 20vw;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #sites_item2 .contain_4 button {
+    position: absolute;
+    left: 15.5vw;
+    top: 32.6rem;
+    padding: 4px;
+    background-color: rgb(215, 141, 3);
+    font-size: 19px;
+    border-radius: 6px;
+    border: 0 solid;
+    color: #fff;
+  }
+  #sites_item2 .contain_4:hover {
+    box-shadow: 5px 8px 35px black;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 2880px) {
@@ -1102,12 +1312,17 @@ body {
   .up img {
     width: 45px;
     height: 45px;
+    cursor: pointer;
     position: fixed;
     top: 89vh;
     right: 3vw;
     z-index: 20;
   }
 }
+.up img {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 631px) and (max-width: 1023px) {
   * {
     text-align: center;
@@ -2641,8 +2856,8 @@ body {
     width: 45px;
     height: 45px;
     position: fixed;
-    top: 60rem;
-    right: 7vw;
+    top: 89vh;
+    right: 6.7vw;
     z-index: 20;
   }
   .up img :hover {

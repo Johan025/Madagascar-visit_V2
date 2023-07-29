@@ -41,7 +41,7 @@ top: 2.5rem;
 }
 
  #myCarousel {
-   width:100.5vw;
+   width:102vw;
   height: 97vh;
   position: absolute;
   top: 0rem;
@@ -51,7 +51,7 @@ top: 2.5rem;
 
 
 #inner{
-  width:100.5vw;
+  width:102vw;
   height: 97vh;
 position: absolute;
 top: 0;
@@ -99,7 +99,7 @@ left: 0;
 
 }
 
-@media screen and (min-width: 1251px) {
+@media screen and (min-width: 1251px) and (max-width: 1280px){
   .container_responsive{
     display: none;
   }
@@ -134,7 +134,7 @@ top: 2.5rem;
 }
 
  #myCarousel {
-   width:100vw;
+   width:101.2vw;
   height: 97vh;
   position: absolute;
   top: 0rem;
@@ -144,7 +144,7 @@ top: 2.5rem;
 
 
 #inner{
-  width:100.2vw;
+  width:101.3vw;
   height: 97vh;
 position: absolute;
 top: 0;
@@ -190,4 +190,27 @@ left: 0;
       }
 }
 
+}
+
+@media screen and (min-width: 1281px){
+  
+  
+   #myCarousel {
+     width:100.4vw;
+    height: 97vh;
+    position: absolute;
+    top: 0rem;
+    left: 3.4rem;
+  
+  }
+  
+  
+  #inner{
+    width:100.4vw;
+    height: 97vh;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  left: 0;
+  }
 }
