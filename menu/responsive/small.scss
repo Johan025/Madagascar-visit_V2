@@ -425,7 +425,7 @@
        
   .sites{
     width:100%;
-    height:120rem;
+    height:128rem;
     position: relative;
     top: 115vh;
     background-color: #ffffff;
@@ -475,21 +475,21 @@
           
   
             h1{
-              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-family: 'yeseva_oneregular';
               text-align: center;
                color: #000;
-              @include h(17px, 22.6rem, -4vw, 600, 85vw);
+              @include h(22px, 22.6rem, -4vw, 600, 85vw);
             }
   
            p{
-           @include p_left(7vw, 26.9rem, 18px);
+           @include p_left(7vw, 27.3rem, 18px);
            width: 62vw;
            color: #000;
            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
            }
   
            button{
-            @include button($color-3, 4px, 29vw, 35rem, 19px);
+            @include button($color-3, 4px, 28vw, 35.5rem, 19px);
          border-radius: 6px;
          border: 0 solid;
      
@@ -506,20 +506,20 @@
            
             h1{
               color: #000;
-              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-family: 'yeseva_oneregular';
               text-align: center;
-              @include h(19px, 63rem, 4.5vw, 600, 65vw);
+              @include h(22px, 63rem, 4.5vw, 600, 65vw);
          }
   
          p{
           color: #000;
-          @include p_left(7vw, 67.8rem, 18px);
+          @include p_left(7vw, 68.2rem, 18px);
           width: 62vw;
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        }
   
        button{
-        @include button($color-3, 4px, 29vw, 76rem, 19px);
+        @include button($color-3, 4px, 28vw, 76.3rem, 19px);
      border-radius: 6px;
      border: 0 solid;
  
@@ -543,9 +543,9 @@
         
           h1{
             color: #000;
-           font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'yeseva_oneregular';
            text-align: center;
-           @include h(19px, 104rem, 4.5vw, 600, 65vw);
+           @include h(22px, 104rem, 4.5vw, 600, 65vw);
          }
   
         p{
@@ -556,7 +556,7 @@
          }
   
          button{
-          @include button($color-3, 4px, 29vw, 116.9rem, 19px);
+          @include button($color-3, 4px, 28vw, 116.9rem, 19px);
        border-radius: 6px;
        border: 0 solid;
    
@@ -597,7 +597,7 @@
    
            h1{
             color: #000;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'yeseva_oneregular';
             text-align: center;
             @include h(19px, 19rem, 31vw, 600, 65vw);
             }
@@ -610,7 +610,7 @@
                }
   
               button{
-                @include button($color-3, 4px, 54vw, 30.1rem, 19px);
+                @include button($color-3, 4px, 53vw, 30.1rem, 19px);
                 color: #fff;
                border-radius: 6px;
                border: 0 solid;
@@ -629,7 +629,7 @@
 
        .guestBOOK{
         position: relative;
-        top:216vh;
+        top:217vh;
         width: 100%;
         height: 46rem;
    

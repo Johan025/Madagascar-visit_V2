@@ -2249,7 +2249,7 @@ body {
   }
   .sites {
     width: 100%;
-    height: 120rem;
+    height: 128rem;
     position: relative;
     top: 115vh;
     background-color: #ffffff;
@@ -2298,10 +2298,10 @@ body {
     background-size: cover;
   }
   .sites #sites_item1 .contain1 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
     color: #000;
-    font-size: 17px;
+    font-size: 22px;
     position: absolute;
     top: 22.6rem;
     left: -4vw;
@@ -2311,7 +2311,7 @@ body {
   .sites #sites_item1 .contain1 p {
     position: absolute;
     left: 7vw;
-    top: 26.9rem;
+    top: 27.3rem;
     font-size: 18px;
     text-align: center;
     width: 62vw;
@@ -2320,8 +2320,8 @@ body {
   }
   .sites #sites_item1 .contain1 button {
     position: absolute;
-    left: 29vw;
-    top: 35rem;
+    left: 28vw;
+    top: 35.5rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
     font-size: 19px;
@@ -2336,9 +2336,9 @@ body {
   }
   .sites #sites_item1 .contain2 h1 {
     color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
-    font-size: 19px;
+    font-size: 22px;
     position: absolute;
     top: 63rem;
     left: 4.5vw;
@@ -2349,7 +2349,7 @@ body {
     color: #000;
     position: absolute;
     left: 7vw;
-    top: 67.8rem;
+    top: 68.2rem;
     font-size: 18px;
     text-align: center;
     width: 62vw;
@@ -2357,8 +2357,8 @@ body {
   }
   .sites #sites_item1 .contain2 button {
     position: absolute;
-    left: 29vw;
-    top: 76rem;
+    left: 28vw;
+    top: 76.3rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
     font-size: 19px;
@@ -2378,9 +2378,9 @@ body {
   }
   .sites #sites_item1 .contain3 h1 {
     color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
-    font-size: 19px;
+    font-size: 22px;
     position: absolute;
     top: 104rem;
     left: 4.5vw;
@@ -2399,7 +2399,7 @@ body {
   }
   .sites #sites_item1 .contain3 button {
     position: absolute;
-    left: 29vw;
+    left: 28vw;
     top: 116.9rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
@@ -2435,7 +2435,7 @@ body {
   }
   .sites #sites_item2 .contain_4 h1 {
     color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
     text-align: center;
     font-size: 19px;
     position: absolute;
@@ -2456,7 +2456,7 @@ body {
   }
   .sites #sites_item2 .contain_4 button {
     position: absolute;
-    left: 54vw;
+    left: 53vw;
     top: 30.1rem;
     padding: 4px;
     background-color: rgb(215, 141, 3);
@@ -2470,7 +2470,7 @@ body {
   }
   .guestBOOK {
     position: relative;
-    top: 216vh;
+    top: 217vh;
     width: 100%;
     height: 46rem;
   }
