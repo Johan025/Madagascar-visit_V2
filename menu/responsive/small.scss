@@ -156,6 +156,7 @@
         .container_responsive{
           width: 100%;
         height: 61vh;
+        z-index: 10;
         position: absolute;
         top: 3.5rem;
         left:0rem;
@@ -255,7 +256,7 @@
     
    .about {
         position:relative;
-        top: 72vh;
+        top: 70vh;
         width: 100%;
         height: 97rem;
 
@@ -277,7 +278,7 @@
               
             }
             img{
-                @include div_img(85vw, 8cm, 2.5rem, 54rem);
+                @include div_img(85vw, 8cm, 7.5vw, 57rem);
                 margin-top: 5rem;
               }
             }
@@ -308,7 +309,7 @@
          
 
     .choice {
-      @include div(100%, 190vh, 0, 82vh, #ffffff);
+      @include div(100%, 120rem, 0, 82vh, #ffffff);
       position: relative;
   
       h3{
@@ -398,12 +399,12 @@
   
                          .p_item_1{
                              position: absolute;
-                             top: 19.2rem;
+                             top: 21.2rem;
                          }
   
                          .p_item_2{
                           position: absolute;
-                          top: 40.5rem;
+                          top: 41.5rem;
                       }
                   
                   }
@@ -424,9 +425,9 @@
        
   .sites{
     width:100%;
-    height:190vh;
+    height:120rem;
     position: relative;
-    top: 135vh;
+    top: 115vh;
     background-color: #ffffff;
   
       h3{
@@ -627,8 +628,8 @@
        }
 
        .guestBOOK{
-        position: absolute;
-        top: 490rem;
+        position: relative;
+        top:216vh;
         width: 100%;
         height: 46rem;
    
