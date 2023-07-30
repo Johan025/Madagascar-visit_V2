@@ -17,6 +17,7 @@ button_menu.addEventListener('click',() =>{
 const latitude = -18.8792;
   const longitude = 47.5079;
 
+  function mapClassic (){
   const antananarivo = [-18.8792,47.5079 ];
 const sainte_marie = [-17.0911, 49.8152];
 const Tamatave = [-18.1498, 49.4029];
@@ -80,7 +81,11 @@ const places = [
   L.polyline(ant, { color: 'blue' }).addTo(map);
     L.polyline([andasibe, mahambo], { color: 'green' }).addTo(map);
     L.polyline([mahambo, sainteMarie], { color: 'red' }).addTo(map);
+  }
 
+  
+
+  mapClassic();
 
 
 

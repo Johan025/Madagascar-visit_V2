@@ -18,20 +18,20 @@
 
     .east_day_pangalane{
     position: relative;
-    top: 456.4rem;
+    top: 407.4rem;
     left: 0rem;
 
     .titre_east{
         @include h1(30px, 600, 10vw);
         color: rgb(0, 0, 0);
-        top: -14.5rem;
+        top: -67.5rem;
         width: 60vw;
         position: absolute;
-       font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        font-family:  'yeseva_oneregular';
       }
 
       .anim_2{
-        @include div(37px, 37px, 5vw, -12.5rem,rgb(222, 167, 1) );
+        @include div(37px, 37px, 5vw, -65.5rem,rgb(222, 167, 1) );
           border-radius: 0;
           animation: rotate 5s linear infinite;
      }
@@ -205,9 +205,30 @@
              position: absolute;
              top: 1.5rem;
          }
+
     }
     
-  
+    #map{
+        width: 80%;
+        position: relative;
+        top: 165rem;
+        z-index: 10;
+        left:10vw;
+        border-radius: 8px;
+        height: 53rem;
+        border: 2px solid black;
+    }
  
   }
+
+  #map1{
+    width: 80%;
+    position: relative;
+    top: 165rem;
+    z-index: 10;
+    left:10.4vw;
+    border-radius: 8px;
+    height: 48rem;
+    border: 2px solid black;
+}
 }
