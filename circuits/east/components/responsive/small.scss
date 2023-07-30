@@ -1,6 +1,19 @@
-@media screen and (max-width: 764px) and (min-width: 280px) {
+@media screen and  (min-width: 280px) and (max-width: 764px) and (min-width: 280px) {
 @import "./../../../../settings.scss";
 @import url("_include-media.scss");
+.couvertureEst_responsive img{
+    display: block;
+    position :absolute;
+   top: 5rem;
+   width: 100%;
+   height: 38rem;
+   filter: brightness(60%);
+   }
+
+   .couvertureEst img{
+    display: none;
+   }
+
 
    *{
     justify-content: center;
@@ -24,268 +37,268 @@
         top: 37rem;
     }
     
-    header{
-        position: fixed;
-        width: 100%;
-        height: 2.2cm;
-        z-index: 20;
-        background-color: #ffffff;
+    // header{
+    //     position: fixed;
+    //     width: 100%;
+    //     height: 2.2cm;
+    //     z-index: 20;
+    //     background-color: #ffffff;
 
-        ul{
-            display: none;
-            z-index: 4;
-            position: absolute;
-            left: 16vw;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            top: -15rem;
-            padding-bottom: 14.5cm;
+    //     ul{
+    //         display: none;
+    //         z-index: 4;
+    //         position: absolute;
+    //         left: 16vw;
+    //         text-align: center;
+    //         align-items: center;
+    //         justify-content: center;
+    //         top: -15rem;
+    //         padding-bottom: 14.5cm;
 
-             li{
-                margin: 17px;
+    //          li{
+    //             margin: 17px;
                  
-                a{
-                  font-size: 19px;
-                  padding: 6px;
-                  color: #1d1a1a;
-                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                }
+    //             a{
+    //               font-size: 19px;
+    //               padding: 6px;
+    //               color: #1d1a1a;
+    //               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    //             }
 
-                .active {
-                  color: white;
-                  background-color: #04AA6D;
-                  border: opx solid;
-                  border-width: 20px;
-                  padding-right: 25px;
-                  border-radius: 5px;
-                  padding-left: 25px;
-                  text-decoration: none;
+    //             .active {
+    //               color: white;
+    //               background-color: #04AA6D;
+    //               border: opx solid;
+    //               border-width: 20px;
+    //               padding-right: 25px;
+    //               border-radius: 5px;
+    //               padding-left: 25px;
+    //               text-decoration: none;
                   
-                  } 
-                }
-            }
-        }
+    //               } 
+    //             }
+    //         }
+    //     }
         
-    .logo{
-        position: fixed;
-        top: 1.4rem;
-        left: 2.4rem;
-        width: 3.2cm;
-        height: 1.5cm;
-        z-index: 30;
-    }
+    // .logo{
+    //     position: fixed;
+    //     top: 1.4rem;
+    //     left: 2.4rem;
+    //     width: 3.2cm;
+    //     height: 1.5cm;
+    //     z-index: 30;
+    // }
         
          
-    .header{
-        position :absolute;
-        top: 8.2rem;
-        // transform: translateY(-150rem);
-        width: 100%;
-        height: 0rem;
-        background-color: #1ed661;
-        z-index: 4;
-        transition : 0.6s;
-        }
+    // .header{
+    //     position :absolute;
+    //     top: 8.2rem;
+    //     // transform: translateY(-150rem);
+    //     width: 100%;
+    //     height: 0rem;
+    //     background-color: #1ed661;
+    //     z-index: 4;
+    //     transition : 0.6s;
+    //     }
 
        
     
           
-        .versionAng{
-            margin-left: 3rem;
-            font-size: 19px;
-            color: rgb(64, 56, 56);
-            }
+    //     .versionAng{
+    //         margin-left: 3rem;
+    //         font-size: 19px;
+    //         color: rgb(64, 56, 56);
+    //         }
         
         
-          .imgAng{
-          position: relative;
-          left :0rem;
-          top:0rem;
-          width:30px;
-          border-radius: 40%;
-          height: 30px;
+    //       .imgAng{
+    //       position: relative;
+    //       left :0rem;
+    //       top:0rem;
+    //       width:30px;
+    //       border-radius: 40%;
+    //       height: 30px;
         
-          .fenetreFrancais{
-            position: relative;
-            float: right;
-            z-index: 4;
-            display: none;
-            transform: translateY(-4.5cm);
+    //       .fenetreFrancais{
+    //         position: relative;
+    //         float: right;
+    //         z-index: 4;
+    //         display: none;
+    //         transform: translateY(-4.5cm);
            
-            }
+    //         }
         
            
         
-                p{
-                    cursor: pointer;
-                    @include p(20px, 7rem, 2rem);
-                    }
+    //             p{
+    //                 cursor: pointer;
+    //                 @include p(20px, 7rem, 2rem);
+    //                 }
         
-        }
+    //     }
         
-            .show{
-              transform: translateY(0);
-              transition: 0.14s;
-            }
+    //         .show{
+    //           transform: translateY(0);
+    //           transition: 0.14s;
+    //         }
         
             
-            #ang{
-              cursor: pointer;
-            }
+    //         #ang{
+    //           cursor: pointer;
+    //         }
         
-    .logoBurger i{
-        font-size: 26px;
-        position: relative;
-        float: right; 
-        //  right: -29rem;
-        justify-content: space-between;
-        top:2.2rem;
-        border-radius: 20%;
-        padding: 6px;
-        margin-right: -116vw;
-        border: 1.5px solid black;
-        z-index: 20;
-        color:black;
+    // .logoBurger i{
+    //     font-size: 26px;
+    //     position: relative;
+    //     float: right; 
+    //     //  right: -29rem;
+    //     justify-content: space-between;
+    //     top:2.2rem;
+    //     border-radius: 20%;
+    //     padding: 6px;
+    //     margin-right: -116vw;
+    //     border: 1.5px solid black;
+    //     z-index: 20;
+    //     color:black;
 
-          &:hover{
-            border: 0px solid #1ed661;
-            background-color: #1ed640;
-          }
+    //       &:hover{
+    //         border: 0px solid #1ed661;
+    //         background-color: #1ed640;
+    //       }
           
-    }
+    // }
         
          
-    .hideshow_east{
-        // transform: translateY(-0.2rem);
-        transition: 0.4s;
-        height: 35rem;
-    }
+    // .hideshow_east{
+    //     // transform: translateY(-0.2rem);
+    //     transition: 0.4s;
+    //     height: 35rem;
+    // }
 
-    .hideshow2{
-        display: block;
-        position: absolute;
-        top: -5rem;
-        left: 0vw;
+    // .hideshow2{
+    //     display: block;
+    //     position: absolute;
+    //     top: -5rem;
+    //     left: 0vw;
       
-    }
+    // }
 
-    .couvertureEst img{
-        width: 100%;
-        left:0;
-        display: none;
-    }
+//     .couvertureEst img{
+//         width: 100%;
+//         left:0;
+//         display: none;
+//     }
 
-    .couvertureEst_responsive img{
-        width: 100%;
-        position: absolute;
-        left:0;
-        top: 48rem;
-        height: 40rem;
-        display: inline-block;
-    }
+//     .couvertureEst_responsive img{
+//         width: 100%;
+//         position: absolute;
+//         left:0;
+//         top: 48rem;
+//         height: 40rem;
+//         display: inline-block;
+//     }
 
-    .detailTour{
+//     .detailTour{
 
-        h1{
-        color: rgb(212, 139, 3);
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        @include h(30px, 17rem,19vw, bold, 60vw);
-        }
+//         h1{
+//         color: rgb(212, 139, 3);
+//         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//         @include h(30px, 17rem,19vw, bold, 60vw);
+//         }
  
-        .details{
-             border-radius: 6px;
-             box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
-             background-color: rgb(223, 220, 215);
-             border: 1.5px solid rgb(212, 139, 3);
-             @include div-right(20rem, 90vw, 5vw, 25rem);
+//         .details{
+//              border-radius: 6px;
+//              box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
+//              background-color: rgb(223, 220, 215);
+//              border: 1.5px solid rgb(212, 139, 3);
+//              @include div-right(20rem, 90vw, 5vw, 25rem);
  
-                 .days{
-                      position: absolute;
-                      top: -15rem;
-                      left: -65vw;
-                        img{
-                          width: 52px;
-                          height: 52px; 
-                          position: absolute;
-                         left: 69vw;
-                         top: 17.6rem;
-                        }  
+//                  .days{
+//                       position: absolute;
+//                       top: -15rem;
+//                       left: -65vw;
+//                         img{
+//                           width: 52px;
+//                           height: 52px; 
+//                           position: absolute;
+//                          left: 69vw;
+//                          top: 17.6rem;
+//                         }  
  
-                        h1{
-                           font-size: 23px;
-                           color: rgb(67, 66, 66);
-                           position: absolute;
-                           left:76vw;
+//                         h1{
+//                            font-size: 23px;
+//                            color: rgb(67, 66, 66);
+//                            position: absolute;
+//                            left:76vw;
                            
-                        }
-                 }
+//                         }
+//                  }
  
-                 .localisation{
-                     position: absolute;
-                     top: 7rem;
-                     left: 0vw;
-                       img{
-                         width: 52px;
-                         height: 52px; 
-                         position: absolute;
-                        left: 67vw;
-                        top: 18rem;
-                       }  
+//                  .localisation{
+//                      position: absolute;
+//                      top: 7rem;
+//                      left: 0vw;
+//                        img{
+//                          width: 52px;
+//                          height: 52px; 
+//                          position: absolute;
+//                         left: 67vw;
+//                         top: 18rem;
+//                        }  
  
-                       h1{
-                          font-size: 22px;
-                          position: absolute;
-                          left:77vw;
-                         width: 77vw;
-                          color: rgb(67, 66, 66);
-                       }
-                }
-        }
- }
+//                        h1{
+//                           font-size: 22px;
+//                           position: absolute;
+//                           left:77vw;
+//                          width: 77vw;
+//                           color: rgb(67, 66, 66);
+//                        }
+//                 }
+//         }
+//  }
 
-    .title_east{
-        color: #002260;
-        @include h(36px, 10.5rem, 19vw, 800, 60vw);
+//     .title_east{
+//         color: #002260;
+//         @include h(36px, 10.5rem, 19vw, 800, 60vw);
       
-        font-family: 'yeseva_oneregular';
-        text-align: center;
-    }
+//         font-family: 'yeseva_oneregular';
+//         text-align: center;
+//     }
 
-    .east .desc{
-        font-size: 18px;
-        position: absolute;
-        left: 4.2vw;
-        top: 92.5rem;
-        width: 89vw;
-        color: #201f1f;
-             b{
-                color: #0b077e;
+//     .east .desc{
+//         font-size: 18px;
+//         position: absolute;
+//         left: 4.2vw;
+//         top: 92.5rem;
+//         width: 89vw;
+//         color: #201f1f;
+//              b{
+//                 color: #0b077e;
 
-             }
-    }
+//              }
+//     }
 
-    .galerieEst{
-        display: none;
-      }
+//     .galerieEst{
+//         display: none;
+//       }
 
 
    .east_day{
   position: absolute;
-  top: 164rem;
+  top: 184rem;
   left: 0rem;
 
   .titre_east{
-    @include h1(24.6px, 600, 15.6vw);
+    @include h1(24px, 600, 15.6vw);
     color: rgb(0, 0, 0);
-    top: -14.5rem;
+    top: -62.5rem;
     width: 80vw;
     position: absolute;
-   font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  'yeseva_oneregular';
   }
 
   .anim_1{
-     @include div(32px, 32px, 5vw, -12.5rem,rgb(222, 167, 1) );
+     @include div(27px, 27px, 5vw, -60.7rem,rgb(222, 167, 1) );
        border-radius: 0;
        animation: rotate 5s linear infinite;
   }
@@ -318,15 +331,15 @@
 
 
 .day1{
-    @include div(87vw, 26rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 22rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
 
     h1{
-        @include h1(23px, 550, 17vw);
+        @include h1(23.5px, 550, 17vw);
         color: $color-2;
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 2vw ,  7rem);
+        @include p( 18.5px, 2vw ,  6rem);
      }
 
      img{
@@ -339,17 +352,17 @@
 }
 
 .day2{
-    @include div(87vw, 39rem, 6vw, 37rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 36rem, 6vw, 32rem, rgba(102, 98, 98, 0.122));
 
     h1{
-        @include h1(22px, 550, 25vw);
-        left: 4vw;
+        @include h1(22px, 550, 75vw);
+        left: 12vw;
         color: $color-2;
-        width: 57vw;
+        width: 77vw;
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 1vw,  8.6rem);
+        @include p( 18.5px, 1vw,  6rem);
      }
 
      img{
@@ -362,7 +375,7 @@
 }
 
 .day3{
-    @include div(87vw, 35rem, 6vw, 89rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 30rem, 6vw, 78.5rem, rgba(102, 98, 98, 0.122));
 
     h1{
         @include h1(23px, 550, 3.7vw);
@@ -371,7 +384,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 2vw ,  7rem);
+        @include p( 18.5px, 2vw ,  6rem);
      }
 
      img{
@@ -385,16 +398,16 @@
 
 
 .day4{
-    @include div(87vw, 39.1rem, 6vw, 135.6rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 35.1rem, 6vw, 118.7rem, rgba(102, 98, 98, 0.122));
 
     h1{
-        @include h1(19px, 550, 10vw);
+        @include h1(20.4px, 550, 10vw);
         color: $color-2;
         top: 1rem;
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 1vw,  9.7rem);
+        @include p( 18.5px, 1vw,  8.6rem);
      }
 
      img{
@@ -408,9 +421,9 @@
 
 .day5{
 
-    @include div(87vw, 17rem, 6vw, 185.5rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 15rem, 6vw, 164.5rem, rgba(102, 98, 98, 0.122));
     h1{
-        @include h1(20px, 550, 13vw);
+        @include h1(20px, 550, 14vw);
         color: $color-2;
         width: 60vw;
         font-family: Georgia, 'Times New Roman', Times, serif
@@ -430,10 +443,10 @@
 
 .day6-7-8{
    
-    @include div(87vw, 13.6rem, 6vw, 214rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 13.6rem, 6vw, 190rem, rgba(102, 98, 98, 0.122));
     h1{
         @include h1(19.6px, 550, 14vw);
-        width: 50vw;
+        width: 70vw;
         color: $color-2;
         font-family: Georgia, 'Times New Roman', Times, serif
     }
@@ -452,7 +465,7 @@
 
 .day9{
     
-    @include div(87vw, 20.6rem, 6vw, 238.2rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 18rem, 6vw, 214.2rem, rgba(102, 98, 98, 0.122));
     h1{
         @include h1(20px, 550, 10.7w);
         left: 12vw;
@@ -460,7 +473,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 1vw ,  8rem);
+        @include p( 18.5px, 1vw ,  7rem);
      }
 
      img{
@@ -474,14 +487,14 @@
 
 .day10{
    
-    @include div(87vw, 16.6rem, 6vw, 269.5rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 14.6rem, 6vw, 243.5rem, rgba(102, 98, 98, 0.122));
     h1{
         @include h1(23px, 550, 17vw);
         color: $color-2;
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 1vw ,  7rem);
+        @include p( 18.5px, 1vw ,  6rem);
      }
 
      img{
@@ -499,23 +512,23 @@
 
     .east_day_pangalane{
       position: absolute;
-      top: 473rem;
+      top: 516rem;
       left: 0rem;
 
       .titre_east{
-        @include h1(18px, 600, 16.6vw);
+        @include h1(23px, 600, 15.6vw);
         color: rgb(0, 0, 0);
-        top: -14.5rem;
+        top: -62.5rem;
         width: 80vw;
         position: absolute;
-       font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        font-family:  'yeseva_oneregular';
       }
-
+    
       .anim_2{
-        @include div(30px, 30px, 5vw, -12.5rem,rgb(222, 167, 1) );
-          border-radius: 0;
-          animation: rotate 5s linear infinite;
-     }
+         @include div(27px, 27px, 5vw, -60.7rem,rgb(222, 167, 1) );
+           border-radius: 0;
+           animation: rotate 5s linear infinite;
+      }
 
       @keyframes rotate2 {
         0%{
@@ -545,17 +558,16 @@
     
 
     
-             
       .day1{
-        @include div(87vw, 26rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
+        @include div(87vw, 22rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
     
         h1{
-            @include h1(23px, 550, 17vw);
+            @include h1(23.5px, 550, 17vw);
             color: $color-2;
             font-family: Georgia, 'Times New Roman', Times, serif
         }
          p{
-            @include p( 18.5px, 2vw ,  7rem);
+            @include p( 18.5px, 2vw ,  6rem);
          }
     
          img{
@@ -568,17 +580,17 @@
     }
     
     .day2{
-        @include div(87vw, 39rem, 6vw, 37rem, rgba(102, 98, 98, 0.122));
+        @include div(87vw, 36rem, 6vw, 32rem, rgba(102, 98, 98, 0.122));
     
         h1{
-            @include h1(22px, 550, 8vw);
-            left: 7vw;
+            @include h1(22px, 550, 75vw);
+            left: 12vw;
             color: $color-2;
-            width: 60vw;
+            width: 77vw;
             font-family: Georgia, 'Times New Roman', Times, serif
         }
          p{
-            @include p( 18.5px, 1vw,  8.6rem);
+            @include p( 18.5px, 1vw,  6rem);
          }
     
          img{
@@ -591,16 +603,16 @@
     }
     
     .day3{
-        @include div(87vw, 35rem, 6vw, 87rem, rgba(102, 98, 98, 0.122));
+        @include div(87vw, 30rem, 6vw, 78.5rem, rgba(102, 98, 98, 0.122));
     
         h1{
-            @include h1(23px, 550, 4vw);
+            @include h1(23px, 550, 3.7vw);
             width: 80vw;
             color: $color-2;
             font-family: Georgia, 'Times New Roman', Times, serif
         }
          p{
-            @include p( 18.5px, 2vw ,  7rem);
+            @include p( 18.5px, 2vw ,  6rem);
          }
     
          img{
@@ -611,19 +623,43 @@
              left: 1rem;
          }
     }
+    
     
     
     .day4{
-        @include div(87vw, 39.1rem, 6vw, 133rem, rgba(102, 98, 98, 0.122));
+        @include div(87vw, 36.1rem, 6vw, 118.7rem, rgba(102, 98, 98, 0.122));
     
         h1{
-            @include h1(18px, 550, 12.6vw);
+            @include h1(18.4px, 550, 5vw);
+            width: 80vw;
+            color: $color-2;
+            top: 1rem;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+         p{
+            @include p( 18.5px, 1vw,  9.5rem);
+         }
+    
+         img{
+             width: 45px;
+             height: 45px;
+             position: absolute;
+             top: 1rem;
+             left: 0.4rem;
+         }
+    }
+    
+    .day5{
+    
+        @include div(87vw, 41.6rem, 6vw, 164.5rem, rgba(102, 98, 98, 0.122));
+        h1{
+            @include h1(20px, 550, 14vw);
             color: $color-2;
             width: 60vw;
             font-family: Georgia, 'Times New Roman', Times, serif
         }
          p{
-            @include p( 18.5px, 1vw,  10.5rem);
+            @include p( 18.5px, 1vw,  7rem);
          }
     
          img{
@@ -636,36 +672,15 @@
     }
     
 
-  .day5{
-    @include div(87vw, 44.5rem, 6vw, 184.5rem, rgba(102, 98, 98, 0.122));
-        h1{
-            @include h1(19px, 550, 11vw);
-            color: $color-2;
-            width: 60vw;
-            font-family: Georgia, 'Times New Roman', Times, serif
-        }
-         p{
-            @include p( 18.5px, 1vw,  7.5rem);
-         }
-    
-         img{
-             width: 45px;
-             height: 45px;
-             position: absolute;
-             top: 1.5rem;
-             left: 1rem;
-         }
-}
-
 .day6{
-    @include div(87vw, 24.9rem, 6vw, 242rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 21.9rem, 6vw, 218rem, rgba(102, 98, 98, 0.122));
         h1{
             @include h1(16px, 550, 10vw);
             color: $color-2;
             font-family: Georgia, 'Times New Roman', Times, serif
         }
          p{
-            @include p( 18.5px, 1vw,  10.5rem);
+            @include p( 18.5px, 1vw,  9rem);
          }
     
          img{
@@ -678,14 +693,14 @@
 }
 
 .day7{
-    @include div(87vw, 20rem, 6vw, 279rem, rgba(102, 98, 98, 0.122));
+    @include div(87vw, 16rem, 6vw, 253rem, rgba(102, 98, 98, 0.122));
     h1{
-        @include h1(19px, 550, 16vw);
+        @include h1(21px, 550, 18vw);
         color: $color-2;
         font-family: Georgia, 'Times New Roman', Times, serif
     }
      p{
-        @include p( 18.5px, 1vw ,  7rem);
+        @include p( 18.5px, 1vw ,  6rem);
      }
 
      img{
@@ -705,7 +720,7 @@
         
    footer{
       position: absolute;
-            top: 805.5rem;
+            top: 840rem;
             background-color: rgba(0, 0, 0, 0.705);
             width :100%;
             height: 35.9rem;
@@ -716,7 +731,9 @@
      
           .footer_contact h1{
             position: absolute;
-            left: -9rem;
+            left: -24vw;
+            font-family:  'yeseva_oneregular';
+
           }
         
           .footer_contact{

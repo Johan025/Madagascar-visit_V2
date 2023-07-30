@@ -69,6 +69,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+@font-face {
+  font-family: "font-1";
+  src: url("./../../../fonts/josefinsans-variablefont_wght-webfont.woff2") format("woff2"), url("./../../../fonts/josefinsans-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 @media screen and (min-width: 1024px) and (max-width: 2880px) {
   .ok {
     box-sizing: border-box;
@@ -212,6 +218,143 @@ body {
     text-decoration: none;
   }
 }
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2.2cm;
+    z-index: 20;
+    top: 0;
+    background-color: hsl(0, 0%, 100%);
+  }
+  header #bord {
+    width: 55vw;
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    left: 23vw;
+    top: 5.7rem;
+  }
+  header .h_bord {
+    display: block;
+    position: relative;
+    top: 6rem;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: bolder;
+  }
+  header ul {
+    display: none;
+    z-index: 4;
+    position: absolute;
+    left: -11.5vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: -10rem;
+    padding-bottom: 12.5cm;
+  }
+  header ul li {
+    margin: 17px;
+  }
+  header ul li a {
+    font-size: 24.6px;
+    padding: 6px;
+    color: #1d1a1a;
+    font-family: "font-1";
+    font-weight: 1000;
+  }
+  header ul li .active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 75px;
+    padding-right: 75px;
+    width: 50vw;
+    border-radius: 5px;
+    padding-left: 75px;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3.2cm;
+    height: 1.5cm;
+    z-index: 30;
+  }
+  .header {
+    position: absolute;
+    top: 8.2rem;
+    overflow: hidden;
+    width: 100%;
+    height: 0rem;
+    background-color: rgba(30, 214, 97, 0.9058823529);
+    z-index: 4;
+    transition: 0.6s;
+  }
+  .versionAng {
+    margin-left: 3rem;
+    margin-top: -8rem;
+    font-size: 21px;
+    color: rgb(64, 56, 56);
+  }
+  .imgAng {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    width: 30px;
+    border-radius: 40%;
+    height: 30px;
+  }
+  .imgAng .fenetreFrancais {
+    position: relative;
+    float: right;
+    z-index: 4;
+    display: none;
+    transform: translateY(-4.5cm);
+  }
+  .imgAng p {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    color: rgb(45, 45, 45);
+  }
+  .show {
+    transform: translateY(0);
+    transition: 0.14s;
+  }
+  #ang {
+    cursor: pointer;
+  }
+  .logoBurger i {
+    font-size: 26px;
+    position: relative;
+    float: right;
+    top: 2.2rem;
+    border-radius: 20%;
+    padding: 6px;
+    margin-right: 3rem;
+    border: 1.5px solid black;
+    z-index: 24;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transition: 0.4s;
+    height: 100vh;
+  }
+  .hideshow2 {
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+  }
+}
 .couvertureEst img {
   position: absolute;
   top: 4rem;
@@ -304,6 +447,18 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("../../../fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("../../../fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 @media screen and (min-width: 1024px) {
   @font-face {
     font-family: "coneria_script_demoregular";
@@ -364,6 +519,62 @@ body {
     left: 3vw;
     font-size: 20px;
     color: rgb(93, 93, 97);
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  @font-face {
+    font-family: "coneria_script_demoregular";
+    src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #titre {
+    position: relative;
+    color: rgb(209, 118, 6);
+    top: -14.5rem;
+    font-weight: 1000;
+    left: -2%;
+    font-weight: 800;
+    font-size: 25.6px;
+    font-family: "coneria_script_demoregular";
+  }
+  .details_title {
+    position: absolute;
+    color: rgb(209, 118, 6);
+    top: 12.5rem;
+    font-weight: 1000;
+    left: 6%;
+    width: 85vw;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "yeseva_oneregular";
+  }
+  .title_east {
+    color: rgb(228, 232, 240);
+    font-size: 35px;
+    position: absolute;
+    top: -11.5rem;
+    left: 18vw;
+    font-weight: 800;
+    width: 60vw;
+    font-family: "yeseva_oneregular";
+  }
+  .east {
+    position: absolute;
+    top: 32rem;
+    width: 100%;
+    height: 55rem;
+  }
+  .east .desc {
+    position: absolute;
+    width: 90%;
+    top: 20rem;
+    left: 3.5vw;
+    font-size: 20px;
+    color: rgb(93, 93, 97);
+  }
+  .east .desc span {
+    color: rgb(0, 0, 0);
   }
 }
 .h {
@@ -802,7 +1013,109 @@ body {
   background-color: rgb(211, 118, 5);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  .photo {
+    position: relative;
+    top: -52.4rem;
+    left: -2.5vw;
+    width: 100%;
+    height: 42rem;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .photo .container {
+    width: 106%;
+    height: 42rem;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .photo #myCarousel {
+    width: 100%;
+    height: 40rem;
+    border-radius: 28px;
+    overflow: hidden;
+  }
+  .photo #myCarousel #inner {
+    width: 100%;
+    height: 42rem;
+    border-radius: 18px;
+  }
+  .photo #myCarousel #inner img {
+    width: 100%;
+    height: 42rem;
+  }
+  .controls #left {
+    font-size: 22px;
+    margin-top: 18rem;
+    border: 0;
+    position: relative;
+    left: 2vw;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: rgb(211, 118, 5);
+  }
+  .controls #right {
+    font-size: 22px;
+    border: 0;
+    margin-top: 18rem;
+    padding: 18px;
+    position: relative;
+    right: 3vw;
+    border-radius: 50%;
+    background-color: rgb(211, 118, 5);
+  }
+  .photo_pangalane {
+    position: relative;
+    top: -46.8rem;
+    left: -2vw;
+    width: 100%;
+    height: 42rem;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .photo_pangalane .container {
+    width: 121%;
+    height: 42rem;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .photo_pangalane #myCarousel {
+    width: 85%;
+    height: 47rem;
+    border-radius: 28px;
+    overflow: hidden;
+  }
+  .photo_pangalane #myCarousel #inner {
+    width: 100%;
+    height: 42rem;
+    border-radius: 18px;
+  }
+  .photo_pangalane #myCarousel #inner img {
+    width: 100%;
+    height: 42rem;
+  }
+  .controls_ #left_ {
+    font-size: 22px;
+    margin-top: 18.6rem;
+    position: relative;
+    left: 2vw;
+    border: 0;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: rgb(211, 118, 5);
+  }
+  .controls_ #right_ {
+    font-size: 22px;
+    border: 0;
+    margin-top: 18.6rem;
+    position: relative;
+    right: 3vw;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: rgb(211, 118, 5);
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 2880px) {
   @font-face {
     font-family: "battoraregular";
     src: url("../../../fonts/battora-webfont.woff2") format("woff2"), url("../../../fonts/battora-webfont .woff") format("woff");
@@ -1093,14 +1406,16 @@ body {
     height: 53rem;
     border: 2px solid black;
   }
-  #map1 {
-    width: 80%;
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  #map {
+    width: 92%;
     position: relative;
-    top: 165rem;
+    top: 234rem;
     z-index: 10;
-    left: 10.4vw;
+    left: 4vw;
     border-radius: 8px;
-    height: 48rem;
+    height: 35rem;
     border: 2px solid black;
   }
 }
@@ -1750,7 +2065,7 @@ body {
     color: rgb(212, 205, 205);
   }
 }
-@media screen and (max-width: 764px) and (min-width: 280px) {
+@media screen and (min-width: 280px) and (max-width: 764px) and (min-width: 280px) {
   * {
     text-decoration: none;
     list-style: none;
@@ -1819,6 +2134,17 @@ body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   @import url("_include-media.scss");
+  .couvertureEst_responsive img {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    height: 38rem;
+    filter: brightness(60%);
+  }
+  .couvertureEst img {
+    display: none;
+  }
   * {
     justify-content: center;
     align-items: center;
@@ -1838,239 +2164,27 @@ body {
     left: 1rem;
     top: 37rem;
   }
-  header {
-    position: fixed;
-    width: 100%;
-    height: 2.2cm;
-    z-index: 20;
-    background-color: #ffffff;
-  }
-  header ul {
-    display: none;
-    z-index: 4;
-    position: absolute;
-    left: 16vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    top: -15rem;
-    padding-bottom: 14.5cm;
-  }
-  header ul li {
-    margin: 17px;
-  }
-  header ul li a {
-    font-size: 19px;
-    padding: 6px;
-    color: #1d1a1a;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-  header ul li .active {
-    color: white;
-    background-color: #04AA6D;
-    border: opx solid;
-    border-width: 20px;
-    padding-right: 25px;
-    border-radius: 5px;
-    padding-left: 25px;
-    text-decoration: none;
-  }
-  .logo {
-    position: fixed;
-    top: 1.4rem;
-    left: 2.4rem;
-    width: 3.2cm;
-    height: 1.5cm;
-    z-index: 30;
-  }
-  .header {
-    position: absolute;
-    top: 8.2rem;
-    width: 100%;
-    height: 0rem;
-    background-color: #1ed661;
-    z-index: 4;
-    transition: 0.6s;
-  }
-  .versionAng {
-    margin-left: 3rem;
-    font-size: 19px;
-    color: rgb(64, 56, 56);
-  }
-  .imgAng {
-    position: relative;
-    left: 0rem;
-    top: 0rem;
-    width: 30px;
-    border-radius: 40%;
-    height: 30px;
-  }
-  .imgAng .fenetreFrancais {
-    position: relative;
-    float: right;
-    z-index: 4;
-    display: none;
-    transform: translateY(-4.5cm);
-  }
-  .imgAng p {
-    cursor: pointer;
-    font-size: 20px;
-    position: absolute;
-    left: 7rem;
-    top: 2rem;
-    color: rgb(45, 45, 45);
-  }
-  .show {
-    transform: translateY(0);
-    transition: 0.14s;
-  }
-  #ang {
-    cursor: pointer;
-  }
-  .logoBurger i {
-    font-size: 26px;
-    position: relative;
-    float: right;
-    justify-content: space-between;
-    top: 2.2rem;
-    border-radius: 20%;
-    padding: 6px;
-    margin-right: -116vw;
-    border: 1.5px solid black;
-    z-index: 20;
-    color: black;
-  }
-  .logoBurger i:hover {
-    border: 0px solid #1ed661;
-    background-color: #1ed640;
-  }
-  .hideshow_east {
-    transition: 0.4s;
-    height: 35rem;
-  }
-  .hideshow2 {
-    display: block;
-    position: absolute;
-    top: -5rem;
-    left: 0vw;
-  }
-  .couvertureEst img {
-    width: 100%;
-    left: 0;
-    display: none;
-  }
-  .couvertureEst_responsive img {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 48rem;
-    height: 40rem;
-    display: inline-block;
-  }
-  .detailTour h1 {
-    color: rgb(212, 139, 3);
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    position: absolute;
-    top: 17rem;
-    left: 19vw;
-    font-weight: bold;
-    width: 60vw;
-  }
-  .detailTour .details {
-    border-radius: 6px;
-    box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
-    background-color: rgb(223, 220, 215);
-    border: 1.5px solid rgb(212, 139, 3);
-    width: 90vw;
-    height: 20rem;
-    position: absolute;
-    right: 5vw;
-    top: 25rem;
-  }
-  .detailTour .details .days {
-    position: absolute;
-    top: -15rem;
-    left: -65vw;
-  }
-  .detailTour .details .days img {
-    width: 52px;
-    height: 52px;
-    position: absolute;
-    left: 69vw;
-    top: 17.6rem;
-  }
-  .detailTour .details .days h1 {
-    font-size: 23px;
-    color: rgb(67, 66, 66);
-    position: absolute;
-    left: 76vw;
-  }
-  .detailTour .details .localisation {
-    position: absolute;
-    top: 7rem;
-    left: 0vw;
-  }
-  .detailTour .details .localisation img {
-    width: 52px;
-    height: 52px;
-    position: absolute;
-    left: 67vw;
-    top: 18rem;
-  }
-  .detailTour .details .localisation h1 {
-    font-size: 22px;
-    position: absolute;
-    left: 77vw;
-    width: 77vw;
-    color: rgb(67, 66, 66);
-  }
-  .title_east {
-    color: #002260;
-    font-size: 36px;
-    position: absolute;
-    top: 10.5rem;
-    left: 19vw;
-    font-weight: 800;
-    width: 60vw;
-    font-family: "yeseva_oneregular";
-    text-align: center;
-  }
-  .east .desc {
-    font-size: 18px;
-    position: absolute;
-    left: 4.2vw;
-    top: 92.5rem;
-    width: 89vw;
-    color: #201f1f;
-  }
-  .east .desc b {
-    color: #0b077e;
-  }
-  .galerieEst {
-    display: none;
-  }
   .east_day {
     position: absolute;
-    top: 164rem;
+    top: 184rem;
     left: 0rem;
   }
   .east_day .titre_east {
-    font-size: 24.6px;
+    font-size: 24px;
     position: absolute;
     left: 15.6vw;
     font-weight: 600;
     color: rgb(0, 0, 0);
-    top: -14.5rem;
+    top: -62.5rem;
     width: 80vw;
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
   }
   .east_day .anim_1 {
-    width: 32px;
-    height: 32px;
+    width: 27px;
+    height: 27px;
     position: absolute;
-    top: -12.5rem;
+    top: -60.7rem;
     left: 5vw;
     border-radius: 4px;
     background-color: rgb(222, 167, 1);
@@ -2099,7 +2213,7 @@ body {
   }
   .east_day .day1 {
     width: 87vw;
-    height: 26rem;
+    height: 22rem;
     position: absolute;
     top: 0rem;
     left: 6vw;
@@ -2107,7 +2221,7 @@ body {
     background-color: rgba(102, 98, 98, 0.122);
   }
   .east_day .day1 h1 {
-    font-size: 23px;
+    font-size: 23.5px;
     position: absolute;
     left: 17vw;
     font-weight: 550;
@@ -2118,7 +2232,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 2vw;
-    top: 7rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day .day1 img {
@@ -2130,9 +2244,9 @@ body {
   }
   .east_day .day2 {
     width: 87vw;
-    height: 39rem;
+    height: 36rem;
     position: absolute;
-    top: 37rem;
+    top: 32rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2140,18 +2254,18 @@ body {
   .east_day .day2 h1 {
     font-size: 22px;
     position: absolute;
-    left: 25vw;
+    left: 75vw;
     font-weight: 550;
-    left: 4vw;
+    left: 12vw;
     color: rgb(35, 34, 34);
-    width: 57vw;
+    width: 77vw;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
   .east_day .day2 p {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 8.6rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day .day2 img {
@@ -2163,9 +2277,9 @@ body {
   }
   .east_day .day3 {
     width: 87vw;
-    height: 35rem;
+    height: 30rem;
     position: absolute;
-    top: 89rem;
+    top: 78.5rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2183,7 +2297,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 2vw;
-    top: 7rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day .day3 img {
@@ -2195,15 +2309,15 @@ body {
   }
   .east_day .day4 {
     width: 87vw;
-    height: 39.1rem;
+    height: 35.1rem;
     position: absolute;
-    top: 135.6rem;
+    top: 118.7rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
   }
   .east_day .day4 h1 {
-    font-size: 19px;
+    font-size: 20.4px;
     position: absolute;
     left: 10vw;
     font-weight: 550;
@@ -2215,7 +2329,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 9.7rem;
+    top: 8.6rem;
     color: rgb(45, 45, 45);
   }
   .east_day .day4 img {
@@ -2227,9 +2341,9 @@ body {
   }
   .east_day .day5 {
     width: 87vw;
-    height: 17rem;
+    height: 15rem;
     position: absolute;
-    top: 185.5rem;
+    top: 164.5rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2237,7 +2351,7 @@ body {
   .east_day .day5 h1 {
     font-size: 20px;
     position: absolute;
-    left: 13vw;
+    left: 14vw;
     font-weight: 550;
     color: rgb(35, 34, 34);
     width: 60vw;
@@ -2261,7 +2375,7 @@ body {
     width: 87vw;
     height: 13.6rem;
     position: absolute;
-    top: 214rem;
+    top: 190rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2271,7 +2385,7 @@ body {
     position: absolute;
     left: 14vw;
     font-weight: 550;
-    width: 50vw;
+    width: 70vw;
     color: rgb(35, 34, 34);
     font-family: Georgia, "Times New Roman", Times, serif;
   }
@@ -2291,9 +2405,9 @@ body {
   }
   .east_day .day9 {
     width: 87vw;
-    height: 20.6rem;
+    height: 18rem;
     position: absolute;
-    top: 238.2rem;
+    top: 214.2rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2311,7 +2425,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 8rem;
+    top: 7rem;
     color: rgb(45, 45, 45);
   }
   .east_day .day9 img {
@@ -2323,9 +2437,9 @@ body {
   }
   .east_day .day10 {
     width: 87vw;
-    height: 16.6rem;
+    height: 14.6rem;
     position: absolute;
-    top: 269.5rem;
+    top: 243.5rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2342,7 +2456,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 7rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day .day10 img {
@@ -2354,25 +2468,25 @@ body {
   }
   .east_day_pangalane {
     position: absolute;
-    top: 473rem;
+    top: 516rem;
     left: 0rem;
   }
   .east_day_pangalane .titre_east {
-    font-size: 18px;
+    font-size: 23px;
     position: absolute;
-    left: 16.6vw;
+    left: 15.6vw;
     font-weight: 600;
     color: rgb(0, 0, 0);
-    top: -14.5rem;
+    top: -62.5rem;
     width: 80vw;
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "yeseva_oneregular";
   }
   .east_day_pangalane .anim_2 {
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     position: absolute;
-    top: -12.5rem;
+    top: -60.7rem;
     left: 5vw;
     border-radius: 4px;
     background-color: rgb(222, 167, 1);
@@ -2401,7 +2515,7 @@ body {
   }
   .east_day_pangalane .day1 {
     width: 87vw;
-    height: 26rem;
+    height: 22rem;
     position: absolute;
     top: 0rem;
     left: 6vw;
@@ -2409,7 +2523,7 @@ body {
     background-color: rgba(102, 98, 98, 0.122);
   }
   .east_day_pangalane .day1 h1 {
-    font-size: 23px;
+    font-size: 23.5px;
     position: absolute;
     left: 17vw;
     font-weight: 550;
@@ -2420,7 +2534,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 2vw;
-    top: 7rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day1 img {
@@ -2432,9 +2546,9 @@ body {
   }
   .east_day_pangalane .day2 {
     width: 87vw;
-    height: 39rem;
+    height: 36rem;
     position: absolute;
-    top: 37rem;
+    top: 32rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2442,18 +2556,18 @@ body {
   .east_day_pangalane .day2 h1 {
     font-size: 22px;
     position: absolute;
-    left: 8vw;
+    left: 75vw;
     font-weight: 550;
-    left: 7vw;
+    left: 12vw;
     color: rgb(35, 34, 34);
-    width: 60vw;
+    width: 77vw;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
   .east_day_pangalane .day2 p {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 8.6rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day2 img {
@@ -2465,9 +2579,9 @@ body {
   }
   .east_day_pangalane .day3 {
     width: 87vw;
-    height: 35rem;
+    height: 30rem;
     position: absolute;
-    top: 87rem;
+    top: 78.5rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2475,7 +2589,7 @@ body {
   .east_day_pangalane .day3 h1 {
     font-size: 23px;
     position: absolute;
-    left: 4vw;
+    left: 3.7vw;
     font-weight: 550;
     width: 80vw;
     color: rgb(35, 34, 34);
@@ -2485,7 +2599,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 2vw;
-    top: 7rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day3 img {
@@ -2497,49 +2611,50 @@ body {
   }
   .east_day_pangalane .day4 {
     width: 87vw;
-    height: 39.1rem;
+    height: 36.1rem;
     position: absolute;
-    top: 133rem;
+    top: 118.7rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
   }
   .east_day_pangalane .day4 h1 {
-    font-size: 18px;
+    font-size: 18.4px;
     position: absolute;
-    left: 12.6vw;
+    left: 5vw;
     font-weight: 550;
+    width: 80vw;
     color: rgb(35, 34, 34);
-    width: 60vw;
+    top: 1rem;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
   .east_day_pangalane .day4 p {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 10.5rem;
+    top: 9.5rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day4 img {
     width: 45px;
     height: 45px;
     position: absolute;
-    top: 1.5rem;
-    left: 1rem;
+    top: 1rem;
+    left: 0.4rem;
   }
   .east_day_pangalane .day5 {
     width: 87vw;
-    height: 44.5rem;
+    height: 41.6rem;
     position: absolute;
-    top: 184.5rem;
+    top: 164.5rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
   }
   .east_day_pangalane .day5 h1 {
-    font-size: 19px;
+    font-size: 20px;
     position: absolute;
-    left: 11vw;
+    left: 14vw;
     font-weight: 550;
     color: rgb(35, 34, 34);
     width: 60vw;
@@ -2549,7 +2664,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 7.5rem;
+    top: 7rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day5 img {
@@ -2561,9 +2676,9 @@ body {
   }
   .east_day_pangalane .day6 {
     width: 87vw;
-    height: 24.9rem;
+    height: 21.9rem;
     position: absolute;
-    top: 242rem;
+    top: 218rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
@@ -2580,7 +2695,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 10.5rem;
+    top: 9rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day6 img {
@@ -2592,17 +2707,17 @@ body {
   }
   .east_day_pangalane .day7 {
     width: 87vw;
-    height: 20rem;
+    height: 16rem;
     position: absolute;
-    top: 279rem;
+    top: 253rem;
     left: 6vw;
     border-radius: 4px;
     background-color: rgba(102, 98, 98, 0.122);
   }
   .east_day_pangalane .day7 h1 {
-    font-size: 19px;
+    font-size: 21px;
     position: absolute;
-    left: 16vw;
+    left: 18vw;
     font-weight: 550;
     color: rgb(35, 34, 34);
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -2611,7 +2726,7 @@ body {
     font-size: 18.5px;
     position: absolute;
     left: 1vw;
-    top: 7rem;
+    top: 6rem;
     color: rgb(45, 45, 45);
   }
   .east_day_pangalane .day7 img {
@@ -2623,7 +2738,7 @@ body {
   }
   footer {
     position: absolute;
-    top: 805.5rem;
+    top: 840rem;
     background-color: rgba(0, 0, 0, 0.705);
     width: 100%;
     height: 35.9rem;
@@ -2631,7 +2746,8 @@ body {
   }
   .footer_contact h1 {
     position: absolute;
-    left: -9rem;
+    left: -24vw;
+    font-family: "yeseva_oneregular";
   }
   .footer_contact {
     width: 45%;

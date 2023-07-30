@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 2880px) {
     @font-face {
         font-family: 'battoraregular';
         src: url('../../../fonts/battora-webfont.woff2') format('woff2'),
@@ -221,14 +221,18 @@
  
   }
 
-  #map1{
-    width: 80%;
-    position: relative;
-    top: 165rem;
-    z-index: 10;
-    left:10.4vw;
-    border-radius: 8px;
-    height: 48rem;
-    border: 2px solid black;
 }
+
+
+@media screen and (min-width: 280px) and (max-width: 763px) {
+       #map{
+        width: 92%;
+        position: relative;
+        top: 234rem;
+        z-index: 10;
+        left:4vw;
+        border-radius: 8px;
+        height: 35rem;
+        border: 2px solid black;
+       }
 }

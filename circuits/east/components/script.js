@@ -3,7 +3,7 @@ const button_menu=document.querySelector('.logoBurger');
 const ul_east=document.querySelector("ul");
 
 button_menu.addEventListener('click',() =>{
-    head_east.classList.toggle('hideshow_east');
+    head_east.classList.toggle('hideshow');
     ul_east.classList.toggle('hideshow2');
   })
 
