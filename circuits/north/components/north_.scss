@@ -48,6 +48,7 @@
       box-shadow: none;
     }
   }
+
 .north_day{
     position: relative;
     top: 12vw;
@@ -55,6 +56,7 @@
       h1{
         font-family: 'acmeregular';
         font-weight: 900;
+        font-size: calc(1.275rem + 1.5vw);
       }
 }
 
@@ -118,7 +120,7 @@
         #classic_h1{
             font-family: 'acmeregular';
             font-weight: 900;
-            font-size: 35px;
+            font-size: calc(1.7rem + 1.5vw);
             color: #36454f;
           }
 
