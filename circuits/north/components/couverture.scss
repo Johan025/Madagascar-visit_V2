@@ -1,18 +1,18 @@
 #couverture{
-    height: 45vh;
+    height: 35vh;
     filter: brightness(50%);
     }
 
     @media (min-width: 576px) {
         #couverture{
-            height: 50vh;
+            height: 40vh;
             filter: brightness(50%);
             }
     }
 
     @media (min-width: 992px) { 
         #couverture{
-            height: 72vh;
+            height: 64vh;
             filter: brightness(50%);
             }
      }

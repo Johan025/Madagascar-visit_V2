@@ -80,13 +80,25 @@ body {
   position: relative;
 }
 
+.active {
+  position: absolute;
+  bottom: -0.16rem;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 28px;
+  background-color: #007bff;
+}
+
 .navbar-nav .nav-link::before {
   content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 3px;
+  border-radius: 28px;
   background-color: #007bff;
   visibility: hidden;
   transform: scaleX(0);
@@ -128,7 +140,7 @@ body {
   left: 0;
 }
 #navbarNav li {
-  font-size: 19.5px;
+  font-size: 20.5px;
 }
 
 @media (min-width: 576px) {
@@ -143,32 +155,48 @@ body {
 }
 @media (min-width: 992px) {
   #navbarNav {
-    position: relative;
-    left: 22vw;
     float: right;
-    justify-content: center;
+    margin-left: 20vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbarNav li {
+    margin-left: 23px;
+  }
+  .logo {
+    width: 164px;
+    height: 64px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
   }
   .navbar-collapse {
     margin-left: 50px;
   }
 }
 #couverture {
-  height: 45vh;
+  height: 35vh;
   filter: brightness(50%);
 }
 
 @media (min-width: 576px) {
   #couverture {
-    height: 50vh;
+    height: 40vh;
     filter: brightness(50%);
   }
 }
 @media (min-width: 992px) {
   #couverture {
-    height: 72vh;
+    height: 64vh;
     filter: brightness(50%);
   }
 }
+.north_day {
+  position: relative;
+  top: 25%;
+}
+
 font-face {
   font-family: "coneria_script_demoregular";
   src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
@@ -270,8 +298,9 @@ b {
 }
 .north .desc {
   margin-top: 1rem;
-  margin-left: -3rem;
-  width: 84%;
+  position: relative;
+  left: 0vw;
+  width: 90%;
 }
 
 @media (min-width: 576px) {
@@ -281,10 +310,17 @@ b {
     margin-left: 3rem;
     font-size: 44px;
   }
-  .desc {
+}
+@media (max-width: 575px) {
+  .north {
+    position: relative;
+    top: 3rem;
+  }
+  .north .desc {
     margin-top: 1rem;
-    margin-left: 0%;
-    width: 87%;
+    position: relative;
+    left: -8vw;
+    width: 92%;
   }
 }
 @media (min-width: 992px) {

@@ -34,10 +34,13 @@ b{
 
      .desc{
          margin-top: 1rem;
-         margin-left: -3rem;
-         width: 84%;
+         position: relative;
+         left: 0vw;
+         width: 90%;
      }
 }
+
+
 @media (min-width: 576px) {
     .title_north{
         color:   rgb(209, 118, 6);
@@ -46,11 +49,22 @@ b{
         font-size: 44px;
     }
 
-    .desc{
-        margin-top: 1rem;
-        margin-left: 0%;
-        width: 87%;
+  
+}
+
+@media (max-width: 575px) {
+    .north{
+        position: relative;
+        top: 3rem;
+    
+         .desc{
+             margin-top: 1rem;
+             position: relative;
+             left: -8vw;
+             width: 92%;
+         }
     }
+    
 }
 
 @media (min-width: 992px) { 
@@ -60,6 +74,7 @@ b{
         margin-left: 3rem;
         font-size: 48px;
     }
+
  }
 
 

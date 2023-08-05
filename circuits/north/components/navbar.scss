@@ -24,13 +24,26 @@
   position: relative;
 }
 
+.active{
+  position: absolute;
+  bottom: -0.16rem;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 28px;
+  background-color: #007bff;
+
+}
+
 .navbar-nav .nav-link::before {
   content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 3px;
+  border-radius: 28px;
   background-color: #007bff;
   visibility: hidden;
   transform: scaleX(0);
@@ -74,7 +87,7 @@
   
 
      li{
-        font-size: 19.5px;
+        font-size: 20.5px;
      }
 }
 
@@ -95,11 +108,25 @@
 
 @media (min-width: 992px) { 
   #navbarNav{
-    position: relative;
-    left:22vw;
     float: right;
-    justify-content: center;
+    margin-left: 20vw;
+    justify-content: space-between;
+    align-items: center;
+
+      li{
+        margin-left: 23px;
+        
+      }
 }
+
+.logo{
+  width: 164px;
+  height: 64px;
+  left: 0.4rem;
+  position: relative;
+  z-index: 4;
+  top: 0.3rem;
+  }
 
 .navbar-collapse {
   margin-left: 50px;
