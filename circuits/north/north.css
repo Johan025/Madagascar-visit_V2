@@ -88,7 +88,7 @@ body {
   height: 3px;
   width: 100%;
   border-radius: 28px;
-  background-color: #007bff;
+  background-color: #a59016;
 }
 
 .navbar-nav .nav-link::before {
@@ -99,7 +99,7 @@ body {
   right: 0;
   height: 3px;
   border-radius: 28px;
-  background-color: #007bff;
+  background-color: #a59016;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.2s ease-in-out;
@@ -112,13 +112,13 @@ body {
 
 /* Style pour l'effet hover sur le bouton toggle */
 .navbar-toggler:hover {
-  background-color: #007bff;
+  background-color: #a59016;
 }
 
 /* Style pour l'effet hover sur les éléments du menu déroulant */
 .navbar-nav li .dropdown-menu a:hover {
   color: #fff;
-  background-color: #007bff;
+  background-color: #a59016;
 }
 
 .logo {
@@ -133,6 +133,10 @@ body {
 .logoBurger {
   position: absolute;
   left: -8rem;
+}
+
+#nav {
+  background-color: #504941;
 }
 
 #navbarNav {
@@ -182,7 +186,7 @@ body {
 
 @media (min-width: 576px) {
   #couverture {
-    height: 40vh;
+    height: 37vh;
     filter: brightness(50%);
   }
 }
@@ -192,11 +196,112 @@ body {
     filter: brightness(50%);
   }
 }
-.north_day {
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("../../..//abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acmeregular";
+  src: url("../../../acme-regular-webfont.woff2") format("woff2"), url("../../../acme-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.point {
+  width: 30px;
+  height: 30px;
   position: relative;
-  top: 25%;
+  top: 5.2rem;
+  box-shadow: 5px 15px 45px rgb(209, 118, 6);
+  left: 0.6rem;
+  border-radius: 50%;
+  background-color: rgb(209, 118, 6);
+  animation: blink 2s infinite;
 }
 
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+.north_day {
+  position: relative;
+  top: 12vw;
+}
+.north_day h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+}
+
+@media (min-width: 576px) {
+  .north_day .row {
+    margin-left: 8%;
+  }
+  .north_day .row div {
+    width: 76%;
+  }
+  .north_day .row div div {
+    background-color: rgba(156, 175, 136, 0.662745098);
+  }
+}
+@media (min-width: 992px) {
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .north_day {
+    position: relative;
+    top: 2.6rem;
+  }
+  .north_day #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .north_day .row {
+    margin-left: 6%;
+  }
+  .north_day .row div {
+    width: 57%;
+  }
+  .north_day .row div div {
+    background-color: rgba(156, 175, 136, 0.662745098);
+  }
+}
+@media (max-width: 575px) {
+  .north_day #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 35px;
+    color: #36454f;
+  }
+  .north_day .row {
+    position: relative;
+    left: 0%;
+  }
+  .north_day .row div div {
+    background-color: rgba(156, 175, 136, 0.662745098);
+  }
+}
 font-face {
   font-family: "coneria_script_demoregular";
   src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
@@ -308,7 +413,7 @@ b {
     color: rgb(209, 118, 6);
     font-family: "yeseva_oneregular";
     margin-left: 3rem;
-    font-size: 44px;
+    font-size: 38px;
   }
 }
 @media (max-width: 575px) {

@@ -1,4 +1,138 @@
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../../..//abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'acmeregular';
+  src: url('../../../acme-regular-webfont.woff2') format('woff2'),
+       url('../../../acme-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.point {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5.2rem;
+    box-shadow: 5px 15px 45px rgb(209, 118, 6);
+    left: 0.6rem;
+    border-radius: 50%;
+    background-color: rgb(209, 118, 6);
+    animation: blink 2s infinite;
+  }
+
+  @keyframes blink {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes shadow {
+    0% {
+      box-shadow: none;
+    }
+    50% {
+      box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: none;
+    }
+  }
 .north_day{
     position: relative;
-    top: 25%;
+    top: 12vw;
+
+      h1{
+        font-family: 'acmeregular';
+        font-weight: 900;
+      }
 }
+
+@media (min-width: 576px)  {
+    
+    .north_day{
+
+       
+           .row{
+                 margin-left: 8%;
+               div{
+                width: 76%;
+
+                div{
+                    background-color: #9caf88a9;
+                       }
+               }
+           }
+    }
+    
+}
+
+@media (min-width: 992px) { 
+
+    .point{
+        position: relative;
+        left: 1.2rem;
+        top: 5.5rem;
+    }
+    .north_day{
+          position: relative;
+          top: 2.6rem;
+
+        #classic_h1{
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: 47px;
+              position: relative;
+              left: 1.9rem;
+            color: #36454f;
+          }
+   
+        .row{
+              margin-left: 6%;
+
+            div{
+             width: 57%;
+            //  background-color:  #fef250,;
+               div{
+            background-color: #9caf88a9;
+               }
+            }
+        }
+ }
+ 
+}
+
+ @media (max-width: 575px) { 
+    .north_day{
+
+        #classic_h1{
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: 35px;
+            color: #36454f;
+          }
+
+        .row{
+              position: relative;
+              left: 0%;
+
+              div{
+                
+
+                div{
+                    background-color: #9caf88a9;
+                       }
+               }
+        }
+ }
+ }
