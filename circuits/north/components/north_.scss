@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+         url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
   font-family: 'acmeregular';
   src: url('../../../acme-regular-webfont.woff2') format('woff2'),
        url('../../../acme-regular-webfont.woff') format('woff');
@@ -51,7 +60,7 @@
 
 .north_day{
     position: relative;
-    top: 10vw;
+    top: 7vw;
 
       h1{
         font-family: 'acmeregular';
@@ -90,6 +99,19 @@
           position: relative;
           top: 2.6rem;
 
+
+          h3{
+            color: #7851a9;
+            position: absolute;
+            top: 2.5rem;
+            left: 6rem;
+
+            i{
+                color: #7851a9;
+              }
+          }
+
+
         #classic_h1{
             font-family: 'acmeregular';
             font-weight: 900;
@@ -116,11 +138,12 @@
 
  @media (max-width: 575px) { 
     .north_day{
-
+   position: relative;
+   top:-15vw;
           h3{
             color: #7851a9;
             position: relative;
-            top: 4.5rem;
+            top: 3.7rem;
 
             i{
                 color: #7851a9;
