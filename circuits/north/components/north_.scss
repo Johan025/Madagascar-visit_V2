@@ -51,7 +51,7 @@
 
 .north_day{
     position: relative;
-    top: 12vw;
+    top: 10vw;
 
       h1{
         font-family: 'acmeregular';
@@ -116,6 +116,18 @@
 
  @media (max-width: 575px) { 
     .north_day{
+
+          h3{
+            color: #7851a9;
+            position: relative;
+            top: 4.5rem;
+
+            i{
+                color: #7851a9;
+              }
+          }
+
+         
 
         #classic_h1{
             font-family: 'acmeregular';

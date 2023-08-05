@@ -235,7 +235,7 @@ body {
 }
 .north_day {
   position: relative;
-  top: 12vw;
+  top: 10vw;
 }
 .north_day h1 {
   font-family: "acmeregular";
@@ -283,6 +283,14 @@ body {
   }
 }
 @media (max-width: 575px) {
+  .north_day h3 {
+    color: #7851a9;
+    position: relative;
+    top: 4.5rem;
+  }
+  .north_day h3 i {
+    color: #7851a9;
+  }
   .north_day #classic_h1 {
     font-family: "acmeregular";
     font-weight: 900;
