@@ -1,17 +1,21 @@
-.couvertureNord img{
-    position :absolute;
-    top: 19rem;
-    left: 2vw;
-    width: 60vw;
-    height: 52rem;
-    border-radius: 6px;
+#couverture{
+    height: 45vh;
+    filter: brightness(50%);
     }
+
+    @media (min-width: 576px) {
+        #couverture{
+            height: 50vh;
+            filter: brightness(50%);
+            }
+    }
+
+    @media (min-width: 992px) { 
+        #couverture{
+            height: 72vh;
+            filter: brightness(50%);
+            }
+     }
     
-    .couvertureNord-responsive img{
-        display: none;
-        position :absolute;
-       top: 0rem;
-       width: 100%;
-       height: 100vh;
-    }
+   
     

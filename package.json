@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "compile": "node-sass circuits/east/east.scss circuits/east/east.css",
-    "watch": "sass -w circuits/east/east.scss circuits/east/east.css"
+    "watch": "sass -w circuits/north/north.scss circuits/north/north.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "boostrap": "^2.0.0",
     "node-sass": "^9.0.0",
     "sass": "^1.63.2"
   }

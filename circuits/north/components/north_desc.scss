@@ -14,81 +14,53 @@ font-face {
     font-style: normal;
 
 }
+@import './../../../settings.scss';
 
 b{
     color: rgb(62, 56, 56);
 }
 
 .title_north{
-    color: rgb(0, 34, 96);
-    @include h(37px, 9.5rem, 5rem, 800, 69vw);
+    color:   rgb(209, 118, 6);
     font-family: 'yeseva_oneregular';
+    margin-left: 3%;
+    font-size: 37.5px;
 }
 
-.north .desc{
-    position: absolute;
-    width: 55vw;
-    top: 75rem;
-    left: 8rem;
-    font-size: 20px;
-    color: rgb(93, 93, 97);
+
+.north{
+    position: relative;
+    top: 3rem;
+
+     .desc{
+         margin-top: 1rem;
+         margin-left: -3rem;
+         width: 84%;
+     }
 }
-
-.detailTour{
-
-    h1{
-    color: rgb(212, 139, 3);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    @include h(38px, 21rem,73vw, bold, 20vw);
+@media (min-width: 576px) {
+    .title_north{
+        color:   rgb(209, 118, 6);
+        font-family: 'yeseva_oneregular';
+        margin-left: 3rem;
+        font-size: 44px;
     }
 
-    .details{
-         border-radius: 6px;
-         box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
-         background-color: rgb(223, 220, 215);
-         border: 1.5px solid rgb(212, 139, 3);
-         @include div-right(20rem, 32vw, 2vw, 33rem);
-
-             .days{
-                  position: absolute;
-                  top: -18rem;
-                  left: -65vw;
-                    img{
-                        width: 52px;
-                        height: 52px; 
-                        position: absolute;
-                       left: 67vw;
-                       top: 22rem;
-                    }  
-
-                    h1{
-                       font-size: 24px;
-                       color: rgb(67, 66, 66);
-                       position: absolute;
-                       left:71vw;
-                    }
-             }
-
-             .localisation{
-                 position: absolute;
-                 top: 7rem;
-                 left: 0vw;
-                   img{
-                     width: 52px;
-                     height: 52px; 
-                     position: absolute;
-                    left: 67vw;
-                    top: 22rem;
-                   }  
-
-                   h1{
-                      font-size: 22px;
-                      position: absolute;
-                      left:71vw;
-                     width: 27vw;
-                      color: rgb(67, 66, 66);
-                   }
-            }
+    .desc{
+        margin-top: 1rem;
+        margin-left: 0%;
+        width: 87%;
     }
 }
+
+@media (min-width: 992px) { 
+    .title_north{
+        color:   rgb(209, 118, 6);
+        font-family: 'yeseva_oneregular';
+        margin-left: 3rem;
+        font-size: 48px;
+    }
+ }
+
+
 
