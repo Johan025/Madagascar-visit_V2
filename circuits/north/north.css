@@ -222,6 +222,11 @@ body {
     width: 90%;
     font-family: "acmeregular";
   }
+  .couv #couverture {
+    height: 41vh;
+    position: relative;
+    filter: brightness(70%);
+  }
   .couv h3 {
     font-family: "acmeregular";
     font-weight: 900;
@@ -357,7 +362,7 @@ body {
 @media (max-width: 575px) {
   .north_day {
     position: relative;
-    top: -5vw;
+    top: -7vw;
   }
   .north_day h3 {
     color: #7851a9;
@@ -384,7 +389,7 @@ body {
     color: rgb(209, 118, 6);
     font-family: "abril_fatfaceregular";
     font-weight: bold;
-    font-size: calc(1.4rem + 1.7vw);
+    font-size: calc(1.19rem + 1.7vw);
   }
   .north_day .row div div h2 i {
     color: rgb(209, 118, 6);
@@ -504,7 +509,7 @@ b {
 @media (max-width: 575px) {
   .north {
     position: relative;
-    top: -2rem;
+    top: -3.4rem;
   }
   .north .desc {
     margin-top: 1rem;
