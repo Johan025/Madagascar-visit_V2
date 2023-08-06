@@ -509,7 +509,7 @@ b {
 @media (max-width: 575px) {
   .north {
     position: relative;
-    top: -3.4rem;
+    top: -4rem;
   }
   .north .desc {
     margin-top: 1rem;
