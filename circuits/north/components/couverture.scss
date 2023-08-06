@@ -1,5 +1,5 @@
-.couv{
-    h1{
+.couv {
+    h1 {
         font-family: 'acmeregular';
         font-weight: 900;
         font-size: calc(1.600rem + 1.5vw);
@@ -10,7 +10,7 @@
         font-family: 'acmeregular';
     }
 
-    h3{
+    h3 {
         font-family: 'acmeregular';
         font-weight: 900;
         font-size: calc(1.120rem + 1.2vw);
@@ -22,61 +22,58 @@
         width: 50%;
     }
 
-#couverture{
-    position: relative;
-    filter: brightness(70%);
+    #couverture {
+        position: relative;
+        filter: brightness(70%);
     }
 }
 
-    @media (min-width: 576px) {
-        #couverture{
-            height: 30vh;
-            filter: brightness(50%);
-            }
+@media (min-width: 576px) {
+    #couverture {
+        height: 30vh;
+        filter: brightness(50%);
+    }
+}
+
+@media (min-width: 992px) {
+    #couverture {
+        height: 54vh;
+        filter: brightness(50%);
+    }
+}
+
+@media (max-width: 575px) {
+    .couv {
+        h1 {
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: calc(1.600rem + 1.5vw);
+            position: relative;
+            top: -31vh;
+            left: 5vw;
+            width: 90%;
+            font-family: 'acmeregular';
+        }
+
+        #couverture {
+            height: 41vh;
+            position: relative;
+            filter: brightness(70%);
+        }
+
+
+        h3 {
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: calc(1.120rem + 1.2vw);
+            position: relative;
+            color: rgb(177, 165, 1);
+            top: -33vh;
+            font-family: 'coneria_script_demoregular';
+            left: 24vw;
+            width: 50%;
+        }
+
     }
 
-    @media (min-width: 992px) { 
-        #couverture{
-            height: 54vh;
-            filter: brightness(50%);
-            }
-     }
-
-     @media (max-width: 575px) { 
-        .couv{
-            h1{
-                font-family: 'acmeregular';
-                font-weight: 900;
-                font-size: calc(1.600rem + 1.5vw);
-                position: relative;
-                top: -31vh;
-                left: 5vw;
-                width: 90%;
-                font-family: 'acmeregular';
-            }
-
-            #couverture{
-                height: 41vh;
-                position: relative;
-                filter: brightness(70%);
-                }
-            
-        
-            h3{
-                font-family: 'acmeregular';
-                font-weight: 900;
-                font-size: calc(1.120rem + 1.2vw);
-                position: relative;
-                color: rgb(177, 165, 1);
-                top: -33vh;
-                font-family: 'coneria_script_demoregular';
-                left: 24vw;
-                width: 50%;
-            }
-        
-        }
-        
-     }
-    
-   
-    
+}

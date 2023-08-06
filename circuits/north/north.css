@@ -744,5 +744,167 @@ b {
     font-size: calc(0.95rem + 0.95vw);
   }
 }
+.nosy-Be {
+  position: relative;
+  top: 7vw;
+}
+.nosy-Be h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: calc(1.275rem + 1.5vw);
+}
+
+#carouselExampleControl2 {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControl2 #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControl2 #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
+@media (min-width: 576px) {
+  .nosy-Be .row {
+    margin-left: 8%;
+  }
+  .nosy-Be .row div {
+    width: 76%;
+  }
+  .nosy-Be .row div div {
+    background-color: rgba(156, 175, 136, 0.662745098);
+  }
+}
+@media (min-width: 992px) {
+  #carouselExampleControl2 {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControl2 #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl2 #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .nosy-Be {
+    position: relative;
+    top: 12.6rem;
+  }
+  .nosy-Be h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem;
+    font-weight: 800;
+  }
+  .nosy-Be h3 i {
+    color: #7851a9;
+  }
+  .nosy-Be #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .nosy-Be .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .nosy-Be .row div {
+    width: 57%;
+  }
+  .nosy-Be .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .nosy-Be .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .nosy-Be .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .nosy-Be .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
+  }
+}
+@media (max-width: 575px) {
+  #carouselExampleControl2 {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControl2 #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl2 #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .nosy-Be {
+    position: relative;
+    top: 55vw;
+  }
+  .nosy-Be h3 {
+    color: #7851a9;
+    position: relative;
+    top: 3.7rem;
+    font-weight: 800;
+  }
+  .nosy-Be h3 i {
+    color: #7851a9;
+  }
+  .nosy-Be #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.7rem + 1.5vw);
+    color: #36454f;
+  }
+  .nosy-Be .row {
+    position: relative;
+    left: 0%;
+    top: 5rem;
+  }
+  .nosy-Be .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .nosy-Be .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.19rem + 1.7vw);
+  }
+  .nosy-Be .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .nosy-Be .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
+  }
+}
 
 /*# sourceMappingURL=north.css.map */
