@@ -298,6 +298,22 @@ body {
   font-size: calc(1.275rem + 1.5vw);
 }
 
+#carouselExampleControls {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
 @media (min-width: 576px) {
   .north_day .row {
     margin-left: 8%;
@@ -310,6 +326,22 @@ body {
   }
 }
 @media (min-width: 992px) {
+  #carouselExampleControls {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
   .point {
     position: relative;
     left: 1.2rem;
@@ -339,6 +371,7 @@ body {
   }
   .north_day .row {
     margin-left: 6%;
+    margin-top: 5rem;
   }
   .north_day .row div {
     width: 57%;
@@ -360,6 +393,23 @@ body {
   }
 }
 @media (max-width: 575px) {
+  #carouselExampleControls {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControls #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
   .north_day {
     position: relative;
     top: -7vw;
@@ -368,6 +418,7 @@ body {
     color: #7851a9;
     position: relative;
     top: 3.7rem;
+    font-weight: 800;
   }
   .north_day h3 i {
     color: #7851a9;
@@ -381,6 +432,7 @@ body {
   .north_day .row {
     position: relative;
     left: 0%;
+    top: 5rem;
   }
   .north_day .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
