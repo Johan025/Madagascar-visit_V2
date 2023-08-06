@@ -195,7 +195,6 @@ body {
   width: 50%;
 }
 .couv #couverture {
-  height: 47vh;
   position: relative;
   filter: brightness(70%);
 }
@@ -208,7 +207,7 @@ body {
 }
 @media (min-width: 992px) {
   #couverture {
-    height: 67vh;
+    height: 54vh;
     filter: brightness(50%);
   }
 }
@@ -320,6 +319,7 @@ body {
     position: absolute;
     top: 2.5rem;
     left: 6rem;
+    font-weight: 800;
   }
   .north_day h3 i {
     color: #7851a9;
@@ -339,13 +339,25 @@ body {
     width: 57%;
   }
   .north_day .row div div {
-    background-color: rgba(156, 175, 136, 0.662745098);
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .north_day .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .north_day .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .north_day .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
   }
 }
 @media (max-width: 575px) {
   .north_day {
     position: relative;
-    top: -15vw;
+    top: -5vw;
   }
   .north_day h3 {
     color: #7851a9;
@@ -366,7 +378,19 @@ body {
     left: 0%;
   }
   .north_day .row div div {
-    background-color: rgba(156, 175, 136, 0.662745098);
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .north_day .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.4rem + 1.7vw);
+  }
+  .north_day .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .north_day .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
   }
 }
 font-face {
@@ -480,7 +504,7 @@ b {
 @media (max-width: 575px) {
   .north {
     position: relative;
-    top: -5rem;
+    top: -2rem;
   }
   .north .desc {
     margin-top: 1rem;

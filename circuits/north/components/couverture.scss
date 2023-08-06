@@ -23,7 +23,6 @@
     }
 
 #couverture{
-    height: 47vh;
     position: relative;
     filter: brightness(70%);
     }
@@ -38,7 +37,7 @@
 
     @media (min-width: 992px) { 
         #couverture{
-            height: 67vh;
+            height: 54vh;
             filter: brightness(50%);
             }
      }

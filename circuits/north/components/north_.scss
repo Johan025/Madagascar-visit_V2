@@ -25,6 +25,8 @@
 
 }
 
+
+
 .point {
     width: 30px;
     height: 30px;
@@ -105,6 +107,7 @@
             position: absolute;
             top: 2.5rem;
             left: 6rem;
+            font-weight: 800;
 
             i{
                 color: #7851a9;
@@ -128,7 +131,26 @@
              width: 57%;
             //  background-color:  #fef250,;
                div{
-            background-color: #9caf88a9;
+            background-color: #a5a5a554;
+                
+                h2{
+                  color: rgb(209, 118, 6);
+                  font-family: 'abril_fatfaceregular';
+                  font-weight: bold;
+                  font-size: calc(0.6rem + 1.7vw);
+      
+                  i{
+                    color: rgb(209, 118, 6);
+                    }
+
+                }
+
+                p{
+                  font-size: calc(0.5rem + 0.95vw);
+                // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+  
+  
                }
             }
         }
@@ -139,7 +161,7 @@
  @media (max-width: 575px) { 
     .north_day{
    position: relative;
-   top:-15vw;
+   top:-5vw;
           h3{
             color: #7851a9;
             position: relative;
@@ -167,8 +189,30 @@
                 
 
                 div{
-                    background-color: #9caf88a9;
+                       
+                       background-color: #a5a5a554;
+                           
+                           h2{
+                             color: rgb(209, 118, 6);
+                             font-family: 'abril_fatfaceregular';
+                             font-weight: bold;
+                             font-size: calc(1.4rem + 1.7vw);
+                 
+                             i{
+                               color: rgb(209, 118, 6);
+                               }
+           
+                           }
+           
+                           p{
+                             font-size: calc(0.95rem + 0.95vw);
+                           // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                           
+             
+             
+                          
                        }
+                      }
                }
         }
  }
