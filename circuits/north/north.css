@@ -195,7 +195,7 @@ body {
   width: 50%;
 }
 .couv #couverture {
-  height: 54vh;
+  height: 47vh;
   position: relative;
   filter: brightness(70%);
 }
@@ -249,7 +249,7 @@ body {
 }
 @font-face {
   font-family: "acmeregular";
-  src: url("../../../acme-regular-webfont.woff2") format("woff2"), url("../../../acme-regular-webfont.woff") format("woff");
+  src: url("../../../fonts/acme-regular-webfont.woff2") format("woff2"), url("../../../fonts/") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -452,10 +452,10 @@ b {
 }
 
 .title_north {
-  color: rgb(209, 118, 6);
-  font-family: "yeseva_oneregular";
   margin-left: 3%;
   font-size: calc(1.875rem + 1.5vw);
+  font-family: "acmeregular";
+  font-weight: bold;
 }
 
 .north {
@@ -472,8 +472,8 @@ b {
 @media (min-width: 576px) {
   .title_north {
     color: rgb(209, 118, 6);
-    font-family: "yeseva_oneregular";
     margin-left: 3rem;
+    font-family: "acmeregular";
     font-size: 38px;
   }
 }
@@ -487,18 +487,16 @@ b {
     position: relative;
     left: -8vw;
     width: 92%;
-    font-size: calc(1.275rem + 1.5vw);
+    font-size: calc(1.05rem + 1.5vw);
   }
   .title_north {
     color: rgb(209, 118, 6);
-    font-family: "yeseva_oneregular";
-    font-size: calc(1.695rem + 1.5vw);
+    font-size: calc(2.05rem + 1.5vw);
   }
 }
 @media (min-width: 992px) {
   .title_north {
     color: rgb(209, 118, 6);
-    font-family: "yeseva_oneregular";
     margin-left: 3rem;
     font-size: calc(1.875rem + 1.5vw);
   }

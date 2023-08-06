@@ -22,10 +22,10 @@ b{
 
 
 .title_north{
-    color:   rgb(209, 118, 6);
-    font-family: 'yeseva_oneregular';
     margin-left: 3%;
     font-size: calc(1.875rem + 1.5vw);
+    font-family: 'acmeregular';
+    font-weight: bold;
 }
 
 
@@ -45,8 +45,8 @@ b{
 @media (min-width: 576px) {
     .title_north{
         color:   rgb(209, 118, 6);
-        font-family: 'yeseva_oneregular';
         margin-left: 3rem;
+        font-family: 'acmeregular';
         font-size: 38px;
     }
 
@@ -63,14 +63,13 @@ b{
              position: relative;
              left: -8vw;
              width: 92%;
-             font-size: calc(1.275rem + 1.5vw);
+             font-size: calc(1.05rem + 1.5vw);
          }
     }
 
     .title_north{
         color:   rgb(209, 118, 6);
-        font-family: 'yeseva_oneregular';
-        font-size: calc(1.695rem + 1.5vw);
+        font-size: calc(2.05rem + 1.5vw);
     }
     
 }
@@ -78,7 +77,6 @@ b{
 @media (min-width: 992px) { 
     .title_north{
         color:   rgb(209, 118, 6);
-        font-family: 'yeseva_oneregular';
         margin-left: 3rem;
         font-size: calc(1.875rem + 1.5vw);
     }
