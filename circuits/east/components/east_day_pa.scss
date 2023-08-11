@@ -1,238 +1,299 @@
-@media screen and (min-width: 1024px) and (max-width: 2880px) {
-    @font-face {
-        font-family: 'battoraregular';
-        src: url('../../../fonts/battora-webfont.woff2') format('woff2'),
-             url('../../../fonts/battora-webfont\ .woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    
-    }
-    @font-face {
-        font-family: 'unnabold';
-        src: url('../../../fonts/unna-bold-webfont.woff2') format('woff2'),
-             url('../../../fonts/unna-bold-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      
-      }
-
-    .east_day_pangalane{
+.east_day_pang{
     position: relative;
-    top: 407.4rem;
-    left: 0rem;
+    top: 7vw;
 
-    .titre_east{
-        @include h1(30px, 600, 10vw);
-        color: rgb(0, 0, 0);
-        top: -67.5rem;
-        width: 60vw;
-        position: absolute;
-        font-family:  'yeseva_oneregular';
-      }
-
-      .anim_2{
-        @include div(37px, 37px, 5vw, -65.5rem,rgb(222, 167, 1) );
-          border-radius: 0;
-          animation: rotate 5s linear infinite;
-     }
-
-      @keyframes rotate2 {
-        0%{
-              transform: rotate(155deg);
-        }
-    
-        20%{
-            transform: rotate(205deg);
-        }
-    
-        40%{
-            transform: rotate(255deg);
-        }
-    
-        60%{
-            transform: rotate(305deg);
-        }
-    
-        80%{
-            transform: rotate(355deg);
-        }
-    
-        100%{
-            transform: rotate(405deg);
-        }
-      }
-    
-
-
-      .anim_1{
-        @include div(37px, 37px, 5vw, -12.5rem,rgb(222, 167, 1) );
-          border-radius: 0;
-          animation: rotate2 5s linear infinite;
-     }  
-    .day1{
-        @include div(60vw, 17rem, 6vw, 0rem, rgba(102, 98, 98, 0.122));
-
-    h1{
-        @include h1(27px, 550, 6rem);
-        color: $color-2;
-        font-family: Georgia, 'Times New Roman', Times, serif
+    h1 {
+        font-family: 'acmeregular';
+        font-weight: 900;
+        font-size: calc(1.275rem + 1.5vw);
     }
-     p{
-        @include p( 18.5px, 4rem ,  7rem);
-     }
+}
 
-     img{
-         width: 45px;
-         height: 45px;
-         position: absolute;
-         top: 1.5rem;
-     }
-    }
-    
-    .day2{
-        @include div(60vw, 22rem, 6vw, 26rem, rgba(102, 98, 98, 0.122));
+#carouselExampleControl{
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
 
-        h1{
-            @include h1(27px, 550, 6rem);
-            color: $color-2;
-            font-family: Georgia, 'Times New Roman', Times, serif
+    #inner {
+        height: 73vh;
+        width: 100%;
+        border-radius: 18px;
+
+        img {
+            height: 73vh;
+            width: 58%;
+            border-radius: 18px;
         }
-         p{
-            @include p( 18.5px, 4rem ,  7rem);
-         }
-    
-         img{
-             width: 45px;
-             height: 45px;
-             position: absolute;
-             top: 1.5rem;
-         }
     }
-    
-    .day3{
-        @include div(60vw, 20rem, 6vw, 58rem, rgba(102, 98, 98, 0.122));
+}
 
-        h1{
-            @include h1(27px, 550, 6rem);
-            color: $color-2;
-            font-family: Georgia, 'Times New Roman', Times, serif
-        }
-         p{
-            @include p( 18.5px, 4rem ,  7rem);
-         }
-    
-         img{
-             width: 45px;
-             height: 45px;
-             position: absolute;
-             top: 1.5rem;
-         }
-    }
-    
-    
-    .day4{
-        @include div(60vw, 23.3rem, 6vw, 87.6rem, rgba(102, 98, 98, 0.122));
+@media (min-width: 576px) {
 
-    h1{
-        @include h1(25px, 550, 6rem);
-        color: $color-2;
-        font-family: Georgia, 'Times New Roman', Times, serif
-    }
-     p{
-        @include p( 18.5px, 4rem ,  8.4rem);
-     }
-
-     img{
-         width: 45px;
-         height: 45px;
-         position: absolute;
-         top: 1.5rem;
-     }
-    }
-    
-    .day5{
-        @include div(60vw, 24.9rem, 6vw, 120.5rem, rgba(102, 98, 98, 0.122));
-        h1{
-            @include h1(27px, 550, 6rem);
-            color: $color-2;
-            font-family: Georgia, 'Times New Roman', Times, serif
-        }
-         p{
-            @include p( 18.5px, 4rem ,  7rem);
-         }
-    
-         img{
-             width: 45px;
-             height: 45px;
-             position: absolute;
-             top: 1.5rem;
-         }
-    }
-    
-    .day6{
-        @include div(60vw, 19.1rem, 6vw, 155.8rem, rgba(102, 98, 98, 0.122));
-        h1{
-            @include h1(27px, 550, 6rem);
-            color: $color-2;
-            font-family: Georgia, 'Times New Roman', Times, serif
-        }
-         p{
-            @include p( 18.5px, 4rem ,  9rem);
-         }
-    
-         img{
-             width: 45px;
-             height: 45px;
-             position: absolute;
-             top: 1.5rem;
-         }
-    }
-    
-    .day7{
-        @include div(60vw, 17.1rem, 6vw, 185.7rem, rgba(102, 98, 98, 0.122));
-        h1{
-            @include h1(27px, 550, 6rem);
-            color: $color-2;
-            font-family: Georgia, 'Times New Roman', Times, serif
-        }
-         p{
-            @include p( 18.5px, 4rem ,  7rem);
-         }
-    
-         img{
-             width: 45px;
-             height: 45px;
-             position: absolute;
-             top: 1.5rem;
-         }
-
-    }
-    
-    #map{
-        width: 80%;
+    .point {
         position: relative;
-        top: 165rem;
-        z-index: 10;
-        left:10vw;
-        border-radius: 8px;
-        height: 53rem;
-        border: 2px solid black;
+        margin-left: -13rem;
+        top: 5.5rem;
+      }
+
+      #carouselExampleControl {
+        width: 80%;
+        height: 40vh;
+        border-radius: 18px;
+        margin-left: 9.7%;
+
+        #inner {
+            height: 40vh;
+            width: 100%;
+            border-radius: 18px;
+
+            img {
+                height: 40vh;
+                width: 58%;
+                border-radius: 18px;
+            }
+        }
     }
- 
-  }
+
+    h3 {
+        color: #7851a9;
+        position: absolute;
+        top: 2.5rem;
+        left: 35%;
+        font-weight: bold;
+  
+        i {
+          color: #7851a9;
+        }
+      }
+  
+  
+      #classic_h1 {
+        font-family: 'acmeregular';
+        font-weight: 900;
+        font-size: 40px;
+        position: relative;
+        
+        color: #36454f;
+      }
+  
+
+    .east_day_pang{
+            position: relative;
+            top: 10rem;
+
+        .row {
+            margin-left: 6%;
+            margin-top: 5rem;
+      
+            div {
+              width: 92%;
+      
+              //  background-color:  #fef250,;
+              div {
+                background-color: #a5a5a554;
+                padding: 0;
+      
+                h2 {
+                  color: rgb(209, 118, 6);
+                  font-family: 'abril_fatfaceregular';
+                  font-weight: bold;
+                  font-size: calc(1.1rem + 1.7vw);
+      
+                  i {
+                    color: rgb(209, 118, 6);
+                  }
+      
+                }
+      
+                p {
+                  font-size: calc(0.6rem + 0.95vw);
+                  // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+      
+      
+              }
+            }
+          }
+    }
 
 }
 
+@media (min-width: 992px) {
 
-@media screen and (min-width: 280px) and (max-width: 763px) {
-       #map{
-        width: 92%;
+    .point{
         position: relative;
-        top: 234rem;
-        z-index: 10;
-        left:4vw;
-        border-radius: 8px;
-        height: 35rem;
-        border: 2px solid black;
-       }
+        margin-left: 0%;
+        top: 5.5rem;
+      }
+
+    #carouselExampleControl {
+        width: 58%;
+        height: 73vh;
+        border-radius: 18px;
+        margin-left: 20.7%;
+
+        #inner {
+            height: 73vh;
+            width: 100%;
+            border-radius: 18px;
+
+            img {
+                height: 73vh;
+                width: 58%;
+                border-radius: 18px;
+            }
+        }
+    }
+
+    .point {
+        position: relative;
+        left: 1.2rem;
+        top: 5.5rem;
+    }
+
+    .east_day_pang {
+        position: relative;
+        top: 11.6rem;
+
+
+        h3 {
+            color: #7851a9;
+            position: absolute;
+            top: 2.5rem;
+            left: 6rem;
+            font-weight: 800;
+
+            i {
+                color: #7851a9;
+            }
+        }
+
+
+        #classic_h1 {
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: 47px;
+            position: relative;
+            left: 1.9rem;
+            color: #36454f;
+        }
+
+        .row {
+            margin-left: 6%;
+            margin-top: 5rem;
+
+            div {
+                width: 57%;
+
+                //  background-color:  #fef250,;
+                div {
+                    background-color: #a5a5a554;
+
+                    h2 {
+                        color: rgb(209, 118, 6);
+                        font-family: 'abril_fatfaceregular';
+                        font-weight: bold;
+                        font-size: calc(0.6rem + 1.7vw);
+
+                        i {
+                            color: rgb(209, 118, 6);
+                        }
+
+                    }
+
+                    p {
+                        font-size: calc(0.5rem + 0.95vw);
+                        // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+
+
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    #carouselExampleControl {
+        width: 95%;
+        height: 50vh;
+        border-radius: 18px;
+        text-align: center;
+        margin-left: 2.4vw;
+
+        #inner {
+            height: 50vh;
+            width: 100%;
+            border-radius: 18px;
+
+            img {
+                height: 50vh;
+                width: 58%;
+                border-radius: 18px;
+            }
+        }
+    }
+
+    .east_day_pang {
+        position: relative;
+        top: 18vw;
+
+        h3 {
+            color: #7851a9;
+            position: relative;
+            top: 3.7rem;
+            font-weight: 800;
+
+            i {
+                color: #7851a9;
+            }
+        }
+
+
+
+        #classic_h1 {
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: calc(1.7rem + 1.5vw);
+            color: #36454f;
+        }
+
+        .row {
+            position: relative;
+            left: 0%;
+            top: 5rem;
+
+            div {
+
+
+                div {
+
+                    background-color: #a5a5a554;
+
+                    h2 {
+                        color: rgb(209, 118, 6);
+                        font-family: 'abril_fatfaceregular';
+                        font-weight: bold;
+                        font-size: calc(1.19rem + 1.7vw);
+
+                        i {
+                            color: rgb(209, 118, 6);
+                        }
+
+                    }
+
+                    p {
+                        font-size: calc(0.95rem + 0.95vw);
+                        // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+
+                    }
+                }
+            }
+        }
+    }
 }

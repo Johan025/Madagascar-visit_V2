@@ -578,7 +578,7 @@ b {
     font-family: "acmeregular";
     font-size: 38px;
   }
-  .border_ {
+  .borde {
     margin-left: 7.3%;
   }
   .north {
@@ -624,6 +624,732 @@ b {
   .north .desc {
     left: 0vw;
     width: 90%;
+  }
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("../../..//abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acmeregular";
+  src: url("../../../fonts/acme-regular-webfont.woff2") format("woff2"), url("../../../fonts/") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.point {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5.2rem;
+  box-shadow: 5px 15px 45px rgb(209, 118, 6);
+  left: 0.6rem;
+  border-radius: 50%;
+  background-color: rgb(209, 118, 6);
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+.east_day {
+  position: relative;
+  top: 7vw;
+}
+.east_day h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: calc(1.275rem + 1.5vw);
+}
+
+#carouselExampleControls {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
+@media (min-width: 576px) {
+  #carouselExampleControls {
+    width: 82%;
+    height: 40vh;
+    border-radius: 18px;
+    margin-left: 9.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 40vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 40vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  #point {
+    position: relative;
+    margin-left: -23rem;
+    top: 5.5rem;
+  }
+  .east_day {
+    position: relative;
+    top: 2.6rem;
+  }
+  h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    font-weight: bold;
+  }
+  h3 i {
+    color: #7851a9;
+  }
+  #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    color: #36454f;
+  }
+  .east_day .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .east_day .row div {
+    width: 91%;
+  }
+  .east_day .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .east_day .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.1rem + 1.7vw);
+  }
+  .east_day .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .east_day .row div div p {
+    font-size: calc(0.6rem + 0.95vw);
+  }
+}
+@media (min-width: 992px) {
+  .point {
+    top: 5.2rem;
+    left: 0.3rem;
+  }
+  #point {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+  #carouselExampleControls {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .east_day {
+    position: relative;
+    top: 2.6rem;
+  }
+  .east_day h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem;
+    font-weight: 800;
+  }
+  .east_day h3 i {
+    color: #7851a9;
+  }
+  .east_day #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .east_day .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .east_day .row div {
+    width: 57%;
+  }
+  .east_day .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .east_day .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .east_day .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .east_day .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
+  }
+}
+@media (max-width: 575px) {
+  #carouselExampleControls {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControls #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .east_day {
+    position: relative;
+    top: -7vw;
+  }
+  .east_day h3 {
+    color: #7851a9;
+    position: relative;
+    top: 3.7rem;
+    font-weight: 800;
+  }
+  .east_day h3 i {
+    color: #7851a9;
+  }
+  .east_day #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.7rem + 1.5vw);
+    color: #36454f;
+  }
+  .east_day .row {
+    position: relative;
+    left: 0%;
+    top: 5rem;
+  }
+  .east_day .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .east_day .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.19rem + 1.7vw);
+  }
+  .east_day .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .east_day .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
+  }
+}
+.east_day_pang {
+  position: relative;
+  top: 7vw;
+}
+.east_day_pang h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: calc(1.275rem + 1.5vw);
+}
+
+#carouselExampleControl {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControl #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControl #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
+@media (min-width: 576px) {
+  .point {
+    position: relative;
+    margin-left: -13rem;
+    top: 5.5rem;
+  }
+  #carouselExampleControl {
+    width: 80%;
+    height: 40vh;
+    border-radius: 18px;
+    margin-left: 9.7%;
+  }
+  #carouselExampleControl #inner {
+    height: 40vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl #inner img {
+    height: 40vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    font-weight: bold;
+  }
+  h3 i {
+    color: #7851a9;
+  }
+  #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    color: #36454f;
+  }
+  .east_day_pang {
+    position: relative;
+    top: 10rem;
+  }
+  .east_day_pang .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .east_day_pang .row div {
+    width: 92%;
+  }
+  .east_day_pang .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .east_day_pang .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.1rem + 1.7vw);
+  }
+  .east_day_pang .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .east_day_pang .row div div p {
+    font-size: calc(0.6rem + 0.95vw);
+  }
+}
+@media (min-width: 992px) {
+  .point {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+  #carouselExampleControl {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControl #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .east_day_pang {
+    position: relative;
+    top: 11.6rem;
+  }
+  .east_day_pang h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem;
+    font-weight: 800;
+  }
+  .east_day_pang h3 i {
+    color: #7851a9;
+  }
+  .east_day_pang #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .east_day_pang .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .east_day_pang .row div {
+    width: 57%;
+  }
+  .east_day_pang .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .east_day_pang .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .east_day_pang .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .east_day_pang .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
+  }
+}
+@media (max-width: 575px) {
+  #carouselExampleControl {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControl #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .east_day_pang {
+    position: relative;
+    top: 18vw;
+  }
+  .east_day_pang h3 {
+    color: #7851a9;
+    position: relative;
+    top: 3.7rem;
+    font-weight: 800;
+  }
+  .east_day_pang h3 i {
+    color: #7851a9;
+  }
+  .east_day_pang #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.7rem + 1.5vw);
+    color: #36454f;
+  }
+  .east_day_pang .row {
+    position: relative;
+    left: 0%;
+    top: 5rem;
+  }
+  .east_day_pang .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .east_day_pang .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.19rem + 1.7vw);
+  }
+  .east_day_pang .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .east_day_pang .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
+  }
+}
+.sainte-marie {
+  position: relative;
+  top: 7vw;
+}
+.sainte-marie h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: calc(1.275rem + 1.5vw);
+}
+
+#carouselExampleControl2 {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControl2 #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControl2 #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
+@media (min-width: 576px) {
+  #point3 {
+    margin-left: -25%;
+  }
+  #carouselExampleControl2 {
+    width: 82%;
+    height: 40vh;
+    border-radius: 18px;
+    margin-left: 9.7%;
+  }
+  #carouselExampleControl2 #inner {
+    height: 40vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl2 #inner img {
+    height: 40vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    font-weight: bold;
+  }
+  h3 i {
+    color: #7851a9;
+  }
+  #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    color: #36454f;
+  }
+  .sainte-marie {
+    position: relative;
+    top: 14rem;
+  }
+  .sainte-marie .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .sainte-marie .row div {
+    width: 91.4%;
+  }
+  .sainte-marie .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .sainte-marie .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.1rem + 1.7vw);
+  }
+  .sainte-marie .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .sainte-marie .row div div p {
+    font-size: calc(0.6rem + 0.95vw);
+  }
+}
+@media (min-width: 992px) {
+  #point3 {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+  .point {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+  #carouselExampleControl2 {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControl2 #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl2 #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .sainte-marie {
+    position: relative;
+    top: 17.6rem;
+  }
+  .sainte-marie h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem;
+    font-weight: 800;
+  }
+  .sainte-marie h3 i {
+    color: #7851a9;
+  }
+  .sainte-marie #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .sainte-marie .row {
+    margin-left: 15%;
+    margin-top: 5rem;
+  }
+  .sainte-marie .row div {
+    width: 75%;
+  }
+  .sainte-marie .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .sainte-marie .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .sainte-marie .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .sainte-marie .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
+  }
+}
+@media (max-width: 575px) {
+  #carouselExampleControl2 {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControl2 #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControl2 #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .sainte-marie {
+    position: relative;
+    top: 55vw;
+  }
+  .sainte-marie h3 {
+    color: #7851a9;
+    position: relative;
+    top: 3.7rem;
+    font-weight: 800;
+  }
+  .sainte-marie h3 i {
+    color: #7851a9;
+  }
+  .sainte-marie #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.7rem + 1.5vw);
+    color: #36454f;
+  }
+  .sainte-marie .row {
+    position: relative;
+    left: 0%;
+    top: 5rem;
+  }
+  .sainte-marie .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .sainte-marie .row div div h2 {
+    color: rgb(209, 118, 6);
+    font-family: "abril_fatfaceregular";
+    font-weight: bold;
+    font-size: calc(1.19rem + 1.7vw);
+  }
+  .sainte-marie .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .sainte-marie .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
   }
 }
 
