@@ -97,10 +97,28 @@
 }
 
 @media (min-width: 576px) {
+  #carouselExampleControls {
+    width: 82%;
+    height: 40vh;
+    border-radius: 18px;
+    margin-left: 9.7%;
 
-  .point {
+    #inner {
+      height: 40vh;
+      width: 100%;
+      border-radius: 18px;
+
+      img {
+        height: 40vh;
+        width: 58%;
+        border-radius: 18px;
+      }
+    }
+  }
+
+  #point {
     position: relative;
-    left: 18%;
+    margin-left: -23rem;
     top: 5.5rem;
   }
 
@@ -125,9 +143,8 @@
     #classic_h1 {
       font-family: 'acmeregular';
       font-weight: 900;
-      font-size: 47px;
+      font-size: 40px;
       position: relative;
-      
       color: #36454f;
     }
 
@@ -135,13 +152,35 @@
 
 
     .row {
-      margin-left: 8%;
+      margin-left: 6%;
+      margin-top: 5rem;
 
       div {
-        width: 76%;
+        width: 91%;
 
+        //  background-color:  #fef250,;
         div {
-          background-color: #9caf88a9;
+          background-color: #a5a5a554;
+          padding: 0;
+
+          h2 {
+            color: rgb(209, 118, 6);
+            font-family: 'abril_fatfaceregular';
+            font-weight: bold;
+            font-size: calc(1.1rem + 1.7vw);
+
+            i {
+              color: rgb(209, 118, 6);
+            }
+
+          }
+
+          p {
+            font-size: calc(0.6rem + 0.95vw);
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          }
+
+
         }
       }
     }
@@ -150,6 +189,17 @@
 }
 
 @media (min-width: 992px) {
+  .point {
+    top: 5.2rem;
+    left: 0.3rem;
+  }
+
+  #point {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+
   #carouselExampleControls {
     width: 58%;
     height: 73vh;

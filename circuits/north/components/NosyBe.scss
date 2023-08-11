@@ -29,25 +29,105 @@
 
 @media (min-width: 576px) {
 
-    .nosy-Be{
+    #point3{
+         margin-left: -25%;
+    }
 
+    #carouselExampleControl2 {
+        width: 82%;
+        height: 40vh;
+        border-radius: 18px;
+        margin-left: 9.7%;
 
-        .row {
-            margin-left: 8%;
+        #inner {
+            height: 40vh;
+            width: 100%;
+            border-radius: 18px;
 
-            div {
-                width: 76%;
-
-                div {
-                    background-color: #9caf88a9;
-                }
+            img {
+                height: 40vh;
+                width: 58%;
+                border-radius: 18px;
             }
         }
+    }
+    h3 {
+        color: #7851a9;
+        position: absolute;
+        top: 2.5rem;
+        left: 35%;
+        font-weight: bold;
+  
+        i {
+          color: #7851a9;
+        }
+      }
+  
+  
+      #classic_h1 {
+        font-family: 'acmeregular';
+        font-weight: 900;
+        font-size: 40px;
+        position: relative;
+        
+        color: #36454f;
+      }
+  
+
+    .nosy-Be{
+  position: relative;
+  top: 14rem;
+
+        .row {
+            margin-left: 6%;
+            margin-top: 5rem;
+      
+            div {
+              width: 91.4%;
+      
+              //  background-color:  #fef250,;
+              div {
+                background-color: #a5a5a554;
+                padding: 0;
+      
+                h2 {
+                  color: rgb(209, 118, 6);
+                  font-family: 'abril_fatfaceregular';
+                  font-weight: bold;
+                  font-size: calc(1.1rem + 1.7vw);
+      
+                  i {
+                    color: rgb(209, 118, 6);
+                  }
+      
+                }
+      
+                p {
+                  font-size: calc(0.6rem + 0.95vw);
+                  // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+      
+      
+              }
+            }
+          }
     }
 
 }
 
 @media (min-width: 992px) {
+    #point3 {
+        position: relative;
+        margin-left: 0%;
+        top: 5.5rem;
+      }
+
+      .point {
+        position: relative;
+        margin-left: 0%;
+        top: 5.5rem;
+      }
+
     #carouselExampleControl2 {
         width: 58%;
         height: 73vh;
@@ -137,7 +217,7 @@
 }
 
 @media (max-width: 575px) {
-
+   
     #carouselExampleControl2{
         width: 95%;
         height: 50vh;
