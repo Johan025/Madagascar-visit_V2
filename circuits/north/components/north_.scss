@@ -98,6 +98,39 @@
 
 @media (min-width: 576px) {
 
+  .point {
+    position: relative;
+    left: 18%;
+    top: 5.5rem;
+  }
+
+  .north_day {
+    position: relative;
+    top: 2.6rem;
+  }
+
+    h3 {
+      color: #7851a9;
+      position: absolute;
+      top: 2.5rem;
+      left: 35%;
+      font-weight: bold;
+
+      i {
+        color: #7851a9;
+      }
+    }
+
+
+    #classic_h1 {
+      font-family: 'acmeregular';
+      font-weight: 900;
+      font-size: 47px;
+      position: relative;
+      
+      color: #36454f;
+    }
+
   .north_day {
 
 
@@ -179,6 +212,7 @@
         //  background-color:  #fef250,;
         div {
           background-color: #a5a5a554;
+          padding: 0;
 
           h2 {
             color: rgb(209, 118, 6);
@@ -202,6 +236,8 @@
       }
     }
   }
+
+  
 
 }
 

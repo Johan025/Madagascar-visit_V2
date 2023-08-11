@@ -82,7 +82,7 @@ body {
   height: 3px;
   width: 100%;
   border-radius: 28px;
-  background-color: #a59016;
+  background-color: rgb(177, 165, 1);
 }
 
 .navbar-nav .nav-link::before {
@@ -93,7 +93,7 @@ body {
   right: 0;
   height: 3px;
   border-radius: 28px;
-  background-color: #a59016;
+  background-color: rgb(177, 165, 1);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.2s ease-in-out;
@@ -106,13 +106,13 @@ body {
 
 /* Style pour l'effet hover sur le bouton toggle */
 .navbar-toggler:hover {
-  background-color: #a59016;
+  background-color: rgb(177, 165, 1);
 }
 
 /* Style pour l'effet hover sur les éléments du menu déroulant */
 .navbar-nav li .dropdown-menu a:hover {
   color: #fff;
-  background-color: #a59016;
+  background-color: rgb(177, 165, 1);
 }
 
 .logo {
@@ -130,7 +130,7 @@ body {
 }
 
 #nav {
-  background-color: #504941;
+  background-color: #ffffff;
 }
 
 #navbarNav {
@@ -315,6 +315,32 @@ body {
 }
 
 @media (min-width: 576px) {
+  .point {
+    position: relative;
+    left: 18%;
+    top: 5.5rem;
+  }
+  .north_day {
+    position: relative;
+    top: 2.6rem;
+  }
+  h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    font-weight: bold;
+  }
+  h3 i {
+    color: #7851a9;
+  }
+  #classic_h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    color: #36454f;
+  }
   .north_day .row {
     margin-left: 8%;
   }
@@ -378,6 +404,7 @@ body {
   }
   .north_day .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
   }
   .north_day .row div div h2 {
     color: rgb(209, 118, 6);
@@ -550,12 +577,27 @@ b {
   width: 90%;
 }
 
+.border_ {
+  width: 6.6rem;
+  height: 6px;
+  border-radius: 18px;
+  margin-left: 3.4%;
+  background-color: rgb(209, 118, 6);
+}
+
 @media (min-width: 576px) {
   .title_north {
     color: rgb(209, 118, 6);
     margin-left: 3rem;
     font-family: "acmeregular";
     font-size: 38px;
+  }
+  .border_ {
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 6.4%;
+    background-color: rgb(209, 118, 6);
   }
 }
 @media (max-width: 575px) {
@@ -579,7 +621,7 @@ b {
   .title_north {
     color: rgb(209, 118, 6);
     margin-left: 3rem;
-    font-size: calc(1.875rem + 1.5vw);
+    font-size: calc(1.75rem + 1.5vw);
   }
 }
 .north_nosy {
@@ -826,11 +868,11 @@ b {
     color: #36454f;
   }
   .nosy-Be .row {
-    margin-left: 6%;
+    margin-left: 15%;
     margin-top: 5rem;
   }
   .nosy-Be .row div {
-    width: 57%;
+    width: 75%;
   }
   .nosy-Be .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
@@ -904,6 +946,44 @@ b {
   }
   .nosy-Be .row div div p {
     font-size: calc(0.95rem + 0.95vw);
+  }
+}
+@media (min-width: 992px) {
+  #map {
+    width: 70%;
+    position: relative;
+    height: 34rem;
+    top: 22.6rem;
+    left: 13.9%;
+    border-radius: 18px;
+    z-index: 20;
+    border: 4px solid;
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  #map {
+    width: 97%;
+    position: relative;
+    height: 27rem;
+    top: 27.6rem;
+    left: 2%;
+    border-radius: 18px;
+    z-index: 20;
+    border: 4px solid;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  #map {
+    width: 97%;
+    position: relative;
+    height: 27rem;
+    top: 27.6rem;
+    display: none;
+    left: 2%;
+    border-radius: 18px;
+    z-index: 20;
+    border: 4px solid;
   }
 }
 

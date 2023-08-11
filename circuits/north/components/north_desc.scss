@@ -42,6 +42,14 @@ b {
     }
 }
 
+.border_{
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 3.4%;
+    background-color: rgb(209, 118, 6);
+}
+
 
 @media (min-width: 576px) {
     .title_north {
@@ -49,6 +57,14 @@ b {
         margin-left: 3rem;
         font-family: 'acmeregular';
         font-size: 38px;
+    }
+
+    .border_{
+        width: 6.6rem;
+        height: 6px;
+        border-radius: 18px;
+        margin-left: 6.4%;
+        background-color: rgb(209, 118, 6);
     }
 
 
@@ -79,7 +95,7 @@ b {
     .title_north {
         color: rgb(209, 118, 6);
         margin-left: 3rem;
-        font-size: calc(1.875rem + 1.5vw);
+        font-size: calc(1.75rem + 1.5vw);
     }
 
 }
