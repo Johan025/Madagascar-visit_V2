@@ -204,6 +204,17 @@ body {
     height: 21rem;
     filter: brightness(50%);
   }
+  .couv h1 {
+    font-size: calc(1.6rem + 1.5vw);
+    position: relative;
+    top: -13rem;
+  }
+  .couv h3 {
+    font-size: calc(1.12rem + 1.2vw);
+    position: relative;
+    color: rgb(177, 165, 1);
+    top: -14rem;
+  }
 }
 @media (min-width: 992px) {
   #couverture {
@@ -669,6 +680,14 @@ b {
   }
   .border_ {
     margin-left: 3.7%;
+  }
+  .north {
+    position: relative;
+    top: -3rem;
+  }
+  .north .desc {
+    left: 0vw;
+    width: 90%;
   }
 }
 .north_nosy {

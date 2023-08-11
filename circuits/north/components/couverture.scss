@@ -37,6 +37,24 @@
         height: 21rem;
         filter: brightness(50%);
     }
+
+    .couv {
+        h1 {
+            font-size: calc(1.600rem + 1.5vw);
+            position: relative;
+            top: -26vh;
+        }
+    
+        h3 {
+
+            font-size: calc(1.120rem + 1.2vw);
+            position: relative;
+            color: rgb(177, 165, 1);
+            top: -14rem;
+        }
+       
+    }
+    
 }
 
 @media (min-width: 992px) {

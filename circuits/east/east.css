@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   text-decoration: none;
   list-style: none;
@@ -20,12 +21,6 @@ html::-webkit-scrollbar {
 @font-face {
   font-family: "coneria_script_demoregular";
   src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "abril_fatfaceregular";
-  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -69,313 +64,192 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-@font-face {
-  font-family: "font-1";
-  src: url("./../../../fonts/josefinsans-variablefont_wght-webfont.woff2") format("woff2"), url("./../../../fonts/josefinsans-variablefont_wght-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+.navbar-nav li:hover ul.dropdown-menu {
+  display: block;
 }
-@media screen and (min-width: 1024px) and (max-width: 2880px) {
-  .ok {
-    box-sizing: border-box;
-  }
-  header {
-    background-color: white;
-    height: 2.2cm;
-    width: 100%;
-    position: fixed;
-    z-index: 30;
-    top: 0;
-  }
-  header #bord {
-    display: none;
-  }
-  header .h_bord {
-    display: none;
-  }
-  .header {
-    background-color: white;
-    height: 2.2cm;
-    width: 100%;
-    position: fixed;
-    z-index: 4;
-  }
-  #tour_js {
-    width: 22vw;
-    height: 29rem;
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #212424;
-    position: relative;
-    left: 30vw;
-    top: -12rem;
-    box-sizing: border-box;
-  }
-  #tour_js li {
-    top: 0.6rem;
-    margin-top: 2rem;
-    font-size: 24px;
-    font-family: "abril_fatfaceregular";
-    position: relative;
-    left: 2vw;
-  }
-  #tour_js li a {
-    font-size: 24px;
-    font-family: "abril_fatfaceregular";
-    color: antiquewhite;
-    position: relative;
-    left: -1vw;
-  }
-  .logo {
-    width: 155px;
-    height: 68px;
-    left: 2rem;
-    position: fixed;
-    z-index: 40;
-    top: 1rem;
-  }
-  .logoBurger {
-    position: absolute;
-    left: -8rem;
-  }
-  header ul {
-    position: relative;
-    top: -2.5rem;
-    right: 3vw;
-    display: flex;
-    list-style-type: none;
-    height: 1cm;
-    padding-top: 5rem;
-    padding-bottom: 14rem;
-    overflow: hidden;
-    float: right;
-  }
-  li a {
-    margin: 1.7px;
-    font-size: 19px;
-    padding: 17px;
-    color: rgb(64, 56, 56);
-  }
-  li a i {
-    color: #000;
-  }
-  li a:hover:not(.active) {
-    background-color: #d6d61e;
-    border-radius: 8px;
-    text-decoration: none;
-    color: rgb(64, 56, 56);
-  }
-  .versionAng {
-    margin-left: 1vw;
-    font-size: 19px;
-    color: rgb(64, 56, 56);
-  }
-  .imgAng {
-    position: relative;
-    left: 0rem;
-    top: 0rem;
-    width: 30px;
-    border-radius: 40%;
-    height: 30px;
-  }
-  .imgAng .fenetreFrancais {
-    position: relative;
-    float: right;
-    z-index: 4;
-    transform: translateY(-4.5cm);
-    width: 5cm;
-    height: 2cm;
-    position: absolute;
-    top: 8.3rem;
-    left: 94rem;
-    border-radius: 4px;
-    background-color: #04AA6D;
-  }
-  .imgAng p {
-    cursor: pointer;
-    font-size: 20px;
-    position: absolute;
-    left: 7rem;
-    top: 2rem;
-    color: rgb(45, 45, 45);
-  }
-  .show {
-    transform: translateY(0);
-    transition: 0.14s;
-  }
-  #ang {
-    cursor: pointer;
-  }
-  .container_responsive {
-    display: none;
-  }
-  .active {
-    color: white;
-    background-color: #04AA6D;
-    border: opx solid;
-    border-width: 20px;
-    border-radius: 8px;
-    text-decoration: none;
-  }
+
+/* Style pour l'effet hover sur les liens */
+.navbar-nav .nav-link {
+  text-decoration: none;
+  position: relative;
 }
-@media screen and (min-width: 280px) and (max-width: 763px) {
-  header {
-    position: fixed;
-    width: 100%;
-    height: 2.2cm;
-    z-index: 20;
-    top: 0;
-    background-color: hsl(0, 0%, 100%);
-  }
-  header #bord {
-    width: 55vw;
-    display: block;
-    height: 3px;
-    background-color: #fff;
-    position: relative;
-    left: 23vw;
-    top: 5.7rem;
-  }
-  header .h_bord {
-    display: block;
-    position: relative;
-    top: 6rem;
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-weight: bolder;
-  }
-  header ul {
-    display: none;
-    z-index: 4;
-    position: absolute;
-    left: -11.5vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    top: -10rem;
-    padding-bottom: 12.5cm;
-  }
-  header ul li {
-    margin: 17px;
-  }
-  header ul li a {
-    font-size: 24.6px;
-    padding: 6px;
-    color: #1d1a1a;
-    font-family: "font-1";
-    font-weight: 1000;
-  }
-  header ul li .active {
-    color: white;
-    background-color: #04AA6D;
-    border: opx solid;
-    border-width: 75px;
-    padding-right: 75px;
-    width: 50vw;
-    border-radius: 5px;
-    padding-left: 75px;
-  }
-  .logo {
-    position: fixed;
-    top: 1.4rem;
-    left: 2.4rem;
-    width: 3.2cm;
-    height: 1.5cm;
-    z-index: 30;
-  }
-  .header {
-    position: absolute;
-    top: 8.2rem;
-    overflow: hidden;
-    width: 100%;
-    height: 0rem;
-    background-color: rgba(30, 214, 97, 0.9058823529);
-    z-index: 4;
-    transition: 0.6s;
-  }
-  .versionAng {
-    margin-left: 3rem;
-    margin-top: -8rem;
-    font-size: 21px;
-    color: rgb(64, 56, 56);
-  }
-  .imgAng {
-    position: relative;
-    left: 0rem;
-    top: 0rem;
-    width: 30px;
-    border-radius: 40%;
-    height: 30px;
-  }
-  .imgAng .fenetreFrancais {
-    position: relative;
-    float: right;
-    z-index: 4;
-    display: none;
-    transform: translateY(-4.5cm);
-  }
-  .imgAng p {
-    cursor: pointer;
-    font-size: 20px;
-    position: absolute;
-    left: 7rem;
-    top: 2rem;
-    color: rgb(45, 45, 45);
-  }
-  .show {
-    transform: translateY(0);
-    transition: 0.14s;
-  }
-  #ang {
-    cursor: pointer;
-  }
-  .logoBurger i {
-    font-size: 26px;
-    position: relative;
-    float: right;
-    top: 2.2rem;
-    border-radius: 20%;
-    padding: 6px;
-    margin-right: 3rem;
-    border: 1.5px solid black;
-    z-index: 24;
-    color: black;
-  }
-  .logoBurger i:hover {
-    border: 0px solid #1ed661;
-    background-color: #1ed640;
-  }
-  .hideshow {
-    transition: 0.4s;
-    height: 100vh;
-  }
-  .hideshow2 {
-    display: block;
-    position: absolute;
-    top: 2.5rem;
-  }
-}
-.couvertureEst img {
+
+.active {
   position: absolute;
-  top: 4rem;
+  bottom: -0.16rem;
   left: 0;
+  right: 0;
+  height: 3px;
   width: 100%;
-  height: 43rem;
-  filter: brightness(60%);
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
 }
 
-.couvertureEst_responsive img {
-  display: none;
+.navbar-nav .nav-link::before {
+  content: "";
   position: absolute;
-  top: 0rem;
-  width: 100%;
-  height: 100vh;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
 }
 
-.up {
-  display: none;
+.navbar-nav .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
+/* Style pour l'effet hover sur le bouton toggle */
+.navbar-toggler:hover {
+  background-color: rgb(177, 165, 1);
+}
+
+/* Style pour l'effet hover sur les éléments du menu déroulant */
+.navbar-nav li .dropdown-menu a:hover {
+  color: #fff;
+  background-color: rgb(177, 165, 1);
+}
+
+.logo {
+  width: 130px;
+  height: 59px;
+  left: 0.4rem;
+  position: relative;
+  z-index: 4;
+  top: 0.3rem;
+}
+
+.logoBurger {
+  position: absolute;
+  left: -8rem;
+}
+
+#nav {
+  background-color: #ffffff;
+}
+
+#navbarNav {
+  position: relative;
+  left: 0;
+}
+#navbarNav li {
+  font-size: 20.5px;
+}
+
+@media (min-width: 576px) {
+  .logo {
+    width: 130px;
+    height: 65px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
+  }
+}
+@media (min-width: 992px) {
+  #navbarNav {
+    float: right;
+    margin-left: 20vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbarNav li {
+    margin-left: 23px;
+  }
+  .logo {
+    width: 164px;
+    height: 64px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
+  }
+  .navbar-collapse {
+    margin-left: 50px;
+  }
+}
+.couv h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: calc(1.6rem + 1.5vw);
+  position: relative;
+  top: -26vh;
+  left: 24vw;
+  width: 50%;
+  font-family: "acmeregular";
+}
+.couv h3 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: calc(1.12rem + 1.2vw);
+  position: relative;
+  color: rgb(177, 165, 1);
+  top: -27vh;
+  font-family: "coneria_script_demoregular";
+  left: 24vw;
+  width: 50%;
+}
+.couv #couverture {
+  position: relative;
+  filter: brightness(70%);
+}
+
+@media (min-width: 576px) {
+  #couverture {
+    height: 21rem;
+    filter: brightness(50%);
+  }
+  .couv h1 {
+    font-size: calc(1.6rem + 1.5vw);
+    position: relative;
+    top: -13rem;
+  }
+  .couv h3 {
+    font-size: calc(1.12rem + 1.2vw);
+    position: relative;
+    color: rgb(177, 165, 1);
+    top: -14rem;
+  }
+}
+@media (min-width: 992px) {
+  #couverture {
+    height: 60vh;
+    filter: brightness(50%);
+  }
+}
+@media (max-width: 575px) {
+  .couv h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.6rem + 1.5vw);
+    position: relative;
+    top: -31vh;
+    left: 5vw;
+    width: 90%;
+    font-family: "acmeregular";
+  }
+  .couv #couverture {
+    height: 41vh;
+    position: relative;
+    filter: brightness(70%);
+  }
+  .couv h3 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.12rem + 1.2vw);
+    position: relative;
+    color: rgb(177, 165, 1);
+    top: -33vh;
+    font-family: "coneria_script_demoregular";
+    left: 24vw;
+    width: 50%;
+  }
+}
 * {
   text-decoration: none;
   list-style: none;
@@ -398,12 +272,6 @@ html::-webkit-scrollbar {
 @font-face {
   font-family: "coneria_script_demoregular";
   src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "abril_fatfaceregular";
-  src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -577,2227 +445,185 @@ body {
     color: rgb(0, 0, 0);
   }
 }
-.h {
-  display: none;
+font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.texte {
-  font-size: 55px;
-  position: absolute;
-  top: 50rem;
-  font-weight: 1600;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  left: 15vw;
-  color: #ffffff;
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("../../../fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("../../../fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("../../..//abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acmeregular";
+  src: url("../../../fonts/acme-regular-webfont.woff2") format("woff2"), url("../../../fonts/") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
 }
 
-@media screen and (min-width: 1024px) {
-  @font-face {
-    font-family: "battoraregular";
-    src: url("../../../fonts/battora-webfont.woff2") format("woff2"), url("../../../fonts/battora-webfont .woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "unnabold";
-    src: url("../../../fonts/unna-bold-webfont.woff2") format("woff2"), url("../../../fonts/unna-bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  .east_day {
-    position: relative;
-    top: 167rem;
-    left: 0rem;
-  }
-  .east_day .titre_east {
-    font-size: 36px;
-    position: absolute;
-    left: 10vw;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    top: -67.5rem;
-    width: 60vw;
-    position: absolute;
-    font-family: "yeseva_oneregular";
-  }
-  .east_day .anim_1 {
-    width: 37px;
-    height: 37px;
-    position: absolute;
-    top: -65.5rem;
-    left: 5vw;
-    border-radius: 4px;
-    background-color: rgb(222, 167, 1);
-    border-radius: 0;
-    animation: rotate 5s linear infinite;
-  }
-  @keyframes rotate {
-    0% {
-      transform: rotate(155deg);
-    }
-    20% {
-      transform: rotate(205deg);
-    }
-    40% {
-      transform: rotate(255deg);
-    }
-    60% {
-      transform: rotate(305deg);
-    }
-    80% {
-      transform: rotate(355deg);
-    }
-    100% {
-      transform: rotate(405deg);
-    }
-  }
-  .east_day .day1 {
-    width: 60vw;
-    height: 17rem;
-    position: absolute;
-    top: 0rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day1 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day1 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day1 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day2 {
-    width: 60vw;
-    height: 22rem;
-    position: absolute;
-    top: 26rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day2 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day2 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day2 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day3 {
-    width: 60vw;
-    height: 20rem;
-    position: absolute;
-    top: 58rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day3 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day3 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day3 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day4 {
-    width: 60vw;
-    height: 22.6rem;
-    position: absolute;
-    top: 87.6rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day4 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day4 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day4 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day5 {
-    width: 60vw;
-    height: 13.6rem;
-    position: absolute;
-    top: 120.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day5 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day5 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day5 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day6-7-8 {
-    width: 60vw;
-    height: 13.6rem;
-    position: absolute;
-    top: 144.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day6-7-8 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day6-7-8 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day6-7-8 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day9 {
-    width: 60vw;
-    height: 13.6rem;
-    position: absolute;
-    top: 167.6rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day9 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day9 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day9 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day .day10 {
-    width: 60vw;
-    height: 13.6rem;
-    position: absolute;
-    top: 192rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day10 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day10 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day10 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-}
-.galerieEst {
-  position: absolute;
-  right: 1rem;
-  top: 125rem;
-  width: 32vw;
-  height: 60rem;
-  display: none;
-  border: 1px solid black;
-  border-radius: 6px;
-}
-.galerieEst .lig1 {
-  display: flex;
-}
-.galerieEst .lig1 img {
-  width: 17vw;
-  height: 105px;
-}
-.galerieEst .lig2 {
-  display: flex;
-}
-.galerieEst .lig2 img {
-  width: 10.65vw;
-  height: 105px;
+html::-webkit-scrollbar {
+  background-color: white;
+  width: 10px;
+  scrollbar-width: thin;
 }
 
-.photo {
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: -5px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "unnabold";
+  src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font-1";
+  src: url("./fonts/josefinsans-variablefont_wght-webfont.woff2") format("woff2"), url("./fonts/josefinsans-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "paytone_oneregular";
+  src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+b {
+  color: rgb(62, 56, 56);
+}
+
+.title_north {
+  margin-left: 3%;
+  font-size: calc(1.875rem + 1.5vw);
+  font-family: "acmeregular";
+  font-weight: bold;
+}
+
+.north {
   position: relative;
-  top: -56.4rem;
-  left: 9vw;
-  width: 89%;
-  height: 47rem;
-  border-radius: 18px;
-  overflow: hidden;
+  top: -3rem;
 }
-.photo .container {
-  width: 85%;
-  height: 47rem;
-  border-radius: 18px;
-  overflow: hidden;
-}
-.photo #myCarousel {
-  width: 85%;
-  height: 47rem;
-  border-radius: 28px;
-  overflow: hidden;
-}
-.photo #myCarousel #inner {
-  width: 100%;
-  height: 47rem;
-  border-radius: 18px;
-}
-.photo #myCarousel #inner img {
-  width: 100%;
-  height: 47rem;
-}
-
-.controls #left {
-  font-size: 22px;
-  margin-top: 21rem;
-  border: 0;
-  padding: 18px;
-  border-radius: 50%;
-  background-color: rgb(211, 118, 5);
-}
-.controls #right {
-  font-size: 22px;
-  border: 0;
-  margin-top: 21rem;
-  padding: 18px;
-  border-radius: 50%;
-  background-color: rgb(211, 118, 5);
-}
-
-.photo_pangalane {
+.north .desc {
+  margin-top: 1rem;
   position: relative;
-  top: -53.4rem;
-  left: 9vw;
-  width: 89%;
-  height: 47rem;
-  border-radius: 18px;
-  overflow: hidden;
-}
-.photo_pangalane .container {
-  width: 85%;
-  height: 47rem;
-  border-radius: 18px;
-  overflow: hidden;
-}
-.photo_pangalane #myCarousel {
-  width: 85%;
-  height: 47rem;
-  border-radius: 28px;
-  overflow: hidden;
-}
-.photo_pangalane #myCarousel #inner {
-  width: 100%;
-  height: 47rem;
-  border-radius: 18px;
-}
-.photo_pangalane #myCarousel #inner img {
-  width: 100%;
-  height: 47rem;
+  left: 0vw;
+  width: 90%;
 }
 
-.controls_ #left_ {
-  font-size: 22px;
-  margin-top: 21rem;
-  border: 0;
-  padding: 18px;
-  border-radius: 50%;
-  background-color: rgb(211, 118, 5);
-}
-.controls_ #right_ {
-  font-size: 22px;
-  border: 0;
-  margin-top: 21rem;
-  padding: 18px;
-  border-radius: 50%;
-  background-color: rgb(211, 118, 5);
+.borde {
+  width: 6.6rem;
+  height: 6px;
+  border-radius: 18px;
+  margin-left: 0%;
+  background-color: rgb(209, 118, 6);
 }
 
-@media screen and (min-width: 280px) and (max-width: 763px) {
-  .photo {
-    position: relative;
-    top: -52.4rem;
-    left: -2.5vw;
-    width: 100%;
-    height: 42rem;
-    border-radius: 18px;
-    overflow: hidden;
-  }
-  .photo .container {
-    width: 106%;
-    height: 42rem;
-    border-radius: 18px;
-    overflow: hidden;
-  }
-  .photo #myCarousel {
-    width: 100%;
-    height: 40rem;
-    border-radius: 28px;
-    overflow: hidden;
-  }
-  .photo #myCarousel #inner {
-    width: 100%;
-    height: 42rem;
-    border-radius: 18px;
-  }
-  .photo #myCarousel #inner img {
-    width: 100%;
-    height: 42rem;
-  }
-  .controls #left {
-    font-size: 22px;
-    margin-top: 18rem;
-    border: 0;
-    position: relative;
-    left: 2vw;
-    padding: 18px;
-    border-radius: 50%;
-    background-color: rgb(211, 118, 5);
-  }
-  .controls #right {
-    font-size: 22px;
-    border: 0;
-    margin-top: 18rem;
-    padding: 18px;
-    position: relative;
-    right: 3vw;
-    border-radius: 50%;
-    background-color: rgb(211, 118, 5);
-  }
-  .photo_pangalane {
-    position: relative;
-    top: -46.8rem;
-    left: -2vw;
-    width: 100%;
-    height: 42rem;
-    border-radius: 18px;
-    overflow: hidden;
-  }
-  .photo_pangalane .container {
-    width: 121%;
-    height: 42rem;
-    border-radius: 18px;
-    overflow: hidden;
-  }
-  .photo_pangalane #myCarousel {
-    width: 85%;
-    height: 47rem;
-    border-radius: 28px;
-    overflow: hidden;
-  }
-  .photo_pangalane #myCarousel #inner {
-    width: 100%;
-    height: 42rem;
-    border-radius: 18px;
-  }
-  .photo_pangalane #myCarousel #inner img {
-    width: 100%;
-    height: 42rem;
-  }
-  .controls_ #left_ {
-    font-size: 22px;
-    margin-top: 18.6rem;
-    position: relative;
-    left: 2vw;
-    border: 0;
-    padding: 18px;
-    border-radius: 50%;
-    background-color: rgb(211, 118, 5);
-  }
-  .controls_ #right_ {
-    font-size: 22px;
-    border: 0;
-    margin-top: 18.6rem;
-    position: relative;
-    right: 3vw;
-    padding: 18px;
-    border-radius: 50%;
-    background-color: rgb(211, 118, 5);
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 2880px) {
-  @font-face {
-    font-family: "battoraregular";
-    src: url("../../../fonts/battora-webfont.woff2") format("woff2"), url("../../../fonts/battora-webfont .woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "unnabold";
-    src: url("../../../fonts/unna-bold-webfont.woff2") format("woff2"), url("../../../fonts/unna-bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  .east_day_pangalane {
-    position: relative;
-    top: 407.4rem;
-    left: 0rem;
-  }
-  .east_day_pangalane .titre_east {
-    font-size: 30px;
-    position: absolute;
-    left: 10vw;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    top: -67.5rem;
-    width: 60vw;
-    position: absolute;
-    font-family: "yeseva_oneregular";
-  }
-  .east_day_pangalane .anim_2 {
-    width: 37px;
-    height: 37px;
-    position: absolute;
-    top: -65.5rem;
-    left: 5vw;
-    border-radius: 4px;
-    background-color: rgb(222, 167, 1);
-    border-radius: 0;
-    animation: rotate 5s linear infinite;
-  }
-  @keyframes rotate2 {
-    0% {
-      transform: rotate(155deg);
-    }
-    20% {
-      transform: rotate(205deg);
-    }
-    40% {
-      transform: rotate(255deg);
-    }
-    60% {
-      transform: rotate(305deg);
-    }
-    80% {
-      transform: rotate(355deg);
-    }
-    100% {
-      transform: rotate(405deg);
-    }
-  }
-  .east_day_pangalane .anim_1 {
-    width: 37px;
-    height: 37px;
-    position: absolute;
-    top: -12.5rem;
-    left: 5vw;
-    border-radius: 4px;
-    background-color: rgb(222, 167, 1);
-    border-radius: 0;
-    animation: rotate2 5s linear infinite;
-  }
-  .east_day_pangalane .day1 {
-    width: 60vw;
-    height: 17rem;
-    position: absolute;
-    top: 0rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day1 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day1 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day1 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane .day2 {
-    width: 60vw;
-    height: 22rem;
-    position: absolute;
-    top: 26rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day2 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day2 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day2 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane .day3 {
-    width: 60vw;
-    height: 20rem;
-    position: absolute;
-    top: 58rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day3 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day3 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day3 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane .day4 {
-    width: 60vw;
-    height: 23.3rem;
-    position: absolute;
-    top: 87.6rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day4 h1 {
-    font-size: 25px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day4 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 8.4rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day4 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane .day5 {
-    width: 60vw;
-    height: 24.9rem;
-    position: absolute;
-    top: 120.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day5 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day5 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day5 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane .day6 {
-    width: 60vw;
-    height: 19.1rem;
-    position: absolute;
-    top: 155.8rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day6 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day6 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 9rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day6 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane .day7 {
-    width: 60vw;
-    height: 17.1rem;
-    position: absolute;
-    top: 185.7rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day7 h1 {
-    font-size: 27px;
-    position: absolute;
-    left: 6rem;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day7 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 4rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day7 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-  }
-  .east_day_pangalane #map {
-    width: 80%;
-    position: relative;
-    top: 165rem;
-    z-index: 10;
-    left: 10vw;
-    border-radius: 8px;
-    height: 53rem;
-    border: 2px solid black;
-  }
-}
-@media screen and (min-width: 280px) and (max-width: 763px) {
-  #map {
-    width: 92%;
-    position: relative;
-    top: 234rem;
-    z-index: 10;
-    left: 4vw;
-    border-radius: 8px;
-    height: 35rem;
-    border: 2px solid black;
-  }
-}
-@media screen and (min-width: 1024px) {
-  footer {
-    position: relative;
-    top: 591rem;
-    background-color: rgba(0, 0, 0, 0.705);
-    width: 100%;
-    height: 34.4rem;
-  }
-  .footer_contact {
-    width: 45%;
-    position: relative;
-    top: 5rem;
-    left: 40%;
-  }
-  .footer_contact h1 {
-    font-size: 36px;
-    color: #ffffff;
-  }
-  .mail {
-    font-size: 20px;
-    position: absolute;
-    top: 5rem;
-    left: -0.5rem;
-    color: #ffffff;
-  }
-  .phone {
-    font-size: 20px;
-    position: absolute;
-    top: 8rem;
-    left: -0.5rem;
-    color: #ffffff;
-  }
-  .footer_contact p:nth-last-child(3) {
-    font-size: 22px;
-    position: absolute;
-    top: 11.1rem;
-    left: -0.5rem;
-    color: #ffffff;
-  }
-  div.icones img:nth-last-child(1) {
-    position: absolute;
-    top: 20rem;
-    left: 0rem;
-  }
-  .img_fb {
-    position: absolute;
-    top: 0rem;
-    left: 7rem;
-  }
-  div.icones img:nth-last-child(3) {
-    position: absolute;
-    top: 20rem;
-    left: 14rem;
-  }
-  .icones {
-    position: relative;
-    top: -6rem;
-    left: 3rem;
-  }
-  .border_ {
-    position: absolute;
-    top: 17rem;
-    left: 7.2rem;
-    width: 2.6cm;
-    height: 4px;
-    background-color: #ffffff;
-  }
-  .footCopright {
-    position: absolute;
-    top: 34.4rem;
-    width: 100%;
-    height: 1.6cm;
-    background-color: rgba(40, 37, 37, 0.921);
-    font-size: 20px;
-    padding-top: 1.5rem;
-    color: rgb(212, 205, 205);
-  }
-}
-@media screen and (max-width: 1023px) and (min-width: 765px) {
-  .up img {
-    width: 80px;
-    height: 80px;
-    position: fixed;
-    top: 56.4rem;
-    right: 2rem;
-    z-index: 8;
-  }
-  .texte {
-    font-size: 32px;
-    position: absolute;
-    left: 4rem;
-    top: 36rem;
-  }
-  header {
-    position: fixed;
-    width: 100%;
-    height: 2cm;
-    background-color: #ffffff;
-  }
-  header ul {
-    display: block;
-    z-index: 4;
-    position: absolute;
-    left: 35vw;
-    align-items: center;
-    justify-content: center;
-    top: -2.5rem;
-    padding-bottom: 12.5cm;
-  }
-  header ul li {
-    margin: 23px;
-  }
-  header ul li a {
-    font-size: 23px;
-    padding: 6px;
-  }
-  .logo {
-    position: fixed;
-    top: 1.4rem;
-    left: 2.4rem;
-    width: 3cm;
-    height: 1.5cm;
-    z-index: 6;
-  }
-  .header {
-    position: absolute;
-    top: 7.78rem;
-    transform: translateY(-150rem);
-    width: 100%;
-    height: 43rem;
-    background-color: #1ed661;
-    z-index: 4;
-    transition: 0.6s;
-  }
-  .versionAng {
-    margin: 7rem;
-    position: absolute;
-    top: 34rem;
-    left: 1.5rem;
-  }
-  #ang {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-  }
-  .logoBurger i {
-    font-size: 30px;
-    position: relative;
-    float: right;
-    right: -100vw;
-    top: 1.5rem;
-    border-radius: 50%;
-    padding: 7px;
-    border: 1.5px solid black;
-    z-index: -4;
-    color: black;
-  }
-  .logoBurger i:hover {
-    border: 0px solid #1ed661;
-    background-color: #1ed640;
-  }
-  .hideshow {
-    transform: translateY(-0.2rem);
-    transition: 0.5s;
-  }
-  .couvertureEst img {
-    width: 100%;
-    left: 0;
-    display: none;
-  }
-  .couvertureEst_responsive img {
-    width: 100%;
-    left: 0;
-    height: 55rem;
-    display: inline-block;
-  }
-  .title_east {
-    font-size: 45px;
-    left: 4rem;
-    top: 60rem;
-    text-align: center;
-  }
-  .east .desc {
-    font-size: 20px;
-    left: 4.2rem;
-    top: 72rem;
-    width: 82vw;
-  }
-  .east_day {
-    position: absolute;
-    top: 92rem;
-    left: -30rem;
-  }
-  .east_day .titre_east {
+@media (min-width: 576px) {
+  .title_north {
+    color: rgb(209, 118, 6);
+    margin-left: 3rem;
+    font-family: "acmeregular";
     font-size: 38px;
-    position: absolute;
-    left: 71vw;
-    font-weight: 600;
-    color: rgb(8, 158, 63);
-    top: 19.5rem;
-    width: 55vw;
-    position: absolute;
-  }
-  .east_day .day1 {
-    width: 91vw;
-    height: 20rem;
-    position: absolute;
-    top: 32rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-    text-align: center;
-  }
-  .east_day .day1 h1 {
-    font-size: 25px;
-    position: absolute;
-    left: 4rem;
-    font-weight: 550;
-  }
-  .east_day .day1 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day2 {
-    width: 91vw;
-    height: 24rem;
-    position: absolute;
-    top: 67rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-    text-align: center;
-  }
-  .east_day .day2 h1 {
-    font-size: 23px;
-    position: absolute;
-    left: 1rem;
-    font-weight: 550;
-  }
-  .east_day .day2 p {
-    font-size: 19.8px;
-    position: absolute;
-    left: 1rem;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day3 {
-    width: 91vw;
-    height: 22rem;
-    position: absolute;
-    top: 106rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day3 h1 {
-    font-size: 25px;
-    position: absolute;
-    left: 4rem;
-    font-weight: 550;
-  }
-  .east_day .day3 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day4 {
-    width: 91vw;
-    height: 27rem;
-    position: absolute;
-    top: 143rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day4 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 1.4rem;
-    font-weight: 550;
-  }
-  .east_day .day4 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day5 {
-    width: 91vw;
-    height: 17rem;
-    position: absolute;
-    top: 185rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day5 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 1.4rem;
-    font-weight: 550;
-  }
-  .east_day .day5 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day6-7-8 {
-    width: 85vw;
-    height: 14rem;
-    position: absolute;
-    top: 185rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day6-7-8 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 5.4rem;
-    font-weight: 550;
-  }
-  .east_day .day9 {
-    width: 91vw;
-    height: 16rem;
-    position: absolute;
-    top: 245rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day9 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 1.4rem;
-    font-weight: 550;
-  }
-  .east_day .day9 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1rem;
-    top: 8rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day10 {
-    width: 91vw;
-    height: 16rem;
-    position: absolute;
-    top: 242rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day10 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 1.4rem;
-    font-weight: 550;
-  }
-  .east_day .day10 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day6-7-8 {
-    width: 91vw;
-    height: 14rem;
-    position: absolute;
-    top: 216rem;
-    left: 33rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day .day6-7-8 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 5.4rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane {
-    position: absolute;
-    top: 380rem;
-    left: 0rem;
-  }
-  .east_day_pangalane .titre_east {
-    font-size: 27px;
-    position: absolute;
-    left: 27vw;
-    font-weight: 600;
-    font-weight: 700;
-    color: rgb(8, 158, 63);
-    top: -18rem;
-    width: 70vw;
-    position: absolute;
-  }
-  .east_day_pangalane .titre_east span {
-    color: rgb(8, 158, 63);
-    position: absolute;
-    left: 2rem;
-    top: 4rem;
-  }
-  .east_day_pangalane .day1 {
-    width: 91vw;
-    height: 20rem;
-    position: absolute;
-    top: -2rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-    text-align: center;
-  }
-  .east_day_pangalane .day1 h1 {
-    font-size: 25px;
-    position: absolute;
-    left: 4rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day1 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day2 {
-    width: 91vw;
-    height: 24rem;
-    position: absolute;
-    top: 31rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-    text-align: center;
-  }
-  .east_day_pangalane .day2 h1 {
-    font-size: 23px;
-    position: absolute;
-    left: 1rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day2 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day3 {
-    width: 91vw;
-    height: 21rem;
-    position: absolute;
-    top: 71rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day_pangalane .day3 h1 {
-    font-size: 25px;
-    position: absolute;
-    left: 4rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day3 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day4 {
-    width: 91vw;
-    height: 24rem;
-    position: absolute;
-    top: 108rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day_pangalane .day4 h1 {
-    font-size: 20px;
-    position: absolute;
-    left: 1.4rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day4 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day5 {
-    width: 91vw;
-    height: 30rem;
-    position: absolute;
-    top: 145rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day_pangalane .day5 h1 {
-    font-size: 20px;
-    position: absolute;
-    left: 1.4rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day5 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day6 {
-    width: 91vw;
-    height: 15rem;
-    position: absolute;
-    top: 189rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day_pangalane .day6 h1 {
-    font-size: 18px;
-    position: absolute;
-    left: 1rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day6 p {
-    font-size: 19.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day7 {
-    width: 91vw;
-    height: 18rem;
-    position: absolute;
-    top: 217rem;
-    left: 3rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .east_day_pangalane .day7 h1 {
-    font-size: 20px;
-    position: absolute;
-    left: 1rem;
-    font-weight: 550;
-  }
-  .east_day_pangalane .day7 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .border_vertical4 {
-    width: 5.4px;
-    height: 205rem;
-    background-color: rgb(215, 141, 3);
-    position: absolute;
-    top: 144rem;
-    left: 50vw;
-  }
-  .border_vertical5 {
-    width: 5.4px;
-    height: 220rem;
-    background-color: rgb(215, 141, 3);
-    position: absolute;
-    top: 394rem;
-    left: 50vw;
-  }
-  footer {
-    position: absolute;
-    top: 625.5rem;
-    background-color: rgba(0, 0, 0, 0.705);
-    width: 100%;
-    height: 35.9rem;
-    padding-bottom: -24rem;
-  }
-  .footer_contact h1 {
-    position: absolute;
-    left: -9rem;
-  }
-  .footer_contact {
-    width: 45%;
-    position: absolute;
-    top: 5rem;
-    left: 45%;
-  }
-  .mail {
-    font-size: 20px;
-    position: absolute;
-    top: 7rem;
-    left: -13.5rem;
-    color: #ffffff;
-  }
-  .phone {
-    font-size: 19px;
-    position: absolute;
-    top: 10rem;
-    left: -13.5rem;
-    color: #ffffff;
-  }
-  .footer_contact p:nth-last-child(3) {
-    font-size: 18px;
-    position: absolute;
-    top: 13.1rem;
-    left: -13rem;
-    color: #ffffff;
-  }
-  .icones {
-    position: relative;
-    top: 21rem;
-    left: -8rem;
   }
   .border_ {
-    position: absolute;
-    top: 19rem;
-    left: -4.8rem;
-    width: 2.6cm;
-    height: 4px;
-    background-color: #ffffff;
+    margin-left: 7.3%;
   }
-  .footCopright {
-    position: absolute;
-    top: 35.8rem;
-    width: 100%;
-    height: 2.6cm;
-    background-color: rgba(40, 37, 37, 0.921);
-    font-size: 18px;
-    padding-top: 0rem;
-    color: rgb(212, 205, 205);
+  .north {
+    position: relative;
+    top: -3rem;
+  }
+  .north .desc {
+    left: -3vw;
+    width: 90%;
   }
 }
-@media screen and (min-width: 280px) and (max-width: 764px) and (min-width: 280px) {
-  * {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(227, 216, 201);
-  }
-  html::-webkit-scrollbar {
-    background-color: white;
-    width: 10px;
-    scrollbar-width: thin;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(53, 44, 44, 0.555);
-    height: -5px;
-    width: 6px;
-    border-radius: 10px;
-  }
-  @font-face {
-    font-family: "coneria_script_demoregular";
-    src: url("./fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./fonts/demo_coneriascript-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "abril_fatfaceregular";
-    src: url("fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "unnabold";
-    src: url("fonts/unna-bold-webfont.woff2") format("woff2"), url("fonts/unna-bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "yeseva_oneregular";
-    src: url("fonts/yesevaone-regular-webfont.woff2") format("woff2"), url("fonts/yesevaone-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "font-1";
-    src: url("./fonts/josefinsans-variablefont_wght-webfont.woff2") format("woff2"), url("./fonts/josefinsans-variablefont_wght-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "battoraregular";
-    src: url("fonts/battora-webfont.woff2") format("woff2"), url("./fonts/battora-webfont .woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "alfa_slab_oneregular";
-    src: url("./fonts/alfaslabone-regular-webfont.woff2") format("woff2"), url("fonts/alfaslabone-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "paytone_oneregular";
-    src: url("fonts/paytoneone-regular-webfont.woff2") format("woff2"), url("fonts/paytoneone-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  body {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-  @import url("_include-media.scss");
-  .couvertureEst_responsive img {
-    display: block;
-    position: absolute;
-    top: 5rem;
-    width: 100%;
-    height: 38rem;
-    filter: brightness(60%);
-  }
-  .couvertureEst img {
-    display: none;
-  }
-  * {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .up img {
-    width: 80px;
-    height: 80px;
-    position: fixed;
-    top: 55rem;
-    right: 2rem;
-    z-index: 8;
-  }
-  .texte {
-    font-size: 26px;
-    position: absolute;
-    left: 1rem;
-    top: 37rem;
-  }
-  .east_day {
-    position: absolute;
-    top: 184rem;
-    left: 0rem;
-  }
-  .east_day .titre_east {
-    font-size: 24px;
-    position: absolute;
-    left: 15.6vw;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    top: -62.5rem;
-    width: 80vw;
-    position: absolute;
-    font-family: "yeseva_oneregular";
-  }
-  .east_day .anim_1 {
-    width: 27px;
-    height: 27px;
-    position: absolute;
-    top: -60.7rem;
-    left: 5vw;
-    border-radius: 4px;
-    background-color: rgb(222, 167, 1);
-    border-radius: 0;
-    animation: rotate 5s linear infinite;
-  }
-  @keyframes rotate {
-    0% {
-      transform: rotate(155deg);
-    }
-    20% {
-      transform: rotate(205deg);
-    }
-    40% {
-      transform: rotate(255deg);
-    }
-    60% {
-      transform: rotate(305deg);
-    }
-    80% {
-      transform: rotate(355deg);
-    }
-    100% {
-      transform: rotate(405deg);
-    }
-  }
-  .east_day .day1 {
-    width: 87vw;
-    height: 22rem;
-    position: absolute;
-    top: 0rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day1 h1 {
-    font-size: 23.5px;
-    position: absolute;
-    left: 17vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day1 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 2vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day1 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day .day2 {
-    width: 87vw;
-    height: 36rem;
-    position: absolute;
-    top: 32rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day2 h1 {
-    font-size: 22px;
-    position: absolute;
-    left: 75vw;
-    font-weight: 550;
-    left: 12vw;
-    color: rgb(35, 34, 34);
-    width: 77vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day2 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day2 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day .day3 {
-    width: 87vw;
-    height: 30rem;
-    position: absolute;
-    top: 78.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day3 h1 {
-    font-size: 23px;
-    position: absolute;
-    left: 3.7vw;
-    font-weight: 550;
-    width: 80vw;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day3 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 2vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day3 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day .day4 {
-    width: 87vw;
-    height: 35.1rem;
-    position: absolute;
-    top: 118.7rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day4 h1 {
-    font-size: 20.4px;
-    position: absolute;
-    left: 10vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    top: 1rem;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day4 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 8.6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day4 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 2.6rem;
-    left: 0.4rem;
-  }
-  .east_day .day5 {
-    width: 87vw;
-    height: 15rem;
-    position: absolute;
-    top: 164.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day5 h1 {
-    font-size: 20px;
-    position: absolute;
-    left: 14vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    width: 60vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day5 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day5 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day .day6-7-8 {
-    width: 87vw;
-    height: 13.6rem;
-    position: absolute;
-    top: 190rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day6-7-8 h1 {
-    font-size: 19.6px;
-    position: absolute;
-    left: 14vw;
-    font-weight: 550;
-    width: 70vw;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day6-7-8 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 22vw;
-    top: 8rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day6-7-8 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day .day9 {
-    width: 87vw;
-    height: 18rem;
-    position: absolute;
-    top: 214.2rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day9 h1 {
-    font-size: 20px;
-    position: absolute;
-    left: 10.7w;
-    font-weight: 550;
-    left: 12vw;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day9 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day9 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day .day10 {
-    width: 87vw;
-    height: 14.6rem;
-    position: absolute;
-    top: 243.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day .day10 h1 {
-    font-size: 23px;
-    position: absolute;
-    left: 17vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day .day10 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day10 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day_pangalane {
-    position: absolute;
-    top: 516rem;
-    left: 0rem;
-  }
-  .east_day_pangalane .titre_east {
-    font-size: 23px;
-    position: absolute;
-    left: 15.6vw;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    top: -62.5rem;
-    width: 80vw;
-    position: absolute;
-    font-family: "yeseva_oneregular";
-  }
-  .east_day_pangalane .anim_2 {
-    width: 27px;
-    height: 27px;
-    position: absolute;
-    top: -60.7rem;
-    left: 5vw;
-    border-radius: 4px;
-    background-color: rgb(222, 167, 1);
-    border-radius: 0;
-    animation: rotate 5s linear infinite;
-  }
-  @keyframes rotate2 {
-    0% {
-      transform: rotate(155deg);
-    }
-    20% {
-      transform: rotate(205deg);
-    }
-    40% {
-      transform: rotate(255deg);
-    }
-    60% {
-      transform: rotate(305deg);
-    }
-    80% {
-      transform: rotate(355deg);
-    }
-    100% {
-      transform: rotate(405deg);
-    }
-  }
-  .east_day_pangalane .day1 {
-    width: 87vw;
-    height: 22rem;
-    position: absolute;
-    top: 0rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day1 h1 {
-    font-size: 23.5px;
-    position: absolute;
-    left: 17vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day1 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 2vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day1 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day_pangalane .day2 {
-    width: 87vw;
-    height: 36rem;
-    position: absolute;
-    top: 32rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day2 h1 {
-    font-size: 22px;
-    position: absolute;
-    left: 75vw;
-    font-weight: 550;
-    left: 12vw;
-    color: rgb(35, 34, 34);
-    width: 77vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day2 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day2 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day_pangalane .day3 {
-    width: 87vw;
-    height: 30rem;
-    position: absolute;
-    top: 78.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day3 h1 {
-    font-size: 23px;
-    position: absolute;
-    left: 3.7vw;
-    font-weight: 550;
-    width: 80vw;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day3 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 2vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day3 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day_pangalane .day4 {
-    width: 87vw;
-    height: 36.1rem;
-    position: absolute;
-    top: 118.7rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day4 h1 {
-    font-size: 18.4px;
-    position: absolute;
-    left: 5vw;
-    font-weight: 550;
-    width: 80vw;
-    color: rgb(35, 34, 34);
-    top: 1rem;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day4 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 9.5rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day4 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1rem;
-    left: 0.4rem;
-  }
-  .east_day_pangalane .day5 {
-    width: 87vw;
-    height: 41.6rem;
-    position: absolute;
-    top: 164.5rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day5 h1 {
-    font-size: 20px;
-    position: absolute;
-    left: 14vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    width: 60vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day5 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day5 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day_pangalane .day6 {
-    width: 87vw;
-    height: 21.9rem;
-    position: absolute;
-    top: 218rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day6 h1 {
-    font-size: 16px;
-    position: absolute;
-    left: 10vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day6 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 9rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day6 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-  }
-  .east_day_pangalane .day7 {
-    width: 87vw;
-    height: 16rem;
-    position: absolute;
-    top: 253rem;
-    left: 6vw;
-    border-radius: 4px;
-    background-color: rgba(102, 98, 98, 0.122);
-  }
-  .east_day_pangalane .day7 h1 {
-    font-size: 21px;
-    position: absolute;
-    left: 18vw;
-    font-weight: 550;
-    color: rgb(35, 34, 34);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  .east_day_pangalane .day7 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1vw;
-    top: 6rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day_pangalane .day7 img {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 1.3rem;
-    left: 1rem;
-  }
-  footer {
-    position: absolute;
-    top: 840rem;
-    background-color: rgba(0, 0, 0, 0.705);
-    width: 100%;
-    height: 35.9rem;
-    padding-bottom: -24rem;
-  }
-  .footer_contact h1 {
-    position: absolute;
-    left: -24vw;
-    font-family: "yeseva_oneregular";
-  }
-  .footer_contact {
-    width: 45%;
-    position: absolute;
-    top: 5rem;
-    left: 45%;
-  }
-  .mail {
-    font-size: 20px;
-    position: absolute;
-    top: 7rem;
-    left: -13.5rem;
-    color: #ffffff;
-  }
-  .phone {
-    font-size: 19px;
-    position: absolute;
-    top: 10rem;
-    left: -13.5rem;
-    color: #ffffff;
-  }
-  .footer_contact p:nth-last-child(3) {
-    font-size: 18px;
-    position: absolute;
-    top: 13.1rem;
-    left: -13rem;
-    color: #ffffff;
-  }
-  .icones {
+@media (max-width: 575px) {
+  .north {
     position: relative;
-    top: 21rem;
-    left: -8rem;
+    top: -4rem;
   }
-  .border_ {
-    position: absolute;
-    top: 19rem;
-    left: -4.8rem;
-    width: 2.6cm;
-    height: 4px;
-    background-color: #ffffff;
+  .north .desc {
+    position: relative;
+    left: -8vw;
+    width: 92%;
+    font-size: calc(1.05rem + 1.5vw);
   }
-  .footCopright {
-    position: absolute;
-    top: 35.8rem;
-    width: 100%;
-    height: 1.6cm;
-    background-color: rgba(40, 37, 37, 0.921);
-    font-size: 18px;
-    padding-top: 0rem;
-    color: rgb(212, 205, 205);
+  .title_north {
+    color: rgb(209, 118, 6);
+    font-size: calc(2.05rem + 1.5vw);
+  }
+  .borde {
+    margin-left: 3.4%;
+  }
+}
+@media (min-width: 992px) {
+  .title_north {
+    margin-left: 3rem;
+    font-size: calc(1.75rem + 1.5vw);
+  }
+  .borde {
+    margin-left: 3.7%;
+  }
+  .north {
+    position: relative;
+    top: -3rem;
+  }
+  .north .desc {
+    left: 0vw;
+    width: 90%;
   }
 }
 

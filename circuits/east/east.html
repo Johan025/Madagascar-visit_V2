@@ -1,55 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
-    <meta name="keywords" content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA, Madagascar Tour, Madagascar travel, Madagascar Trip , Madagascar Holidays, Madagascar Guid, Visit Madagascar, Tour of Madagascar ">
-    <title>Madagascar visite tours</title>
-    <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
-    <link rel="stylesheet" href="east.css">
-    <link rel="stylesheet" href="../../css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
+  <meta name="keywords"
+    content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA, Madagascar Tour, Madagascar travel, Madagascar Trip , Madagascar Holidays, Madagascar Guid, Visit Madagascar, Tour of Madagascar ">
+  <title>Madagascar visite tours</title>
+  <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
+  <link rel="stylesheet" href="east.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
 </head>
+
 <body>
-    <header>
- 
-        <div class="header">
-        <ul class="ul">
-          <li id="Home" class="Home"><a title="Home"  href="../../index.php">Home</a></li>
-          <li id="tour" class="tour"><a title="tour"class="active"  href="#tours">Our tours</a></li>
-          <li id="Contact" class="Contact"><a title="contact" class="c"  href="#footer" >Contact</a></li>
-          <li id="Blog" class="Blog"><a title="Blog" href="#">Blog</a></li>
-          <li id="Guest_Book" class="Guest_Book"><a title="Guest_Book" class="g" href="guestbook/guestBook.php">Guest Book</a></li>
-          <li id="About_us" class="About_us"><a title="About_us"  class="a" href="#about">About us</a></li>
-       
-          <div id="bord" class="text-center"></div>
-          <h1 class="h_bord text-center">Travel with Madagascar visit compagny</h1>
-        <li class="versionAng" id="C"><img  class="imgAng" src="../../logo/ang.jpg" alt=""> English <i class="fa fa-sort-desc" id="ang"></i></li>
-    </ul>
-         <div class="fenetreFrancais" id="fenetreFrancais">
-           <div class="item_1"><img  class="imgAng1" src="logo/ang.jpg" alt=""><p> Francais</p></i></div>
-         </div>
-        
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+    <div class="container-fluid">
+      <!-- Logo ou titre -->
+      <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
+
+      <!-- Bouton pour les petits écrans -->
+      <button class="navbar-toggler bg-warning text-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Contenu de la navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class="fa-solid fa-house  text-dark"></i> Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="active"></div>
+              <i class="fa-solid fa-car text-dark"></i> Our tour
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Circuit NORD</a></li>
+              <li><a class="dropdown-item" href="#">Circuit SUD</a></li>
+              <li><a class="dropdown-item" href="#">CIrcuit EST</a></li>
+              <li><a class="dropdown-item" href="#">Circuit OUEST</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-dark" href="#"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
+              Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="couv">
+    <img src="./../pictures/COUVERTURE_EST.jpg" class="w-100 vh-50 img-fluid" alt="" id="couverture">
+    <h3 class="text-center">Trip</h3>
+    <h1 class="text-center">to the fameous East of Madagascar</h1>
+
+    <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
+  </div>
+
+  <div class="north">
+    <h1 class=" title_north  text-start text-md-start">Tour detail
+
+    </h1>
+    <div class="borde"></div>
+    <p class="desc fs-5 text-dark  mx-5">The biggest lemur’s INDRI INDRI in Andasibe park ,with his magical call in the
+      morning . Madagascar Excotic reserve which gives you opportunity to see different chameleons, reptiles, Vakona
+      reserv that you have possibility to see come close the lemurs without forgetting the night walking that you gives
+      you opportunity to see the microcebus or mouse lemurs, the smallest lemurs in the world with 50g of weight , frog
+      , chameleon …
+      <br><br>
+      This is also the shortest itinerary to reach the sea ; Indian Ocean
+      <b><br> - CLASSICAL EAST TOUR
+        <br> - EAST TOUR WITH CRUISE IN THE CHANNEL OF PANGALANE TO PALMARIUM
+        <br> - SAINTE MARIE </b>
+
+
+    </p>
+
+  </div>
+
+  <div class="north_day">
+    <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 14 days</h3>
+    <div class="point text-start" id="point"></div>
+    <h1 class="text-center text-lg-start  m-5" id="classic_h1">Classical North Tour</h1>
+
+    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner" id="inner">
+        <div class="carousel-item active">
+          <img src="./../pictures/couvertureNord.jpg" class="d-block w-100" alt="...">
         </div>
-    
-        <div class="logoBurger"><i class="fa fa-bars"></i></div>
-    </header>
-    <img  class="logo" src="../../logo/madagascar-visite-logo.png">
+        <div class="carousel-item">
+          <img src="./pictures/espece3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./../pictures/COUVERTURE_EST.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <div class="couvertureEst img-fluid"><img src="../pictures/COUVERTURE_EST.jpg" alt=""></div>
-    <div class="couvertureEst_responsive"><img src="../pictures/EST.jpg" alt=""></div>
-   <div class="texte"></div>
+    <div class="container-fluid" id="cont">
+      <div class="row gy-5">
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day1: Tana</h2>
+            <p class="text-dark p-0">
+              Assistance at the airport, and transfer to the hotel.
+              If you have time, going to the point of view that you can see Antananarivo and his area
+              <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
 
-    
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day2: Tana-Ankarafantsika</h2>
+            <p class="text-dark p-0"> Lore ipsum dolor sit amet consectetur adipisicing elit. Et neque sapiente deleniti
+              alias error commodi sit similique placeat, doloribus earum, aut asperiores necessitque, aperiam?
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day3: Ankarafantsika </h2>
+            <p class="text-dark p-0 fs-4.8"> like Coquerel's Sifaka, Brown lemur, Milne Edwards Sportive lemurs if
+              you're
+              lucky. The bird, Ankarafantsika National Park is home of bird , BAOBAB, medicinal plants
+              <br>Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day4:Ankarafantsika - Port Berger - Antsohihy</h2>
+            <p class="text-dark p-0 fs-4.8">Road to Antsohihy through the local people in the North part of Madagascar
+              <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day5:Antsohihy - Ambanja</h2>
+            <p class="text-dark p-0 fs-4.8"> Visit ot 1h for the reserv lead by the local people for the BLACK INDRI in
+              wild.
+              <br>Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day6: Ambanja - Ankarana</h2>
+            <p class="text-dark p-0 fs-4.8"> Visit of MILLOT PLANTATION in Ambanja for the plantation of cacao, vanilla,
+              Ilang Ilang , before road to Ankarana .Millot plantation show you how to plant cocoa until the packing of
+              exportation ,
+              <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day7:Ankarana</h2>
+            <p class="text-dark p-0 fs-4.8">Visit of ANKARANA NATIONAL PARK for the TSINGY d'ANKARANA , Tsingy formed by
+              llimestones similar in Tsingy of Bemaraha .The lemurs, birds, The sacred bat's cave, Baobab
+              <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day8:Ankarana - Red Tsingy- Joffre ville</h2>
+            <p class="text-dark p-0 fs-4.8"> Road to Joffre Ville
+              Visit of Red Tsingy formed by laterite formation with his amazing colours red <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day9: Joffre ville - Mountain Amber National Park</h2>
+            <p class="text-dark p-0 fs-4.8"> RVisit of Mountain Amber National Park , the oldest park in Madagascar with
+              his rainforest climate gives you opportunity to see the waterfall, lemurs, like crowned Sanford, Bamboo
+              lemurs, Red lemur; frog; tenrecs; birds; chameleon specially the "BROOKESIA MINIMA" the smallest chameleon
+              in the world less that 1inch .
+              <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day10:Joffre Ville - Diego - Ramena </h2>
+            <p class="text-dark p-0 fs-4.8"> Road to Ramena , you will pass to "SUGAR LOAF" emblematic of Diégo , the
+              Baobab Madagascar Suarenzis endemic on the North , fisherman village.
+              Visit of Diego town ,
+              <br> Overnight at the hotel
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day11: Ramena - Emerald Sea - Ramena </h2>
+            <p class="text-dark p-0 fs-4.8"> Excursion at Emerald sea .
+              You will take motors boat to Emerald Sea .
+              The boat will navigate across the most beautiful lagoon's cristalline waters, coral reefs teeming with
+              hundred of red fish .
+              Emerald sea is perfect for swimming with it's shallow water . It's perfect to exploring this underwater
+              paradise .
+              Tasty fresh and sea food during the excursion.
+              <br> Overnight at the hotel .
+
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day12: Ramena - 3 baies Baies of Sakalava , Pigeon, Baies of
+              Sakalava ideal for surfing </h2>
+            <p class="text-dark p-0 fs-4.8"> Baies of Sakalava ideal for surfing ,
+              Water sports like surfing ,Sakalava bay is ideal .
+              <br> Overnight at the hotel
+
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day13: Ramena - Diego - Tana</h2>
+            <p class="text-dark p-0 fs-4.8"> Road to Diego
+              <br> Flight to Antananarivo
+
+
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="p-3 rounded">
+            <h2><i class="fa-solid fa-location-dot"></i> day14: Tana </h2>
+            <p class="text-dark p-0 fs-4.8"> ity tour in Antananarivo
+              <br> Transfert to the airport for your international flight
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- <div class="couvertureEst img-fluid"><img src="../pictures/COUVERTURE_EST.jpg" alt=""></div>
+  <div class="couvertureEst_responsive"><img src="../pictures/EST.jpg" alt=""></div>
+  <div class="texte"></div> -->
+
+  <!--     
     <div class="east">
       
         <h1 class="title_east text-center">EAST TOUR 
@@ -78,7 +313,7 @@
 
          <div id="myCarousel" class="carousel slide">
           
-            <!-- Wrapper for slides  -->
+             Wrapper for slides  
            <div class="carousel-inner" id="inner">
              <div class="item  active">
                <img src="../pictures/couvertureNord.jpg" alt="Lemur Catta" style="width:100%;">
@@ -101,7 +336,7 @@
          
            </div>
        
-           <!-- Left and right controls  -->
+
            <div class="controls">
            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
              <span id="left" class="glyphicon glyphicon glyphicon-arrow-left"></span>
@@ -195,7 +430,6 @@
   
            <div id="myCarousel" class="carousel slide">
             
-              <!-- Wrapper for slides  -->
              <div class="carousel-inner" id="inner">
                <div class="item  active">
                  <img src="../pictures/couvertureNord.jpg" alt="Lemur Catta" style="width:100%;">
@@ -218,7 +452,6 @@
            
              </div>
          
-             <!-- Left and right controls  -->
              <div class="controls_">
              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                <span id="left_" class="glyphicon glyphicon glyphicon-arrow-left"></span>
@@ -302,35 +535,39 @@
     <div class="sainte-marie">
          
     </div>
-<a href="#"><div class="up"><img src="../../logo/up.png" alt=""></div></a>
+<a href="#"><div class="up"><img src="../../logo/up.png" alt=""></div></a> -->
 
-<footer id="footer">
-   <div class="footer_contact">
-     <h1>Contact us</h1>
+  <!-- <footer id="footer">
+    <div class="footer_contact">
+      <h1>Contact us</h1>
 
-     <p class="phone"> <img src="../../logo/telephone20x20.png"   width=20 height=20> telephone: +261(0)34 73 440 45</p>
-    <a href="lovasson@yahoo.fr"><p class="mail"><img src="../../logo/lettre20x20.png"  width=20 height=20> email: lovasson@yahoo.fr</p></a>
-     <p><i class="fa fa-whatsapp" width=20 height=20></i> WhatsApp:  +261(0)34 73 440 45</p>
+      <p class="phone"> <img src="../../logo/telephone20x20.png" width=20 height=20> telephone: +261(0)34 73 440 45</p>
+      <a href="lovasson@yahoo.fr">
+        <p class="mail"><img src="../../logo/lettre20x20.png" width=20 height=20> email: lovasson@yahoo.fr</p>
+      </a>
+      <p><i class="fa fa-whatsapp" width=20 height=20></i> WhatsApp: +261(0)34 73 440 45</p>
 
       <div class="border_"></div>
 
-     <div class="icones">
-       <img src="../../logo/twitter.png" width=48 height=48>
-      <a href="https://web.facebook.com/madagascarvisite" class="img_fb" target="_blank"><img class="img_fb" src="../../logo/FaceBook.png" width=48 height=48></a>
-       <a href="https://www.linkedin.com" target="_blank"><img src="../../logo/LinkedIn.png" width=48 height=48></a>
-     </div>
-</div>
+      <div class="icones">
+        <img src="../../logo/twitter.png" width=48 height=48>
+        <a href="https://web.facebook.com/madagascarvisite" class="img_fb" target="_blank"><img class="img_fb"
+            src="../../logo/FaceBook.png" width=48 height=48></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="../../logo/LinkedIn.png" width=48 height=48></a>
+      </div>
+    </div>
 
-<div class="footCopright">
-<center>
-   Copyright 2023 Madagascar Visit by Johan♥ - All right reserved  
-</center>
-</div>
-</footer>  
+    <div class="footCopright">
+      <center>
+        Copyright 2023 Madagascar Visit by Johan♥ - All right reserved
+      </center>
+    </div>
+  </footer> -->
 
 
-<script src="./components/script.js"></script>
+  <script src="./components/script.js"></script>
 
 
 </body>
+
 </html>
