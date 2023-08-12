@@ -1,0 +1,151 @@
+font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+        url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../../../fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+        url('../../../fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../../..//abrilfatface-regular-webfont.woff2') format('woff2'),
+      url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+      url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'acmeregular';
+    src: url('../../../fonts/acme-regular-webfont.woff2') format('woff2'),
+      url('../../../fonts/') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+
+@import './../../../settings.scss';
+
+b {
+    color: rgb(62, 56, 56);
+}
+
+
+.title_south{
+    margin-left: 3%;
+    font-size: calc(1.875rem + 1.5vw);
+    font-family: 'acmeregular';
+    font-weight: bold;
+}
+
+
+.south{
+    position: relative;
+    top: -3rem;
+
+    .desc {
+        margin-top: 1rem;
+        position: relative;
+        left: 0vw;
+        width: 90%;
+    }
+}
+
+.borde{
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 0%;
+    background-color: rgb(209, 118, 6);
+}
+
+
+@media (min-width: 576px) {
+    .title_south {
+        color: rgb(209, 118, 6);
+        margin-left: 3rem;
+        font-family: 'acmeregular';
+        font-size: 38px;
+    }
+
+    .borde{
+        margin-left: 7.3%;
+    }
+
+    .south {
+        position: relative;
+        top: -3rem;
+    
+        .desc {
+            left: -3vw;
+            width: 90%;
+        }
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .south {
+        position: relative;
+        top: -4rem;
+
+        .desc {
+            position: relative;
+            left: -8vw;
+            width: 92%;
+            font-size: calc(1.05rem + 1.5vw);
+        }
+    }
+
+    .title_south {
+        color: rgb(209, 118, 6);
+        font-size: calc(2.05rem + 1.5vw);
+    }
+    .borde{
+        margin-left: 3.4%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .title_south {
+        margin-left: 3rem;
+        font-size: calc(1.75rem + 1.5vw);
+    }
+
+    .borde{
+        margin-left: 3.7%;
+    }
+
+    .south {
+        position: relative;
+        top: -3rem;
+    
+        .desc {
+            left: 0vw;
+            width: 90%;
+        }
+    }
+
+}

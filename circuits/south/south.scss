@@ -1,14 +1,5 @@
-@import "components/navbar.scss";
 @import "../../settings.scss";
-@import "../south/components/couverture.scss";
-@import "../south/components/title.scss";
-@import "../south/components/classic\ tour.scss";
-@import "../south/components/south\ combined.scss";
-@import "../south/components/adventures\ tours.scss";
-@import "../south/components/boreder_vertical.scss";
-@import "../south/components/footer.scss";
-@import "./components/h1.scss";
-@import "./components/texte.scss";
-@import "../south/components/responsive\ phone/index_phone.scss";
-@import "../south/components/responsive\ tablette/index_tablette.scss";
-@import "../south/components/responsive\ laptop/laptop 1350+ .scss";
+@import "./components/south_desc.scss";
+@import "./components/couverture.scss";
+@import "components/navbar.scss";
+@import "components/classic_south.scss";
