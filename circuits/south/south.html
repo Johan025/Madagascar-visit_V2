@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta name="description"
     content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
   <meta name="keywords"
@@ -819,6 +819,8 @@
 </div>
 
 </div>
+
+<div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
  
 <!-- <footer id="footer"> 
   <div class="footer_contact">
@@ -843,10 +845,41 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
 </center>
 </div>
 </footer> -->
+<script>
+  function scrollTo() {
+// Récupérer la position actuelle de défilement
+const currentPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+// Calcul pour défilement vers le haut, miakatra menu
+const scrollStep = Math.PI / (300 / 3770); 
+
+//animation du scroll
+const scrollAnimation = () => {
+    // Récupérer la position actuelle de défilement , alaina ny position anilay scroll
+    const currentPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+   
+    if (currentPosition > 0) {
+        // Faire défiler vers le haut 
+        window.scrollBy(0, -scrollStep);
+        // Appeler récursivement la fonction pour continuer l'animation
+        requestAnimationFrame(scrollAnimation);
+    }
+};
+
+scrollAnimation();
+}
+
+// gestionnaire d'événements de clic du bouton
+const scroll = document.querySelector('.up');
+scroll.addEventListener('click', scrollTo);
+
+</script>
   <script src="components/write.js"></script>
   <script src="../../index.js"></script>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="./map.js"></script>
+  
 </body>
 
 </html>
