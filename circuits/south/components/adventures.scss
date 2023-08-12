@@ -67,7 +67,7 @@
   }
 }
 
-.south_day {
+.adventure {
   position: relative;
   top: 7vw;
 
@@ -96,23 +96,6 @@
   }
 }
 
-#plan1{
-    position: relative;
-    top: 9rem;
-}
-
-.borde1{
-  width: 3.4rem;
-  height: 6px;
-  margin-left: 48%;
-  position: relative;
-  top: 9.4rem;
-  border-radius: 18px;
-  background-color: rgb(209, 118, 6);
-}
-
-
-
 @media (min-width: 576px) {
   #carouselExampleControls {
     width: 82%;
@@ -139,7 +122,7 @@
     top: 5.5rem;
   }
 
-  .south_day {
+  .adventure {
     position: relative;
     top: 2.6rem;
   }
@@ -165,7 +148,7 @@
     color: #36454f;
   }
 
-  .south_day {
+  .adventure {
 
 
     .row {
@@ -182,9 +165,9 @@
 
           h2 {
             color: rgb(209, 118, 6);
+            font-family: 'abril_fatfaceregular';
             font-weight: bold;
             font-size: calc(1.1rem + 1.7vw);
-            font-family: 'Signika', sans-serif;
 
             i {
               color: rgb(209, 118, 6);
@@ -242,9 +225,9 @@
     top: 5.5rem;
   }
 
-  .south_day {
+  .adventure {
     position: relative;
-    top: 2.6rem;
+    top: 20.6rem;
 
 
     h3 {
@@ -279,7 +262,6 @@
         //  background-color:  #fef250,;
         div {
           background-color: #a5a5a554;
-          padding: 0;
 
           h2 {
             color: rgb(51, 44, 48);
@@ -309,6 +291,8 @@
             font-size: calc(0.5rem + 0.95vw);
             // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
           }
+
+
 
 
         }
@@ -342,25 +326,9 @@
     }
   }
 
-  #plan1{
+  .adventure {
     position: relative;
-    top: 9rem;
-    font-size: calc(1.7rem + 1.5vw);
-}
-
-.borde1{
-  width: 2.5rem;
-  height: 5.5px;
-  margin-left: 44%;
-  text-align: center;
-  position: relative;
-  top: 9.4rem;
-}
-
-
-  .south_day {
-    position: relative;
-    top: -7vw;
+    top: 152vw;
 
     h3 {
       color: #7851a9;
@@ -385,7 +353,7 @@
     .row {
       position: relative;
       left: 0%;
-      top: 12.4rem;
+      top: 12.5rem;
 
       div {
 
@@ -393,7 +361,6 @@
         div {
 
           background-color: #a5a5a554;
-
           h2 {
             color: rgb(51, 44, 48);
             font-family: 'Signika', sans-serif;
@@ -415,7 +382,6 @@
             i {
               color: rgb(209, 118, 6);
             }
-
           }
 
           p {
