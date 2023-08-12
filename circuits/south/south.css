@@ -542,6 +542,15 @@ b {
     width: 58%;
     border-radius: 18px;
   }
+  #plan1 {
+    position: relative;
+    top: 4.6rem;
+  }
+  .borde1 {
+    position: relative;
+    top: 5.2rem;
+    width: 2rem;
+  }
   #point {
     position: relative;
     margin-left: -23rem;
@@ -580,16 +589,25 @@ b {
     padding: 0;
   }
   .south_day .row div div h2 {
-    color: rgb(209, 118, 6);
-    font-weight: bold;
-    font-size: calc(1.1rem + 1.7vw);
+    color: rgb(51, 44, 48);
     font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.78rem + 1.7vw);
   }
   .south_day .row div div h2 i {
-    color: rgb(209, 118, 6);
+    color: rgb(240, 136, 8);
   }
   .south_day .row div div p {
-    font-size: calc(0.6rem + 0.95vw);
+    font-size: calc(0.7rem + 0.95vw);
+  }
+  .south_day .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1rem + 1.7vw);
+  }
+  .south_day .row div div h4 i {
+    color: rgb(209, 118, 6);
   }
 }
 @media (min-width: 992px) {
@@ -839,16 +857,25 @@ b {
     padding: 0;
   }
   .comb .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.78rem + 1.7vw);
+  }
+  .comb .row div div h2 i {
+    color: rgb(240, 136, 8);
+  }
+  .comb .row div div p {
+    font-size: calc(0.7rem + 0.95vw);
+  }
+  .comb .row div div h4 {
     color: rgb(209, 118, 6);
     font-family: "Signika", sans-serif;
     font-weight: bold;
-    font-size: calc(1.1rem + 1.7vw);
+    font-size: calc(1rem + 1.7vw);
   }
-  .comb .row div div h2 i {
+  .comb .row div div h4 i {
     color: rgb(209, 118, 6);
-  }
-  .comb .row div div p {
-    font-size: calc(0.6rem + 0.95vw);
   }
 }
 @media (min-width: 992px) {
@@ -1130,6 +1157,10 @@ b {
     position: relative;
     color: #36454f;
   }
+  .adventure {
+    position: relative;
+    top: 18rem;
+  }
   .adventure .row {
     margin-left: 6%;
     margin-top: 5rem;
@@ -1142,16 +1173,25 @@ b {
     padding: 0;
   }
   .adventure .row div div h2 {
-    color: rgb(209, 118, 6);
-    font-family: "abril_fatfaceregular";
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
     font-weight: bold;
-    font-size: calc(1.1rem + 1.7vw);
+    font-size: calc(0.78rem + 1.7vw);
   }
   .adventure .row div div h2 i {
-    color: rgb(209, 118, 6);
+    color: rgb(240, 136, 8);
   }
   .adventure .row div div p {
-    font-size: calc(0.6rem + 0.95vw);
+    font-size: calc(0.7rem + 0.95vw);
+  }
+  .adventure .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1rem + 1.7vw);
+  }
+  .adventure .row div div h4 i {
+    color: rgb(209, 118, 6);
   }
 }
 @media (min-width: 992px) {
@@ -1304,6 +1344,110 @@ b {
   }
   .adventure .row div div p {
     font-size: calc(0.95rem + 0.95vw);
+  }
+}
+.anakao {
+  position: relative;
+  top: 30rem;
+}
+.anakao h3 {
+  color: #7851a9;
+  position: absolute;
+  top: 2.5rem;
+  left: 35%;
+  font-weight: bold;
+}
+.anakao h3 i {
+  color: #7851a9;
+}
+.anakao h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: 40px;
+  position: absolute;
+  left: 5.3rem;
+  color: #36454f;
+}
+.anakao p {
+  font-size: calc(0.5rem + 0.95vw);
+  margin-top: 4rem;
+}
+
+#point4 {
+  position: relative;
+  margin-left: 0rem;
+  top: 2.1rem;
+}
+
+@media (max-width: 575px) {
+  .anakao {
+    position: relative;
+    top: 59rem;
+  }
+  .anakao h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.5rem + 1.6vw);
+    position: absolute;
+    left: 3.3rem;
+    color: #36454f;
+  }
+  .anakao p {
+    font-size: calc(1.2rem + 0.95vw);
+    margin-top: 6rem;
+    margin-left: 1.2rem;
+  }
+}
+.zafimaniry {
+  position: relative;
+  top: 30rem;
+}
+.zafimaniry h3 {
+  color: #7851a9;
+  position: absolute;
+  top: 2.5rem;
+  left: 35%;
+  font-weight: bold;
+}
+.zafimaniry h3 i {
+  color: #7851a9;
+}
+.zafimaniry h1 {
+  font-family: "acmeregular";
+  font-weight: 900;
+  font-size: 40px;
+  position: absolute;
+  left: 5.3rem;
+  color: #36454f;
+}
+.zafimaniry p {
+  font-size: calc(0.5rem + 0.95vw);
+  margin-top: 4rem;
+}
+
+#point4 {
+  position: relative;
+  margin-left: 0rem;
+  top: 2.1rem;
+}
+
+@media (max-width: 575px) {
+  .zafimaniry {
+    position: relative;
+    top: 62rem;
+  }
+  .zafimaniry h1 {
+    font-family: "acmeregular";
+    font-weight: 900;
+    font-size: calc(1.5rem + 1.6vw);
+    position: absolute;
+    left: 3.3rem;
+    color: #36454f;
+  }
+  .zafimaniry p {
+    font-size: calc(1.2rem + 0.95vw);
+    margin-top: 6rem;
+    margin-left: 1.2rem;
   }
 }
 * {

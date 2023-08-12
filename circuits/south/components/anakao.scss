@@ -1,0 +1,64 @@
+.anakao {
+    position: relative;
+    top: 30rem;
+
+    h3 {
+        color: #7851a9;
+        position: absolute;
+        top: 2.5rem;
+        left: 35%;
+        font-weight: bold;
+
+        i {
+            color: #7851a9;
+        }
+    }
+
+
+    h1 {
+        font-family: 'acmeregular';
+        font-weight: 900;
+        font-size: 40px;
+        position: absolute;
+        left: 5.3rem;
+        color: #36454f;
+    }
+
+    p {
+        font-size: calc(0.5rem + 0.95vw);
+        margin-top: 4rem;
+        // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+#point4 {
+    position: relative;
+    margin-left: 0rem;
+    top: 2.1rem;
+  }
+
+  @media (max-width: 575px) {
+    .anakao {
+        position: relative;
+        top: 59rem;
+    
+    
+    
+        h1 {
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: calc(1.5rem + 1.6vw);
+            position: absolute;
+            left: 3.3rem;
+            color: #36454f;
+        }
+    
+        p {
+            font-size: calc(1.2rem + 0.95vw);
+            margin-top: 6rem;
+            margin-left: 1.2rem;
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+    
+  }
