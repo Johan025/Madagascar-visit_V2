@@ -35,15 +35,15 @@
     position: relative;
     margin-left: 0rem;
     top: 2.1rem;
-  }
+}
 
-  @media (max-width: 575px) {
+@media (max-width: 575px) {
     .anakao {
         position: relative;
         top: 59rem;
-    
-    
-    
+
+
+
         h1 {
             font-family: 'acmeregular';
             font-weight: 900;
@@ -52,7 +52,7 @@
             left: 3.3rem;
             color: #36454f;
         }
-    
+
         p {
             font-size: calc(1.2rem + 0.95vw);
             margin-top: 6rem;
@@ -60,5 +60,32 @@
             // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
     }
+
+}
+
+@media (min-width: 576px) {
+
+    .anakao {
+
+        h1 {
+            font-family: 'acmeregular';
+            font-weight: 900;
+            font-size: 34px;
+            position: absolute;
+            left: 5.3rem;
+            color: #36454f;
+        }
+
+        p {
+            font-size: calc(0.75rem + 0.95vw);
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+
+        }
+        
     
-  }
+     
+    }
+}
