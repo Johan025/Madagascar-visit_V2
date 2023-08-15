@@ -1385,7 +1385,7 @@ b {
   top: 31rem;
   padding: 4px;
   border-radius: 10px;
-  box-shadow: 2px 2px 35px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.541);
 }
 .comments h1 {
   font-size: 36px;

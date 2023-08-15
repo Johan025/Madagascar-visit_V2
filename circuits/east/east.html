@@ -11,6 +11,7 @@
   <meta name="keywords"
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA, Madagascar Tour, Madagascar travel, Madagascar Trip , Madagascar Holidays, Madagascar Guid, Visit Madagascar, Tour of Madagascar ">
   <title>Madagascar visite tours</title>
+  
   <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
   <link rel="stylesheet" href="east.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -20,11 +21,18 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
     <div class="container-fluid">
       <!-- Logo ou titre -->
       <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
@@ -68,35 +76,69 @@
   </nav>
 
   <div class="couv">
-    <img src="./../pictures/COUVERTURE_EST.jpg" class="w-100 vh-50 img-fluid" alt="" id="couverture">
+    <div class="w-100" id="couv_"><img src="../pictures/COUVERTURE_EST.jpg" class="w-100"></div>
     <h3 class="text-center">Travel</h3>
-    <h1 class="text-center">to the fameous East of Madagascar</h1>
+    <h1 class="text-center">to the East of Madagascar</h1>
 
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
+
 
   <div class="north">
     <h1 class=" title_north  text-start text-md-start">Tour detail
 
     </h1>
-    <div class="borde"></div>
-    <p class="desc fs-5 text-dark  mx-5">The biggest lemur’s INDRI INDRI in Andasibe park ,with his magical call in the
+    <div class="border_"></div>
+    <p class="desc fs-5 mx-5">The biggest lemur’s INDRI INDRI in Andasibe park ,with his magical call in the
       morning . Madagascar Excotic reserve which gives you opportunity to see different chameleons, reptiles, Vakona
       reserv that you have possibility to see come close the lemurs without forgetting the night walking that you gives
       you opportunity to see the microcebus or mouse lemurs, the smallest lemurs in the world with 50g of weight , frog
       , chameleon …
       <br><br>
-      This is also the shortest itinerary to reach the sea ; Indian Ocean
-      <b><br> - CLASSICAL EAST TOUR
-        <br> - EAST TOUR WITH CRUISE IN THE CHANNEL OF PANGALANE TO PALMARIUM
-        <br> - SAINTE MARIE </b>
 
 
     </p>
 
+    <div class="suggest">
+      <h1>Our suggestion </h1>
+      <div class="border_"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <img src="./../pictures/Sainte-Marie-Madagascar.jpg" alt="Image">
+              <h4> <i class="fa fa-calendar-days"></i> About 10 days</h4>
+              <h2>Classical East Tour</h2>
+              <button class="scroll btn" data-target="section1">Choose</button>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <img src="./../pictures/photo palmarium.jpg" alt="Image">
+              <h4> <i class="fa fa-calendar-days"></i> About 10 days</h4>
+              <h2>East Tour in the channel of Pangalane</h1></h2>
+              <button class="scroll btn text-center" data-target="section2">Choose</button>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <img src="./../pictures/sainte marie.jpg" alt="Image">
+              <h4> <i class="fa fa-calendar-days"></i></h4>
+              <h2>Sainte-Marie  Town</h2>
+              <button class="scroll btn" data-target="section3">Choose</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 
-  <div class="east_day">
+  <div class="east_day" id="section1">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 10 days</h3>
     <div class="point text-start" id="point"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Classical East Tour</h1>
@@ -125,11 +167,15 @@
       </button>
     </div>
 
+    <h1 class="text-center" id="plan1">Travel Plan</h1>
+    <div class="  text-center borde1"> </div>
+
     <div class="container-fluid" id="cont">
       <div class="row gy-5">
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day1: Tana</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 1:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana</h2>
             <p class="text-dark p-0">
               Assistance at the airport, and transfer to the hotel.
               If you have time, going to the point of view that you can see Antananarivo and his area
@@ -140,7 +186,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day2: TANA-ANDASIBE</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 2:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> TANA-ANDASIBE</h2>
             <p class="text-dark p-0"> Departure in the morning for Andasibe, going through the green scenery.
               Stop at Madagascar Exotic reserve, which is reputed for its butterflies, frogs,chameleons, reptiles,
               batrachians, and crocodiles.
@@ -152,7 +199,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day3: Andasibé </h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 3:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Andasibé </h2>
             <p class="text-dark p-0 fs-4.8"> Visit of Andasibe Park . You will have opportunity to observe the
               INDRI-INDRI , the biggest lemur, endemic to the island,Orchids, ferns as well as birds.
               Visit of Vakona reserve which gives you opportunity to see the lemurs jumping in your shoulders
@@ -163,7 +211,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day4: Andasibé - Tamatave - Mahambo</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 4:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Andasibé - Tamatave - Mahambo</h2>
             <p class="text-dark p-0 fs-4.8">Departure for Toamasina, through green hills and mountains, composed of
               bambous, traveller’s trees and palms. Stop to visit the coastal town of Tamatave,which is also the biggest
               Port of Madagascar, then continue to Mahambo , following the East luxuriant coast of Madagascar.
@@ -174,7 +223,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day5: Mahambo - Sainte-Marie</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 5:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Mahambo - Sainte-Marie</h2>
             <p class="text-dark p-0 fs-4.8">Mahambo , village of embarcader that you will take boat to Sainte Marie
             </p>
           </div>
@@ -182,6 +232,7 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 6, Day 7, Day 8:</h4>
             <h2><i class="fa-solid fa-location-dot"></i> day6-7-8: Sainte-Marie</h2>
             <p class="text-dark p-0 fs-4.8">Trip to Sainte-Marie
             </p>
@@ -190,7 +241,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day10: Tana</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 10:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana</h2>
             <p class="text-dark p-0 fs-4.8">Transfert to the airport for your international flight
             </p>
             </p>
@@ -201,7 +253,7 @@
     </div>
   </div>
 
-  <div class="east_day_pang">
+  <div class="east_day_pang" id="section2">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 10 days</h3>
     <div class="point text-start" id="point"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">East Tour in the channel of Pangalane</h1>
@@ -228,11 +280,16 @@
       </button>
     </div>
 
+    <h1 class="text-center" id="plan1">Travel Plan</h1>
+    <div class="  text-center borde1"> </div>
+
     <div class="container-fluid" id="cont">
       <div class="row gy-5">
         <div class=" col-10 w-100 col-md-7">
+
           <div class="bg-md-danger p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day1: Tana</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 1:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana</h2>
             <p class="text-dark p-0">
               Assistance at the airport, and transfer to the hotel.
               If you have time, going to the point of view that you can see Antananarivo and his area
@@ -243,7 +300,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day2: TANA-ANDASIBE</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 2:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> TANA-ANDASIBE</h2>
             <p class="text-dark p-0"> Departure in the morning for Andasibe, going through the green scenery.
               Stop at Madagascar Exotic reserve, which is reputed for its butterflies, frogs,chameleons, reptiles,
               batrachians, and crocodiles.
@@ -255,7 +313,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day3: Andasibé </h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 3:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Andasibé </h2>
             <p class="text-dark p-0 fs-4.8"> Visit of Andasibe Park . You will have opportunity to observe the
               INDRI-INDRI , the biggest lemur, endemic to the island,Orchids, ferns as well as birds.
               Visit of Vakona reserve which gives you opportunity to see the lemurs jumping in your shoulders
@@ -266,7 +325,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day4: Andasibé - Manambato - Akanin ' ny nofy</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 4:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Andasibé - Manambato - Akanin ' ny nofy</h2>
             <p class="text-dark p-0 fs-4.8">Drive Andasibe to Manambato ; then boat speed Manambato to Ankanin'ny nofy
               (Palmarium) ,boarding the lake RASOABE, RASOAMASAY exit to the Pangalane's channel
               Cruise in the Channel of Pangalane gives you opportunity to see the real life of the people living
@@ -278,7 +338,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day5: Palmarium Reserve</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 5:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Palmarium Reserve</h2>
             <p class="text-dark p-0 fs-4.8">Visit of the Palmarium reserv . Only the reserv that you have opportunity to
               come close to the Indri indri and the another species of lemurs in the forest such as crowned lemur,black
               and white ruffed lemur,red fronted brown lemur ; the plantation of vanilla , niaouly .
@@ -292,7 +353,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day6: Ankanin' ny nofy(Palmarium) - Manambato</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 6:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankanin' ny nofy(Palmarium) - Manambato</h2>
             <p class="text-dark p-0 fs-4.8">Boat speed Akanin’ny nofy to Manambato , then car for coming back to
               Antananarivo
               <br> Overnight at the hotel
@@ -302,7 +364,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day7: Tana</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 7:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana</h2>
             <p class="text-dark p-0 fs-4.8">City tour in Tana , visit of lemur’s park , digue”s market
               <br> Transfert to the airport for the international flight
             </p>
@@ -314,7 +377,7 @@
     </div>
   </div>
 
-  <div class="sainte-marie">
+  <div class="sainte-marie" id="section3">
     <h3 class="text-center text-md-start"><i class="fa-solid fa-clock"></i> About 9 days</h3>
     <div class="point text-center" id="point3"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Sainte-Marie Town</h1>
@@ -361,50 +424,74 @@
     </div>
   </div>
 
-  <div id="map" class="text-center"></div>
-
-
-  <!--     
-    
-        
-            
-
-    <div class="sainte-marie">
-         
-    </div>
-<a href="#"><div class="up"><img src="../../logo/up.png" alt=""></div></a> -->
-
-  <!-- <footer id="footer">
-    <div class="footer_contact">
-      <h1>Contact us</h1>
-
-      <p class="phone"> <img src="../../logo/telephone20x20.png" width=20 height=20> telephone: +261(0)34 73 440 45</p>
-      <a href="lovasson@yahoo.fr">
-        <p class="mail"><img src="../../logo/lettre20x20.png" width=20 height=20> email: lovasson@yahoo.fr</p>
-      </a>
-      <p><i class="fa fa-whatsapp" width=20 height=20></i> WhatsApp: +261(0)34 73 440 45</p>
-
-      <div class="border_"></div>
-
-      <div class="icones">
-        <img src="../../logo/twitter.png" width=48 height=48>
-        <a href="https://web.facebook.com/madagascarvisite" class="img_fb" target="_blank"><img class="img_fb"
-            src="../../logo/FaceBook.png" width=48 height=48></a>
-        <a href="https://www.linkedin.com" target="_blank"><img src="../../logo/LinkedIn.png" width=48 height=48></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div id="map"></div>
       </div>
+
+      <div class="col-12 col-md-10 col-lg-4" id="coms">
+        <div class="comments p-4">
+          <h1 id="h_comments">Leave us a comments</h1>
+          <div class="borde2"></div>
+
+          <form action="">
+            <div class="row gy-5">
+              <input type="email" name="" class="w-100" placeholder="Your email">
+              <input type="text" name="" class="w-100" placeholder="Your comments">
+              <button type="submit" class="btn p-2">Send</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="footCopright">
-      <center>
-        Copyright 2023 Madagascar Visit by Johan♥ - All right reserved
-      </center>
-    </div>
-  </footer> -->
+  </div>
+
+  <div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
 
 
-  <script src="./components/script.js"></script>
+ 
+  <script src="components/writ.js"></script>
+  <script src="./../../index.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="./map.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const scrollButtons = document.querySelectorAll('.scroll');
 
+  scrollButtons.forEach(function (button) {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      
+      const targetSectionId = this.getAttribute('data-target');
+      const targetSection = document.getElementById(targetSectionId);
+      
+      if (targetSection) {
+        const targetPosition =targetSection.offsetTop;
+        const scroll=targetPosition-67;
+        
+        window.scrollTo({
+          top: scroll,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
 
+const up=document.getElementById('Button');
+up.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0, // Remonte en haut de la page
+      behavior: 'smooth'
+    });
+  });
+
+  </script>
+ 
 </body>
 
 </html>
