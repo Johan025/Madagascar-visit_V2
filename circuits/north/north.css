@@ -527,6 +527,11 @@ body {
   }
 }
 @media (max-width: 575px) {
+  .point {
+    position: relative;
+    margin-left: 0rem;
+    top: 5rem;
+  }
   #carouselExampleControls {
     width: 95%;
     height: 50vh;
@@ -1035,6 +1040,11 @@ b {
   }
 }
 @media (max-width: 575px) {
+  .point {
+    position: relative;
+    margin-left: 0rem;
+    top: 5rem;
+  }
   #carouselExampleControl {
     width: 95%;
     height: 50vh;
@@ -1284,7 +1294,9 @@ b {
 }
 @media (max-width: 575px) {
   .point {
-    margin-left: -15rem;
+    position: relative;
+    margin-left: 0rem;
+    top: 5rem;
   }
   #carouselExampleControl2 {
     width: 95%;

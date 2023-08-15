@@ -219,8 +219,10 @@
 @media (max-width: 575px) {
 
     .point{
-         margin-left: -15rem;
-    }
+        position: relative;
+        margin-left: 0rem;
+        top: 5.0rem;
+      }
    
     #carouselExampleControl2{
         width: 95%;
