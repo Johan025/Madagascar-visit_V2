@@ -7,6 +7,7 @@
         font-weight: 900;
         font-size: calc(1.275rem + 1.5vw);
     }
+    
 }
 
 #carouselExampleControl2{
@@ -155,7 +156,7 @@
 
     .nosy-Be{
         position: relative;
-        top: 12.6rem;
+        top: 21.6rem;
 
 
         h3 {
@@ -192,16 +193,15 @@
                     background-color: #a5a5a554;
 
                     h2 {
-                        color: rgb(209, 118, 6);
-                        font-family: 'abril_fatfaceregular';
+                        color: rgb(51, 44, 48);
+                        font-family: 'Signika', sans-serif;
                         font-weight: bold;
-                        font-size: calc(0.6rem + 1.7vw);
-
+                        font-size: calc(0.78rem + 1.7vw);
+            
                         i {
-                            color: rgb(209, 118, 6);
-                        }
-
+                          color: rgb(240, 136, 8);
                     }
+                }
 
                     p {
                         font-size: calc(0.5rem + 0.95vw);
@@ -217,6 +217,10 @@
 }
 
 @media (max-width: 575px) {
+
+    .point{
+         margin-left: -15rem;
+    }
    
     #carouselExampleControl2{
         width: 95%;
@@ -240,7 +244,7 @@
 
     .nosy-Be{
         position: relative;
-        top: 55vw;
+        top:145vw;
 
         h3 {
             color: #7851a9;
@@ -273,18 +277,17 @@
                 div {
 
                     background-color: #a5a5a554;
-
                     h2 {
-                        color: rgb(209, 118, 6);
-                        font-family: 'abril_fatfaceregular';
+                        color: rgb(51, 44, 48);
+                        font-family: 'Signika', sans-serif;
                         font-weight: bold;
-                        font-size: calc(1.19rem + 1.7vw);
-
+                        font-size: calc(1.59rem + 1.7vw);
+            
                         i {
-                            color: rgb(209, 118, 6);
+                          color: rgb(209, 118, 6);
                         }
-
-                    }
+            
+                      }
 
                     p {
                         font-size: calc(0.95rem + 0.95vw);

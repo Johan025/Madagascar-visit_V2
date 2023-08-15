@@ -17,12 +17,19 @@
   <!-- <script src="../../css/bootstrap_file/jquery.min.js"></script>
     <script src="../../css/bootstrap_file/bootstrap.min.js"></script> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
 
 
 </head>
@@ -75,7 +82,7 @@
 
 
   <div class="couv">
-    <img src="./../pictures/couvertureNord.jpg" class="w-100 vh-50 img-fluid" alt="" id="couverture">
+    <div class="w-100" id="couv_"><img src="../pictures/couvertureNord.jpg" class="w-100"></div>
     <h3 class="text-center">Trip</h3>
     <h1 class="text-center">to the North of Madagascar</h1>
 
@@ -87,7 +94,7 @@
 
     </h1>
     <div class="border_"></div>
-    <p class="desc fs-5 text-dark  mx-5">NORTH TOUR offers you opportunity to discover in one place all best beauty of
+    <p class="desc fs-5 mx-5">NORTH TOUR offers you opportunity to discover in one place all best beauty of
       Madagascar .<br> North Tour contains many others surprise with his different diversification and endemic fauna and
       flora ,that you can find only in Madagascar .It's ideal for the WILDLIFE , like birds it's home of birds,
       lemurs,<br> BAOBAB , chameleon ,the BROOKESIA MINIMA the smallest chameleon in the word less that 1inch , TSINGY
@@ -100,6 +107,43 @@
       point for cruises to paradisiac archipelagos.
 
     </p>
+
+    <div class="suggest">
+      <h1>Our suggestion </h1>
+      <div class="border_"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <img src="./../pictures/tsingy.jpg" alt="Image">
+              <h4> <i class="fa fa-calendar-days"></i> About 12 days</h4>
+              <h2>Classical North Tour</h2>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <img src="./../pictures/couvertureNord.jpg" alt="Image">
+              <h4> <i class="fa fa-calendar-days"></i> About 15 days</h4>
+              <h2>Classical North Tour with Nosy-be</h2>
+              <button class="btn text-center">Choose</button>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <img src="./../pictures/nosy-be.jpg" alt="Image">
+              <h4> <i class="fa fa-calendar-days"></i> About 15 days</h4>
+              <h2>Nosy-Be Town</h2>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
   </div>
 
@@ -132,12 +176,17 @@
       </button>
     </div>
 
+    <h1 class="text-center" id="plan1">Travel Plan</h1>
+    <div class="  text-center borde1"> </div>
+   
+
     <div class="container-fluid" id="cont">
       <div class="row gy-5">
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day1: Tana</h2>
-            <p class="text-dark p-0">
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 1:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana</h2>
+            <p class="p-0">
               Assistance at the airport, and transfer to the hotel.
               If you have time, going to the point of view that you can see Antananarivo and his area
               <br> Overnight at the hotel
@@ -147,17 +196,17 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day2: Tana-Ankarafantsika</h2>
-            <p class="text-dark p-0"> Lore ipsum dolor sit amet consectetur adipisicing elit. Et neque sapiente deleniti
-              alias error commodi sit similique placeat, doloribus earum, aut asperiores necessitque, aperiam?
-            </p>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 2:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i>  Tana-Ankarafantsika</h2>
+           
           </div>
         </div>
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day3: Ankarafantsika </h2>
-            <p class="text-dark p-0 fs-4.8"> like Coquerel's Sifaka, Brown lemur, Milne Edwards Sportive lemurs if
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 3:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarafantsika </h2>
+            <p class="p-0 fs-4.8"> like Coquerel's Sifaka, Brown lemur, Milne Edwards Sportive lemurs if
               you're
               lucky. The bird, Ankarafantsika National Park is home of bird , BAOBAB, medicinal plants
               <br>Overnight at the hotel
@@ -167,8 +216,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day4:Ankarafantsika - Port Berger - Antsohihy</h2>
-            <p class="text-dark p-0 fs-4.8">Road to Antsohihy through the local people in the North part of Madagascar
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 4:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarafantsika - Port Berger - Antsohihy</h2>
+            <p class="p-0 fs-4.8">Road to Antsohihy through the local people in the North part of Madagascar
               <br> Overnight at the hotel
             </p>
           </div>
@@ -176,8 +226,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day5:Antsohihy - Ambanja</h2>
-            <p class="text-dark p-0 fs-4.8"> Visit ot 1h for the reserv lead by the local people for the BLACK INDRI in
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 5:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Antsohihy - Ambanja</h2>
+            <p class="p-0 fs-4.8"> Visit ot 1h for the reserv lead by the local people for the BLACK INDRI in
               wild.
               <br>Overnight at the hotel
             </p>
@@ -186,8 +237,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day6: Ambanja - Ankarana</h2>
-            <p class="text-dark p-0 fs-4.8"> Visit of MILLOT PLANTATION in Ambanja for the plantation of cacao, vanilla,
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 6:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i>  Ambanja - Ankarana</h2>
+            <p class="p-0 fs-4.8"> Visit of MILLOT PLANTATION in Ambanja for the plantation of cacao, vanilla,
               Ilang Ilang , before road to Ankarana .Millot plantation show you how to plant cocoa until the packing of
               exportation ,
               <br> Overnight at the hotel
@@ -197,8 +249,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day7:Ankarana</h2>
-            <p class="text-dark p-0 fs-4.8">Visit of ANKARANA NATIONAL PARK for the TSINGY d'ANKARANA , Tsingy formed by
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 7:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarana</h2>
+            <p class="p-0 fs-4.8">Visit of ANKARANA NATIONAL PARK for the TSINGY d'ANKARANA , Tsingy formed by
               llimestones similar in Tsingy of Bemaraha .The lemurs, birds, The sacred bat's cave, Baobab
               <br> Overnight at the hotel
             </p>
@@ -206,8 +259,9 @@
         </div>
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day8:Ankarana - Red Tsingy- Joffre ville</h2>
-            <p class="text-dark p-0 fs-4.8"> Road to Joffre Ville
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 8:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarana - Red Tsingy- Joffre ville</h2>
+            <p class="p-0 fs-4.8"> Road to Joffre Ville
               Visit of Red Tsingy formed by laterite formation with his amazing colours red <br> Overnight at the hotel
             </p>
           </div>
@@ -215,8 +269,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day9: Joffre ville - Mountain Amber National Park</h2>
-            <p class="text-dark p-0 fs-4.8"> RVisit of Mountain Amber National Park , the oldest park in Madagascar with
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 9:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Joffre ville - Mountain Amber National Park</h2>
+            <p class="p-0 fs-4.8"> RVisit of Mountain Amber National Park , the oldest park in Madagascar with
               his rainforest climate gives you opportunity to see the waterfall, lemurs, like crowned Sanford, Bamboo
               lemurs, Red lemur; frog; tenrecs; birds; chameleon specially the "BROOKESIA MINIMA" the smallest chameleon
               in the world less that 1inch .
@@ -227,8 +282,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day10:Joffre Ville - Diego - Ramena </h2>
-            <p class="text-dark p-0 fs-4.8"> Road to Ramena , you will pass to "SUGAR LOAF" emblematic of Diégo , the
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 10:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Joffre Ville - Diego - Ramena </h2>
+            <p class="p-0 fs-4.8"> Road to Ramena , you will pass to "SUGAR LOAF" emblematic of Diégo , the
               Baobab Madagascar Suarenzis endemic on the North , fisherman village.
               Visit of Diego town ,
               <br> Overnight at the hotel
@@ -238,8 +294,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day11: Ramena - Emerald Sea - Ramena </h2>
-            <p class="text-dark p-0 fs-4.8"> Excursion at Emerald sea .
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 11:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ramena - Emerald Sea - Ramena </h2>
+            <p class="p-0 fs-4.8"> Excursion at Emerald sea .
               You will take motors boat to Emerald Sea .
               The boat will navigate across the most beautiful lagoon's cristalline waters, coral reefs teeming with
               hundred of red fish .
@@ -254,9 +311,10 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day12: Ramena - 3 baies Baies of Sakalava , Pigeon, Baies of
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 12:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ramena - 3 baies Baies of Sakalava , Pigeon, Baies of
               Sakalava ideal for surfing </h2>
-            <p class="text-dark p-0 fs-4.8"> Baies of Sakalava ideal for surfing ,
+            <p class="p-0 fs-4.8"> Baies of Sakalava ideal for surfing ,
               Water sports like surfing ,Sakalava bay is ideal .
               <br> Overnight at the hotel
 
@@ -266,8 +324,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day13: Ramena - Diego - Tana</h2>
-            <p class="text-dark p-0 fs-4.8"> Road to Diego
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 13:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i>  Ramena - Diego - Tana</h2>
+            <p class="p-0 fs-4.8"> Road to Diego
               <br> Flight to Antananarivo
 
 
@@ -277,8 +336,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day14: Tana </h2>
-            <p class="text-dark p-0 fs-4.8"> ity tour in Antananarivo
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 14</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana </h2>
+            <p class="p-0 fs-4.8"> ity tour in Antananarivo
               <br> Transfert to the airport for your international flight
             </p>
           </div>
@@ -315,12 +375,16 @@
       </button>
     </div>
 
+    <h1 class="text-center" id="plan1">Travel Plan</h1>
+    <div class="  text-center borde1"> </div>
+
     <div class="container-fluid" id="cont">
       <div class="row gy-5">
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day1: Tana</h2>
-            <p class="text-dark p-0">
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 1:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana</h2>
+            <p class="p-0">
               Assistance at the airport, and transfer to the hotel.
               If you have time, going to the point of view that you can see Antananarivo and his area
               <br> Overnight at the hotel
@@ -330,7 +394,8 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day2: Tana-Ankarafantsika</h2>
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 2:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Tana-Ankarafantsika</h2>
             <p class="text-dark"> Lore ipsum dolor sit amet consectetur adipisicing elit. Et neque sapiente deleniti
               alias error commodi sit similique placeat, doloribus earum, aut asperiores necessitque, aperiam?
             </p>
@@ -339,8 +404,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day3: Ankarafantsika </h2>
-            <p class="text-dark p-0 fs-4.8"> like Coquerel's Sifaka, Brown lemur, Milne Edwards Sportive lemurs if
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 3:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarafantsika </h2>
+            <p class="p-0 fs-4.8"> like Coquerel's Sifaka, Brown lemur, Milne Edwards Sportive lemurs if
               you're
               lucky. The bird, Ankarafantsika National Park is home of bird , BAOBAB, medicinal plants
               <br>Overnight at the hotel
@@ -350,8 +416,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day4:Ankarafantsika - Port Berger - Antsohihy</h2>
-            <p class="text-dark p-0 fs-4.8">Road to Antsohihy through the local people in the North part of Madagascar
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 4:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarafantsika - Port Berger - Antsohihy</h2>
+            <p class="p-0 fs-4.8">Road to Antsohihy through the local people in the North part of Madagascar
               <br> Overnight at the hotel
             </p>
           </div>
@@ -359,8 +426,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day5:Antsohihy - Ambanja</h2>
-            <p class="text-dark p-0 fs-4.8"> Visit ot 1h for the reserv lead by the local people for the BLACK INDRI in
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 5:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Antsohihy - Ambanja</h2>
+            <p class="p-0 fs-4.8"> Visit ot 1h for the reserv lead by the local people for the BLACK INDRI in
               wild.
               <br>Overnight at the hotel
             </p>
@@ -369,8 +437,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day6: Ambanja - Ankarana</h2>
-            <p class="text-dark p-0 fs-4.8"> Visit of MILLOT PLANTATION in Ambanja for the plantation of cacao, vanilla,
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 6:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ambanja - Ankarana</h2>
+            <p class="p-0 fs-4.8"> Visit of MILLOT PLANTATION in Ambanja for the plantation of cacao, vanilla,
               Ilang Ilang , before road to Ankarana .Millot plantation show you how to plant cocoa until the packing of
               exportation ,
               <br> Overnight at the hotel
@@ -380,8 +449,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day7:Ankarana</h2>
-            <p class="text-dark p-0 fs-4.8">Visit of ANKARANA NATIONAL PARK for the TSINGY d'ANKARANA , Tsingy formed by
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 7:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarana</h2>
+            <p class="p-0 fs-4.8">Visit of ANKARANA NATIONAL PARK for the TSINGY d'ANKARANA , Tsingy formed by
               llimestones similar in Tsingy of Bemaraha .The lemurs, birds, The sacred bat's cave, Baobab
               <br> Overnight at the hotel
             </p>
@@ -389,8 +459,9 @@
         </div>
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day8:Ankarana - Red Tsingy- Ambanja</h2>
-            <p class="text-dark p-0 fs-4.8">Road to Ambanja ; before road to Ambanja ;you will drive to Red Tsingy , Red
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 8:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ankarana - Red Tsingy- Ambanja</h2>
+            <p class="p-0 fs-4.8">Road to Ambanja ; before road to Ambanja ;you will drive to Red Tsingy , Red
               Tsingy , eroded red soil formed by laterite formation with his amazing colours red .
               <br> Overnight at the hotel .
             </p>
@@ -399,8 +470,9 @@
 
         <div class=" col-10 w-100 col-md-7">
           <div class="p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> day9: Ambanja - ANKIFY- Nosy-Be</h2>
-            <p class="text-dark p-0 fs-4.8"> Road to Ankify , embarcader , the place that you will take boat speed to
+            <h4><i class="fa-regular fa-calendar-days"></i> Day 9:</h4>
+            <h2><i class="fa-solid fa-location-dot"></i> Ambanja - ANKIFY- Nosy-Be</h2>
+            <p class="p-0 fs-4.8"> Road to Ankify , embarcader , the place that you will take boat speed to
               Nosy
               Be .
               <br> Boat speed to Nosy Be for 2hours .
@@ -445,10 +517,14 @@
       <div class="row gy-5">
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
+            
             <h2><i class="fa-solid fa-location-dot"></i> Nosy-Be</h2>
-            <p class="text-dark p-1">
-              NOSY BE is one the best beach destination .The volcanic  island of Nosy Be has all ingredients that you'd except with his soft white sand, turquoise water and wonderful seafood .You're like in Paradise . It's ideal starting point for cruises to paradisiac archipelagos.
-              Snorkelling, Diving, Fishing, Sailing,windsurf,kitesurf ; visit of Park National of Lokobe , Sunseat in Mount Passo are the activities in Nosy Be .
+            <p class="p-1">
+              NOSY BE is one the best beach destination .The volcanic island of Nosy Be has all ingredients that you'd
+              except with his soft white sand, turquoise water and wonderful seafood .You're like in Paradise . It's
+              ideal starting point for cruises to paradisiac archipelagos.
+              Snorkelling, Diving, Fishing, Sailing,windsurf,kitesurf ; visit of Park National of Lokobe , Sunseat in
+              Mount Passo are the activities in Nosy Be .
               WHALEWATCHING in July until NOvember is one of activitie also .
             </p>
           </div>
@@ -459,13 +535,39 @@
     </div>
   </div>
 
-  <div id="map" class="text-center"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div id="map"></div>
+      </div>
+    
+      <div class="col-12 col-md-10 col-lg-4" id="coms">
+        <div class="comments p-4">
+          <h1 id="h_comments">Leave us a comments</h1>
+          <div class="borde2"></div>
+
+          <form action="">
+            <div class="row gy-5">
+          <input type="email" name="" class="w-100" placeholder="Your email">
+          <input type="text" name="" class="w-100" placeholder="Your comments">
+          <button type="submit" class="btn p-2">Send</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+</div>
+
+</div>
+
+<div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
 
 
-  
 
 
-<!-- <footer id="footer"> 
+
+  <!-- <footer id="footer"> 
    <div class="footer_contact">
      <h1>Contact us</h1>
 
