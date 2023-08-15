@@ -1694,11 +1694,42 @@ b {
   background-color: rgb(209, 118, 6);
   position: fixed;
   z-index: 30;
-  top: 86vh;
+  top: 75vh;
   right: 2%;
 }
 .up i:hover {
   background-color: rgb(27, 26, 25);
+}
+
+@media screen and (min-width: 992px) {
+  .up i {
+    position: fixed;
+    z-index: 30;
+    top: 88vh;
+  }
+  .up i:hover {
+    background-color: rgb(27, 26, 25);
+  }
+}
+@media screen and (max-width: 575px) {
+  .up i {
+    position: fixed;
+    top: 82vh;
+    right: 2%;
+  }
+  .up i:hover {
+    background-color: rgb(27, 26, 25);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .up i {
+    position: fixed;
+    top: 92vh;
+    right: 2%;
+  }
+  .up i:hover {
+    background-color: rgb(27, 26, 25);
+  }
 }
 
 /*# sourceMappingURL=south.css.map */

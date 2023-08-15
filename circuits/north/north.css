@@ -199,7 +199,7 @@ body {
   overflow: hidden;
 }
 .couv #couv_ {
-  height: 24rem;
+  height: 28rem;
   overflow: hidden;
   filter: brightness(57%);
 }
@@ -244,7 +244,7 @@ body {
     font-family: "acmeregular";
   }
   .couv #couv_ {
-    height: 19.1rem;
+    height: 21.1rem;
     overflow: hidden;
     filter: brightness(57%);
   }
@@ -1464,13 +1464,23 @@ b {
   background-color: rgb(209, 118, 6);
   position: fixed;
   z-index: 30;
-  top: 80vh;
+  top: 75vh;
   right: 2%;
 }
 .up i:hover {
   background-color: rgb(27, 26, 25);
 }
 
+@media screen and (min-width: 992px) {
+  .up i {
+    position: fixed;
+    z-index: 30;
+    top: 88vh;
+  }
+  .up i:hover {
+    background-color: rgb(27, 26, 25);
+  }
+}
 @media screen and (max-width: 575px) {
   .up i {
     position: fixed;
@@ -1481,7 +1491,7 @@ b {
     background-color: rgb(27, 26, 25);
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 991px) {
   .up i {
     position: fixed;
     top: 92vh;

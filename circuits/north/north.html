@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta name="description"
     content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
   <meta name="keywords"
@@ -36,7 +36,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
     <div class="container-fluid">
       <!-- Logo ou titre -->
       <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
@@ -82,7 +82,7 @@
 
 
   <div class="couv">
-    <div class="w-100" id="couv_"><img src="../pictures/couvertureNord.jpg" class="w-100"></div>
+    <div class="w-100" id="couv_"><img src="./pictures/nosyIranja.jpg" class="w-100"></div>
     <h3 class="text-center">Trip</h3>
     <h1 class="text-center">to the North of Madagascar</h1>
 
@@ -116,10 +116,10 @@
         <div class="row">
           <div class="col-sm-6 col-lg-4">
             <div class="box">
-              <img src="./../pictures/tsingy.jpg" alt="Image">
+              <img src="./../pictures/tsingyBemaraha.jpg" alt="Image">
               <h4> <i class="fa fa-calendar-days"></i> About 12 days</h4>
               <h2>Classical North Tour</h2>
-              <button class="btn">Choose</button>
+              <button class="scroll btn" data-target="section1">Choose</button>
             </div>
           </div>
 
@@ -128,7 +128,7 @@
               <img src="./../pictures/couvertureNord.jpg" alt="Image">
               <h4> <i class="fa fa-calendar-days"></i> About 15 days</h4>
               <h2>Classical North Tour with Nosy-be</h2>
-              <button class="btn text-center">Choose</button>
+              <button class="scroll btn text-center" data-target="section3">Choose</button>
             </div>
           </div>
 
@@ -137,7 +137,7 @@
               <img src="./../pictures/nosy-be.jpg" alt="Image">
               <h4> <i class="fa fa-calendar-days"></i> About 15 days</h4>
               <h2>Nosy-Be Town</h2>
-              <button class="btn">Choose</button>
+              <button class="scroll btn" data-target="section3">Choose</button>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
 
   </div>
 
-  <div class="north_day">
+  <div class="north_day" id="section1">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 14 days</h3>
     <div class="point text-start" id="point"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Classical North Tour</h1>
@@ -155,13 +155,13 @@
     <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner" id="inner">
         <div class="carousel-item active">
+          <img src="./pictures/tsingy.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./pictures/Mer_" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
           <img src="./../pictures/couvertureNord.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./pictures/espece3.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./../pictures/COUVERTURE_EST.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -348,7 +348,7 @@
     </div>
   </div>
 
-  <div class="north_nosy">
+  <div class="north_nosy" id="section2">
     <h3 class="text-center text-md-start"><i class="fa-solid fa-clock"></i> About 9 days</h3>
     <div class="point text-center"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Classical North Tour with Nosy-be</h1>
@@ -356,13 +356,13 @@
     <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner" id="inner">
         <div class="carousel-item active">
-          <img src="./pictures/espece3.jpg" class="d-block w-100" alt="...">
+          <img src="./pictures/nosyIranja.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./pictures/espece2.jpg" class="d-block w-100" alt="...">
+          <img src="./pictures/tsingy.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./../pictures/COUVERTURE_EST.jpg" class="d-block w-100" alt="...">
+          <img src="./pictures/Mer_" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="prev">
@@ -487,7 +487,7 @@
     </div>
   </div>
 
-  <div class="nosy-Be">
+  <div class="nosy-Be" id="section3">
     <h3 class="text-center text-md-start"><i class="fa-solid fa-clock"></i> About 9 days</h3>
     <div class="point text-center" id="point3"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Nosy-Be Town</h1>
@@ -495,19 +495,16 @@
     <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner" id="inner">
         <div class="carousel-item active">
-          <img src="./../pictures/bird.jpg" class="d-block w-100" alt="...">
+          <img src="./pictures/nosyIranja.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./../pictures/c.jpg" class="d-block w-100" alt="...">
+          <img src="./../pictures/nosy-be.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
-          <img src="./../pictures/COUVERTURE_EST.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="prev">
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplecontrol2" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl2" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -594,6 +591,39 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
   <script src="./../../index.js"></script>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="./map.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const scrollButtons = document.querySelectorAll('.scroll');
+
+  scrollButtons.forEach(function (button) {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      
+      const targetSectionId = this.getAttribute('data-target');
+      const targetSection = document.getElementById(targetSectionId);
+      
+      if (targetSection) {
+        const targetPosition =targetSection.offsetTop;
+        const scroll=targetPosition-67;
+        
+        window.scrollTo({
+          top: scroll,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+
+const up=document.getElementById('Button');
+up.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0, // Remonte en haut de la page
+      behavior: 'smooth'
+    });
+  });
+
+  </script>
 </body>
 
 </html>
