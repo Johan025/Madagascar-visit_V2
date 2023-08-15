@@ -27,10 +27,18 @@
           overflow: hidden;
      }
  
-     #couverture {
-         position: relative;
-         filter: brightness(60%);
-     }
+         #couv_ {
+             height: 25.8rem;
+             overflow: hidden;
+             filter: brightness(63%);
+    
+             #couverture {
+                 position: relative;
+                 height: -5rem;
+                 width: 100%;
+                 filter: brightness(40%);
+             }
+         }
  
     
  }
@@ -82,11 +90,19 @@
              font-family: 'acmeregular';
          }
  
-         #couverture {
-             height: 41vh;
-             position: relative;
-             filter: brightness(70%);
-         }
+    
+         #couv_ {
+            height: 19.1rem;
+            overflow: hidden;
+            filter: brightness(60%);
+   
+            #couverture {
+                position: relative;
+                height: -5rem;
+                width: 100%;
+                filter: brightness(40%);
+            }
+        }
  
  
          h3 {
