@@ -293,6 +293,7 @@ b {
   }
   .south .suggest h1 {
     margin-left: 1.2rem;
+    font-size: calc(1.7rem + 1.5vw);
   }
   .south .suggest .border_ {
     margin-left: 1.2rem;
