@@ -353,15 +353,14 @@ b {
   overflow: hidden;
 }
 .couv #couv_ {
-  height: 25.8rem;
+  height: 24rem;
   overflow: hidden;
-  filter: brightness(63%);
+  filter: brightness(57%);
 }
-.couv #couv_ #couverture {
+.couv #couv_ img {
   position: relative;
-  height: -5rem;
+  height: 37rem;
   width: 100%;
-  filter: brightness(40%);
 }
 
 @media (min-width: 576px) {
