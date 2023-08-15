@@ -359,7 +359,7 @@ b {
 }
 .couv #couv_ img {
   position: relative;
-  height: 37rem;
+  height: 35.6rem;
   width: 100%;
 }
 
@@ -400,13 +400,12 @@ b {
   .couv #couv_ {
     height: 19.1rem;
     overflow: hidden;
-    filter: brightness(60%);
+    filter: brightness(57%);
   }
-  .couv #couv_ #couverture {
+  .couv #couv_ img {
     position: relative;
-    height: -5rem;
+    height: 25rem;
     width: 100%;
-    filter: brightness(40%);
   }
   .couv h3 {
     font-family: "acmeregular";
@@ -1192,35 +1191,35 @@ b {
   font-size: calc(1.275rem + 1.5vw);
 }
 
-#carouselExampleControls {
+#carouselExampleControl2 {
   width: 58%;
   height: 73vh;
   border-radius: 18px;
 }
-#carouselExampleControls #inner {
+#carouselExampleControl2 #inner {
   height: 73vh;
   width: 100%;
   border-radius: 18px;
 }
-#carouselExampleControls #inner img {
+#carouselExampleControl2 #inner img {
   height: 73vh;
   width: 58%;
   border-radius: 18px;
 }
 
 @media (min-width: 576px) {
-  #carouselExampleControls {
+  #carouselExampleControl2 {
     width: 82%;
     height: 40vh;
     border-radius: 18px;
     margin-left: 9.7%;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl2 #inner {
     height: 40vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl2 #inner img {
     height: 40vh;
     width: 58%;
     border-radius: 18px;
@@ -1298,18 +1297,18 @@ b {
     margin-left: 0%;
     top: 5.5rem;
   }
-  #carouselExampleControls {
+  #carouselExampleControl2 {
     width: 58%;
     height: 73vh;
     border-radius: 18px;
     margin-left: 20.7%;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl2 #inner {
     height: 73vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl2 #inner img {
     height: 73vh;
     width: 58%;
     border-radius: 18px;
@@ -1374,19 +1373,19 @@ b {
   }
 }
 @media (max-width: 575px) {
-  #carouselExampleControls {
+  #carouselExampleControl2 {
     width: 95%;
     height: 50vh;
     border-radius: 18px;
     text-align: center;
     margin-left: 2.4vw;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl2 #inner {
     height: 50vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl2 #inner img {
     height: 50vh;
     width: 58%;
     border-radius: 18px;
