@@ -32,7 +32,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
     <div class="container-fluid">
       <!-- Logo ou titre -->
       <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
@@ -118,7 +118,7 @@
                   <img src="./../pictures/anja1.jpg" alt="Image">
                   <h4> <i class="fa fa-calendar-days"></i> About 12 days</h4>
                   <h2>Classical South Tour</h2>
-                  <button class="btn">Choose</button>
+                  <button class="scroll btn"  data-target="section1">Choose</button>
                 </div>
               </div>
               
@@ -127,7 +127,7 @@
                   <img src="./../pictures/train.jpg" alt="Image">
                   <h4> <i class="fa fa-calendar-days"></i> About 15 days</h4>
                   <h2>Classical South Tour combined With Train</h2>
-                  <button class="btn text-center">Choose</button>
+                  <button class="scroll btn text-center"  data-target="section2">Choose</button>
                 </div>
               </div>
 
@@ -136,7 +136,7 @@
                   <img src="./../pictures/andringitra.jpg" alt="Image">
                   <h4> <i class="fa fa-calendar-days"></i> About 15 days</h4>
                   <h2>Adventures tours: Andringitra National park</h2>
-                  <button class="btn">Choose</button>
+                  <button class="scroll btn" data-target="section3">Choose</button>
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@
   </div>
 
  
-  <div class="south_day">
+  <div class="south_day" id="section1">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 12 days</h3>
     <div class="point text-start" id="point"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Classical South Tour</h1>
@@ -342,7 +342,7 @@
   </div>
 
 
-  <div class="comb">
+  <div class="comb" id="section2">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 15 days</h3>
     <div class="point text-start" id="point"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Classical South Tour combined with train </h1>
@@ -568,7 +568,7 @@
     </div>
   </div>
 
-  <div class="adventure">
+  <div class="adventure" id="section3">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> About 15 days</h3>
     <div class="point text-start" id="point"></div>
     <h1 class="text-center text-lg-start  m-5" id="classic_h1">Adventures tours: Andringitra National park</h1>
@@ -886,40 +886,45 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
 </center>
 </div>
 </footer> -->
-<script>
-  function scrollTo() {
-// Récupérer la position actuelle de défilement
-const currentPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-
-// Calcul pour défilement vers le haut, miakatra menu
-const scrollStep = Math.PI / (300 / 3770); 
-
-//animation du scroll
-const scrollAnimation = () => {
-    // Récupérer la position actuelle de défilement , alaina ny position anilay scroll
-    const currentPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-
-   
-    if (currentPosition > 0) {
-        // Faire défiler vers le haut 
-        window.scrollBy(0, -scrollStep);
-        // Appeler récursivement la fonction pour continuer l'animation
-        requestAnimationFrame(scrollAnimation);
-    }
-};
-
-scrollAnimation();
-}
-
-// gestionnaire d'événements de clic du bouton
-const scroll = document.querySelector('.up');
-scroll.addEventListener('click', scrollTo);
-
-</script>
   <script src="components/write.js"></script>
   <script src="../../index.js"></script>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="./map.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const scrollButtons = document.querySelectorAll('.scroll');
+
+  scrollButtons.forEach(function (button) {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      
+      
+      const targetSectionId = this.getAttribute('data-target');
+      const targetSection = document.getElementById(targetSectionId);
+      
+      if (targetSection) {
+        const targetPosition =targetSection.offsetTop;
+        const scroll=targetPosition+397;
+      
+        
+        window.scrollTo({
+          top: scroll,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+
+const up=document.getElementById('Button');
+up.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0, // Remonte en haut de la page
+      behavior: 'smooth'
+    });
+  });
+
+  </script>
   
 </body>
 

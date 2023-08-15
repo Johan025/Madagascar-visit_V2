@@ -28,13 +28,13 @@
     }
 
     #couv_ {
-        height: 24rem;
+        height: 28rem;
         overflow: hidden;
         filter: brightness(57%);
 
         img {
             position: relative;
-            height: 35.6rem;
+            height: 36.6rem;
             width: 100%;
         }
     }
@@ -70,7 +70,7 @@
 
 @media (min-width: 992px) {
     #couverture {
-        height: 60vh;
+        height: 25rem;
         filter: brightness(50%);
     }
 }
@@ -90,13 +90,13 @@
 
 
         #couv_ {
-            height: 19.1rem;
+            height: 21.1rem;
             overflow: hidden;
             filter: brightness(57%);
     
             img {
                 position: relative;
-                height: 25rem;
+                height: 22rem;
                 width: 100%;
             }
         }

@@ -190,7 +190,7 @@ body {
   font-size: calc(1.12rem + 1.2vw);
   position: relative;
   color: rgb(177, 165, 1);
-  top: -27vh;
+  top: -22vh;
   font-family: "coneria_script_demoregular";
   left: 24vw;
   width: 50%;
@@ -208,7 +208,34 @@ body {
   height: 34rem;
   width: 100%;
 }
+.couv #couv_1 {
+  height: 28rem;
+  display: none;
+  overflow: hidden;
+  filter: brightness(57%);
+}
+.couv #couv_1 img {
+  position: relative;
+  height: 34rem;
+  width: 100%;
+}
 
+@media (max-width: 575px) {
+  .couv #couv_1 {
+    height: 21rem;
+    display: block;
+    overflow: hidden;
+    filter: brightness(52%);
+  }
+  .couv #couv_1 img {
+    position: relative;
+    height: 28rem;
+    width: 100%;
+  }
+  .couv #couv_ {
+    display: none;
+  }
+}
 @media (min-width: 576px) {
   #couverture {
     height: 21rem;
@@ -231,6 +258,17 @@ body {
     height: 60vh;
     filter: brightness(50%);
   }
+  .couv h1 {
+    font-size: calc(1.6rem + 1.5vw);
+    position: relative;
+    top: -12rem;
+  }
+  .couv h3 {
+    font-size: calc(1.12rem + 1.2vw);
+    position: relative;
+    color: rgb(177, 165, 1);
+    top: -12rem;
+  }
 }
 @media (max-width: 575px) {
   .couv h1 {
@@ -238,19 +276,20 @@ body {
     font-weight: 900;
     font-size: calc(1.6rem + 1.5vw);
     position: relative;
-    top: -28vh;
+    top: -24vh;
     left: 5vw;
     width: 90%;
     font-family: "acmeregular";
   }
   .couv #couv_ {
-    height: 19.1rem;
+    height: 18.4rem;
     overflow: hidden;
     filter: brightness(57%);
+    display: none;
   }
   .couv #couv_ img {
     position: relative;
-    height: 25rem;
+    height: 22rem;
     width: 100%;
   }
   .couv h3 {
@@ -259,7 +298,7 @@ body {
     font-size: calc(1.27rem + 1.2vw);
     position: relative;
     color: rgb(177, 165, 1);
-    top: -30vh;
+    top: -23vh;
     font-family: "coneria_script_demoregular";
     left: 24vw;
     width: 50%;
@@ -1659,11 +1698,32 @@ b {
   background-color: rgb(209, 118, 6);
   position: fixed;
   z-index: 30;
-  top: 86vh;
+  top: 80vh;
   right: 2%;
 }
 .up i:hover {
   background-color: rgb(27, 26, 25);
+}
+
+@media screen and (max-width: 575px) {
+  .up i {
+    position: fixed;
+    top: 82vh;
+    right: 2%;
+  }
+  .up i:hover {
+    background-color: rgb(27, 26, 25);
+  }
+}
+@media screen and (min-width: 576px) {
+  .up i {
+    position: fixed;
+    top: 92vh;
+    right: 2%;
+  }
+  .up i:hover {
+    background-color: rgb(27, 26, 25);
+  }
 }
 
 /*# sourceMappingURL=east.css.map */
