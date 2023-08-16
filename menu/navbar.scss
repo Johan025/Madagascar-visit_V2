@@ -1,80 +1,78 @@
-@import "./../settings.scss";
+// header{
+//     background-color:white;
+//     height:1cm;
+//     width:10%;
+//     position: fixed;
+//     z-index: 4;
+//    }
 
+// .header{
+//     background-color:white;
+//     height:2.1cm;
+//     width:100%;
+//     position: fixed;
+//     z-index: 4;
+//     top: 0;
+//    }
+.navbar-nav li:hover ul.dropdown-menu {
+  display: block;
+}
 
-@media screen and (min-width: 1024px) and (max-width: 2880px) {
-    
-  .ok{
- 
-    box-sizing: border-box;
-   
-    }
-  
-header{
-    background-color:white;
-    height:2.2cm;
-    width:100%;
-    position: fixed;
-    z-index: 30;
+/* Style pour l'effet hover sur les liens */
+.navbar-nav .nav-link {
+  text-decoration: none;
+  position: relative;
+}
 
-       #bord{
-         display: none;
-       }
+.active2{
+  position: absolute;
+  bottom: -0.16rem;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
 
-      .h_bord{
-        display: none;
-       }
-   }
+}
 
-   .header{
-    background-color:white;
-    height:2.2cm;
-    width:100%;
-    position: fixed;
-    z-index: 4;
-   }
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
 
-   
+.navbar-nav .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 
-   #tour_js{
-    width: 22vw;
-    height: 29rem;
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #212424;
-    position: relative;
-    left: 30vw;
-    top: -12rem;
+/* Style pour l'effet hover sur le bouton toggle */
+.navbar-toggler:hover {
+  background-color: rgb(177, 165, 1);
+}
 
-    box-sizing: border-box;
-
-       li{
-         
-          top: 0.6rem;
-          margin-top: 2rem;
-          font-size: 24px;
-          font-family: 'abril_fatfaceregular';
-          position: relative;
-          left: 2vw;
-
-            a{
-              font-size: 24px;
-              font-family: 'abril_fatfaceregular';
-              color: antiquewhite;
-              position: relative;
-              left: -1vw;
-
-                
-            }
-       }
-   }
+/* Style pour l'effet hover sur les éléments du menu déroulant */
+.navbar-nav li .dropdown-menu a:hover {
+  color: #fff;
+  background-color: rgb(177, 165, 1);
+}
 
     .logo{
-        width: 155px;
-        height: 68px;
-        left: 2rem;
-        position: fixed;
-        z-index: 40;
-        top: 1rem;
+    width: 130px;
+    height: 59px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
     }
 
   .logoBurger{
@@ -83,93 +81,62 @@ header{
 
 } 
 
-  header ul {
+#nav{
+  background-color: #ffffff;
+}
+
+#navbarNav{
   position: relative;
-  top: -2.5rem;
-  right: 3vw;
-  display: flex;
-  list-style-type: none;
-  height:1cm;
-  padding-top:5rem;
-  padding-bottom: 14rem;
-  overflow: hidden;
-  float: right;
-    }
-    
-    li a{
-     margin : 1.7px;
-     font-size: 19px;
-     padding:17px;
-     color:rgb(64, 56, 56);
-       i{
-         color: #000;
-       }
+  left:0;
+  
 
-    
-        &:hover:not(.active) {
-            background-color: #d6d61e;
-            border-radius: 8px;
-            text-decoration: none;
-            color:rgb(64, 56, 56);
-            }
-    }
+     li{
+        font-size: 20.5px;
+     }
+}
 
-    
-    .versionAng{
-    margin-left: 1vw;
-    font-size: 19px;
-    color: rgb(64, 56, 56);
-    }
-
-
-  .imgAng{
-  position: relative;
-  left :0rem;
-  top:0rem;
-  width:30px;
-  border-radius: 40%;
-  height: 30px;
-
-  .fenetreFrancais{
+@media (min-width: 576px) {
+  .logo{
+    width: 130px;
+    height: 65px;
+    left: 0.4rem;
     position: relative;
-    float: right;
     z-index: 4;
-    transform: translateY(-4.5cm);
-    @include div(5cm, 2cm, 94rem, 8.3rem, #04AA6D);
+    top: 0.3rem;
     }
 
-   
-
-        p{
-            cursor: pointer;
-            @include p(20px, 7rem, 2rem);
-            }
-
-}
-
-    .show{
-      transform: translateY(0);
-      transition: 0.14s;
-    }
-
-    
-    #ang{
-      cursor: pointer;
-    }
-
-    .container_responsive{
-      display: none;
-    }
-
-    .active {
-      color: white;
-      background-color: #04AA6D;
-      border: opx solid;
-      border-width: 20px;
-      border-radius: 8px;
-      text-decoration: none;
+  
       
-      } 
-
-
+    
 }
+
+@media (min-width: 992px) { 
+  #navbarNav{
+    float: right;
+    margin-left: 20vw;
+    justify-content: space-between;
+    align-items: center;
+
+      li{
+        margin-left: 23px;
+        
+      }
+}
+
+.logo{
+  width: 164px;
+  height: 64px;
+  left: 0.4rem;
+  position: relative;
+  z-index: 4;
+  top: 0.3rem;
+  }
+
+.navbar-collapse {
+  margin-left: 50px;
+}
+}
+
+
+
+  
