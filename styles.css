@@ -999,13 +999,12 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 68rem;
+    height: 72rem;
     position: relative;
     top: 15rem;
   }
   footer .follow {
-    position: relative;
-    top: 4rem;
+    margin-top: 4rem;
   }
   footer .follow h1 {
     font-size: calc(1.8rem + 1.5vw);
@@ -1014,9 +1013,8 @@ footer .copryght .row h3 {
     font-family: "Acme", sans-serif;
   }
   footer .follow #row {
-    position: relative;
-    left: 18.7%;
-    top: 1rem;
+    margin-left: 27.7%;
+    margin-top: 1.5rem;
   }
   footer .follow #row .icon {
     font-size: 20px;
