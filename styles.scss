@@ -4,7 +4,7 @@
  @import "./menu/about.scss";
 @import "./menu/choice.scss";
 @import "./menu/tour.scss";
-// @import "./menu/GuestBook.scss";
+@import "./menu/GuestBook.scss";
 // @import "./menu/footer.scss";
 // @import "./menu/responsive/index_rep.scss";
 
@@ -12,4 +12,24 @@
     font-family: 'Lato', sans-serif;
     color: rgb(52, 64, 71);
 }
+
+.up{
+      
+    i{
+       font-size: 31px;
+       color: #fff;
+       padding: 7px;
+       border-radius: 8px;
+       cursor: pointer;
+       background-color: rgb(209, 118, 6);
+       position: fixed;
+       bottom: 5vh;
+       right: 20px;
+       z-index: 30;
+  
+        &:hover{
+          background-color: rgb(27, 26, 25);
+        }
+    }
+  }
 

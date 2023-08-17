@@ -1,114 +1,184 @@
-@media screen and (min-width: 1024px) and (max-width: 2880px) {
+.guestbook {
+ position: relative;
+  top: 8rem;
+   height: 30rem;
+   width: 100%;
+  background-image: url('./../pictures/parallax.jpg');
+  background-repeat: no-repeat;
+ object-fit: cover;
+
+
+    h1 {
+        color: rgb(209, 118, 6);
+        font-size: calc(1.9rem + 1.5vw);
+        font-weight:bolder;
+        position: relative;
+        top: -7rem;
+        margin-left: 6rem;
+        font-family: 'Signika', sans-serif;
+    }
+
+    
+    .border3 {
+        width: 6.6rem;
+        height: 5px;
+        border-radius: 18px;
+        margin-left: 0.3rem;
+        position: relative;
+        top: -6rem;
+        margin-left:6.4rem ;
+        background-color: rgb(209, 118, 6);
+      }
+
+    #testimonial_area {
+        padding: 10% 0;
+        position: relative;
+        top: -9.5rem;
+    }
+    .box-area {
+        padding: 30px;
+        position: relative;
+        display: block;
+        background: #fff;
+        color: #000;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 40px 0;
+
+             #quote{
+                  width: 30px;
+                  height:30px;
+                  position: relative;
+                  top: 3.7rem;
+                  left: -0.8rem;
+                  opacity: calc(5);
+             }
+    }
+    .box-area h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #0a69ed;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Acme', sans-serif;
+
+           i{
+            color: #0a69ed;
+            margin-left: 0.5rem;
+           }
+    }
+    .box-area span {
+        color: #262626;
+        display: block;
+        font-size: 15px;
+        margin: 0 0 10px;
+        font-weight: 400;
+    }
+    .box-area .content {
+        color: #262626;
+    }
+    .box-area .img-area {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: -40px;
+        left: 0;
+        bottom: 0;
+        margin: 0 auto;
+        right: 0;
+        z-index: 1;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    }
+    .box-area .img-area img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+  
+    #testimonial_area .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+    #testimonial_area .owl-prev, #testimonial_area .owl-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        color: #0a69ed;
+        border-radius: 50%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+    }
+    #testimonial_area .owl-prev {
+        left: -60px;
+        top: -30px;
+    }
+    #testimonial_area .owl-next {
+        right: -60px;
+        top: -30px;
+    }
+    @media only screen and (max-width: 991px) {
+        .owl-nav {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .box-area {
+            text-align: center;
+        }
+        .owl-nav {
+            display: none;
+        }
+    }
+
+    
     
 
-.guestBOOK{
-     position: relative;
-     top: 183vh;
-  width: 100%;
-     height: 46rem;
+}
 
-h3{
-    color: $color-4;
-    width: 30vw;
-    font-weight: bolder;
-    font-family: 'coneria_script_demoregular';
-    @include h1(27.6px, 0, 44%);
-  }
-
-   h1{ 
-    top: 5rem;
-    color: rgb(48, 46, 46);
-    font-family:'yeseva_oneregular';
-    @include h1(38.5px, 0,34% );
-    width: 40vw;
-   }
-
-   .container_avis{
-           position: absolute;
-           top: 22rem;
-           left: 14vw;
-           width: 70%;
-           height: 35rem;
-
-           border-radius: 6px;
-           box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.754);
-
-           #inner{
-            width: 100%;
-            position: absolute;
-            top: 0rem;
-            height: 35rem;
-
-            h1{
-                font-size: 20px;
-                color: rgb(44, 143, 4);
-                 font-size: 34px;
-                 margin-left: -11vw;
-                 font-family: 'coneria_script_demoregular';
-                 font-weight: 700;
-                 top: -8rem;
-                 
+@media screen and (max-width: 575px) {
+    .guestbook {
+        position: relative;
+         top: 8rem;
+          height: 30rem;
+          width: 100%;
+         background-image: url('./../pictures/parallax.jpg');
+         background-repeat: no-repeat;
+        object-fit: cover;
+       
+       
+           h1 {
+               color: rgb(209, 118, 6);
+               font-size: calc(1.9rem + 1.5vw);
+               font-weight:bolder;
+               position: relative;
+               top: -7rem;
+               margin-left: 0.9rem;
+               font-family: 'Signika', sans-serif;
+           }
+       
+           
+           .border3 {
+               width: 6.6rem;
+               height: 5px;
+               border-radius: 18px;
+               margin-left: 0.3rem;
+               position: relative;
+               top: -6rem;
+               margin-left:1.2rem ;
+               background-color: rgb(209, 118, 6);
              }
-
-             h3{
-                   font-size: 17px;
-                   width: 62vw;
-                   margin-left: -10vw;
-                   top: -7.7rem;
-                   position: relative;
-                   font-weight: -1000;
-                   color: #302f2fd9;
-                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-             }
-
-         
-        }
-        
-        #contain{
-              width: 30rem;
-              height: 35rem;
-              position: absolute;
-              top: 45rem;
-                   
-             
             
+
+            #testimonial_area {
+                padding: 10% 0;
+                position: relative;
+                top: -1.7rem;
+            }
         }
-        
-        .back{
-            width: 101%;
-            height: 35rem;
-            background-color: rgb(229, 225, 225);
-            border-radius: 6px;
-            box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.754);
-        }
-
-      
-   }
-   #prev{
-      position: relative;
-      top: 17rem;
-      left: 2vw;
-   }
-
-    #next{
-        position: relative;
-        top: 17rem;
-        right: -67vw;
-        
-    }
-   
-    .parallax{
-            width: 100%;
-            height: 65rem;
-            background-image: url(./../pictures/parallax.jpg);
-    }
-}
-}
-
-@media screen and (min-width: 1251px) {
-    .guestBOOK{
-        position: relative;
-        top: 113vh;
-     
-    }
 }
