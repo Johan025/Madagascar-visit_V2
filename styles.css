@@ -366,13 +366,13 @@ body {
   #carousel_responsive #inner1 h1 {
     font-family: "Acme", sans-serif;
     font-weight: 900;
-    font-size: calc(1.4rem + 1.5vw);
+    font-size: calc(1.5rem + 1.5vw);
     position: relative;
     top: 0.5rem;
     display: block;
   }
   #carousel_responsive #inner1 button {
-    font-size: 15px;
+    font-size: 17px;
     position: relative;
     top: 1.2rem;
     left: 0%;
@@ -449,7 +449,7 @@ body {
 }
 .about .container #col1 .border {
   width: 6.6rem;
-  height: 8px;
+  height: 7px;
   border-radius: 18px;
   margin-left: 0.3rem;
   background-color: rgb(209, 118, 6);
@@ -465,6 +465,7 @@ body {
   }
   .about .container #col1 h1 {
     color: rgb(209, 118, 6);
+    font-size: calc(2.2rem + 1.5vw);
     font-weight: bolder;
     font-family: "Signika", sans-serif;
   }
@@ -524,7 +525,10 @@ body {
     top: 4rem;
   }
   .about #col1 h1 {
-    font-size: calc(1.9rem + 1.5vw);
+    font-size: calc(2.3rem + 1.5vw);
+  }
+  .about #col1 .border {
+    height: 5px;
   }
   .about #col1 p {
     font-size: calc(0.9rem + 1vw);
@@ -542,7 +546,7 @@ body {
 }
 .us .container h1 {
   color: rgb(209, 118, 6);
-  font-size: calc(1.9rem + 1.5vw);
+  font-size: calc(2.2rem + 1.5vw);
   font-weight: bolder;
   font-family: "Signika", sans-serif;
 }
@@ -708,7 +712,7 @@ body {
 }
 .circuit .container .tour_t {
   color: rgb(209, 118, 6);
-  font-size: calc(1.9rem + 1.5vw);
+  font-size: calc(2.3rem + 1.5vw);
   font-weight: bolder;
   margin-left: -0.2rem;
   font-family: "Signika", sans-serif;
@@ -979,7 +983,7 @@ body {
   }
   .guestbook h1 {
     color: rgb(209, 118, 6);
-    font-size: calc(1.9rem + 1.5vw);
+    font-size: calc(2.2rem + 1.5vw);
     font-weight: bolder;
     position: relative;
     top: -7rem;

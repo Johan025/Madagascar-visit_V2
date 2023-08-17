@@ -18,7 +18,7 @@
 
             .border {
                 width: 6.6rem;
-                height: 8px;
+                height: 7px;
                 border-radius: 18px;
                 margin-left: 0.3rem;
                 background-color: rgb(209, 118, 6);
@@ -48,7 +48,7 @@
     
                 h1 {
                     color: rgb(209, 118, 6);
-                  
+                    font-size: calc(2.2rem + 1.5vw);
                     font-weight: bolder;
                     font-family: 'Signika', sans-serif;
     
@@ -145,8 +145,12 @@
         #col1 {
 
             h1 {
-                font-size: calc(1.9rem + 1.5vw);
+                font-size: calc(2.3rem + 1.5vw);
 
+            }
+
+            .border {
+                height: 5px;
             }
 
             p {
