@@ -282,6 +282,49 @@ body {
     margin-left: 2%;
   }
 }
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  #carousel {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    top: 3rem;
+  }
+  #carousel #inner {
+    width: 100%;
+    height: 25rem;
+  }
+  #carousel #inner h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: calc(1.6rem + 1.5vw);
+    position: relative;
+    top: -2rem;
+    display: block;
+  }
+  #carousel #inner button {
+    font-size: 15px;
+    position: relative;
+    top: -1.2rem;
+    left: 0%;
+    display: block;
+  }
+  #carousel #inner img {
+    width: 100%;
+    height: 25rem;
+    filter: brightness(57%);
+  }
+  #carousel .icon {
+    font-size: 42px;
+  }
+  #carousel #next {
+    margin-top: 1.5rem;
+    margin-right: 2%;
+  }
+  #carousel #prev {
+    margin-top: 2rem;
+    margin-left: 2%;
+  }
+}
 .about {
   position: relative;
   top: 3rem;
@@ -302,10 +345,39 @@ body {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
   .about {
     position: relative;
     top: 3rem;
+  }
+  .about .container #col1 h1 {
+    color: rgb(209, 118, 6);
+    font-weight: bolder;
+    font-family: "Signika", sans-serif;
+  }
+  .about .container #col1 .border {
+    width: 6.6rem;
+    height: 8px;
+    border-radius: 18px;
+    margin-left: 0.3rem;
+    background-color: rgb(209, 118, 6);
+  }
+  .about .container #col1 p {
+    margin-top: 2rem;
+    font-size: calc(0.57rem + 1vw);
+  }
+  .about .container #col2 img {
+    border-radius: 10px;
+    position: relative;
+    top: 5rem;
+    height: 27rem;
+    width: 110%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .about {
+    position: relative;
+    top: 5rem;
   }
   .about .container #col1 h1 {
     color: rgb(209, 118, 6);
@@ -322,13 +394,15 @@ body {
   }
   .about .container #col1 p {
     margin-top: 2rem;
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(0.75rem + 1vw);
   }
   .about .container #col2 img {
     border-radius: 10px;
     width: 105%;
     height: 25rem;
-    margin-top: 7rem;
+    margin-top: -1.3rem;
+    margin-left: 23%;
+    text-align: center;
   }
 }
 @media screen and (max-width: 575px) {
@@ -453,6 +527,67 @@ body {
   }
   .us .container .row #col3 span p {
     font-size: calc(0.9rem + 1.5vw);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .us {
+    position: relative;
+    top: 13rem;
+  }
+  .us .container h1 {
+    color: rgb(209, 118, 6);
+    font-size: calc(1.9rem + 1.5vw);
+    font-weight: bolder;
+    font-family: "Signika", sans-serif;
+  }
+  .us .container .border1 {
+    width: 6.6rem;
+    height: 5px;
+    border-radius: 18px;
+    margin-left: 0.3rem;
+    background-color: rgb(209, 118, 6);
+  }
+  .us .container .row {
+    margin-top: 2rem;
+    margin-left: 32;
+  }
+  .us .container .row img {
+    width: 89%;
+    height: 25rem;
+    margin-left: 3%;
+    border-radius: 5px;
+  }
+  .us .container .row #i1 {
+    margin-top: 2rem;
+    margin-left: 10%;
+  }
+  .us .container .row #col1 {
+    margin-left: -1rem;
+  }
+  .us .container .row #col2 {
+    margin-left: -1rem;
+  }
+  .us .container .row #col3 b {
+    font-size: calc(1rem + 1.5vw);
+    font-weight: bolder;
+    font-family: "Acme", sans-serif;
+  }
+  .us .container .row #col3 span {
+    position: relative;
+    top: 0rem;
+    left: 3rem;
+  }
+  .us .container .row #col3 span .item {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(209, 118, 6);
+    border-radius: 50%;
+    position: relative;
+    left: -3rem;
+    top: 1.5rem;
+  }
+  .us .container .row #col3 span p {
+    font-size: calc(0.1rem + 1.5vw);
   }
 }
 .circuit {
@@ -581,6 +716,11 @@ body {
     margin-left: -21px;
     margin-top: -21px;
     margin-right: 21px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .circuit {
+    margin-top: 17.5rem;
   }
 }
 .guestbook {
@@ -749,8 +889,35 @@ body {
     top: -1.7rem;
   }
 }
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .guestbook h1 {
+    font-size: calc(1.9rem + 1.5vw);
+    margin-left: 3rem;
+  }
+  .guestbook .border3 {
+    margin-left: 3.4rem;
+  }
+  .guestbook #testimonial_area {
+    padding: 10% 0;
+    position: relative;
+    top: -4.5rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) and (max-width: 991px) {
+  .guestbook .owl-nav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) and (max-width: 767px) {
+  .guestbook .box-area {
+    text-align: center;
+  }
+  .guestbook .owl-nav {
+    display: none;
+  }
+}
 footer {
-  height: 25rem;
+  height: 30rem;
   position: relative;
   top: 15rem;
 }
@@ -799,12 +966,216 @@ footer .tour h1 {
   font-weight: bolder;
   font-family: "Acme", sans-serif;
 }
+footer .tour ul {
+  margin-left: -10.8rem;
+}
 footer .tour ul li {
   font-size: 21px;
   color: white;
   margin-top: 10px;
 }
+footer #row2 {
+  position: relative;
+  top: 6rem;
+}
+footer #row2 h1 {
+  margin-top: 0.4rem;
+  font-size: calc(1.1rem + 1.2vw);
+  font-family: "Acme", sans-serif;
+}
+footer #row2 .phone {
+  margin-top: 0.4rem;
+  font-size: 20px;
+}
+footer .copryght {
+  position: relative;
+  top: 7rem;
+  height: 4rem;
+  background: #162b32;
+}
+footer .copryght .row h3 {
+  font-size: 23px;
+}
 
+@media screen and (max-width: 575px) {
+  footer {
+    height: 68rem;
+    position: relative;
+    top: 15rem;
+    display: none;
+  }
+  footer .follow {
+    position: relative;
+    top: 4rem;
+  }
+  footer .follow h1 {
+    font-size: calc(1.8rem + 1.5vw);
+    font-weight: bolder;
+    width: 100%;
+    font-family: "Acme", sans-serif;
+  }
+  footer .follow #row {
+    position: relative;
+    left: 18.7%;
+    top: 1rem;
+  }
+  footer .follow #row .icon {
+    font-size: 20px;
+    margin-left: 5%;
+    color: #fff;
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 11px;
+    background-color: rgb(209, 118, 6);
+  }
+  footer .links {
+    margin-top: 5rem;
+    position: relative;
+    top: 4rem;
+  }
+  footer .links h1 {
+    font-size: calc(1.5rem + 1.2vw);
+    font-weight: bolder;
+    font-family: "Acme", sans-serif;
+  }
+  footer .links ul {
+    margin-left: -4%;
+  }
+  footer .links ul li {
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+  }
+  footer #row2 {
+    position: relative;
+    top: 6rem;
+  }
+  footer #row2 h1 {
+    margin-top: 0.4rem;
+    font-size: calc(1.7rem + 1.2vw);
+    font-family: "Acme", sans-serif;
+  }
+  footer #row2 .phone {
+    margin-top: 0.4rem;
+    font-size: 20px;
+  }
+  footer .tour {
+    position: relative;
+    top: 7rem;
+  }
+  footer .tour h1 {
+    font-size: calc(1.5rem + 1.2vw);
+    font-weight: bolder;
+    font-family: "Acme", sans-serif;
+  }
+  footer .tour ul {
+    margin-left: -2%;
+  }
+  footer .tour ul li {
+    font-size: 21px;
+    color: white;
+    margin-top: 10px;
+  }
+  footer .copryght {
+    position: relative;
+    top: 8rem;
+    height: 6rem;
+    background: #162b32;
+  }
+  footer .copryght .row h3 {
+    font-size: 23px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  footer {
+    height: 45rem;
+    position: relative;
+    top: 15rem;
+  }
+  footer .follow {
+    position: relative;
+    top: 4rem;
+    left: 29vw;
+  }
+  footer .follow h1 {
+    font-size: calc(1.5rem + 1.2vw);
+    font-weight: bolder;
+    margin-left: -20%;
+    font-family: "Acme", sans-serif;
+  }
+  footer .follow #row {
+    position: relative;
+    left: -2rem;
+  }
+  footer .follow #row .icon {
+    font-size: 18px;
+    margin-left: 2rem;
+    color: #fff;
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 11px;
+    background-color: rgb(209, 118, 6);
+  }
+  footer .links {
+    position: relative;
+    top: 4rem;
+  }
+  footer .links h1 {
+    font-size: calc(0.9rem + 1.2vw);
+    font-weight: bolder;
+    font-family: "Acme", sans-serif;
+  }
+  footer .links ul {
+    margin-left: -5%;
+  }
+  footer .links ul li {
+    font-size: 21px;
+    color: white;
+    margin-top: 10px;
+  }
+  footer .tour {
+    position: relative;
+    top: 4rem;
+  }
+  footer .tour h1 {
+    font-size: calc(0.9rem + 1.2vw);
+    font-weight: bolder;
+    font-family: "Acme", sans-serif;
+  }
+  footer .tour ul {
+    margin-left: -10.5vw;
+  }
+  footer .tour ul li {
+    font-size: 21px;
+    color: white;
+    margin-top: 10px;
+  }
+  footer #location {
+    margin-left: 42%;
+  }
+  footer #row2 {
+    position: relative;
+    top: 6rem;
+  }
+  footer #row2 h1 {
+    margin-top: 0.4rem;
+    font-size: calc(1.1rem + 1.2vw);
+    font-family: "Acme", sans-serif;
+  }
+  footer #row2 .phone {
+    margin-top: 0.4rem;
+    font-size: 20px;
+  }
+  footer .copryght {
+    position: relative;
+    top: 7rem;
+    height: 4rem;
+    background: #162b32;
+  }
+  footer .copryght .row h3 {
+    font-size: 23px;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
   color: rgb(52, 64, 71);

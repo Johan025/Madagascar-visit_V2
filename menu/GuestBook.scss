@@ -182,3 +182,42 @@
             }
         }
 }
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .guestbook {
+       
+           h1 {
+               font-size: calc(1.9rem + 1.5vw);
+               margin-left: 3rem;
+           }
+       
+           
+           .border3 {
+               margin-left: 3.4rem;
+             }
+       
+           #testimonial_area {
+               padding: 10% 0;
+               position: relative;
+               top: -4.5rem;
+           }
+        
+          
+           @media only screen and (max-width: 991px) {
+               .owl-nav {
+                   display: none;
+               }
+           }
+           @media only screen and (max-width: 767px) {
+               .box-area {
+                   text-align: center;
+               }
+               .owl-nav {
+                   display: none;
+               }
+           }
+       
+           
+           
+       
+       }
+  }

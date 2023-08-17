@@ -24,6 +24,8 @@
                 background-color: rgb(209, 118, 6);
             }
 
+           
+
 
         }
 
@@ -35,10 +37,61 @@
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
     .about {
         position: relative;
         top: 3rem;
+    
+        .container {
+    
+            #col1 {
+    
+                h1 {
+                    color: rgb(209, 118, 6);
+                  
+                    font-weight: bolder;
+                    font-family: 'Signika', sans-serif;
+    
+                }
+    
+    
+                .border {
+                    width: 6.6rem;
+                    height: 8px;
+                    border-radius: 18px;
+                    margin-left: 0.3rem;
+                    background-color: rgb(209, 118, 6);
+                }
+
+                p {
+                    
+                    margin-top: 2rem;
+                    font-size: calc(0.57rem + 1vw);
+                }
+    
+               
+    
+    
+            }
+    
+            #col2 {
+                img {
+                    border-radius: 10px;
+                    position: relative;
+                    top: 5rem;
+                    height: 27rem;
+                    width: 110%;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .about {
+        position: relative;
+        top: 5rem;
     
         .container {
     
@@ -64,17 +117,20 @@
                 p {
                     
                     margin-top: 2rem;
-                    font-size: calc(0.5rem + 1vw);
+                    font-size: calc(0.75rem + 1vw);
                 }
     
             }
     
             #col2 {
+
                 img {
                     border-radius: 10px;
                     width: 105%;
                     height: 25rem;
-                    margin-top: 7rem;
+                    margin-top: -1.3rem;
+                    margin-left: 23%;
+                    text-align: center;
                 }
             }
         }
@@ -111,3 +167,4 @@
         }
     }
 }
+

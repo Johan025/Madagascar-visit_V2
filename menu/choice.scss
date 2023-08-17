@@ -146,3 +146,89 @@
   }
 
 }
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    .us {
+      position: relative;
+      top: 13rem;
+    
+      .container {
+    
+        h1 {
+          color: rgb(209, 118, 6);
+          font-size: calc(1.9rem + 1.5vw);
+          font-weight: bolder;
+          font-family: 'Signika', sans-serif;
+    
+        }
+    
+        .border1 {
+          width: 6.6rem;
+          height: 5px;
+          border-radius: 18px;
+          margin-left: 0.3rem;
+          background-color: rgb(209, 118, 6);
+        }
+    
+        .row {
+          margin-top: 2rem;
+          margin-left: 32;
+    
+          img {
+            width: 89%;
+            height: 25rem;
+            margin-left: 3%;
+            border-radius: 5px;
+          }
+    
+          #i1 {
+            margin-top: 2rem;
+            margin-left: 10%;
+          }
+    
+          #col1 {
+            margin-left: -1rem;
+          }
+    
+          #col2 {
+            margin-left: -1rem;
+          }
+    
+          .col:nth-child(2) {}
+    
+          #col3 {
+    
+            b{
+              font-size: calc(1rem + 1.5vw);
+              font-weight: bolder;
+              font-family: 'Acme', sans-serif;
+            }
+    
+            span {
+    
+              position: relative;
+              top: -0rem;
+              left: 3rem;
+    
+              .item {
+                width: 25px;
+                height: 25px;
+                background-color: rgb(209, 118, 6);
+                border-radius: 50%;
+                position: relative;
+                left: -3rem;
+                top: 1.5rem;
+              }
+    
+              p {
+                font-size: calc(0.1rem + 1.5vw);
+              }
+            }
+          }
+        }
+    
+      }
+    }
+    
+  }
