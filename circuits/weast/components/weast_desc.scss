@@ -1,94 +1,281 @@
 font-face {
     font-family: 'coneria_script_demoregular';
     src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
-         url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+        url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../../../fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+        url('../../../fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../../..//abrilfatface-regular-webfont.woff2') format('woff2'),
+      url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+      url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
-
+  
+  
   @font-face {
-    font-family: 'yeseva_oneregular';
-    src: url('../../../fonts/yesevaone-regular-webfont.woff2') format('woff2'),
-         url('../../../fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-family: 'acmeregular';
+    src: url('../../../fonts/acme-regular-webfont.woff2') format('woff2'),
+      url('../../../fonts/') format('woff');
     font-weight: normal;
     font-style: normal;
+  
+  }
+  
+  
 
-}
+@import './../../../settings.scss';
 
-b{
+b {
     color: rgb(62, 56, 56);
 }
 
+
 .title_weast{
-    color: rgb(0, 34, 96);
-    @include h(39px, 9.5rem, 5rem, 800, 69vw);
-    font-family: 'yeseva_oneregular';
+    margin-left: 3%;
+    font-size: calc(1.875rem + 1.5vw);
+    font-family: 'acmeregular';
+    font-weight: bold;
 }
 
-.weast .desc{
-    position: absolute;
-    width: 55vw;
-    top: 75rem;
-    left: 8rem;
-    font-size: 20px;
-    color: rgb(93, 93, 97);
-}
-.detailTour{
 
-    h1{
-    color: rgb(212, 139, 3);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    @include h(38px, 21rem,73vw, bold, 20vw);
+.weast{
+    position: relative;
+    top: -3rem;
+
+    .desc {
+        margin-top: 1rem;
+        position: relative;
+        left: 0vw;
+        width: 90%;
     }
 
-    .details{
-         border-radius: 6px;
-         box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.645);
-         background-color: rgb(223, 220, 215);
-         border: 1.5px solid rgb(212, 139, 3);
-         @include div-right(20rem, 32vw, 2vw, 33rem);
+    .suggest {
 
-             .days{
-                  position: absolute;
-                  top: -18rem;
-                  left: -65vw;
-                    img{
-                        width: 52px;
-                        height: 52px; 
-                        position: absolute;
-                       left: 67vw;
-                       top: 22rem;
-                    }  
+        h1 {
+            color: rgb(209, 118, 6);
+            margin-left: 3rem;
+            font-weight: bold;
+            font-family: 'acmeregular';
+            font-size: calc(1.3rem + 1.5vw);
+            ;
+        }
 
-                    h1{
-                       font-size: 24px;
-                       color: rgb(67, 66, 66);
-                       position: absolute;
-                       left:71vw;
-                    }
-             }
+        .border_ {
+            width: 6.6rem;
+            height: 6px;
+            border-radius: 18px;
+            margin-left: 3.3rem;
+            background-color: rgb(209, 118, 6);
+        }
 
-             .localisation{
-                 position: absolute;
-                 top: 7rem;
-                 left: 0vw;
-                   img{
-                     width: 52px;
-                     height: 52px; 
-                     position: absolute;
-                    left: 67vw;
-                    top: 22rem;
-                   }  
+        .row {
+            margin-top: 5rem;
 
-                   h1{
-                      font-size: 22px;
-                      position: absolute;
-                      left:71vw;
-                     width: 27vw;
-                      color: rgb(67, 66, 66);
-                   }
+            .box {
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+                padding: 20px;
+                border-radius: 15px;
+                margin-bottom: 45px;
+                overflow: hidden;
+
+                h4{
+                      margin-top: 1rem; 
+                      font-size: calc(0.75rem + 1vw);
+                      color: rgb(209, 118, 6);
+                      font-weight: bold;
+                      font-family: 'Signika', sans-serif;
+
+                        i{
+                            color: rgb(209, 118, 6);
+                        }
+
+                }
+
+                h2{
+                    margin-top: 1rem; 
+                    font-size: calc(0.9rem + 1vw);
+                    font-weight: bold;
+                    font-family: 'acmeregular';
+                }
+
+                button{
+                      margin-left: 37%;
+                     margin-top: 1.1rem;
+                     font-size: 19.5px;
+                     background-color:rgb(209, 118, 6) ;
+                     color: #fff;
+                }
+
+                img {
+                    width: 120%;
+                    height: 14rem;
+                    margin-left: -21px;
+                    margin-top: -21px;
+                    margin-right: 21px;
+
+                }
             }
+
+        }
+
+
+
+
     }
 }
 
 
+.borde{
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 0%;
+    background-color: rgb(209, 118, 6);
+}
+
+
+@media (min-width: 576px) {
+    .title_weast {
+        color: rgb(209, 118, 6);
+        margin-left: 3rem;
+        font-family: 'acmeregular';
+        font-size: 38px;
+    }
+
+    .borde{
+        margin-left: 7.3%;
+    }
+
+    .weast {
+        position: relative;
+        top: -3rem;
+    
+        .desc {
+            left: -3vw;
+            width: 90%;
+        }
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .weast{
+        position: relative;
+        top: 15rem;
+
+        .desc {
+            position: relative;
+            left: -8vw;
+            width: 92%;
+            font-size: calc(1.05rem + 1.5vw);
+        }
+
+    }
+
+   
+
+    .title_weast {
+        color: rgb(209, 118, 6);
+        font-size: calc(1.8rem + 1.5vw);
+    }
+    .borde{
+        margin-left: 3.4%;
+    }
+
+    .weast {
+        position: relative;
+        top: 1rem;
+    
+        .desc {
+            margin-top: 1rem;
+            position: relative;
+            left: -8vw;
+            width: 90%;
+        }
+    
+        .suggest {
+    
+            h1 {
+                margin-left: 1.2rem;
+                font-size: calc(1.7rem + 1.5vw);
+            }
+    
+            .border_ {
+                margin-left: 1.2rem;
+            }
+    
+            .row {
+                margin-top: 5rem;
+    
+                .box {
+    
+                    h4{
+                          font-size: calc(1.4rem + 1vw);
+    
+                    }
+    
+                    h2{
+                        font-size: calc(1.5rem + 1vw);
+                    }
+                    button{
+
+                    font-size: 21.5px;
+                    }
+
+    
+                }
+    
+            }
+    
+    
+    
+    
+        }
+    }
+    
+
+}
+
+@media (min-width: 992px) {
+    .title_weast {
+        margin-left: 3rem;
+        font-size: calc(1.4rem + 1.5vw);
+    }
+
+    .borde{
+        margin-left: 3.7%;
+    }
+
+    .weast{
+        position: relative;
+        top: -3rem;
+    
+        .desc {
+            left: 0vw;
+            width: 90%;
+        }
+    }
+
+}

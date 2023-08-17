@@ -1,27 +1,78 @@
-header{
-    background-color:white;
-    height:1cm;
-    width:10%;
-    position: fixed;
-    z-index: 4;
-   }
+// header{
+//     background-color:white;
+//     height:1cm;
+//     width:10%;
+//     position: fixed;
+//     z-index: 4;
+//    }
 
-.header{
-    background-color:white;
-    height:2.1cm;
-    width:100%;
-    position: fixed;
-    z-index: 4;
-    top: 0;
-   }
+// .header{
+//     background-color:white;
+//     height:2.1cm;
+//     width:100%;
+//     position: fixed;
+//     z-index: 4;
+//     top: 0;
+//    }
+.navbar-nav li:hover ul.dropdown-menu {
+  display: block;
+}
+
+/* Style pour l'effet hover sur les liens */
+.navbar-nav .nav-link {
+  text-decoration: none;
+  position: relative;
+}
+
+.active{
+  position: absolute;
+  bottom: -0.16rem;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
+
+}
+
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Style pour l'effet hover sur le bouton toggle */
+.navbar-toggler:hover {
+  background-color: rgb(177, 165, 1);
+}
+
+/* Style pour l'effet hover sur les éléments du menu déroulant */
+.navbar-nav li .dropdown-menu a:hover {
+  color: #fff;
+  background-color: rgb(177, 165, 1);
+}
 
     .logo{
-    width: 169px;
-    height: 65px;
-    left: 2rem;
-    position: fixed;
+    width: 130px;
+    height: 59px;
+    left: 0.4rem;
+    position: relative;
     z-index: 4;
-    top: 1rem;
+    top: 0.3rem;
     }
 
   .logoBurger{
@@ -30,86 +81,60 @@ header{
 
 } 
 
-  header ul {
+#nav{
+  background-color: #ffffff;
+}
+
+#navbarNav{
   position: relative;
-  top: -2.5rem;
-  right: 4rem;
-  display: flex;
-  list-style-type: none;
-  height:1cm;
-  padding-top:5rem;
-  padding-bottom: 14rem;
-  overflow: hidden;
-      float: right;
+  left:0;
+  
+
+     li{
+        font-size: 20.5px;
+     }
+}
+
+@media (min-width: 576px) {
+  .logo{
+    width: 130px;
+    height: 65px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
     }
+
+  
+      
     
-    li a{
-     margin : 6px;
-     font-size: 19px;
-     padding:17px;
-     color:rgb(64, 56, 56);
-    }
+}
 
-     
-    li a.active {
-    color: white;
-    background-color: #04AA6D;
-    border: opx solid;
-    border-width: 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    
-    } 
+@media (min-width: 992px) { 
+  #navbarNav{
+    float: right;
+    margin-left: 20vw;
+    justify-content: space-between;
+    align-items: center;
 
-    li a:hover:not(.active) {
-    background-color: #d6d61e;
-    border-radius: 8px;
-    text-decoration: none;
-    color:rgb(64, 56, 56);
-    }
+      li{
+        margin-left: 23px;
+        
+      }
+}
 
-    .versionAng{
-    margin-left: 11rem;
-    font-size: 19px;
-    color: rgb(64, 56, 56);
-    }
-
-  .imgAng{
+.logo{
+  width: 164px;
+  height: 64px;
+  left: 0.4rem;
   position: relative;
-  left :0rem;
-  top:0rem;
-  width:30px;
-  border-radius: 40%;
-  height: 30px;
-    }
-
-    .fenetreFrancais{
-  position: relative;
-  display: none;
-  float: right;
-  left: 94rem;
-  top:8.3rem;
-  width:5cm;
-  height:2cm;
-  background-color: #04AA6D;
   z-index: 4;
-  transform: translateY(-4.5cm);
-  transition: 0;
+  top: 0.3rem;
   }
 
-    .imgAng1{
-    width: 35px;
-    height: 35px;
-    position: relative;
-    left: 1rem;
-    border-radius: 40%;
-    cursor: pointer;
-    }
- 
-    .fenetreFrancais p{
-    position: absolute;
-    left: 7rem;
-    top: 2rem;
-    font-size: 20px;
-    cursor: pointer;
-    }
+.navbar-collapse {
+  margin-left: 50px;
+}
+}
+
+  

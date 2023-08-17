@@ -274,9 +274,9 @@ body {
   .couv h1 {
     font-family: "acmeregular";
     font-weight: 900;
-    font-size: calc(1.6rem + 1.5vw);
+    font-size: calc(1.7rem + 1.3vw);
     position: relative;
-    top: -24vh;
+    top: -21vh;
     left: 5vw;
     width: 90%;
     font-family: "acmeregular";
@@ -298,7 +298,7 @@ body {
     font-size: calc(1.27rem + 1.2vw);
     position: relative;
     color: rgb(177, 165, 1);
-    top: -23vh;
+    top: -21.5vh;
     font-family: "coneria_script_demoregular";
     left: 24vw;
     width: 50%;
