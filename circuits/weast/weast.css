@@ -942,40 +942,40 @@ b {
     position: relative;
     color: #36454f;
   }
-  .with-tsingyb {
+  .with-tsingy {
     position: relative;
     top: 10rem;
   }
-  .with-tsingyb .row {
+  .with-tsingy .row {
     margin-left: 6%;
     margin-top: 5rem;
   }
-  .with-tsingyb .row div {
+  .with-tsingy .row div {
     width: 92%;
   }
-  .with-tsingyb .row div div {
+  .with-tsingy .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
     padding: 0;
   }
-  .with-tsingyb .row div div h2 {
+  .with-tsingy .row div div h2 {
     color: rgb(51, 44, 48);
     font-family: "Signika", sans-serif;
     font-weight: bold;
     font-size: calc(0.78rem + 1.7vw);
   }
-  .with-tsingyb .row div div h2 i {
+  .with-tsingy .row div div h2 i {
     color: rgb(240, 136, 8);
   }
-  .with-tsingyb .row div div p {
+  .with-tsingy .row div div p {
     font-size: calc(0.7rem + 0.95vw);
   }
-  .with-tsingyb .row div div h4 {
+  .with-tsingy .row div div h4 {
     color: rgb(209, 118, 6);
     font-family: "Signika", sans-serif;
     font-weight: bold;
     font-size: calc(1rem + 1.7vw);
   }
-  .with-tsingyb .row div div h4 i {
+  .with-tsingy .row div div h4 i {
     color: rgb(209, 118, 6);
   }
 }
@@ -1105,6 +1105,7 @@ b {
   .with-tsingy #plan1 {
     position: relative;
     top: 9rem;
+    font-family: "Acme", sans-serif;
     font-size: calc(1.7rem + 1.5vw);
   }
   .with-tsingy .borde1 {
@@ -1145,62 +1146,126 @@ b {
     font-size: calc(0.95rem + 0.95vw);
   }
 }
+.comments {
+  position: relative;
+  top: 23rem;
+  padding: 4px;
+  border-radius: 10px;
+  box-shadow: 2px 8px 25px;
+}
+.comments h1 {
+  font-size: 36px;
+  margin-left: 1%;
+  font-weight: 450;
+  font-family: "acmeregular";
+}
+.comments .borde2 {
+  width: 6.6rem;
+  height: 6px;
+  border-radius: 18px;
+  margin-left: 0%;
+  margin-top: 1rem;
+  background-color: rgb(209, 118, 6);
+}
+.comments div {
+  margin-top: 0rem;
+  margin-left: -5%;
+  padding-bottom: 4px;
+}
+.comments div input[type=email] {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 16px;
+}
+.comments div input[type=text] {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  padding-bottom: 8rem;
+  font-size: 16px;
+}
+.comments div button {
+  background-color: rgb(209, 118, 6);
+}
+
+@media (max-width: 575px) {
+  .comments {
+    position: relative;
+    top: 38rem;
+    padding: 4px;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .comments {
+    text-align: center;
+    margin-left: 20%;
+  }
+  .comments .borde2 {
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 13.4%;
+    margin-top: 1rem;
+    background-color: rgb(209, 118, 6);
+  }
+}
+@media (min-width: 992px) {
+  #map {
+    width: 70%;
+    position: relative;
+    height: 34rem;
+    top: 22.6rem;
+    left: 13.9%;
+    border-radius: 18px;
+    z-index: 20;
+    border: 4px solid;
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  #map {
+    width: 97%;
+    position: relative;
+    height: 27rem;
+    top: 35.6rem;
+    left: 2%;
+    border-radius: 18px;
+    z-index: 20;
+    border: 4px solid;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  #map {
+    width: 85%;
+    position: relative;
+    height: 27rem;
+    top: 18rem;
+    left: 7%;
+    border-radius: 18px;
+    z-index: 20;
+    border: 4px solid;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
   color: rgb(52, 64, 71);
 }
 
 .up i {
-  font-size: 28px;
+  font-size: 31px;
   color: #fff;
   padding: 7px;
   border-radius: 8px;
   cursor: pointer;
   background-color: rgb(209, 118, 6);
   position: fixed;
+  bottom: 5vh;
+  right: 20px;
   z-index: 30;
-  top: 75vh;
-  right: 2%;
 }
 .up i:hover {
   background-color: rgb(27, 26, 25);
-}
-
-@media screen and (min-width: 992px) {
-  .up i {
-    position: fixed;
-    z-index: 30;
-    top: 88vh;
-  }
-  .up i:hover {
-    background-color: rgb(27, 26, 25);
-  }
-}
-@media screen and (max-width: 575px) {
-  .up i {
-    position: fixed;
-    top: 82vh;
-    right: 2%;
-  }
-  .up i:hover {
-    background-color: rgb(27, 26, 25);
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 991px) {
-  .up i {
-    position: fixed;
-    top: 92vh;
-    right: 2%;
-  }
-  .up i:hover {
-    background-color: rgb(27, 26, 25);
-  }
-}
-@font-face {
-  font-family: "coneria_script_demoregular";
-  src: url("./../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../fonts/demo_coneriascript-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 /*# sourceMappingURL=weast.css.map */

@@ -1,0 +1,76 @@
+
+.comments {
+    position: relative;
+    top: 23rem;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 25px;
+     
+      h1{
+         font-size: 36px;
+         margin-left: 1%;
+         font-weight: 450;
+         font-family: 'acmeregular';
+      }
+
+      .borde2{
+        width: 6.6rem;
+        height: 6px;
+        border-radius: 18px;
+        margin-left: 0%;
+        margin-top: 1rem;
+        background-color: rgb(209, 118, 6);
+    }
+    
+
+      div{
+         margin-top: -0rem;
+         margin-left: -5%;
+         padding-bottom: 4px;
+
+          input[type="email"]{
+              border: 1.5px solid;
+              border-radius: 16px;
+              padding: 6px;
+              font-size: 16px;
+
+          }
+
+          input[type="text"]{
+              border: 1.5px solid;
+              border-radius: 16px;
+              padding: 6px;
+              padding-bottom: 8rem;
+              font-size: 16px;
+
+
+          }
+          button{
+            background-color: rgb(209, 118, 6);
+          }
+      }
+}
+
+@media (max-width: 575px) {
+    .comments {
+        position: relative;
+        top: 38rem;
+        padding: 4px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+    .comments {
+       text-align: center;
+       margin-left: 20%;
+
+       .borde2{
+        width: 6.6rem;
+        height: 6px;
+        border-radius: 18px;
+        margin-left: 13.4%;
+        margin-top: 1rem;
+        background-color: rgb(209, 118, 6);
+    }
+    }
+}
