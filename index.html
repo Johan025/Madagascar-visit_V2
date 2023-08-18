@@ -39,51 +39,50 @@
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
         <div class="container-fluid">
-            <!-- Logo ou titre -->
-            <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
-
-            <!-- Bouton pour les petits écrans -->
-            <button class="navbar-toggler bg-warning text-light" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Contenu de la navbar -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#"><i class="fa-solid fa-house  text-dark"></i>
-                            <div class="active2"></div> Home
-                        </a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-
-                            <i class="fa-solid fa-car text-dark"></i> Our tour
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Circuit NORD</a></li>
-                            <li><a class="dropdown-item" href="#">Circuit SUD</a></li>
-                            <li><a class="dropdown-item" href="#">CIrcuit EST</a></li>
-                            <li><a class="dropdown-item" href="#">Circuit OUEST</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-dark" href=""><i
-                                class="fa-sharp fa-regular fa-address-book text-dark"></i>
-                            Contact</a>
-                    </li>
+          <!-- Logo ou titre -->
+          <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
+    
+          <!-- Bouton pour les petits écrans -->
+          <button class="navbar-toggler bg-warning text-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Contenu de la navbar -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="fa-solid fa-house  text-dark"></i> Home</a>
+              </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="active"></div>
+                  <i class="fa-solid fa-car text-dark"></i> Our tour
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./circuits/north/north.html">Circuit NORTH</a></li>
+                  <li><a class="dropdown-item" href="./circuits/south/south.html">Circuit SOUTH</a></li>
+                  <li><a class="dropdown-item" href="./circuits/east/east.html">Circuit EAST</a></li>
+                  <li><a class="dropdown-item" href="./circuits/weast/weast.html">Circuit WEAST</a></li>
                 </ul>
-            </div>
-        </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-dark" href="#book"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
+              </li>
 
-    </nav>
+              <li class="nav-item">
+                <a class="nav-link  text-dark" href="#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="scroll nav-link  text-dark" style="cursor:pointer" data-target="contact"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
+                  Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
@@ -153,7 +152,7 @@
         </button>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="row gy-5 g-md-5">
                 <div class="col-12 col-lg-7" id="col1">
@@ -182,7 +181,7 @@
     </div>
 
 
-    <div class="us">
+    <div class="us" id="choice">
 
         <div class="container">
 
@@ -218,7 +217,7 @@
         </div>
     </div>
 
-    <div class="circuit">
+    <div class="circuit" id="tour">
         <div class="container">
             <h1 class="tour_t">Book our tour</h1>
             <div class="border2"></div>
@@ -228,8 +227,7 @@
                         <img src="./circuits/north/pictures/nosyIranja.jpg" alt="Image">
                         <h4> <i class="fa-solid fa-clock text-light"></i> About 10 days</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Discover the North of Madagascar</h2>
-                        <button class="scroll btn" data-target="section1">Book Now <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <a href="./circuits/north/north.html" target="_self"><button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -238,8 +236,7 @@
                         <img src="./circuits/pictures/fond.JPG" alt="Image">
                         <h4> <i class="fa-solid fa-clock text-light"></i> About 10 days</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Explore the south of Madagascar</h2>
-                        <button class="scroll btn" data-target="section1">Book Now <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <a href="./circuits/south/south.html" target="_self"><button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -247,8 +244,8 @@
                         <img src="./circuits/pictures/Indri-indri.jpg" alt="Image">
                         <h4> <i class="fa-solid fa-clock text-light"></i> About 10 days</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Trip to the east of Madagascar</h2>
-                        <button class="scroll btn" data-target="section1">Book Now <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <a href="./circuits/east/east.html" target="_self"><button class="btn">Book Now <i
+                                class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -257,15 +254,15 @@
                         <img src="./logo/adansonia-1140x420.jpg" alt="Image">
                         <h4> <i class="fa-solid fa-clock text-light"></i> About 10 days</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Trip to the weast of Madagascar</h2>
-                        <button class="scroll btn" data-target="section1">Book Now <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <a href="./circuits/weast/weast.html" target="_self"> <button class="btn">Book Now <i
+                                class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="guestbook">
+    <div class="guestbook" id="book">
 
         <h1 class="tour_t">What Saying about us</h1>
         <div class="border3"></div>
@@ -405,10 +402,10 @@
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Our tours</h1>
                         <ul class="text-center">
-                            <li>North Tour</li>
-                            <li>South Tour</li>
-                            <li>East Tour</li>
-                            <li>Weast Tour</li>
+                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>North Tour</li></a>
+                            <a  class="text-decoration-none" href="./circuits/south/south.html"><li>South Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/east/east.html"><li>East Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/weast/weast.html"><li>Weast Tour</li></a>
                         </ul>
                     </div>
                 </div>
@@ -436,7 +433,7 @@
                     </div>
                     <div class="col-12 col-lg-3 col-md-9">
                         <div class="phone text-light" id="location">
-                            <i class="fa-solid fa-location-dot text-light"></i></i></i>  email: lovasson@yahoo.fr
+                            <i class="fa-solid fa-location-dot text-light"></i></i></i>  LOT III A 40 D TER
                         </div>
                         
                     </div>
