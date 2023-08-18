@@ -9,80 +9,31 @@
 @import "components/zafiamniry.scss";
 @import "components/map.scss";
 @import "components/comments.scss";
+@import "components/footer.scss";
 
 *{
     font-family: 'Lato', sans-serif;
     color: rgb(52, 64, 71);
+    list-style:none;
+    text-decoration: none;
 }
 
 .up{
       
   i{
-     font-size: 28px;
+     font-size: 31px;
      color: #fff;
      padding: 7px;
      border-radius: 8px;
      cursor: pointer;
      background-color: rgb(209, 118, 6);
      position: fixed;
+     bottom: 5vh;
+     right: 20px;
      z-index: 30;
-     top: 75vh;
-     right: 2%;
 
       &:hover{
         background-color: rgb(27, 26, 25);
       }
   }
 }
-
-@media screen and (min-width: 992px) {
-  .up{
-      
-    i{
-       position: fixed;
-       z-index: 30;
-       top: 88vh;
-
-        &:hover{
-          background-color: rgb(27, 26, 25);
-        }
-    }
-  }
-  
-}
-
-@media screen and (max-width: 575px) {
-  .up{
-      
-    i{
-       position: fixed;
-       top: 82vh;
-       right: 2%;
-  
-        &:hover{
-          background-color: rgb(27, 26, 25);
-        }
-    }
-  }
-  
-}
-
-@media screen and (min-width: 576px) and (max-width: 991px) {
-  .up{
-      
-    i{
-       position: fixed;
-       top: 92vh;
-       right: 2%;
-  
-        &:hover{
-          background-color: rgb(27, 26, 25);
-        }
-    }
-  }
-}
-
-
-
-
-

@@ -136,7 +136,7 @@
             <div class="box">
               <img src="./../../logo/tsingy.jpg" alt="Image">
               <h4> <i class="fa fa-calendar-days"></i> About 9 days</h4>
-              <h2>Adventures tours: Andringitra National park</h2>
+              <h2>Tsingy of Bemaraha</h2>
               <button class="scroll btn" data-target="section3">Choose</button>
             </div>
           </div>
@@ -490,9 +490,98 @@
 
     </div>
 
-    
+
     <div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
 
+    <footer class="w-100 bg-dark" id="contact">
+      <div class="container">
+        <div class="row gx-3">
+          <div class="col-12 col-md-9 col-lg-3">
+            <div class="follow">
+              <h1 class="text-light text-center text-md-center text-lg-start">Follow us on </h1>
+              <div class="d-flex text-center text-md-start" id="row">
+                <i class="icon fa-brands fa-facebook-f"></i>
+                <i class="icon fa-brands fa-linkedin-in"></i>
+                <i class="icon fa-brands fa-twitter"></i>
+                <i class="icon fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7 mt-md-5 mt-lg-0 col-lg-3">
+            <div class="links text-center text-md-center">
+              <h1 class="text-light">Quick Links</h1>
+              <ul class="text-center">
+                <li class="up" style="cursor:pointer"> Home</li>
+                <li>Our tour</li>
+                <li>Guestbook</li>
+                <li>About us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
+            <div class="tour">
+              <h1 class="text-light text-center text-md-start">Our tours</h1>
+              <ul class="text-center">
+                <a href="#" class="text-decoration-none">
+                  <li>North Tour</li>
+                </a>
+                <a href="./../south/south.html" class="text-decoration-none">
+                  <li>South Tour</li>
+                </a>
+                <a href="./../east/east.html" class="text-decoration-none">
+                  <li>East Tour</li>
+                </a>
+                <a href="./../weast/weast.html" class="text-decoration-none">
+                  <li>Weast Tour</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <div class="tour">
+              <h1 class="text-light text-center mt-5 mt-lg-0">Follow our page</h1>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5" id="row2">
+          <div class="border"></div>
+          <div class="col-12 col-lg-3 col-md-12">
+            <h1 class="text-start  text-light">Contact us: </h1>
+          </div>
+          <div class="col-8 col-md-6 col-lg-3 text-center">
+            <div class="phone text-light">
+              <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3">
+            <div class="phone text-light">
+              <i class="fa-regular fa-envelope text-light"></i></i> email: lovasson@yahoo.fr
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-9">
+            <div class="phone text-light" id="location">
+              <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="copryght">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Compagny | fait
+                par
+                Johan</h3>
+            </div>
+          </div>
+        </div>
+    </footer>
 
     <script src="components/write.js"></script>
     <script src="./../../index.js"></script>
@@ -500,55 +589,55 @@
     <script src="./map.js"></script>
 
     <script>
-  
+
       window.onscroll = function () { scrollFunction() };
       const up_ = document.querySelector('.up');
-    
+
       function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              up_.style.display = "block";
-    
-    
-          }
-          else {
-              up.style.display = "none";
-          }
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          up_.style.display = "block";
+
+
+        }
+        else {
+          up.style.display = "none";
+        }
       }
-    
-    
-    
+
+
+
       document.addEventListener('DOMContentLoaded', function () {
-                const scrollButtons = document.querySelectorAll('.scroll');
-    
-                scrollButtons.forEach(function (button) {
-                    button.addEventListener('click', function (event) {
-                        event.preventDefault();
-    
-    
-                        const targetSectionId = this.getAttribute('data-target');
-                        const targetSection = document.getElementById(targetSectionId);
-    
-                        if (targetSection) {
-                            const targetPosition = targetSection.offsetTop;
-                            const scroll = targetPosition + 397;
-    
-    
-                            window.scrollTo({
-                                top: scroll,
-                                behavior: 'smooth'
-                            });
-                        }
-                    });
-                });
-            });
-    
-            const up = document.getElementById('Button');
-            up.addEventListener('click', function () {
-                window.scrollTo({
-                    top: 0, // Remonte en haut de la page
-                    behavior: 'smooth'
-                });
-            });
+        const scrollButtons = document.querySelectorAll('.scroll');
+
+        scrollButtons.forEach(function (button) {
+          button.addEventListener('click', function (event) {
+            event.preventDefault();
+
+
+            const targetSectionId = this.getAttribute('data-target');
+            const targetSection = document.getElementById(targetSectionId);
+
+            if (targetSection) {
+              const targetPosition = targetSection.offsetTop;
+              const scroll = targetPosition + 397;
+
+
+              window.scrollTo({
+                top: scroll,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+
+      const up = document.getElementById('Button');
+      up.addEventListener('click', function () {
+        window.scrollTo({
+          top: 0, // Remonte en haut de la page
+          behavior: 'smooth'
+        });
+      });
     </script>
 </body>
 

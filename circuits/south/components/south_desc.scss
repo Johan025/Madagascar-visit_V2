@@ -172,8 +172,8 @@ b {
         top: -3rem;
     
         .desc {
-            left: -3vw;
-            width: 90%;
+            left: 0vw;
+            width: 85%;
         }
     }
 
@@ -183,7 +183,7 @@ b {
 @media (max-width: 575px) {
     .south {
         position: relative;
-        top: -4rem;
+        top: -15rem;
 
         .desc {
             position: relative;
@@ -206,7 +206,7 @@ b {
 
     .south {
         position: relative;
-        top: -3rem;
+        top: -5rem;
     
         .desc {
             margin-top: 1rem;
