@@ -609,6 +609,7 @@ b {
 #plan1 {
   position: relative;
   top: 9rem;
+  font-family: "acmeregular";
 }
 
 .borde1 {
