@@ -17,7 +17,7 @@
         position: relative;
         color: rgb(177, 165, 1);
         top: -27vh;
-        font-family: 'coneria_script_demoregular';
+        font-family: 'Signika', sans-serif;
         left: 24vw;
         width: 50%;
     }
@@ -92,7 +92,7 @@
         #couv_ {
             height: 17.1rem;
             overflow: hidden;
-            filter: brightness(57%);
+            filter: brightness(65%);
     
             img {
                 position: relative;
@@ -103,13 +103,12 @@
 
 
         h3 {
-            font-family: 'acmeregular';
             font-weight: 900;
             font-size: calc(1.270rem + 1.2vw);
             position: relative;
             color: rgb(177, 165, 1);
             top: -26.5vh;
-            font-family: 'coneria_script_demoregular';
+            font-family: 'Signika', sans-serif;
             left: 24vw;
             width: 50%;
         }

@@ -1,4 +1,4 @@
-font-face {
+@font-face {
     font-family: 'coneria_script_demoregular';
     src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
         url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
@@ -34,7 +34,7 @@ b {
 .title_north {
     margin-left: 3%;
     font-size: calc(1.875rem + 1.5vw);
-    font-family: 'acmeregular';
+    font-family: 'Acme', sans-serif;
     font-weight: bold;
 }
 
@@ -48,6 +48,7 @@ b {
         position: relative;
         left: 0vw;
         width: 90%;
+        font-size: calc(1.5rem + 1.5vw);
     }
 
     .suggest {
@@ -57,7 +58,7 @@ b {
             color: rgb(209, 118, 6);
             margin-left: 3rem;
             font-weight: bold;
-            font-family: 'acmeregular';
+            font-family: 'Acme', sans-serif;
             font-size: calc(1.3rem + 1.5vw);
             ;
         }
@@ -97,7 +98,7 @@ b {
                     margin-top: 1rem; 
                     font-size: calc(0.9rem + 1vw);
                     font-weight: bold;
-                    font-family: 'acmeregular';
+                    font-family: 'Acme', sans-serif;
                 }
 
                 button{
@@ -135,7 +136,7 @@ b {
     .title_north {
         color: rgb(209, 118, 6);
         margin-left: 3rem;
-        font-family: 'acmeregular';
+        font-family: 'Acme', sans-serif;
         font-size: 38px;
     }
 
@@ -165,7 +166,7 @@ b {
             position: relative;
             left: -8vw;
             width: 92%;
-            font-size: calc(1.05rem + 1.5vw);
+            font-size: calc(1.5rem + 1.5vw);
         }
 
         .suggest {
@@ -232,7 +233,9 @@ b {
     
         .desc {
             left: 0vw;
+            top: 1rem;
             width: 90%;
+            font-size: calc(1.5rem + 1.5vw);
         }
     }
 

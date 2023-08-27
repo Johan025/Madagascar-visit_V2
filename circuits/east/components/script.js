@@ -58,7 +58,7 @@ const places = [
 
 
   // Initialiser la carte
-  const map = L.map('map').setView(antananarivo, 7.4);
+  const map = L.map('map').setView(Tamatave, 7.4);
 
   // Ajouter la couche de carte
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

@@ -10,7 +10,7 @@
          font-size: 36px;
          margin-left: 1%;
          font-weight: 450;
-         font-family: 'acmeregular';
+         font-family: 'Acme', sans-serif;
       }
 
       .borde2{
@@ -28,23 +28,30 @@
          margin-left: -5%;
          padding-bottom: 4px;
 
-          input[type="email"]{
-              border: 1.5px solid;
-              border-radius: 16px;
-              padding: 6px;
-              font-size: 16px;
+         input[type="email"]{
+            border: 1.5px solid;
+            border-radius: 16px;
+            padding: 6px;
+            font-size: 16px;
 
-          }
+        }
 
-          input[type="text"]{
-              border: 1.5px solid;
-              border-radius: 16px;
-              padding: 6px;
-              padding-bottom: 8rem;
-              font-size: 16px;
+        #name{
+          border: 1.5px solid;
+          border-radius: 16px;
+          padding: 6px;
+          font-size: 16px;
+        }
+
+        #coms{
+            border: 1.5px solid;
+            border-radius: 16px;
+            padding: 6px;
+            padding-bottom: 8rem;
+            font-size: 16px;
 
 
-          }
+        }
           button{
             background-color: rgb(209, 118, 6);
           }

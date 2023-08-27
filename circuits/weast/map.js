@@ -89,19 +89,10 @@
   // Initialiser la carte
   const Antananarivo = [-18.8792,47.5079 ];
   const Antsirabé= [-19.8691, 47.0328 ];
-  const Ambositra = [-20.5151, 47.2522];
-  const Ranomafana = [-21.2569, 47.4109];
-   const Fianarantsoa = [-21.4414, 47.0844];
-   const Ambalavao=[-21.9129, 46.9395] ;
-   const Isalo = [-22.4500, 45.2833];
-   const Ifaty = [-23.1625, 43.6338];
-   const Tuléar= [-23.3500, 43.6667];
-   const Manakara = [-22.1333, 48.0167];
-   const Andriampotsy=[-22.5084, 46.8444];
-   const Andringitra=[-22.1546, 46.8257];
-   const peak_boby=[-22.6653, 46.9081];
-   const diavolana=[-18.3361, 47.2263];
-   const anakao=[-23.3500, 44.3833] ;
+  const Miandrivazo = [-19.5167, 45.4667];
+  const Bekopaka = [-19.7433 , 44.3833 ];
+   const Morondava = [ -20.2847 , 44.3178];
+   const Bemaraha=[ -19.1522 , 44.3917];
    
 
 const places = [
@@ -114,72 +105,30 @@ const places = [
     location: Antsirabé,
   },
   {
-    name: 'Ambositra',
-    location: Ambositra,
+    name: 'Miandrivazo',
+    location: Miandrivazo,
   },
   {
-    name: 'Ranomafana',
-    location: Ranomafana,
+    name: 'Bekopaka',
+    location: Bekopaka,
   },
 
   {
-    name: 'Fianarantsoa',
-    location:Fianarantsoa,
+    name: 'Morondava',
+    location:Morondava,
   },
 
+  {
+    name: 'Bemaraha',
+    location:Bemaraha,
+  },
   
-
-  {
-    name: 'Ambalavao',
-    location:Ambalavao,
-  },
-
-  {
-    name: 'Isalo',
-    location:Isalo,
-  },
-  {
-    name: 'Ifaty',
-    location:Ifaty,
-  },
-  {
-    name: 'Tuléar',
-    location:Tuléar,
-  },
- 
-  {
-    name: 'Manakara',
-    location:Manakara,
-  },
-  {
-    name: 'Andriampotsy',
-    location:Andriampotsy,
-
-  },
-  {
-    name: 'Andringitra',
-    location:Andringitra
-  },
-
-  {
-    name: 'Peak boby',
-    location:peak_boby,
-   },
-   {
-    name: 'Diavolana',
-    location:diavolana,
-  },
-  {
-    name: 'Anakao',
-    location:anakao,
-  }
-
 
 ]
 
 
   // Initialiser la carte
-  const map = L.map('map').setView(Isalo, 7.4);
+  const map = L.map('map').setView(Miandrivazo, 7.4);
 
   // Ajouter la couche de carte
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

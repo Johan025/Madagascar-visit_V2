@@ -130,6 +130,14 @@
       margin-top: 13.5rem;
    
       .container {
+
+         h1 {
+            color: rgb(209, 118, 6);
+            margin-left: 3rem;
+            font-weight: bold;
+            font-family: 'acmeregular';
+            font-size: calc(1.1rem + 1.5vw);
+         }
    
          .row {
             margin-top: 5rem;

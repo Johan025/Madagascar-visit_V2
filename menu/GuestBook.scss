@@ -1,11 +1,11 @@
 .guestbook {
  position: relative;
   top: 8rem;
-   height: 30rem;
+   height: 38rem;
    width: 100%;
   background-image: url('./../pictures/parallax.jpg');
   background-repeat: no-repeat;
- object-fit: cover;
+  background-size: 100%;
 
 
     h1 {
@@ -113,6 +113,7 @@
         text-align: center;
         background: #fff;
         position: absolute;
+        top: -15rem;
     }
     #testimonial_area .owl-prev {
         left: -60px;
@@ -145,7 +146,7 @@
     .guestbook {
         position: relative;
          top: 10.5rem;
-          height: 30rem;
+          height: 53rem;
           width: 100%;
          background-image: url('./../pictures/parallax.jpg');
          background-repeat: no-repeat;
@@ -157,7 +158,7 @@
                font-size: calc(2.1rem + 1.5vw);
                font-weight:bolder;
                position: relative;
-               top: -9.5rem;
+               top: -8.7rem;
                margin-left: 0.9rem;
                font-family: 'Signika', sans-serif;
            }
@@ -169,7 +170,7 @@
                border-radius: 18px;
                margin-left: 0.3rem;
                position: relative;
-               top: -9rem;
+               top: -8.5rem;
                margin-left:1.2rem ;
                background-color: rgb(209, 118, 6);
              }
@@ -179,7 +180,75 @@
                 padding: 10% 0;
                 position: relative;
                 top: -1.7rem;
+                overflow: hidden;
             }
+
+            #testimonial_area {
+                padding: 10% 0;
+                position: relative;
+                top: -4.5rem;
+                overflow: hidden;
+            }
+            .box-area {
+                padding: 30px;
+                position: relative;
+                display: block;
+                background: #fff;
+                color: #000;
+
+                border-radius: 12px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                margin: 40px 0;
+        
+                     #quote{
+                          width: 30px;
+                          height:30px;
+                          position: relative;
+                          top: 3.7rem;
+                          left: -0.8rem;
+                          opacity: calc(5);
+                     }
+            }
+            .box-area h5 {
+                font-size: 20px;
+                font-weight: 700;
+                color: #0a69ed;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-family: 'Acme', sans-serif;
+        
+                   i{
+                    color: #0a69ed;
+                    margin-left: 0.5rem;
+                   }
+            }
+            .box-area span {
+                color: #262626;
+                display: block;
+                font-size: 15px;
+                margin: 0 0 10px;
+                font-weight: 400;
+            }
+            .box-area .content {
+                color: #262626;
+            }
+            .box-area .img-area {
+                width: 90px;
+                height: 90px;
+                position: absolute;
+                top: -40px;
+                left: 0;
+                bottom: 0;
+                margin: 0 auto;
+                right: 0;
+                z-index: 1;
+                border: 5px solid #fff;
+                border-radius: 50%;
+                box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+            }
+        
         }
 }
 @media screen and (min-width: 576px) and (max-width: 991px) {

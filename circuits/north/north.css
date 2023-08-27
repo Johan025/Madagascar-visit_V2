@@ -174,25 +174,13 @@ body {
   }
 }
 .couv h1 {
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.8rem + 1.5vw);
   position: relative;
-  top: -26vh;
+  top: -19vh;
   left: 24vw;
   color: #fff;
-  width: 50%;
-  font-family: "acmeregular";
-}
-.couv h3 {
-  font-family: "acmeregular";
-  font-weight: 900;
-  font-size: calc(1.12rem + 1.2vw);
-  position: relative;
-  color: rgb(177, 165, 1);
-  top: -27vh;
-  font-family: "coneria_script_demoregular";
-  left: 24vw;
   width: 50%;
 }
 .couv div {
@@ -234,19 +222,18 @@ body {
 }
 @media (max-width: 575px) {
   .couv h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
-    font-size: calc(1.6rem + 1.5vw);
+    font-size: calc(1.65rem + 1.5vw);
     position: relative;
-    top: -28vh;
+    top: -25vh;
     left: 5vw;
     width: 90%;
-    font-family: "acmeregular";
   }
   .couv #couv_ {
     height: 21.1rem;
     overflow: hidden;
-    filter: brightness(57%);
+    filter: brightness(65%);
   }
   .couv #couv_ img {
     position: relative;
@@ -254,13 +241,12 @@ body {
     width: 100%;
   }
   .couv h3 {
-    font-family: "acmeregular";
     font-weight: 900;
-    font-size: calc(1.27rem + 1.2vw);
+    font-size: calc(1.47rem + 1.2vw);
     position: relative;
     color: rgb(177, 165, 1);
-    top: -30vh;
-    font-family: "coneria_script_demoregular";
+    top: -26vh;
+    font-family: "Signika", sans-serif;
     left: 24vw;
     width: 50%;
   }
@@ -319,7 +305,7 @@ body {
   top: 7vw;
 }
 .north_day h1 {
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.275rem + 1.5vw);
 }
@@ -401,7 +387,7 @@ body {
     color: #7851a9;
   }
   #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 40px;
     position: relative;
@@ -486,7 +472,7 @@ body {
     color: #7851a9;
   }
   .north_day #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 47px;
     position: relative;
@@ -576,7 +562,7 @@ body {
     color: #7851a9;
   }
   .north_day #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: calc(1.7rem + 1.5vw);
     color: #36454f;
@@ -702,7 +688,7 @@ b {
 .title_north {
   margin-left: 3%;
   font-size: calc(1.875rem + 1.5vw);
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: bold;
 }
 
@@ -723,7 +709,7 @@ b {
   color: rgb(209, 118, 6);
   margin-left: 3rem;
   font-weight: bold;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-size: calc(1.3rem + 1.5vw);
 }
 .north .suggest .border_ {
@@ -757,7 +743,7 @@ b {
   margin-top: 1rem;
   font-size: calc(0.9rem + 1vw);
   font-weight: bold;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
 }
 .north .suggest .row .box button {
   margin-left: 37%;
@@ -786,7 +772,7 @@ b {
   .title_north {
     color: rgb(209, 118, 6);
     margin-left: 3rem;
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-size: 38px;
   }
   .border_ {
@@ -809,6 +795,7 @@ b {
   .north .desc {
     position: relative;
     left: -8vw;
+    top: 1rem;
     width: 92%;
     font-size: calc(1.05rem + 1.5vw);
   }
@@ -834,9 +821,11 @@ b {
   .title_north {
     color: rgb(209, 118, 6);
     font-size: calc(1.8rem + 1.5vw);
+    margin-top: 3rem;
   }
   .border_ {
     margin-left: 3.4%;
+    margin-top: 0.7rem;
   }
 }
 @media (min-width: 992px) {
@@ -853,6 +842,7 @@ b {
   }
   .north .desc {
     left: 0vw;
+    top: 0.7rem;
     width: 90%;
   }
 }
@@ -861,7 +851,7 @@ b {
   top: 7vw;
 }
 .north_nosy h1 {
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.275rem + 1.5vw);
 }
@@ -915,7 +905,7 @@ b {
     color: #7851a9;
   }
   #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 40px;
     position: relative;
@@ -1000,7 +990,7 @@ b {
     color: #7851a9;
   }
   .north_nosy #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 47px;
     position: relative;
@@ -1076,7 +1066,7 @@ b {
     color: #7851a9;
   }
   .north_nosy #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: calc(1.7rem + 1.5vw);
     color: #36454f;
@@ -1129,7 +1119,7 @@ b {
   top: 7vw;
 }
 .nosy-Be h1 {
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.275rem + 1.5vw);
 }
@@ -1181,7 +1171,7 @@ b {
     color: #7851a9;
   }
   #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 40px;
     position: relative;
@@ -1262,7 +1252,7 @@ b {
     color: #7851a9;
   }
   .nosy-Be #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 47px;
     position: relative;
@@ -1329,7 +1319,7 @@ b {
     color: #7851a9;
   }
   .nosy-Be #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: calc(1.7rem + 1.5vw);
     color: #36454f;
@@ -1403,7 +1393,7 @@ b {
   font-size: 36px;
   margin-left: 1%;
   font-weight: 450;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
 }
 .comments .borde2 {
   width: 6.6rem;
@@ -1424,7 +1414,13 @@ b {
   padding: 6px;
   font-size: 16px;
 }
-.comments div input[type=text] {
+.comments div #name {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 16px;
+}
+.comments div #coms {
   border: 1.5px solid;
   border-radius: 16px;
   padding: 6px;

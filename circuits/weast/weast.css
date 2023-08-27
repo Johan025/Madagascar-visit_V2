@@ -190,7 +190,7 @@ body {
   position: relative;
   color: rgb(177, 165, 1);
   top: -27vh;
-  font-family: "coneria_script_demoregular";
+  font-family: "Signika", sans-serif;
   left: 24vw;
   width: 50%;
 }
@@ -248,7 +248,7 @@ body {
   .couv #couv_ {
     height: 17.1rem;
     overflow: hidden;
-    filter: brightness(57%);
+    filter: brightness(65%);
   }
   .couv #couv_ img {
     position: relative;
@@ -256,13 +256,12 @@ body {
     width: 100%;
   }
   .couv h3 {
-    font-family: "acmeregular";
     font-weight: 900;
     font-size: calc(1.27rem + 1.2vw);
     position: relative;
     color: rgb(177, 165, 1);
     top: -26.5vh;
-    font-family: "coneria_script_demoregular";
+    font-family: "Signika", sans-serif;
     left: 24vw;
     width: 50%;
   }
@@ -370,7 +369,7 @@ b {
 .title_weast {
   margin-left: 3%;
   font-size: calc(1.875rem + 1.5vw);
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: bold;
 }
 
@@ -388,7 +387,7 @@ b {
   color: rgb(209, 118, 6);
   margin-left: 3rem;
   font-weight: bold;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-size: calc(1.3rem + 1.5vw);
 }
 .weast .suggest .border_ {
@@ -422,7 +421,7 @@ b {
   margin-top: 1rem;
   font-size: calc(0.9rem + 1vw);
   font-weight: bold;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
 }
 .weast .suggest .row .box button {
   margin-left: 37%;
@@ -451,7 +450,7 @@ b {
   .title_weast {
     color: rgb(209, 118, 6);
     margin-left: 3rem;
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-size: 38px;
   }
   .borde {
@@ -585,7 +584,7 @@ b {
   top: 7vw;
 }
 .weast_day h1 {
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.275rem + 1.5vw);
 }
@@ -609,7 +608,7 @@ b {
 #plan1 {
   position: relative;
   top: 9rem;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
 }
 
 .borde1 {
@@ -668,7 +667,7 @@ b {
     color: #7851a9;
   }
   #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 40px;
     position: relative;
@@ -753,7 +752,7 @@ b {
     color: #7851a9;
   }
   .weast_day #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 47px;
     position: relative;
@@ -843,7 +842,7 @@ b {
     color: #7851a9;
   }
   .weast_day #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: calc(1.7rem + 1.5vw);
     color: #36454f;
@@ -883,7 +882,7 @@ b {
   top: 7vw;
 }
 .with-singy h1 {
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.275rem + 1.5vw);
 }
@@ -937,7 +936,7 @@ b {
     color: #7851a9;
   }
   #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 40px;
     position: relative;
@@ -1158,7 +1157,7 @@ b {
   font-size: 36px;
   margin-left: 1%;
   font-weight: 450;
-  font-family: "acmeregular";
+  font-family: "Acme", sans-serif;
 }
 .comments .borde2 {
   width: 6.6rem;
@@ -1179,7 +1178,13 @@ b {
   padding: 6px;
   font-size: 16px;
 }
-.comments div input[type=text] {
+.comments div #name {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 16px;
+}
+.comments div #coms {
   border: 1.5px solid;
   border-radius: 16px;
   padding: 6px;

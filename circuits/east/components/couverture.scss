@@ -1,27 +1,24 @@
+@font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+        url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .couv {
     h1 {
-        font-family: 'acmeregular';
+        font-family: 'Acme', sans-serif;
         font-weight: 900;
         font-size: calc(1.800rem + 1.5vw);
         position: relative;
-        top: -26vh;
+        top: -24vh;
         left: 24vw;
         color: #fff;
         width: 50%;
-        font-family: 'acmeregular';
     }
 
-    h3 {
-        font-family: 'acmeregular';
-        font-weight: 900;
-        font-size: calc(1.120rem + 1.2vw);
-        position: relative;
-        color: rgb(177, 165, 1);
-        top: -22vh;
-        font-family: 'coneria_script_demoregular';
-        left: 24vw;
-        width: 50%;
-    }
+   
 
     div {
         overflow: hidden;
@@ -95,6 +92,7 @@
             position: relative;
             color: rgb(177, 165, 1);
             top: -14rem;
+            font-family: 'Signika', sans-serif;
         }
 
     }
@@ -110,15 +108,7 @@
         h1 {
             font-size: calc(1.600rem + 1.5vw);
             position: relative;
-            top: -12rem;
-        }
-
-        h3 {
-
-            font-size: calc(1.120rem + 1.2vw);
-            position: relative;
-            color: rgb(177, 165, 1);
-            top: -12rem;
+            top: -10rem;
         }
 
     }
@@ -127,21 +117,21 @@
 @media (max-width: 575px) {
     .couv {
         h1 {
-            font-family: 'acmeregular';
+            font-family: 'Acme', sans-serif;
             font-weight: 900;
             font-size: calc(1.7rem + 1.3vw);
             position: relative;
-            top: -21vh;
+            top: -19vh;
             left: 5vw;
             width: 90%;
-            font-family: 'acmeregular';
+            
         }
 
 
         #couv_ {
             height: 18.4rem;
             overflow: hidden;
-            filter: brightness(57%);
+            filter: brightness(65%);
             display: none;
 
             img {
@@ -152,17 +142,7 @@
         }
 
 
-        h3 {
-            font-family: 'acmeregular';
-            font-weight: 900;
-            font-size: calc(1.270rem + 1.2vw);
-            position: relative;
-            color: rgb(177, 165, 1);
-            top: -21.5vh;
-            font-family: 'coneria_script_demoregular';
-            left: 24vw;
-            width: 50%;
-        }
+        
 
     }
 
