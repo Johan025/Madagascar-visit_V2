@@ -1,0 +1,150 @@
+
+@import "./../../../settings.scss";
+@font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+         url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../../../fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../../../fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (min-width: 1024px) {
+  
+
+@font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+         url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../../../fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../../../fonts/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+b{
+    color: rgb(62, 56, 56);
+}
+
+#titre{
+  position:relative;
+  color:rgb(209, 118, 6);
+  top: -11.5rem;
+  font-weight: 1000;
+  left: -2%;
+  font-weight: 800;
+ font-size: 32.6px;
+ font-family: 'coneria_script_demoregular';
+
+}
+
+.details_title{
+  position:relative;
+  color:rgb(209, 118, 6);
+  top: 12rem;
+  font-weight: 1000;
+  left: 5%;
+  width: 35vw;
+  font-weight: 800;
+ font-size: 39.6px;
+ font-family: 'yeseva_oneregular';
+}
+
+.title_east{
+    color: rgb(228, 232, 240);
+    @include h(45px, -8.5rem, 18vw, 800, 60vw);
+    font-family: 'yeseva_oneregular';
+}
+
+.east{
+  position: absolute;
+  top: 37rem;
+  width: 100%;
+  height: 55rem;
+
+      .desc{
+     position: absolute;
+     width: 90%;
+     top: 24rem;
+     left: 3vw;
+     font-size: 20px;
+     color: rgb(93, 93, 97);
+}
+}
+
+
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  @font-face {
+    font-family: 'coneria_script_demoregular';
+    src: url('./../../../fonts/demo_coneriascript-webfont.woff2') format('woff2'),
+         url('./../../../fonts/demo_coneriascript-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  #titre{
+    position:relative;
+    color:rgb(209, 118, 6);
+    top: -14.5rem;
+    font-weight: 1000;
+    left: -2%;
+    font-weight: 800;
+   font-size: 25.6px;
+   font-family: 'coneria_script_demoregular';
+  
+  }
+  
+  .details_title{
+    position:absolute;
+    color:rgb(209, 118, 6);
+    top: 12.5rem;
+    font-weight: 1000;
+    left: 6%;
+    width: 85vw;
+    font-weight: 800;
+   font-size: 30px;
+   font-family: 'yeseva_oneregular';
+  }
+  
+  .title_east{
+      color: rgb(228, 232, 240);
+      @include h(35px, -11.5rem, 18vw, 800, 60vw);
+      font-family: 'yeseva_oneregular';
+  }
+  
+  .east{
+    position: absolute;
+    top: 32rem;
+    width: 100%;
+    height: 55rem;
+  
+        .desc{
+       position: absolute;
+       width: 90%;
+       top: 20rem;
+       left: 3.5vw;
+       font-size: 20px;
+       color: rgb(93, 93, 97);
+
+         span{
+           color: rgb(0, 0, 0);
+         }
+  }
+  }
+}

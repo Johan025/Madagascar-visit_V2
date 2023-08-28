@@ -1,0 +1,357 @@
+.east_day_pang{
+    position: relative;
+    top: 7vw;
+
+    h1 {
+      font-family: 'Acme', sans-serif;
+        font-weight: 900;
+        font-size: calc(1.275rem + 1.5vw);
+    }
+}
+
+#carouselExampleControl{
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+
+    #inner {
+        height: 73vh;
+        width: 100%;
+        border-radius: 18px;
+
+        img {
+            height: 73vh;
+            width: 58%;
+            border-radius: 18px;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+
+    .point {
+        position: relative;
+        margin-left: -13rem;
+        top: 5.5rem;
+      }
+
+      #carouselExampleControl {
+        width: 80%;
+        height: 40vh;
+        border-radius: 18px;
+        margin-left: 9.7%;
+
+        #inner {
+            height: 40vh;
+            width: 100%;
+            border-radius: 18px;
+
+            img {
+                height: 40vh;
+                width: 58%;
+                border-radius: 18px;
+            }
+        }
+    }
+
+    h3 {
+        color: #7851a9;
+        position: absolute;
+        top: 2.5rem;
+        left: 35%;
+        font-weight: bold;
+  
+        i {
+          color: #7851a9;
+        }
+      }
+  
+  
+      #classic_h1 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        position: relative;
+        
+        color: #36454f;
+      }
+  
+
+    .east_day_pang{
+            position: relative;
+            top: 5rem;
+
+        .row {
+            margin-left: 6%;
+            margin-top: 5rem;
+      
+            div {
+              width: 92%;
+      
+              //  background-color:  #fef250,;
+              div {
+                background-color: #a5a5a554;
+                padding: 0;
+      
+                h2 {
+                  color: rgb(51, 44, 48);
+                  font-family: 'Signika', sans-serif;
+                  font-weight: bold;
+                  font-size: calc(0.78rem + 1.7vw);
+      
+                  i {
+                    color: rgb(240, 136, 8);
+                  }
+      
+                }
+      
+                p {
+                  font-size: calc(0.7rem + 0.95vw);
+                  // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+      
+                h4 {
+                  color: rgb(209, 118, 6);
+                  font-family: 'Signika', sans-serif;
+                  font-weight: bold;
+                  font-size: calc(1rem + 1.7vw);
+      
+                  i {
+                    color: rgb(209, 118, 6);
+                  }
+      
+                }
+      
+      
+              }
+            }
+          }
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .point{
+        position: relative;
+        margin-left: 0%;
+        top: 5.5rem;
+      }
+
+    #carouselExampleControl {
+        width: 58%;
+        height: 73vh;
+        border-radius: 18px;
+        margin-left: 20.7%;
+
+        #inner {
+            height: 73vh;
+            width: 100%;
+            border-radius: 18px;
+
+            img {
+                height: 73vh;
+                width: 58%;
+                border-radius: 18px;
+            }
+        }
+    }
+
+    .point {
+        position: relative;
+        left: 1.2rem;
+        top: 5.5rem;
+    }
+
+    .east_day_pang{
+        position: relative;
+        top: 7.4rem;
+
+
+        h3 {
+            color: #7851a9;
+            position: absolute;
+            top: 2.5rem;
+            left: 6rem;
+            font-weight: 800;
+
+            i {
+                color: #7851a9;
+            }
+        }
+
+
+        #classic_h1 {
+          font-family: 'Acme', sans-serif;
+            font-weight: 900;
+            font-size: 43px;
+            position: relative;
+            left: 1.9rem;
+            color: #36454f;
+        }
+
+        .row {
+            margin-left: 20.5%;
+            margin-top: 5rem;
+
+            div {
+                width: 72%;
+
+                //  background-color:  #fef250,;
+                div {
+                    background-color: #a5a5a554;
+
+                    h2 {
+                        color: rgb(51, 44, 48);
+                        font-family: 'Signika', sans-serif;
+                        font-weight: bold;
+                        font-size: calc(0.38rem + 1.7vw);
+            
+                        i {
+                          color: rgb(240, 136, 8);
+                        }
+            
+                      }
+            
+                      h4 {
+                        color: rgb(209, 118, 6);
+                        font-family: 'Signika', sans-serif;
+                        font-weight: bold;
+                        font-size: calc(0.6rem + 1.7vw);
+            
+                        i {
+                          color: rgb(209, 118, 6);
+                        }
+            
+                      }
+            
+                      p {
+                        font-size: calc(0.5rem + 0.95vw);
+                        // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                      }
+            
+            
+
+
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+
+  .point{
+    position: relative;
+    margin-left: 0rem;
+    top: 5.0rem;
+  }
+
+    #carouselExampleControl {
+        width: 95%;
+        height: 50vh;
+        border-radius: 18px;
+        text-align: center;
+        margin-left: 2.4vw;
+
+        #inner {
+            height: 50vh;
+            width: 100%;
+            border-radius: 18px;
+
+            img {
+                height: 50vh;
+                width: 58%;
+                border-radius: 18px;
+            }
+        }
+    }
+
+    .east_day_pang{
+        position: relative;
+        top: 23vw;
+
+        h3 {
+            color: #7851a9;
+            position: relative;
+            top: 3.7rem;
+            font-weight: 800;
+
+            i {
+                color: #7851a9;
+            }
+        }
+
+
+
+        #classic_h1 {
+          font-family: 'Acme', sans-serif;
+            font-weight: 900;
+            font-size: calc(1.7rem + 1.5vw);
+            color: #36454f;
+        }
+
+        #plan1{
+            position: relative;
+            top: 3rem;
+            font-size: calc(1.7rem + 1.5vw);
+        }
+        
+        .borde1{
+          width: 2.5rem;
+          height: 5.5px;
+          margin-left: 44%;
+          text-align: center;
+          position: relative;
+          top: 3.9rem;
+        }
+
+        .row {
+            position: relative;
+            left: 0%;
+            top: 7rem;
+
+            div {
+
+
+                div {
+
+                    background-color: #a5a5a554;
+
+                    h2 {
+                        color: rgb(51, 44, 48);
+                        font-family: 'Signika', sans-serif;
+                        font-weight: bold;
+                        font-size: calc(1.19rem + 1.7vw);
+            
+                        i {
+                          color: rgb(209, 118, 6);
+                        }
+            
+                      }
+
+                    h4 {
+                        color: rgb(209, 118, 6);
+                        font-family: 'Signika', sans-serif;
+                        font-weight: bold;
+                        font-size: calc(1.5rem + 1.7vw);
+            
+                        i {
+                          color: rgb(209, 118, 6);
+                        }
+                    }
+
+                    p {
+                        font-size: calc(0.95rem + 0.95vw);
+                        // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+
+                    }
+                }
+            }
+        }
+    }
+}
