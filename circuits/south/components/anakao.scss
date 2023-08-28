@@ -34,7 +34,7 @@
 @media (min-width: 992px) {
     .anakao {
         position: relative;
-        top: 30rem;
+        top: 12rem;
     
        
         p {
@@ -54,7 +54,7 @@
 @media (max-width: 575px) {
     .anakao {
         position: relative;
-        top: 59rem;
+        top: 29rem;
 
 
 
@@ -80,6 +80,8 @@
 @media (min-width: 576px) {
 
     .anakao {
+        position: relative;
+        top: 10rem;
 
         h1 {
             font-family: 'Acme', sans-serif;
@@ -92,6 +94,7 @@
 
         p {
             font-size: calc(0.65rem + 0.95vw);
+            margin-left: 3.3rem;
             // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 

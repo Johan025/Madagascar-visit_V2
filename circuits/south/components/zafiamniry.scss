@@ -1,6 +1,6 @@
 .zafimaniry {
     position: relative;
-    top: 30rem;
+    top: 10rem;
 
     h3 {
         color: #7851a9;
@@ -41,7 +41,7 @@
 @media (max-width: 575px) {
     .zafimaniry {
         position: relative;
-        top: 62rem;
+        top: 30rem;
 
 
 
@@ -64,9 +64,25 @@
 
 }
 
+@media (min-width: 992px) {
+    .zafimaniry {
+        position: relative;
+        top: 14.5rem;
+    
+       
+        p {
+            font-size: calc(0.4rem + 0.8vw);
+            margin-top: 4rem;
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+}
+
 @media (min-width: 576px) {
 
     .zafimaniry {
+        position: relative;
+        top: 11.5rem;
 
         h1 {
             font-family: 'Acme', sans-serif;
@@ -79,6 +95,7 @@
 
         p {
             font-size: calc(0.65rem + 0.95vw);
+            margin-left: 3rem;
             // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 

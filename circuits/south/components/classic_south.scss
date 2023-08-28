@@ -97,14 +97,14 @@
   }
 }
 
-#plan1{
-    position: relative;
-    top: 9rem;
-    font-family: 'Acme', sans-serif;
-    font-weight: bold;
+#plan1 {
+  position: relative;
+  top: 9rem;
+  font-family: 'Acme', sans-serif;
+  font-weight: bold;
 }
 
-.borde1{
+.borde1 {
   width: 3.4rem;
   height: 6px;
   margin-left: 48%;
@@ -136,16 +136,16 @@
     }
   }
 
-  #plan1{
+  #plan1 {
     position: relative;
     top: 4.6rem;
-}
+  }
 
-.borde1{
-  position: relative;
-  top: 5.2rem;
-  width: 2rem;
-}
+  .borde1 {
+    position: relative;
+    top: 5.2rem;
+    width: 2rem;
+  }
 
   #point {
     position: relative;
@@ -155,7 +155,7 @@
 
   .south_day {
     position: relative;
-    top: 2.6rem;
+    top: -3.1rem;
   }
 
   h3 {
@@ -270,7 +270,7 @@
 
   .south_day {
     position: relative;
-    top: 2.6rem;
+    top: -2.3rem;
 
 
     h3 {
@@ -373,25 +373,25 @@
     }
   }
 
-  #plan1{
+  #plan1 {
     position: relative;
-    top: 9rem;
+    top: 6rem;
     font-size: calc(1.7rem + 1.5vw);
-}
+  }
 
-.borde1{
-  width: 2.5rem;
-  height: 5.5px;
-  margin-left: 44%;
-  text-align: center;
-  position: relative;
-  top: 9.4rem;
-}
+  .borde1 {
+    width: 2.5rem;
+    height: 5.5px;
+    margin-left: 44%;
+    text-align: center;
+    position: relative;
+    top: 6.4rem;
+  }
 
 
   .south_day {
     position: relative;
-    top: -7vw;
+    top: -21vw;
 
     h3 {
       color: #7851a9;
@@ -416,7 +416,7 @@
     .row {
       position: relative;
       left: 0%;
-      top: 12.4rem;
+      top: 10.4rem;
 
       div {
 
