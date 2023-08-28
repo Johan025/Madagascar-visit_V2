@@ -1,0 +1,51 @@
+@import "../../settings.scss";
+@import "./components/navbar.scss";
+@import "./components/couverture.scss";
+@import "./components/north_.scss";
+@import "./components/north_desc.scss";
+
+@import "./components/nord_nosy.scss";
+@import "./components/NosyBe.scss";
+ @import "./components/map.scss";
+  @import "./components/comments.scss";
+// @import "./components/responsive.scss/small.scss";
+// @import "./components/responsive.scss/medium.scss";
+@import"./components/footer.scss";
+
+.all{
+  color: rgb(209, 118, 6);
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    color: rgb(52, 64, 71);
+}
+
+@font-face {
+  font-family: 'acmeregular';
+  src: url('../../../fonts/acme-regular-webfont.woff2') format('woff2'),
+    url('../../../fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.up{
+      
+  i{
+     font-size: 31px;
+     color: #fff;
+     padding: 7px;
+     border-radius: 8px;
+     cursor: pointer;
+     background-color: rgb(209, 118, 6);
+     position: fixed;
+     bottom: 5vh;
+     right: 20px;
+     z-index: 30;
+
+      &:hover{
+        background-color: rgb(27, 26, 25);
+      }
+  }
+}
