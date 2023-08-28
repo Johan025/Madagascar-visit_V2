@@ -1,0 +1,117 @@
+.couv {
+    h1 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 900;
+        font-size: calc(1.800rem + 1.5vw);
+        position: relative;
+        top: -26vh;
+        left: 24vw;
+        color: #fff;
+        width: 50%;
+    }
+
+    h3 {
+        
+        font-weight: 900;
+        font-size: calc(1.120rem + 1.2vw);
+        position: relative;
+        color: rgb(177, 165, 1);
+        top: -27vh;
+        font-family: 'Signika', sans-serif;
+        left: 24vw;
+        width: 50%;
+    }
+
+    div {
+        overflow: hidden;
+    }
+
+    #couv_ {
+        height: 28rem;
+        overflow: hidden;
+        filter: brightness(57%);
+
+        img {
+            position: relative;
+            height: 36.6rem;
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+@media (min-width: 576px) {
+    #couverture {
+        height: 21rem;
+        filter: brightness(64%);
+    }
+
+    .couv {
+        h1 {
+            font-size: calc(1.600rem + 1.5vw);
+            position: relative;
+            top: -13rem;
+        }
+
+        h3 {
+
+            font-size: calc(1.120rem + 1.2vw);
+            position: relative;
+            color: rgb(177, 165, 1);
+            top: -14rem;
+        }
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    #couverture {
+        height: 22rem;
+        filter: brightness(50%);
+    }
+}
+
+@media (max-width: 575px) {
+    .couv {
+        h1 {
+            font-family: 'Acme', sans-serif;
+            font-weight: 900;
+            font-size: calc(1.600rem + 1.5vw);
+            position: relative;
+            top: -22vh;
+            left: 5vw;
+            width: 90%;
+
+        }
+
+
+        #couv_ {
+            height: 21.1rem;
+            overflow: hidden;
+            filter: brightness(67%);
+    
+            img {
+                position: relative;
+                height: 22rem;
+                width: 100%;
+            }
+        }
+
+
+        h3 {
+            font-family: 'Signika', sans-serif;
+            font-weight: 900;
+            font-size: calc(1.520rem + 1.2vw);
+            position: relative;
+            color: rgb(177, 165, 1);
+            top: -26vh;
+            left: 24vw;
+            width: 50%;
+        }
+
+    }
+
+}

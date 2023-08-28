@@ -1,0 +1,140 @@
+// header{
+//     background-color:white;
+//     height:1cm;
+//     width:10%;
+//     position: fixed;
+//     z-index: 4;
+//    }
+
+// .header{
+//     background-color:white;
+//     height:2.1cm;
+//     width:100%;
+//     position: fixed;
+//     z-index: 4;
+//     top: 0;
+//    }
+.navbar-nav li:hover ul.dropdown-menu {
+  display: block;
+}
+
+/* Style pour l'effet hover sur les liens */
+.navbar-nav .nav-link {
+  text-decoration: none;
+  position: relative;
+}
+
+.active{
+  position: absolute;
+  bottom: -0.16rem;
+  left: 0;
+  right: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
+
+}
+
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 28px;
+  background-color: rgb(177, 165, 1);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Style pour l'effet hover sur le bouton toggle */
+.navbar-toggler:hover {
+  background-color: rgb(177, 165, 1);
+}
+
+/* Style pour l'effet hover sur les éléments du menu déroulant */
+.navbar-nav li .dropdown-menu a:hover {
+  color: #fff;
+  background-color: rgb(177, 165, 1);
+}
+
+    .logo{
+    width: 130px;
+    height: 59px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
+    }
+
+  .logoBurger{
+    position: absolute;
+    left: -8rem;
+
+} 
+
+#nav{
+  background-color: #ffffff;
+}
+
+#navbarNav{
+  position: relative;
+  left:0;
+  
+
+     li{
+        font-size: 20.5px;
+     }
+}
+
+@media (min-width: 576px) {
+  .logo{
+    width: 130px;
+    height: 65px;
+    left: 0.4rem;
+    position: relative;
+    z-index: 4;
+    top: 0.3rem;
+    }
+
+  
+      
+    
+}
+
+@media (min-width: 992px) { 
+  #navbarNav{
+    float: right;
+    margin-left: 20vw;
+    justify-content: space-between;
+    align-items: center;
+
+      li{
+        margin-left: 23px;
+        
+      }
+}
+
+.logo{
+  width: 164px;
+  height: 64px;
+  left: 0.4rem;
+  position: relative;
+  z-index: 4;
+  top: 0.3rem;
+  }
+
+.navbar-collapse {
+  margin-left: 50px;
+}
+}
+
+  

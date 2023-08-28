@@ -1,0 +1,108 @@
+.anakao {
+    position: relative;
+    top: 30rem;
+
+    h3 {
+        color: #7851a9;
+        position: absolute;
+        top: 2.5rem;
+        left: 35%;
+        font-weight: bold;
+
+        i {
+            color: #7851a9;
+        }
+    }
+
+
+    h1 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        position: absolute;
+        left: 5.3rem;
+        color: #36454f;
+    }
+
+    p {
+        font-size: calc(0.3rem + 0.3vw);
+        margin-top: 4rem;
+        // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media (min-width: 992px) {
+    .anakao {
+        position: relative;
+        top: 12rem;
+    
+       
+        p {
+            font-size: calc(0.4rem + 0.8vw);
+            margin-top: 4rem;
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+}
+
+#point4 {
+    position: relative;
+    margin-left: 0rem;
+    top: 2.1rem;
+}
+
+@media (max-width: 575px) {
+    .anakao {
+        position: relative;
+        top: 29rem;
+
+
+
+        h1 {
+            font-family: 'Acme', sans-serif;
+            font-weight: 900;
+            font-size: calc(1.3rem + 1.6vw);
+            position: absolute;
+            left: 3.3rem;
+            color: #36454f;
+        }
+
+        p {
+            font-size: calc(0.99rem + 0.95vw);
+            margin-top: 6rem;
+            margin-left: 1.2rem;
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .anakao {
+        position: relative;
+        top: 10rem;
+
+        h1 {
+            font-family: 'Acme', sans-serif;
+            font-weight: 900;
+            font-size: 34px;
+            position: absolute;
+            left: 5.3rem;
+            color: #36454f;
+        }
+
+        p {
+            font-size: calc(0.65rem + 0.95vw);
+            margin-left: 3.3rem;
+            // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+
+        }
+        
+    
+     
+    }
+}

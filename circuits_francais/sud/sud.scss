@@ -1,0 +1,39 @@
+@import "../../settings.scss";
+@import "./components/south_desc.scss";
+@import "./components/couverture.scss";
+@import "components/navbar.scss";
+@import "components/classic_south.scss";
+@import "components/combines-tour.scss";
+@import "components/adventures.scss";
+@import "components/anakao.scss";
+@import "components/zafiamniry.scss";
+@import "components/map.scss";
+@import "components/comments.scss";
+@import "components/footer.scss";
+
+*{
+    font-family: 'Lato', sans-serif;
+    color: rgb(52, 64, 71);
+    list-style:none;
+    text-decoration: none;
+}
+
+.up{
+      
+  i{
+     font-size: 31px;
+     color: #fff;
+     padding: 7px;
+     border-radius: 8px;
+     cursor: pointer;
+     background-color: rgb(209, 118, 6);
+     position: fixed;
+     bottom: 5vh;
+     right: 20px;
+     z-index: 30;
+
+      &:hover{
+        background-color: rgb(27, 26, 25);
+      }
+  }
+}
