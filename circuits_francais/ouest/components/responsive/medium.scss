@@ -1,0 +1,821 @@
+@media screen and (max-width: 1024px) and (min-width: 765px){
+    .texte{
+        font-size: 32px;
+        position: absolute;
+        left: 4rem;
+        top: 36rem;
+    }
+
+    header{
+        position: fixed;
+        width: 100%;
+        height: 2cm;
+        background-color: #ffffff;
+
+        ul{
+            display: block;
+            z-index: 4;
+            position: absolute;
+            left: 35.4vw;
+            align-items: center;
+            justify-content: center;
+            top: -2.8rem;
+            padding-bottom: 12.5cm;
+
+             li{
+                margin: 23px;
+                 
+                a{
+                  font-size: 23px;
+                  padding: 6px;
+                }
+                }
+            }
+        }
+        
+    .logo{
+        position: fixed;
+        top: 1.4rem;
+        left: 2.4rem;
+        width: 3cm;
+        height: 1.5cm;
+        z-index: 6;
+    }
+        
+         
+    .header{
+        position :absolute;
+        top: 7.78rem;
+        transform: translateY(-150rem);
+        width: 100%;
+        height: 43rem;
+        background-color: #1ed661;
+        z-index: 200;
+        transition : 0.6s;
+        }
+          
+    .versionAng{
+        margin: 7rem;
+        position: absolute;
+        top: 34rem;
+        left: -1rem;
+        width: 40vw;
+    }
+        
+        #ang{
+        cursor: pointer;
+        position: absolute;
+        top:0;
+    }
+          
+    .logoBurger i{
+        font-size: 30px;
+        position: relative;
+        float: right; 
+        right: -102vw;
+        top: 1.5rem;
+        border-radius: 50%;
+        padding: 7px;
+        border: 1.5px solid black;
+        z-index: -4;
+        color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+    }
+        
+         
+    .hideshow{
+        transform: translateY(-0.2rem);
+        transition: 0.5s;
+    }
+ 
+    .couvertureOuest img{
+        display: none;
+    }
+
+    .couvertureOuest-responsive img{
+      
+     display: block;
+    
+    }
+
+    .title_weast{
+        font-size: 35px;
+        left: 1.4rem;
+        top: 62rem;
+        text-align: center;
+
+      
+    }
+
+    .weast .desc{
+        font-size: 18px;
+        left: 2.2rem;
+        top: 72rem;
+        width: 82vw;
+
+    }
+
+    .weast_day{
+        position: absolute;
+        top: 80rem;
+        left: -35vw;
+  
+
+        .titre_weast{
+            @include h1(24px, 800, 45vw);
+            color: $color_1;
+            top: 19.5rem;
+            width: 78vw;
+  
+            position: absolute;
+          }
+      
+      
+      .day1{
+          @include div(83vw, 20rem, 33rem, 35rem, $color_3);
+           text-align: center;
+          h1{
+              @include h1(25px, 550, 4rem);
+          }
+           p{
+              @include p( 19.5px, 1rem ,  7rem);
+           }
+      }
+
+      .day2{
+        @include div(85vw, 24rem, 33rem, 68rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(23px, 550, 1rem);
+            top: 2rem;
+            
+        }
+
+        p{
+            @include p( 19.5px, 1rem ,  8rem);
+         }
+    }
+
+    .day3{
+        @include div(85vw, 19rem, 33rem, 105rem, $color_3);
+        h1{
+            @include h1(22px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  8rem);
+         }
+    }
+
+    .day4{
+        @include div(85vw, 33rem, 33rem, 137rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day5{
+        @include div(85vw, 28rem, 33rem, 185rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day6{
+        @include div(85vw, 19.4rem, 33rem, 227rem, $color_3);
+        h1{
+            @include h1(20px, 550, 1.4rem);
+        }
+        p{
+            @include p( 19.5px, 1rem ,  6rem);
+         }
+    }
+
+    .day7{
+       
+        @include div(85vw, 22rem, 33rem, 262rem, $color_3);
+        h1{
+            @include h1(20px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  8rem);
+         }
+    }
+
+    .day9{
+
+        @include div(85vw, 22rem, 33rem, 325rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day8{
+        @include div(85vw, 15rem, 33rem, 297rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  5.5rem);
+         }
+    }
+
+    .day10{
+        @include div(85vw, 29rem, 33rem, 302rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  8rem);
+         }
+    }
+
+   
+    }
+
+    .with-tsingy-bemaraha{
+        position: absolute;
+        top: 416rem;
+        left: -35vw;
+        
+
+        .titre_weast{
+            @include h1(25px, 800, 50vw);
+            color: $color_1;
+            top: 21.5rem;
+            display: none;
+  
+            width: 80vw;
+            position: absolute;
+
+             span{
+                color: $color_1;
+                position: absolute;
+                left: 6rem;
+                top: 4rem;
+             }
+          }
+      
+      
+      .day1{
+          @include div(85vw, 20rem, 33rem, 35rem, $color_3);
+           text-align: center;
+          h1{
+              @include h1(25px, 550, 4rem);
+          }
+           p{
+              @include p( 19.5px, 1rem ,  7rem);
+             
+           }
+        
+      }
+
+      .day2{
+        @include div(85vw, 28rem, 33rem, 67rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(23px, 550, 1rem);
+            top: 2rem;
+            
+        }
+
+        p{
+            @include p( 19.5px, 4rem ,  9rem);
+         }
+    
+    }
+
+    .day3{
+        @include div(85vw, 19rem, 33rem, 107rem, $color_3);
+        h1{
+            @include h1(20px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+      
+    }
+
+    .day4{
+        @include div(85vw, 35rem, 33rem, 139rem, $color_3);
+        h1{
+            @include h1(20px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7.5rem);
+         }
+      
+    }
+
+    .day5{
+        @include div(85vw, 30rem, 33rem, 188.4rem, $color_3);
+        h1{
+            @include h1(19px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+     
+    }
+
+    .day6{
+
+        @include div(85vw, 20.4rem, 33rem, 233rem, $color_3);
+        h1{
+            @include h1(19px, 550, 1.4rem);
+        }
+        p{
+            @include p( 19.5px, 1rem ,  6.5rem);
+         }
+    }
+    
+
+    .day8{
+        
+        @include div(85vw, 28.4rem, 33rem, 304rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+        p{
+            @include p( 19.5px, 1rem ,  6rem);
+         }
+    }
+
+    .day7{
+    
+        @include div(85vw, 21rem, 33rem, 268rem, $color_3);
+        h1{
+            @include h1(19px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day9{
+        @include div(85vw, 23.4rem, 33rem, 345rem, $color_3);
+        h1{
+            @include h1(19.5px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day10{
+        @include div(85vw, 18rem, 33rem, 382rem, $color_3);
+        h1{
+            @include h1(19.5px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day11{
+        @include div(85vw, 15rem, 33rem, 413rem, $color_3);
+        h1{
+            @include h1(19.5px, 550, 1rem);
+        }
+         p{
+            @include p( 18.5px, 1rem ,  7rem);
+         }
+    }
+
+
+    }
+
+    .tsingy-tour{
+        position: absolute;
+        top: 830rem;
+        left: -35vw;
+        
+
+        .titre_weast{
+            @include h1(34px, 800, 66vw);
+            color: $color_1;
+            top: 24.5rem;
+            width: 50vw;
+            position: absolute;
+  
+          }
+      
+      
+      .day1{
+          @include div(85vw, 18rem, 33rem, 37rem, $color_3);
+           text-align: center;
+          h1{
+              @include h1(25px, 550, 4rem);
+          }
+           p{
+              @include p( 19.5px, 1rem ,  7rem);
+             
+           }
+        
+      }
+
+      .day2{
+        @include div(85vw, 24rem, 33rem, 68rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(23px, 550, 1rem);
+            top: 2rem;
+            
+        }
+
+        p{
+            @include p( 19.5px, 1rem ,  7.5rem);
+           
+         }
+    
+    }
+
+    .day3{
+        @include div(85vw, 21rem, 33rem, 108rem, $color_3);
+        h1{
+            @include h1(23px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+      
+    }
+
+    .day4{
+        @include div(85vw, 20rem, 33rem, 143rem, $color_3);
+        h1{
+            @include h1(20px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+      
+    }
+
+    .day5{
+        @include div(85vw, 32rem, 33rem, 178.4rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+     
+    }
+
+    .day6{
+        @include div(85vw, 23.8rem, 33rem, 224rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+        p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+    
+
+    .day8{
+      
+        @include div(85vw, 15.4rem, 33rem, 295rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+        p{
+            @include p( 19.5px, 1rem ,  6.5rem);
+         }
+    }
+
+    .day7{
+        @include div(85vw, 18rem, 33rem, 263rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1.4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  6rem);
+         }
+    }
+
+    .day9{
+       
+        @include div(85vw, 20.5rem, 33rem, 323rem, $color_3);
+        h1{
+            @include h1(21px, 550, 1rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  5rem);
+         }
+    }
+
+    
+
+    }
+
+
+    .NosyBe{
+         display: none;
+    }
+
+    footer{
+        position: absolute;
+        top: 1189.5rem;
+        background-color: rgba(0, 0, 0, 0.705);
+        width :100vw;
+       left: 0rem;
+        height: 35.9rem;
+        padding-bottom: -24rem;
+      }
+ 
+ 
+ 
+      .footer_contact h1{
+        position: absolute;
+        left: -9rem;
+      }
+    
+      .footer_contact{
+        width: 45%;
+        position: absolute;
+        top: 5rem;
+        left: 45%;
+     }
+     
+     .mail{
+       font-size: 20px;
+       position: absolute;
+       top: 7rem;
+       left :-13.5rem;
+       color: #ffffff;
+     }
+     
+     .phone{
+       font-size: 19px;
+       position: absolute;
+       top: 10rem;
+       left :-13.5rem;
+       color: #ffffff;
+     }
+     
+     .footer_contact p:nth-last-child(3){
+       font-size: 18px;
+       position: absolute;
+       top: 13.1rem;
+       left :-13.0rem;
+       color: #ffffff;
+     }
+      
+     .icones{
+        position: relative;
+        top: 21rem;
+        left: -8rem;
+       }
+      
+       .border_{
+        position: absolute;
+        top: 19rem;
+        left: -4.8rem;
+        width: 2.6cm;
+        height: 4px;
+        background-color: #ffffff;
+       }
+      
+     
+      .footCopright{
+       position: absolute;
+       top: 35.8rem;
+       width: 100%;
+       height: 3.6cm;
+       background-color: rgba(40, 37, 37, 0.921);
+       font-size: 18px;
+       padding-top: 0rem;
+       color: rgb(212, 205, 205);
+      }
+
+// @media screen and (min-width: 380px) and (max-width: 500px) {
+//     .north_day{
+//         position: absolute;
+//         top: 138rem;
+//         left: -30rem;
+  
+
+       
+      
+      
+//       .day1{
+//           @include div(85vw, 24rem, 33rem, 35rem, $color_3);
+        
+//       }
+
+//       .day2{
+//         @include div(85vw, 15rem, 33rem, 68rem, $color_3);
+//          text-align: center;
+     
+//     }
+
+//     .day3{
+//         @include div(85vw, 26rem, 33rem, 93rem, $color_3);
+       
+//     }
+
+//     .day4{
+//         @include div(85vw, 23rem, 33rem, 128rem, $color_3);
+      
+//     }
+
+//     .day5{
+//         @include div(85vw, 20rem, 33rem, 158rem, $color_3);
+       
+//     }
+
+//     .day6{
+//         @include div(85vw, 33.4rem, 33rem, 188rem, $color_3);
+       
+//     }
+
+//     .day7{
+//         @include div(85vw, 28rem, 33rem, 234rem, $color_3);
+      
+//     }
+
+//     .day9{
+//         @include div(85vw, 43rem, 33rem, 274rem, $color_3);
+     
+//     }
+
+//     .day8{
+//         @include div(85vw, 43rem, 33rem, 234rem, $color_3);
+       
+//     }
+
+//     .day10{
+//         @include div(85vw, 27rem, 33rem, 329rem, $color_3);
+       
+//     }
+
+//     .day11{
+//         @include div(85vw, 41rem, 33rem, 369rem, $color_3);
+        
+//     }
+
+//     .day12{
+//         @include div(85vw, 26.5rem, 33rem, 423rem, $color_3);
+       
+//     }
+
+//     .day13{
+//         @include div(85vw, 15.6rem, 33rem,463rem, $color_3);
+       
+//     }
+
+//     .day14{
+//         @include div(85vw, 17.5rem, 33rem, 491.1rem, $color_3);
+      
+//     }
+//     }
+//     .north .desc{
+//         font-size: 18px;
+//         left: 4.2rem;
+//         top: 78rem;
+//         width: 82vw;
+//     }
+
+//     .classic_nosy-be{
+//         position: absolute;
+//         top: 638rem;
+//         left: -30rem;
+        
+
+//         .titre_north{
+//             @include h1(24px, 800, 88vw);
+//             color: $color_1;
+//             top: 21.5rem;
+//             width: 80vw;
+//             position: absolute;
+//           }
+      
+      
+//       .day1{
+//           @include div(85vw, 24rem, 33rem, 35rem, $color_3);
+//            text-align: center;
+//           h1{
+//               @include h1(25px, 550, 4rem);
+//           }
+//            p{
+//               @include p( 18.5px, 1rem ,  7rem);
+             
+//            }
+        
+//       }
+
+//       .day2{
+//         @include div(85vw, 15rem, 33rem, 71rem, $color_3);
+//          text-align: center;
+//         h1{
+//             @include h1(23px, 550, 1rem);
+//             top: 2rem;
+            
+//         }
+    
+//     }
+
+//     .day3{
+//         @include div(85vw, 33rem, 33rem, 96rem, $color_3);
+//         h1{
+//             @include h1(23px, 550, 1rem);
+//         }
+//          p{
+//             @include p( 18.5px, 1rem ,  7rem);
+//          }
+      
+//     }
+
+//     .day4{
+//         @include div(85vw, 20rem, 33rem, 138rem, $color_3);
+//         h1{
+//             @include h1(20px, 550, 1.4rem);
+//         }
+//          p{
+//             @include p( 18.5px, 1rem ,  8.5rem);
+//          }
+      
+//     }
+
+//     .day5{
+//         @include div(85vw, 23rem, 33rem, 169.4rem, $color_3);
+//         h1{
+//             @include h1(21px, 550, 1.4rem);
+//         }
+//          p{
+//             @include p( 18.5px, 1rem ,  7rem);
+//          }
+     
+//     }
+
+//     .day6{
+//         @include div(85vw, 33.4rem, 33rem, 204rem, $color_3);
+//         h1{
+//             @include h1(21px, 550, 1.4rem);
+//         }
+//         p{
+//             @include p( 18.5px, 1rem ,  8.5rem);
+//          }
+//     }
+    
+
+//     .day8{
+//         @include div(85vw, 26.4rem, 33rem, 289rem, $color_3);
+//         h1{
+//             @include h1(21px, 550, 1.4rem);
+//         }
+//         p{
+//             @include p( 18.5px, 1rem ,  8.5rem);
+//          }
+//     }
+
+//     .day7{
+//         @include div(85vw, 28rem, 33rem, 249rem, $color_3);
+//         h1{
+//             @include h1(21px, 550, 1.4rem);
+//         }
+//          p{
+//             @include p( 18.5px, 1rem ,  6rem);
+//          }
+//     }
+
+//     .day9{
+//         @include div(85vw, 23rem, 33rem, 326rem, $color_3);
+//         h1{
+//             @include h1(21px, 550, 1rem);
+//         }
+//          p{
+//             @include p( 18.5px, 1rem ,  10rem);
+//          }
+//     }
+
+//     }
+// }
+
+.border_vertical3{
+    @include border(280rem, 5.4px,rgb(215, 141, 3), 47vw, 875rem);
+}
+
+.border_vertical4{
+    @include border(285rem, 5.4px,rgb(215, 141, 3), 47vw, 125rem);
+}
+
+.border_vertical5{
+    @include border(387rem, 5.4px, rgb(215, 141, 3), 47vw, 455rem);
+}
+}

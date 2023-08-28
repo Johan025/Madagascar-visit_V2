@@ -1,0 +1,38 @@
+@import "./../../settings.scss";
+@import "./components/navbar.scss";
+ @import "./components/couverture.scss";
+ @import "./components/weast_desc.scss";
+@import "./components/weast_day.scss";
+ @import "./components/with-tsingy-bemaraha.scss";
+ @import "./components/comments.scss";
+ @import "./components/map.scss";
+// @import "./components/boreder_vertical.scss";
+@import "./components/footer.scss";
+// @import "./components/responsive/small.scss";
+// @import "./components/responsive/medium.scss";
+// @import "./components/texte.scss";
+
+*{
+    font-family: 'Lato', sans-serif;
+    color: rgb(52, 64, 71);
+}
+
+.up{
+      
+  i{
+     font-size: 31px;
+     color: #fff;
+     padding: 7px;
+     border-radius: 8px;
+     cursor: pointer;
+     background-color: rgb(209, 118, 6);
+     position: fixed;
+     bottom: 5vh;
+     right: 20px;
+     z-index: 30;
+
+      &:hover{
+        background-color: rgb(27, 26, 25);
+      }
+  }
+}

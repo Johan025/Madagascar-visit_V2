@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.active2{
+.active{
   position: absolute;
   bottom: -0.16rem;
   left: 0;
@@ -110,12 +110,6 @@
     
 }
 
-.drap{
-  width: 25px;
-  height:25px;
-  border-radius: 50%;
-}
-
 @media (min-width: 992px) { 
   #navbarNav{
     float: right;
@@ -142,8 +136,5 @@
   margin-left: 50px;
 }
 }
-
-
-
 
   

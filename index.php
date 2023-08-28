@@ -77,10 +77,10 @@
                   <i class="fa-solid fa-car text-dark"></i> Our tour
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./circuits/north/north.html">Circuit NORTH</a></li>
-                  <li><a class="dropdown-item" href="./circuits/south/south.html">Circuit SOUTH</a></li>
-                  <li><a class="dropdown-item" href="./circuits/east/east.html">Circuit EAST</a></li>
-                  <li><a class="dropdown-item" href="./circuits/weast/weast.html">Circuit WEAST</a></li>
+                  <li><a class="dropdown-item" href="./circuits/north/north.php">Circuit NORTH</a></li>
+                  <li><a class="dropdown-item" href="./circuits/south/south.php">Circuit SOUTH</a></li>
+                  <li><a class="dropdown-item" href="./circuits/east/east.PHP">Circuit EAST</a></li>
+                  <li><a class="dropdown-item" href="./circuits/weast/weast.php">Circuit WEAST</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -90,9 +90,15 @@
               <li class="nav-item">
                 <a class="nav-link  text-dark" href="#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
               </li>
-              <li class="nav-item">
-                <a class="scroll nav-link  text-dark" style="cursor:pointer" data-target="contact"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
-                  Contact</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="active"></div>
+                  <img src="./logo/ang.jpg" class="drap" alt=""> English
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./index_francais.php"> <img src="./pictures/francais.png" class="drap" alt="">French</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -105,21 +111,21 @@
                 <img src="pictures/maki-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <h1 class="w-100 text-start">Madagascar Trip with the famous lemur Catta</h1>
-                    <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+                   <a class="text-decoration-none" href="./circuits/south/south.php"> <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/alley.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <h1 class="w-100 text-start">Madagascar Holidays for the Alley of Baobab to the Weast </h1>
-                    <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="text-decoration-none" href="./circuits/weast/weast.php">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/cameleoon.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
                     <h1 class="w-100 text-start">Madagascar Tour with the Cameleon to the east</h1>
-                    <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="text-decoration-none" href="./circuits/east/east.PHP">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -138,22 +144,22 @@
             <div class="carousel-item active">
                 <img src="pictures/maki-1_respons.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="w-100 text-start">Madagascar Trip with the famous lemur Catta</h1>
-                    <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+                <h1 class="w-100 text-start">Madagascar Trip with the famous lemur Catta</h1>
+                   <a class="text-decoration-none" href="./circuits/south/south.php"> <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/alley.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="w-100 text-start">Madagascar Holidays for the Alley of Baobab to the Weast</h1>
-                    <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+                <h1 class="w-100 text-start">Madagascar Holidays for the Alley of Baobab to the Weast </h1>
+                    <a class="text-decoration-none" href="./circuits/weast/weast.php">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/cameleoon-respons.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
-                    <h1 class="w-100 text-start">Madagascar Tour with the Cameleon to the east</h1>
-                    <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+                <h1 class="w-100 text-start">Madagascar Tour with the Cameleon to the east</h1>
+                    <a class="text-decoration-none" href="./circuits/east/east.PHP">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -242,7 +248,7 @@
                         <img src="./circuits/north/pictures/nosyIranja.jpg" alt="Image">
                         <h4> Madagascar Visit</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Discover the North of Madagascar</h2>
-                        <a href="./circuits/north/north.html" target="_self"><button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
+                        <a href="./circuits/north/north.php" target="_self"><button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -251,7 +257,7 @@
                         <img src="./circuits/pictures/fond.JPG" alt="Image">
                         <h4> Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Explore the South of Madagascar</h2>
-                        <a href="./circuits/south/south.html" target="_self"><button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
+                        <a href="./circuits/south/south.php" target="_self"><button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -269,7 +275,7 @@
                         <img src="./logo/adansonia-1140x420.jpg" alt="Image">
                         <h4> Madagascar Trip</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Trip to the Weast of Madagascar</h2>
-                        <a href="./circuits/weast/weast.html" target="_self"> <button class="btn">Book Now <i
+                        <a href="./circuits/weast/weast.php" target="_self"> <button class="btn">Book Now <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -334,10 +340,10 @@
                     <div class="links text-center text-md-center">
                         <h1 class="text-light">Quick Links</h1>
                         <ul class="text-center">
-                            <li>Home</li>
-                            <li>Our tour</li>
-                            <li>Guestbook</li>
-                            <li>About us</li>
+                        <a class="f text-decoration-none z-50"  style="cursor:pointer; z-index:50" href="#"><li>Home</li></a>
+                        <a class="f text-decoration-none" href="#"><li>Our tour</li></a>
+                        <a class="f text-decoration-none" href="#book"><li>Guestbook</li></a>
+                        <a class="f text-decoration-none" href="#about"> <li>About us</li></a>
                         </ul>
                     </div>
                 </div>
@@ -355,7 +361,10 @@
 
                 <div class="col-12 col-md-3">
                     <div class="tour">
-                        <h1 class="text-light text-center mt-5 mt-lg-0">Follow our page</h1>
+                        <h1 class="text-light text-center mt-5 mt-lg-0">Other tour</h1>
+                        <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>North Tour</li></a>
+                        </ul>
                            
                     </div>
                 </div>

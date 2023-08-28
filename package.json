@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "node-sass circuits/east/east.scss circuits/east/east.css",
-    "watch": "sass -w circuits_francais/est/est.scss circuits_francais/est/est.css"
+    "watch": "sass -w  styles.scss styles.css"
   },
   "keywords": [],
   "author": "",

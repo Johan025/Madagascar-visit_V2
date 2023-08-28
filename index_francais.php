@@ -355,7 +355,7 @@
 
                 <div class="col-12 col-md-3">
                     <div class="tour">
-                        <h1 class="text-light text-center mt-5 mt-lg-0">Suivre notre page</h1>
+                        <h1 class="text-light text-center mt-5 mt-lg-0">Autre circuit</h1>
                            
                     </div>
                 </div>
@@ -363,7 +363,7 @@
 
             <div class="row mt-5" id="row2">
                     <div class="border"></div>
-                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Nous contacter: </h1></div>
+                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Contact us: </h1></div>
                     <div class="col-9 -ml-2 col-md-6 col-lg-3 text-center" id="ii1">
                         <div class="phone text-light">
                             <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45
