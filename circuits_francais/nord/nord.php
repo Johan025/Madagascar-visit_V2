@@ -92,7 +92,7 @@ if (isset($_POST['send'])){
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i>
+            <a class="nav-link text-dark" href="./../../index_francais.php"><i class="fa-solid fa-house  text-dark"></i>
               Accueil</a>
           </li>
 
@@ -100,27 +100,31 @@ if (isset($_POST['send'])){
             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               <div class="active"></div>
-              <i class="fa-solid fa-car text-dark"></i> Nos tours
+              <i class="fa-solid fa-car text-dark"></i> Circuits
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Circuit Nord</a></li>
-              <li><a class="dropdown-item" href="./../south/south.html">Circuit Sud</a></li>
-              <li><a class="dropdown-item" href="./../east/east.html">Circuit Est</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.html">Circuit Ouest</a></li>
+              <li><a class="dropdown-item" href="./../sud/sud.php">Circuit Sud</a></li>
+              <li><a class="dropdown-item" href="./../est/est.php">Circuit Est</a></li>
+              <li><a class="dropdown-item" href="./../ouest/ouest.php">Circuit Ouest</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> Livre d 'or</a>
+            <a class="nav-link  text-dark" href="./../../index_francais.php#book"><i class="fa-solid fa-book text-dark"></i> Livre d 'or</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i
+            <a class="nav-link  text-dark" href="../../index_francais.php#about"><strong><i
                   class="fa-solid fa-info"></i></strong> A propos</a>
           </li>
-          <li class="nav-item">
-            <a class="scroll nav-link  text-dark" style="cursor:pointer" data-target="contact"><i
-                class="fa-sharp fa-regular fa-address-book text-dark"></i>
-              Contact</a>
-          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./../../circuits/north/north.php"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+                </ul>
+              </li>
         </ul>
       </div>
     </div>
@@ -131,13 +135,13 @@ if (isset($_POST['send'])){
   <div class="couv">
     <div class="w-100" id="couv_"><img src="./pictures/nosyIranja.jpg" class="w-100"></div>
 
-    <h1 class="text-center">Madagascar Visit for the BROOKESIA MINIMA</h1>
+    <h1 class="text-center">Madagascar Visite pour le BROOKESIA MINIMA</h1>
 
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
 
   <div class="north">
-    <h1 class=" title_north  text-start text-md-start">detail du circuit
+    <h1 class=" title_north  text-start text-md-start">Details du circuit
 
     </h1>
     <div class="border_"></div>
@@ -594,7 +598,7 @@ if (isset($_POST['send'])){
             </p>
           </div>
         </div>
-        <div class=" col-10 w-100 col-md-7 mt-4">
+        <div class=" col-10 w-100 col-md-7 mt-6">
           <div class="bg-md-danger bg-light p-3 rounded">
 
             <h2><i class="fa-solid fa-circle fa-flip all"></i> Les activités possibles à Nosy Be: </h2>
@@ -685,9 +689,9 @@ if (isset($_POST['send'])){
 
           <form action="" method="POST">
             <div class="row gy-5">
-              <input type="email" name="email" class="w-100" placeholder="Your email">
-              <input type="text" name="name" class="w-100" placeholder="Your name" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="Your comments" id="coms">
+              <input type="email" name="email" class="w-100" placeholder="email">
+              <input type="text" name="name" class="w-100" placeholder="nom" id="name">
+              <input type="text" name="coms" class="w-100" placeholder="commentaire" id="coms">
               <button type="submit" name="send" class="btn p-2">Send</button>
             </div>
           </form>
@@ -702,95 +706,83 @@ if (isset($_POST['send'])){
   <div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
 
 
-  <footer class="w-100 bg-dark" id="contact">
-    <div class="container">
-      <div class="row gx-3">
-        <div class="col-12 col-md-9 col-lg-3">
-          <div class="follow">
-            <h1 class="text-light text-center text-md-center text-lg-start">Nous suivre sur </h1>
-            <div class="d-flex text-center text-md-start" id="row">
-              <a href="https://web.facebook.com/madagascarvisite" target="_blank"><i
-                  class="icon fa-brands fa-facebook-f"></i></a>
-              <a href="https://www.linkedin.com" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
-              <i class="icon fa-brands fa-twitter"></i>
-              <i class="icon fa-brands fa-whatsapp"></i>
+  <footer class="w-100 bg-dark">
+        <div class="container">
+            <div class="row gx-3">
+                <div class="col-12 col-md-9 col-lg-3">
+                    <div class="follow">
+                        <h1 class="text-light text-center text-md-center text-lg-start">Nous suivre sur</h1>
+                        <div class="d-flex text-center text-md-start" id="row">
+                            <a href="https://web.facebook.com/madagascarvisite" target="_blank" id="item_1"><i class="icon fa-brands fa-facebook-f -ms-5"></i></a>
+                            <a href="https://www.linkedin.com" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
+                            <i class="icon fa-brands fa-twitter"></i>
+                            <i class="icon fa-brands fa-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-7 mt-md-5 mt-lg-0 col-lg-3">
+                    <div class="links text-center text-md-center">
+                        <h1 class="text-light">Liens</h1>
+                        <ul class="text-center">
+                        <a class="f text-decoration-none z-50"  style="cursor:pointer; z-index:50" href="#"><li>Accueil</li></a>
+                        <a class="f text-decoration-none" href="#"><li>Circuits</li></a>
+                        <a class="f text-decoration-none" href="#book"><li>Livre d'or</li></a>
+                        <a class="f text-decoration-none" href="#about"> <li>A propos</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
+                    <div class="tour">
+                        <h1 class="text-light text-center text-md-start">Circuits</h1>
+                        <ul class="text-center">
+                            <a class="text-decoration-none" href="./../nord/nord.php"><li>Nord</li></a>
+                            <a  class="text-decoration-none" href="./../sud/sud.php"><li>Sud</li></a>
+                            <a class="text-decoration-none" href="./../est/est.php"><li>Est</li></a>
+                            <a class="text-decoration-none" href="./../ouest/ouest.php"><li>Ouest</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-11 col-lg-3">
+                    <div class="tour">
+                        <h1 class="text-light text-center mt-5 mt-lg-0">Autre circuit</h1>
+                        <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="./../aventures/adventures.php"><li>Aventures Tours</li></a>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-md-7 mt-md-5 mt-lg-0 col-lg-3">
-          <div class="links text-center text-md-center">
-            <h1 class="text-light">Liens</h1>
-            <ul class="text-center">
-              <li class="up" style="cursor:pointer"> Accueil</li>
-              <li>Nos tours</li>
-              <li>Livre d' or</li>
-              <li>A propos</li>
-            </ul>
-          </div>
+            <div class="row mt-5" id="row2">
+                    <div class="border"></div>
+                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Contact us: </h1></div>
+                    <div class="col-9 -ml-2 col-md-6 col-lg-3 text-center" id="ii1">
+                        <div class="phone text-light">
+                            <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3">
+                        <div class="phone text-light">
+                            <i class="fa-regular fa-envelope text-light"></i></i>  email: lovasson@yahoo.fr
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-9">
+                        <div class="phone text-light" id="location">
+                        <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
+                        </div>
+                        
+                    </div>
+            </div>
         </div>
-        <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
-          <div class="tour">
-            <h1 class="text-light text-center text-md-start">Our tours</h1>
-            <ul class="text-center">
-              <a href="#" class="text-decoration-none">
-                <li>Nord</li>
-              </a>
-              <a href="./../south/south.html" class="text-decoration-none">
-                <li>Sud</li>
-              </a>
-              <a href="./../east/east.html" class="text-decoration-none">
-                <li>Est</li>
-              </a>
-              <a href="./../weast/weast.html" class="text-decoration-none">
-                <li>Ouest</li>
-              </a>
-            </ul>
-          </div>
+        
+        <div class="copryght">
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-12"><h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Company  |  fait par JohanEmades</h3></div>
+                 </div>
         </div>
-
-        <div class="col-12 col-md-3">
-          <div class="tour">
-            <h1 class="text-light text-center mt-5 mt-lg-0">Suivre notre page</h1>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt-5" id="row2">
-        <div class="border"></div>
-        <div class="col-12 col-lg-3 col-md-12">
-          <h1 class="text-start  text-light">Nous contacter: </h1>
-        </div>
-        <div class="col-8 col-md-6 col-lg-3 text-center">
-          <div class="phone text-light">
-            <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45
-          </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-3">
-          <div class="phone text-light">
-            <i class="fa-regular fa-envelope text-light"></i></i> email: lovasson@yahoo.fr
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-9">
-          <div class="phone text-light" id="location">
-            <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="copryght">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Compagny | fait par
-              Johan</h3>
-          </div>
-        </div>
-      </div>
-  </footer>
+    </footer>
 
 
   <!-- <footer id="footer"> 

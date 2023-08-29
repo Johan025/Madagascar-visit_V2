@@ -960,10 +960,10 @@ if (isset($_POST['send'])){
               <a href="#" class="text-decoration-none">
                 <li>Sud</li>
               </a>
-              <a href="./../east/east.html" class="text-decoration-none">
+              <a href="./../east/east.php" class="text-decoration-none">
                 <li>Est</li>
               </a>
-              <a href="./../weast/weast.html" class="text-decoration-none">
+              <a href="./../weast/weast.php" class="text-decoration-none">
                 <li>Ouest</li>
               </a>
             </ul>

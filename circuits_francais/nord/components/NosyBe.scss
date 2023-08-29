@@ -79,7 +79,7 @@
 
     .nosy-Be{
   position: relative;
-  top: 14rem;
+  top: -0.5rem;
 
         .row {
             margin-left: 6%;
@@ -95,22 +95,24 @@
                 background-color: #a5a5a554;
                 padding: 0;
 
+                h2 {
+                    color: rgb(51, 44, 48);
+                    font-family: 'Signika', sans-serif;
+                    font-weight: bold;
+                    font-size: calc(1.3rem + 1.7vw);
+        
+                    i {
+                      color: rgb(209, 118, 6);
+                    }
+        
+                  }
+
                 #n{
                     color: rgb(209, 118, 6);
-                    font-size: calc(1.2rem + 1.7vw);
+                    font-size: calc(1.3rem + 1.7vw);
                 }
       
-                h2 {
-                  color: rgb(209, 118, 6);
-                  font-family: 'abril_fatfaceregular';
-                  font-weight: bold;
-                  font-size: calc(1.1rem + 1.7vw);
-      
-                  i {
-                    color: rgb(209, 118, 6);
-                  }
-      
-                }
+            
       
                 p {
                   font-size: calc(0.6rem + 0.95vw);
@@ -255,7 +257,7 @@
 
     .nosy-Be{
         position: relative;
-        top:95vw;
+        top:60vw;
 
         h3 {
             color: #7851a9;

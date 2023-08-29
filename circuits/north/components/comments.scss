@@ -1,7 +1,7 @@
 
 .comments {
     position: relative;
-    top: 31rem;
+    top: 16rem;
     padding: 4px;
     border-radius: 10px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.541);
@@ -61,7 +61,7 @@
 @media (max-width: 575px) {
     .comments {
         position: relative;
-        top: 50rem;
+        top: 27rem;
         padding: 4px;
     }
 }
@@ -70,6 +70,7 @@
     .comments {
        text-align: center;
        margin-left: 20%;
+       margin-top: 3.5rem;
 
        .borde2{
         width: 6.6rem;

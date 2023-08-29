@@ -64,6 +64,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -374,7 +380,7 @@ body {
   }
   .north_day {
     position: relative;
-    top: 2.6rem;
+    top: -2.6rem;
   }
   h3 {
     color: #7851a9;
@@ -537,7 +543,7 @@ body {
   }
   #plan1 {
     position: relative;
-    top: 9rem;
+    top: 4rem;
     font-size: calc(1.7rem + 1.5vw);
   }
   .borde1 {
@@ -546,7 +552,7 @@ body {
     margin-left: 44%;
     text-align: center;
     position: relative;
-    top: 9.4rem;
+    top: 5rem;
   }
   .north_day {
     position: relative;
@@ -570,7 +576,7 @@ body {
   .north_day .row {
     position: relative;
     left: 0%;
-    top: 12.4rem;
+    top: 8.4rem;
   }
   .north_day .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
@@ -681,6 +687,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 b {
   color: rgb(62, 56, 56);
 }
@@ -783,7 +795,7 @@ b {
     top: -3rem;
   }
   .north .desc {
-    left: -3vw;
+    left: 0vw;
     width: 90%;
   }
 }
@@ -913,7 +925,7 @@ b {
   }
   .north_nosy {
     position: relative;
-    top: 10rem;
+    top: 0rem;
   }
   .north_nosy .row {
     margin-left: 6%;
@@ -977,7 +989,7 @@ b {
   }
   .north_nosy {
     position: relative;
-    top: 1.6rem;
+    top: 3.6rem;
   }
   .north_nosy h3 {
     color: #7851a9;
@@ -1054,7 +1066,7 @@ b {
   }
   .north_nosy {
     position: relative;
-    top: 42vw;
+    top: 30vw;
   }
   .north_nosy h3 {
     color: #7851a9;
@@ -1073,7 +1085,7 @@ b {
   }
   .north_nosy #plan1 {
     position: relative;
-    top: 9rem;
+    top: 4rem;
     font-size: calc(1.7rem + 1.5vw);
   }
   .north_nosy .borde1 {
@@ -1082,12 +1094,12 @@ b {
     margin-left: 44%;
     text-align: center;
     position: relative;
-    top: 9.4rem;
+    top: 5.4rem;
   }
   .north_nosy .row {
     position: relative;
     left: 0%;
-    top: 12.4rem;
+    top: 7.4rem;
   }
   .north_nosy .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
@@ -1179,7 +1191,7 @@ b {
   }
   .nosy-Be {
     position: relative;
-    top: 14rem;
+    top: -0.5rem;
   }
   .nosy-Be .row {
     margin-left: 6%;
@@ -1192,18 +1204,18 @@ b {
     background-color: rgba(165, 165, 165, 0.3294117647);
     padding: 0;
   }
-  .nosy-Be .row div div #n {
-    color: rgb(209, 118, 6);
-    font-size: calc(1.2rem + 1.7vw);
-  }
   .nosy-Be .row div div h2 {
-    color: rgb(209, 118, 6);
-    font-family: "abril_fatfaceregular";
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
     font-weight: bold;
-    font-size: calc(1.1rem + 1.7vw);
+    font-size: calc(1.3rem + 1.7vw);
   }
   .nosy-Be .row div div h2 i {
     color: rgb(209, 118, 6);
+  }
+  .nosy-Be .row div div #n {
+    color: rgb(209, 118, 6);
+    font-size: calc(1.3rem + 1.7vw);
   }
   .nosy-Be .row div div p {
     font-size: calc(0.6rem + 0.95vw);
@@ -1311,7 +1323,7 @@ b {
   }
   .nosy-Be {
     position: relative;
-    top: 95vw;
+    top: 60vw;
   }
   .nosy-Be h3 {
     color: #7851a9;
@@ -1367,7 +1379,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 34.6rem;
+    top: 24.6rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1379,7 +1391,7 @@ b {
     width: 85%;
     position: relative;
     height: 27rem;
-    top: 25rem;
+    top: 5rem;
     left: 7%;
     border-radius: 18px;
     z-index: 20;
@@ -1438,7 +1450,7 @@ b {
 @media (max-width: 575px) {
   .comments {
     position: relative;
-    top: 39rem;
+    top: 29rem;
     padding: 4px;
   }
 }
@@ -1548,9 +1560,9 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 72rem;
+    height: 74rem;
     position: relative;
-    top: 43rem;
+    top: 34rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1562,8 +1574,12 @@ footer .copryght .row h3 {
     font-family: "Acme", sans-serif;
   }
   footer .follow #row {
-    margin-left: 27.7%;
+    margin-left: 37.7%;
     margin-top: 1.5rem;
+  }
+  footer .follow #row #item_1 {
+    position: relative;
+    left: -1rem;
   }
   footer .follow #row .icon {
     font-size: 20px;
@@ -1595,6 +1611,10 @@ footer .copryght .row h3 {
   footer #row2 {
     position: relative;
     top: 6rem;
+  }
+  footer #row2 #ii1 {
+    position: relative;
+    left: -2rem;
   }
   footer #row2 h1 {
     margin-top: 0.4rem;
@@ -1636,7 +1656,7 @@ footer .copryght .row h3 {
   footer {
     height: 48rem;
     position: relative;
-    top: 42rem;
+    top: 14rem;
   }
   footer .follow {
     position: relative;

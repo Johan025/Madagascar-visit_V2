@@ -97,7 +97,7 @@
                   <img src="./logo/ang.jpg" class="drap" alt=""> English
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./index_francais.php"> <img src="./pictures/francais.png" class="drap" alt="">French</a></li>
+                  <li><a class="dropdown-item" href="./index_francais.php"> <img src="./pictures/francais.png" class="drap" alt=""> French</a></li>
                 </ul>
               </li>
             </ul>
@@ -351,10 +351,10 @@
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Our tours</h1>
                         <ul class="text-center">
-                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>North Tour</li></a>
-                            <a  class="text-decoration-none" href="./circuits/south/south.html"><li>South Tour</li></a>
-                            <a class="text-decoration-none" href="./circuits/east/east.html"><li>East Tour</li></a>
-                            <a class="text-decoration-none" href="./circuits/weast/weast.html"><li>Weast Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/north/north.php"><li>North Tour</li></a>
+                            <a  class="text-decoration-none" href="./circuits/south/south.php"><li>South Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/east/east.PHP"><li>East Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/weast/weast.php"><li>Weast Tour</li></a>
                         </ul>
                     </div>
                 </div>
@@ -363,7 +363,7 @@
                     <div class="tour">
                         <h1 class="text-light text-center mt-5 mt-lg-0">Other tour</h1>
                         <ul class="text-center mx-0">
-                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>North Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/adventures/adventures.html"><li>Adventures tours</li></a>
                         </ul>
                            
                     </div>

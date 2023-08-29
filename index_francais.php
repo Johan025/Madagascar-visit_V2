@@ -90,9 +90,15 @@
               <li class="nav-item">
                 <a class="nav-link  text-dark" href="#about"><strong><i class="fa-solid fa-info"></i></strong> A propos</a>
               </li>
-              <li class="nav-item">
-                <a class="scroll nav-link  text-dark" style="cursor:pointer" data-target="contact"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
-                  Contact</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="active"></div>
+                  <img src="./pictures/francais.png" class="drap" alt=""> Francais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./index.php"> <img src="./logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -105,21 +111,21 @@
                 <img src="pictures/maki-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <h1 class="w-100 text-start">Voyage à Madagascar avec les lémuriens maki-catta</h1>
-                    <button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="f text-decoration-none z-50" href="./circuits_francais/sud/sud.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/alley.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <h1 class="w-100 text-start">Vacances à Madagascar  pour l ' Allée des Baobab à l' Ouest</h1>
-                    <button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="f text-decoration-none z-50" href="./circuits_francais/ouest/ouest.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/cameleoon.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
                     <h1 class="w-100 text-start">Madagascar Tour avec le Caméléon à l' Est </h1>
-                    <button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="f text-decoration-none z-50" href="./circuits_francais/est/est.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
         </div>
@@ -139,21 +145,21 @@
                 <img src="pictures/maki-1_respons.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <h1 class="w-100 text-start">Voyage à Madagascar avec les lémuriens maki-catta</h1>
-                    <button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button>
+                   <a class="f text-decoration-none z-50" href="./circuits_francais/sud/sud.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/alley.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <h1 class="w-100 text-start">Vacances à Madagascar  pour l ' Allée des Baobab à l' Ouest</h1>
-                    <button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="f text-decoration-none z-50" href="./circuits_francais/ouest/ouest.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./pictures/cameleoon-respons.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
                     <h1 class="w-100 text-start">Madagascar Tour avec le Caméléon à l' Est </h1>
-                    <button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button>
+                    <a class="f text-decoration-none z-50" href="./circuits_francais/est/est.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -242,7 +248,7 @@
                         <img src="./circuits/north/pictures/nosyIranja.jpg" alt="Image">
                         <h4> Madagascar Visite</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Découvrir le Nord de Madagascar</h2>
-                        <a href="./circuits/north/north.html" target="_self"><button class="btn"> Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
+                        <a class="f text-decoration-none z-50" href="./circuits_francais/nord/nord.php" target="_self"><button class="btn"> Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -251,7 +257,7 @@
                         <img src="./circuits/pictures/fond.JPG" alt="Image">
                         <h4> Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Explorer le Sud de Madagascar</h2>
-                        <a href="./circuits/south/south.html" target="_self"><button class="btn"> Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
+                        <a class="f text-decoration-none z-50" href="./circuits_francais/sud/sud.php" target="_self"><button class="btn"> Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -259,7 +265,7 @@
                         <img src="./circuits/pictures/Indri-indri.jpg" alt="Image">
                         <h4>Madagascar Visite</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Voyager à l' Est de Madagascar</h2>
-                        <a href="./circuits/east/east.PHP" target="_self"><button class="btn">Explorer <i
+                        <a class="f text-decoration-none z-50" href="./circuits_francais/est/est.php" target="_self"><button class="btn">Explorer <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -269,7 +275,7 @@
                         <img src="./logo/adansonia-1140x420.jpg" alt="Image">
                         <h4> Madagascar Trip</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Voyager à l' Ouest de  Madagascar</h2>
-                        <a href="./circuits/weast/weast.html" target="_self"> <button class="btn">Explorer <i
+                        <a class="f text-decoration-none z-50" href="./circuits_francais/ouest/ouest.php" target="_self"> <button class="btn">Explorer <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -334,10 +340,10 @@
                     <div class="links text-center text-md-center">
                         <h1 class="text-light">Liens</h1>
                         <ul class="text-center">
-                            <li>Accueil</li>
-                            <li>Circuits</li>
-                            <li>Livre d'or</li>
-                            <li>A propos</li>
+                        <a class="f text-decoration-none z-50"  style="cursor:pointer; z-index:50" href="#"><li>Accueil</li></a>
+                        <a class="f text-decoration-none" href="#"><li>Circuits</li></a>
+                        <a class="f text-decoration-none" href="#book"><li>Livre d'or</li></a>
+                        <a class="f text-decoration-none" href="#about"> <li>A propos</li></a>
                         </ul>
                     </div>
                 </div>
@@ -345,10 +351,10 @@
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Our tours</h1>
                         <ul class="text-center">
-                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>Nord</li></a>
-                            <a  class="text-decoration-none" href="./circuits/south/south.html"><li>Sud</li></a>
-                            <a class="text-decoration-none" href="./circuits/east/east.html"><li>Est</li></a>
-                            <a class="text-decoration-none" href="./circuits/weast/weast.html"><li>Ouest</li></a>
+                            <a class="text-decoration-none" href="./circuits_francais/nord/nord.php"><li>Nord</li></a>
+                            <a  class="text-decoration-none" href="./circuits_francais/sud/sud.php"><li>Sud</li></a>
+                            <a class="text-decoration-none" href="./circuits_francais/est/est.php"><li>Est</li></a>
+                            <a class="text-decoration-none" href="./circuits_francais/ouest/ouest.php"><li>Ouest</li></a>
                         </ul>
                     </div>
                 </div>
@@ -356,7 +362,9 @@
                 <div class="col-12 col-md-3">
                     <div class="tour">
                         <h1 class="text-light text-center mt-5 mt-lg-0">Autre circuit</h1>
-                           
+                        <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="./circuits/adventures/adventures.html"><li>Aventures Tours</li></a>
+                        </ul>
                     </div>
                 </div>
             </div>

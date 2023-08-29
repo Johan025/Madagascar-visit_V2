@@ -92,7 +92,7 @@ if (isset($_POST['send'])){
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i> Home</a>
+            <a class="nav-link text-dark" href="./../../index.php"><i class="fa-solid fa-house  text-dark"></i> Home</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -103,21 +103,26 @@ if (isset($_POST['send'])){
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="./../south/south.html">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../east/east.html">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.html">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="./../south/south.php">Circuit SOUTH</a></li>
+              <li><a class="dropdown-item" href="./../east/east.PHP">Circuit EAST</a></li>
+              <li><a class="dropdown-item" href="./../weast/weast.php">Circuit WEAST</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
+            <a class="nav-link  text-dark" href="./../../index.php#book"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
+            <a class="nav-link  text-dark" href="../../index.php#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
           </li>
-          <li class="nav-item">
-            <a class="scroll nav-link  text-dark"  style="cursor:pointer" data-target="contact"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
-              Contact</a>
-          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="../../index.php#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./../../logo/ang.jpg" class="drap" alt=""> English
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./../../circuits_francais/nord/nord.php"> <img src="./../../pictures/francais.png" class="drap" alt="">  French</a></li>
+                </ul>
+           </li>
         </ul>
       </div>
     </div>
@@ -562,7 +567,7 @@ if (isset($_POST['send'])){
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
             
-            <h2><i class="fa-solid fa-location-dot"></i> Nosy-Be</h2>
+            <h2  id="n"><i class="fa-solid fa-location-dot"></i> Nosy-Be</h2>
             <p class="p-1">
               NOSY BE is one the best beach destination .The volcanic island of Nosy Be has all ingredients that you'd
               except with his soft white sand, turquoise water and wonderful seafood .You're like in Paradise . It's
@@ -573,6 +578,80 @@ if (isset($_POST['send'])){
             </p>
           </div>
         </div>
+
+        <div class=" col-10 w-100 col-md-7 mt-6">
+          <div class="bg-md-danger bg-light p-3 rounded">
+
+            <h2><i class="fa-solid fa-circle fa-flip all"></i> Les activités possibles à Nosy Be: </h2>
+          </div>
+        </div>
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+
+            <h2><i class="fa-solid fa-location-dot"></i> Nosy Komba</h2>
+            <p class="p-1">
+              est une île volcanique , la visite de Nosy Komba vous offre l'opportunité de voir les lémuriens MAKAKO ;
+              Avec ses plages de sables fins , possibilité de se baigner .
+            </p>
+          </div>
+        </div>
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+
+            <h2><i class="fa-solid fa-location-dot"></i> Nosy Sakatia</h2>
+            <p class="p-1">
+              Pour la plongée et le baignade
+            </p>
+          </div>
+        </div>
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+
+            <h2><i class="fa-solid fa-location-dot"></i> Nosy Iranja</h2>
+            <p class="p-1">
+              Le meilleur plage , Répuée pour ses 2 îles Nosy Iranja Be et Nosy Iranja Kely reliées par une banc de
+              sable accessible à
+              pied en marée basse
+              Belle plage avec ses sables fins, aux eaux turquoises et cristallines , baignade
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+
+            <h2><i class="fa-solid fa-location-dot"></i> Nosy Tanikely</h2>
+            <p class="p-1">
+              Nosy Tanikely est un parc marin, situé au Sude de Nosy Be, protégée par des corails naturels .C' est aussi
+              un véritable aquarium avec ses exceptionnels tortues marines, myriades de poissons multicolores,
+              Superbe plongée , baignade
+            </p>
+          </div>
+
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+
+            <h2><i class="fa-solid fa-location-dot"></i> Andilana Plage</h2>
+            <p class="p-1">
+              Plus belle plage avec le long ruban de sable blanc
+            </p>
+          </div>
+
+        </div>
+
+        <div class=" col-10 w-100 col-md-7">
+          <div class="bg-md-danger p-3 rounded">
+
+            <h2><i class="fa-solid fa-location-dot"></i> Safari des baleines</h2>
+            <p class="p-1">
+              de juillet en novembre
+            </p>
+          </div>
+
+        </div>
+
 
       </div>
 
@@ -647,9 +726,14 @@ if (isset($_POST['send'])){
         </div>
       </div>
 
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-11 col-lg-3">
         <div class="tour">
-          <h1 class="text-light text-center mt-5 mt-lg-0">Follow our page</h1>
+          <h1 class="text-light text-center mt-5 mt-lg-0">Other tour</h1>
+
+          <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="./../adventures/adventures.html"><li>Adventures tours</li></a>
+                        </ul>
+                        
 
         </div>
       </div>
