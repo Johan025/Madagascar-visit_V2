@@ -77,10 +77,10 @@
                   <i class="fa-solid fa-car text-dark"></i> Circuits
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./circuits/north/north.html">Circuit Nord</a></li>
-                  <li><a class="dropdown-item" href="./circuits/south/south.html">Circuit Sud</a></li>
-                  <li><a class="dropdown-item" href="./circuits/east/east.html">Circuit Est</a></li>
-                  <li><a class="dropdown-item" href="./circuits/weast/weast.html">Circuit Ouest</a></li>
+                  <li><a class="dropdown-item" href="./circuits/north/north.php">Circuit Nord</a></li>
+                  <li><a class="dropdown-item" href="./circuits/south/south.php">Circuit Sud</a></li>
+                  <li><a class="dropdown-item" href="./circuits/east/east.php">Circuit Est</a></li>
+                  <li><a class="dropdown-item" href="./circuits/weast/weast.php">Circuit Ouest</a></li>
                 </ul>
               </li>
               <li class="nav-item">

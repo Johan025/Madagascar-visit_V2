@@ -94,7 +94,7 @@ if (isset($_POST['send'])){
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i> Home</a>
+            <a class="nav-link text-dark" href="./../../index.php"><i class="fa-solid fa-house  text-dark"></i> Home</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -104,22 +104,27 @@ if (isset($_POST['send'])){
               <i class="fa-solid fa-car text-dark"></i> Our tour
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../north/north.html">Circuit NORTH</a></li>
+              <li><a class="dropdown-item" href="../north/north.php">Circuit NORTH</a></li>
               <li><a class="dropdown-item" href="#">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../east/east.html">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.html">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="./../east/east.PHP">Circuit EAST</a></li>
+              <li><a class="dropdown-item" href="./../weast/weast.php">Circuit WEAST</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#book"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
+            <a class="nav-link  text-dark" href="../../index.php#book"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
+            <a class="nav-link  text-dark" href="../../index.php#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
           </li>
-          <li class="nav-item">
-            <a class="scroll nav-link  text-dark"  style="cursor:pointer" data-target="contact"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
-              Contact</a>
-          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="../../index.php#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./../../logo/ang.jpg" class="drap" alt=""> English
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./../../circuits_francais/sud/sud.php"> <img src="./../../pictures/francais.png" class="drap" alt="">  French</a></li>
+                </ul>
+           </li>
         </ul>
       </div>
     </div>
@@ -989,7 +994,7 @@ if (isset($_POST['send'])){
           <div class="follow">
             <h1 class="text-light text-center text-md-center text-lg-start">Follow us on </h1>
             <div class="d-flex text-center text-md-start" id="row">
-              <a href="https://web.facebook.com/madagascarvisite" target="_blank"><i class="icon fa-brands fa-facebook-f"></i></a>
+              <a href="https://web.facebook.com/madagascarvisite" target="_blank"><i class="icon fa-brands fa-facebook-f" id="item_1"></i></a>
               <a href="https://www.linkedin.com" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
               <i class="icon fa-brands fa-twitter"></i>
               <i class="icon fa-brands fa-whatsapp"></i>
@@ -1012,18 +1017,20 @@ if (isset($_POST['send'])){
           <div class="tour">
             <h1 class="text-light text-center text-md-start">Our tours</h1>
             <ul class="text-center">
-             <a href="./../north/north.html"  class="text-decoration-none"> <li>North Tour</li></a>
+             <a href="./../north/north.php"  class="text-decoration-none"> <li>North Tour</li></a>
              <a href="#"  class="text-decoration-none"> <li>South Tour</li></a>
-              <a href="./../east/east.html"  class="text-decoration-none"><li>East Tour</li></a>
-                <a href="./../weast/weast.html"  class="text-decoration-none"><li>Weast Tour</li></a>
+              <a href="./../east/east.PHP"  class="text-decoration-none"><li>East Tour</li></a>
+                <a href="./../weast/weast.php"  class="text-decoration-none"><li>Weast Tour</li></a>
             </ul>
           </div>
         </div>
 
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-11 col-lg-3">
           <div class="tour">
-            <h1 class="text-light text-center mt-5 mt-lg-0">Follow our page</h1>
-
+            <h1 class="text-light text-center mt-5 mt-lg-0">Other Tour</h1>
+            <ul class="text-center mx-0">
+              <a class="text-decoration-none" href="./../adventures/adventures.html"><li>Adventures tours</li></a>
+           </ul>
           </div>
         </div>
       </div>

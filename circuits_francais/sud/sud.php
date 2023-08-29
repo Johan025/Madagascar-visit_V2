@@ -94,7 +94,7 @@ if (isset($_POST['send'])){
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i>
+            <a class="nav-link text-dark" href="./../../index_francais.php"><i class="fa-solid fa-house  text-dark"></i>
               Accueil</a>
           </li>
 
@@ -105,25 +105,29 @@ if (isset($_POST['send'])){
               <i class="fa-solid fa-car text-dark"></i> Nos tours
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../north/north.html">Circuit Nord</a></li>
+              <li><a class="dropdown-item" href="../../circuits_francais/nord/nord.php">Circuit Nord</a></li>
               <li><a class="dropdown-item" href="#">Circuit Sud</a></li>
-              <li><a class="dropdown-item" href="./../east/east.html">Circuit Est</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.html">Circuit Ouest</a></li>
+              <li><a class="dropdown-item" href="./../../circuits_francais/est/est.php">Circuit Est</a></li>
+              <li><a class="dropdown-item" href="./../../circuits_francais/ouest/ouest.php">Circuit Ouest</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#book"><i class="fa-solid fa-book text-dark"></i> Livre
+            <a class="nav-link  text-dark" href="../../index_francais.php#book"><i class="fa-solid fa-book text-dark"></i> Livre
               d' or</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i
+            <a class="nav-link  text-dark" href="../../index_francais.php#about"><strong><i
                   class="fa-solid fa-info"></i></strong> A propos</a>
           </li>
-          <li class="nav-item">
-            <a class="scroll nav-link  text-dark" style="cursor:pointer" data-target="contact"><i
-                class="fa-sharp fa-regular fa-address-book text-dark"></i>
-              Contact</a>
-          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="../../index_francais.php#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./../../circuits/south/south.php"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+                </ul>
+              </li>
         </ul>
       </div>
     </div>
@@ -137,7 +141,7 @@ if (isset($_POST['send'])){
   </div>
 
   <div class="south">
-    <h1 class=" title_south text-start text-md-start">detail du circuit
+    <h1 class=" title_south text-start text-md-start">Details du circuit
 
     </h1>
     <div class="borde"></div>
@@ -612,7 +616,7 @@ if (isset($_POST['send'])){
   <div class="adventure" id="section3">
     <h3 class="text-center text-lg-start"><i class="fa-solid fa-clock"></i> A peu prés 15 jours</h3>
     <div class="point text-start" id="point"></div>
-    <h1 class="text-center text-lg-start  m-5" id="classic_h1">Circuits Aventures: Parc National Andringitra et Villages
+    <h1 class="text-center text-lg-start  m-5" id="classic_h1">Circuits Aventures: Parc National Andringitra et Village
       de Tsaranoro</h1>
 
     <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
@@ -906,7 +910,7 @@ if (isset($_POST['send'])){
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="Votre email">
               <input type="text" name="name" class="w-100" placeholder="Votre name" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="Votre comments" id="coms">
+              <input type="text" name="coms" class="w-100" placeholder="Votre commentaire" id="coms">
               <button type="submit" name="send" class="btn p-2">Envoyer</button>
             </div>
           </form>
@@ -930,7 +934,7 @@ if (isset($_POST['send'])){
           <div class="follow">
             <h1 class="text-light text-center text-md-center text-lg-start">Nous suivre sur </h1>
             <div class="d-flex text-center text-md-start" id="row">
-              <a href="https://web.facebook.com/madagascarvisite" target="_blank"><i
+              <a href="https://web.facebook.com/madagascarvisite" target="_blank" id="item_1"><i
                   class="icon fa-brands fa-facebook-f"></i></a>
               <a href="https://www.linkedin.com" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
               <i class="icon fa-brands fa-twitter"></i>
@@ -952,28 +956,30 @@ if (isset($_POST['send'])){
         </div>
         <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
           <div class="tour">
-            <h1 class="text-light text-center text-md-start">Nos Tours</h1>
+            <h1 class="text-light text-center text-md-start">Circuits</h1>
             <ul class="text-center">
-              <a href="./../north/north.html" class="text-decoration-none">
+              <a href="./../../circuits_francais/nord/nord.php" class="text-decoration-none">
                 <li>Nord</li>
               </a>
               <a href="#" class="text-decoration-none">
                 <li>Sud</li>
               </a>
-              <a href="./../east/east.php" class="text-decoration-none">
+              <a href="./../../circuits_francais/est/est.php" class="text-decoration-none">
                 <li>Est</li>
               </a>
-              <a href="./../weast/weast.php" class="text-decoration-none">
+              <a href="./../../circuits_francais/ouest/ouest.php" class="text-decoration-none">
                 <li>Ouest</li>
               </a>
             </ul>
           </div>
         </div>
 
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-11 col-lg-3">
           <div class="tour">
-            <h1 class="text-light text-center mt-5 mt-lg-0">Suivre notre Page</h1>
-
+            <h1 class="text-light text-center mt-5 mt-lg-0">Autre tour</h1>
+            <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="./../aventures/adventures.php"><li>Aventures tours</li></a>
+                        </ul>
           </div>
         </div>
       </div>

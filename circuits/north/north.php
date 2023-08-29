@@ -579,10 +579,10 @@ if (isset($_POST['send'])){
           </div>
         </div>
 
-        <div class=" col-10 w-100 col-md-7 mt-6">
+        <div class=" col-10 w-100 col-md-7 mt-7">
           <div class="bg-md-danger bg-light p-3 rounded">
 
-            <h2><i class="fa-solid fa-circle fa-flip all"></i> Les activités possibles à Nosy Be: </h2>
+            <h2><i class="fa-solid fa-circle fa-flip all"></i> ACTIVITIES THAT YOU CAN DO IN NOSY BE : </h2>
           </div>
         </div>
         <div class=" col-10 w-100 col-md-7">
@@ -590,8 +590,8 @@ if (isset($_POST['send'])){
 
             <h2><i class="fa-solid fa-location-dot"></i> Nosy Komba</h2>
             <p class="p-1">
-              est une île volcanique , la visite de Nosy Komba vous offre l'opportunité de voir les lémuriens MAKAKO ;
-              Avec ses plages de sables fins , possibilité de se baigner .
+            Visit of Nosy Komba to find the lemur makako in nature as well 
+            Swimming, 
             </p>
           </div>
         </div>
@@ -600,7 +600,7 @@ if (isset($_POST['send'])){
 
             <h2><i class="fa-solid fa-location-dot"></i> Nosy Sakatia</h2>
             <p class="p-1">
-              Pour la plongée et le baignade
+            For diving; swimming 
             </p>
           </div>
         </div>
@@ -609,10 +609,8 @@ if (isset($_POST['send'])){
 
             <h2><i class="fa-solid fa-location-dot"></i> Nosy Iranja</h2>
             <p class="p-1">
-              Le meilleur plage , Répuée pour ses 2 îles Nosy Iranja Be et Nosy Iranja Kely reliées par une banc de
-              sable accessible à
-              pied en marée basse
-              Belle plage avec ses sables fins, aux eaux turquoises et cristallines , baignade
+            Reputed for 2islands Iranja Be and Iranja Kely connected by a sand bank; and separated when it's low tide . 
+The water is clear with his white beach and beautiful sand bar. 
             </p>
           </div>
         </div>
@@ -622,9 +620,7 @@ if (isset($_POST['send'])){
 
             <h2><i class="fa-solid fa-location-dot"></i> Nosy Tanikely</h2>
             <p class="p-1">
-              Nosy Tanikely est un parc marin, situé au Sude de Nosy Be, protégée par des corails naturels .C' est aussi
-              un véritable aquarium avec ses exceptionnels tortues marines, myriades de poissons multicolores,
-              Superbe plongée , baignade
+            Nosy Tanikely and its marine park. Nosy Tanikely is located at the South of Nosy Be. It’s also a real live aquarium, with exceptional marine life and one of the most beautiful scuba diving sites of the region. Since 2010 Nosy Tanikely has become a marine national park and also a protected site.Protected Marins Park for diving and snorkelling with the seaturtlles , protected coral with the tropical fish . 
             </p>
           </div>
 
@@ -633,9 +629,9 @@ if (isset($_POST['send'])){
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
 
-            <h2><i class="fa-solid fa-location-dot"></i> Andilana Plage</h2>
+            <h2><i class="fa-solid fa-location-dot"></i> Andilana Beach</h2>
             <p class="p-1">
-              Plus belle plage avec le long ruban de sable blanc
+            Most beautiful beach of the bay , nickely stretched .
             </p>
           </div>
 
@@ -644,9 +640,9 @@ if (isset($_POST['send'])){
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
 
-            <h2><i class="fa-solid fa-location-dot"></i> Safari des baleines</h2>
+            <h2><i class="fa-solid fa-location-dot"></i> WhaleWatching</h2>
             <p class="p-1">
-              de juillet en novembre
+            in july until november
             </p>
           </div>
 
@@ -693,9 +689,9 @@ if (isset($_POST['send'])){
     <div class="row gx-3">
       <div class="col-12 col-md-9 col-lg-3">
         <div class="follow">
-          <h1 class="text-light text-center text-md-center text-lg-start">Follow us on </h1>
+          <h1 class="text-light text-center text-md-center  text-lg-start">Follow us on </h1>
           <div class="d-flex text-center text-md-start" id="row">
-            <a href="https://web.facebook.com/madagascarvisite" target="_blank"><i class="icon fa-brands fa-facebook-f"></i></a>
+            <a href="https://web.facebook.com/madagascarvisite" target="_blank"><i class="icon fa-brands fa-facebook-f" id="item_1"></i></a>
               <a href="https://www.linkedin.com" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
             <i class="icon fa-brands fa-twitter"></i>
             <i class="icon fa-brands fa-whatsapp"></i>
@@ -731,8 +727,8 @@ if (isset($_POST['send'])){
           <h1 class="text-light text-center mt-5 mt-lg-0">Other tour</h1>
 
           <ul class="text-center mx-0">
-                            <a class="text-decoration-none" href="./../adventures/adventures.html"><li>Adventures tours</li></a>
-                        </ul>
+              <a class="text-decoration-none" href="./../adventures/adventures.html"><li>Adventures tours</li></a>
+           </ul>
                         
 
         </div>

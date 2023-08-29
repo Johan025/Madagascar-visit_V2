@@ -120,7 +120,7 @@ footer {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 72rem;
+    height: 74rem;
     position: relative;
     top: 40rem;
 
@@ -140,8 +140,13 @@ footer {
       #row {
 
         
-        margin-left: 27.7%;
+        margin-left: 39.7%;
         margin-top: 1.5rem;
+
+        #item_1 {
+          position: relative;
+          left: -1rem;
+        }
 
 
         .icon {
@@ -240,7 +245,7 @@ footer {
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 45rem;
+    height: 49rem;
     position: relative;
     top: 26rem;
   

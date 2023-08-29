@@ -69,7 +69,7 @@ footer {
     }
 
     ul {
-      margin-left: -10.8rem;
+      margin-left: -11.3rem;
 
       li {
         font-size: 21px;
@@ -120,7 +120,7 @@ footer {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 72rem;
+    height: 74rem;
     position: relative;
     top: 40rem;
 
@@ -138,11 +138,14 @@ footer {
       }
 
       #row {
-
         
-        margin-left: 27.7%;
+        margin-left: 35.7%;
         margin-top: 1.5rem;
 
+        #item_1 {
+          position: relative;
+          left: -1rem;
+        }
 
         .icon {
           font-size: 20px;

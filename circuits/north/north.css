@@ -1298,7 +1298,7 @@ b {
     color: rgb(51, 44, 48);
     font-family: "Signika", sans-serif;
     font-weight: bold;
-    font-size: calc(0.78rem + 1.7vw);
+    font-size: calc(0.6rem + 1.7vw);
   }
   .nosy-Be .row div div h2 i {
     color: rgb(240, 136, 8);
@@ -1588,8 +1588,12 @@ footer .copryght .row h3 {
     font-family: "Acme", sans-serif;
   }
   footer .follow #row {
-    margin-left: 27.7%;
+    margin-left: 37.7%;
     margin-top: 1.5rem;
+  }
+  footer .follow #row #item_1 {
+    position: relative;
+    left: -1rem;
   }
   footer .follow #row .icon {
     font-size: 20px;

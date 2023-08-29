@@ -64,6 +64,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 font-face {
   font-family: "coneria_script_demoregular";
   src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
@@ -158,6 +164,12 @@ html::-webkit-scrollbar {
 }
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 b {
@@ -729,7 +741,7 @@ b {
   .south_day #classic_h1 {
     font-family: "Acme", sans-serif;
     font-weight: 900;
-    font-size: 47px;
+    font-size: 43px;
     position: relative;
     left: 1.9rem;
     color: #36454f;
@@ -998,7 +1010,7 @@ b {
   .comb #classic_h1 {
     font-family: "Acme", sans-serif;
     font-weight: 900;
-    font-size: 47px;
+    font-size: 43px;
     position: relative;
     left: 1.9rem;
     color: #36454f;
@@ -1323,7 +1335,7 @@ b {
   .adventure #classic_h1 {
     font-family: "Acme", sans-serif;
     font-weight: 900;
-    font-size: 47px;
+    font-size: 43px;
     position: relative;
     left: 1.9rem;
     color: #36454f;
@@ -1750,7 +1762,7 @@ footer .tour h1 {
   font-family: "Acme", sans-serif;
 }
 footer .tour ul {
-  margin-left: -10.8rem;
+  margin-left: -11.3rem;
 }
 footer .tour ul li {
   font-size: 21px;
@@ -1786,7 +1798,7 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 72rem;
+    height: 74rem;
     position: relative;
     top: 40rem;
   }
@@ -1800,8 +1812,12 @@ footer .copryght .row h3 {
     font-family: "Acme", sans-serif;
   }
   footer .follow #row {
-    margin-left: 27.7%;
+    margin-left: 35.7%;
     margin-top: 1.5rem;
+  }
+  footer .follow #row #item_1 {
+    position: relative;
+    left: -1rem;
   }
   footer .follow #row .icon {
     font-size: 20px;
@@ -1984,4 +2000,4 @@ footer .copryght .row h3 {
   background-color: rgb(27, 26, 25);
 }
 
-/*# sourceMappingURL=south.css.map */
+/*# sourceMappingURL=sud.css.map */
