@@ -10,7 +10,7 @@
     content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
   <meta name="keywords"
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA">
-  <title>Madagascar visit tours/weast</title>
+  <title>Madagascar visit tours/weast of Madagascar</title>
   <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
   <link rel="stylesheet" href="weast.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -134,12 +134,12 @@ if (isset($_POST['send'])){
 
   <div class="couv">
     <div class="w-100" id="couv_"><img src="../../pictures/alley.jpg" class="w-100"></div>
-    <h1 class="text-center">to the Exotic Weast of Madagascar</h1>
+    <h1 class="text-center">Madagascar Holidays for the Fameous Alley of Baobab</h1>
 
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
 
-  <div class="weast mt-5">
+  <div class="weast">
     <h1 class=" title_weast text-start text-md-start">Tour detail
 
     </h1>
@@ -175,13 +175,13 @@ if (isset($_POST['send'])){
       <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/tsiribihina.jpg" class="d-block w-100" alt="Tsiribihina River">
           </div>
           <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/crocodile.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./../pictures/miandrivazo_2.jpg" class="d-block w-100" alt="...">
+            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="Tsiribihina River">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -336,13 +336,13 @@ if (isset($_POST['send'])){
       <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../logo/tsingy.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/tsingy1.jpg" class="d-block w-100" alt="Tsingy de Bemaraha">
           </div>
           <div class="carousel-item">
-            <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/baobab.jpg" class="d-block w-100" alt="Allée des baobab">
           </div>
           <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
+            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="Tsiribihina River">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl"
@@ -516,24 +516,22 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
       <div class="point text-start" id="point"></div>
       <h1 class="text-center text-lg-start  m-5" id="classic_h1"> Tsingy Tour</h1>
 
-      <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
+      <div id="carouselExampleControl1" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../logo/tsingy.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/tsingy2.jpg" class="d-block w-100" alt="tsingy de bemaraha">
           </div>
           <div class="carousel-item">
             <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
-          </div>
+        
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl1"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl1"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -657,24 +655,22 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
       <div class="point text-start" id="point"></div>
       <h1 class="text-center text-lg-start  m-5" id="classic_h1"> Baobab Tour and Kirindy</h1>
 
-      <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
+      <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../logo/tsingy.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/fosa_.jp" class="d-block w-100" alt="kirindy reserve">
           </div>
           <div class="carousel-item">
-            <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/ouest-.jpg" class="d-block w-100" alt="alley of baobab">
           </div>
-          <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
-          </div>
+        
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl2"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl2"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>

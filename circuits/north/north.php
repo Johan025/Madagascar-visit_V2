@@ -12,8 +12,8 @@
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA">
   <title>Madagascar visit tours/north</title>
   <link rel="stylesheet" href="north.css">
-  <link rel="icon" type="image/x-icon" href="/logo/madagascar-visite-ico.png">
-  <link rel="icon" type="image/x-icon" href="/logo/madagascar-visite-ico.png">
+  <link rel="icon" type="image/x-icon" href="./../../logo/madagascar-visite-ico.png">
+
   <!-- <script src="../../css/bootstrap_file/jquery.min.js"></script>
     <script src="../../css/bootstrap_file/bootstrap.min.js"></script> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">

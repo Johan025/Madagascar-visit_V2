@@ -1324,17 +1324,17 @@ b {
   font-size: calc(1.275rem + 1.5vw);
 }
 
-#carouselExampleControls {
+#carouselExampleControl1 {
   width: 58%;
   height: 73vh;
   border-radius: 18px;
 }
-#carouselExampleControls #inner {
+#carouselExampleControl1 #inner {
   height: 73vh;
   width: 100%;
   border-radius: 18px;
 }
-#carouselExampleControls #inner img {
+#carouselExampleControl1 #inner img {
   height: 73vh;
   width: 58%;
   border-radius: 18px;
@@ -1357,18 +1357,18 @@ b {
 }
 
 @media (min-width: 576px) {
-  #carouselExampleControls {
+  #carouselExampleControl1 {
     width: 82%;
     height: 40vh;
     border-radius: 18px;
     margin-left: 9.7%;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl1 #inner {
     height: 40vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl1 #inner img {
     height: 40vh;
     width: 58%;
     border-radius: 18px;
@@ -1451,18 +1451,18 @@ b {
     margin-left: 0%;
     top: 5.5rem;
   }
-  #carouselExampleControls {
+  #carouselExampleControl1 {
     width: 58%;
     height: 73vh;
     border-radius: 18px;
     margin-left: 20.7%;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl1 #inner {
     height: 73vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl1 #inner img {
     height: 73vh;
     width: 58%;
     border-radius: 18px;
@@ -1533,19 +1533,19 @@ b {
     margin-left: 0rem;
     top: 5rem;
   }
-  #carouselExampleControls {
+  #carouselExampleControl1 {
     width: 95%;
     height: 50vh;
     border-radius: 18px;
     text-align: center;
     margin-left: 2.4vw;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl1 #inner {
     height: 50vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl1 #inner img {
     height: 50vh;
     width: 58%;
     border-radius: 18px;
@@ -1938,17 +1938,17 @@ footer .copryght .row h3 {
   font-size: calc(1.275rem + 1.5vw);
 }
 
-#carouselExampleControls {
+#carouselExampleControl2 {
   width: 58%;
   height: 73vh;
   border-radius: 18px;
 }
-#carouselExampleControls #inner {
+#carouselExampleControl2 #inner {
   height: 73vh;
   width: 100%;
   border-radius: 18px;
 }
-#carouselExampleControls #inner img {
+#carouselExampleControl2 #inner img {
   height: 73vh;
   width: 58%;
   border-radius: 18px;
@@ -1971,18 +1971,18 @@ footer .copryght .row h3 {
 }
 
 @media (min-width: 576px) {
-  #carouselExampleControls {
+  #carouselExampleControl2 {
     width: 82%;
     height: 40vh;
     border-radius: 18px;
     margin-left: 9.7%;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl2 #inner {
     height: 40vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl2 #inner img {
     height: 40vh;
     width: 58%;
     border-radius: 18px;
@@ -2065,18 +2065,18 @@ footer .copryght .row h3 {
     margin-left: 0%;
     top: 5.5rem;
   }
-  #carouselExampleControls {
+  #carouselExampleControl2 {
     width: 58%;
     height: 73vh;
     border-radius: 18px;
     margin-left: 20.7%;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl2 #inner {
     height: 73vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl2 #inner img {
     height: 73vh;
     width: 58%;
     border-radius: 18px;
@@ -2147,19 +2147,19 @@ footer .copryght .row h3 {
     margin-left: 0rem;
     top: 5rem;
   }
-  #carouselExampleControls {
+  #carouselExampleControl2 {
     width: 95%;
     height: 50vh;
     border-radius: 18px;
     text-align: center;
     margin-left: 2.4vw;
   }
-  #carouselExampleControls #inner {
+  #carouselExampleControl2 #inner {
     height: 50vh;
     width: 100%;
     border-radius: 18px;
   }
-  #carouselExampleControls #inner img {
+  #carouselExampleControl2 #inner img {
     height: 50vh;
     width: 58%;
     border-radius: 18px;

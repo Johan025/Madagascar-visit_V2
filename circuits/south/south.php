@@ -427,17 +427,15 @@ if (isset($_POST['send'])){
     <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner" id="inner">
         <div class="carousel-item active">
-          <img src="./../pictures/train.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/riziere.jpg" class="d-block w-100" alt="parc national isalo">
         </div>
         <div class="carousel-item">
-          <img src="./../pictures/fond.JPG" class="d-block w-100" alt="...">
+          <img src="./../../pictures/leafted gecko.jpg" class="d-block w-100" alt="parc national ranomafana">
         </div>
         <div class="carousel-item">
-          <img src="./../pictures/antsirabe_gare.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/fulvusisalo.jpg" class="d-block w-100" alt="common brown lemur, parc national isalo">
         </div>
-        <div class="carousel-item">
-          <img src="./../pictures/parc6.jpg" class="d-block w-100" alt="...">
-        </div>
+  
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -667,16 +665,13 @@ if (isset($_POST['send'])){
     <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner" id="inner">
         <div class="carousel-item active">
-          <img src="./../pictures/andringitra.jpg" class="d-block w-100" alt="...">
+          <img src="./../pictures/andringitra.jpg" class="d-block w-100" alt="parc national andringintra ">
         </div>
         <div class="carousel-item">
-          <img src="./../pictures/antsirabe_gare.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/tsaranoropg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./../pictures/fond.JPG" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./../pictures/parc6.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/Parc-national-dAndringitrawebp" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl2"

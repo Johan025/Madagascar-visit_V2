@@ -134,12 +134,12 @@ if (isset($_POST['send'])){
 
   <div class="couv">
     <div class="w-100" id="couv_"><img src="../../pictures/alley.jpg" class="w-100"></div>
-    <h1 class="text-center">to the Exotic Weast of Madagascar</h1>
+    <h1 class="text-center">Madagascar Tour pour le fameux Allé des Baobab</h1>
 
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
 
-  <div class="weast mt-5">
+  <div class="weast">
     <h1 class=" title_weast text-start text-md-start">Details du circuit
 
     </h1>
@@ -172,13 +172,13 @@ if (isset($_POST['send'])){
       <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/tsiribihina.jpg" class="d-block w-100" alt="Tsiribihina River">
           </div>
           <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/crocodile.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./../pictures/miandrivazo_2.jpg" class="d-block w-100" alt="...">
+            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="Tsiribihina River">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -323,13 +323,13 @@ if (isset($_POST['send'])){
       <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../logo/tsingy.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/tsingy1.jpg" class="d-block w-100" alt="Tsingy de Bemaraha">
           </div>
           <div class="carousel-item">
-            <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/baobab.jpg" class="d-block w-100" alt="Allée des baobab">
           </div>
           <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
+            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="Tsiribihina River">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl"

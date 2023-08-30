@@ -135,8 +135,8 @@ if (isset($_POST['send'])){
   </nav>
 
   <div class="couv">
-    <div class="w-100" id="couv_"><img src="../pictures/COUVERTURE_EST.jpg" class="w-100"></div>
-    <div class="w-100" id="couv_1"><img src="../pictures/EST.jpg" class="w-100"></div>
+  <div class="w-100" id="couv_"><img src="../../pictures/Baobabs-andavadaoka.jpg" class="w-100" alt="salary beach"></div>
+    <div class="w-100" id="couv_1"><img src="../../pictures/Baobabs-andavadaoka.jpg" class="w-100"></div>
 
     <h1 class="text-center">Circuit Aventures & Circuit boucles</h1>
 
@@ -161,16 +161,16 @@ if (isset($_POST['send'])){
   <div class="adventures_" id="section1">
 
 
-    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-inner" id="inner">
         <div class="carousel-item active">
-          <img src="./../../pictures/s.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/a3.jpg" class="d-block w-100" alt="baobab andavadoaka">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/sary2.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/salary4.jpg" class="d-block w-100" alt="salary beach">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/elmet.jpg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/Salary-Bay-4.jpg" class="d-block w-100" alt="...">
         </div>
 
       </div>
