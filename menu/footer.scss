@@ -63,11 +63,12 @@ footer {
     h1 {
       font-size: calc(0.9rem + 1.2vw);
       font-weight: bolder;
+      margin-left: 3.5rem;
       font-family: 'Acme', sans-serif;
     }
 
     ul {
-      margin-left: -10.8rem;
+      margin-left: -5rem;
 
       li {
         font-size: 21px;
@@ -75,6 +76,10 @@ footer {
         margin-top: 10px;
       }
     }
+  }
+
+  #a{
+    margin-left: 0.5rem;
   }
 
   #row2 {
@@ -200,6 +205,11 @@ footer {
       }
     }
 
+    
+  #a{
+    margin-left: -1rem;
+  }
+
     .tour {
 
       position: relative;
@@ -209,6 +219,7 @@ footer {
       h1 {
         font-size: calc(1.5rem + 1.2vw);
         font-weight: bolder;
+        margin-left: 0.5rem;
         font-family: 'Acme', sans-serif;
       }
 
@@ -244,7 +255,7 @@ footer {
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 45rem;
+    height: 53rem;
     position: relative;
     top: 15rem;
   
@@ -311,6 +322,7 @@ footer {
       h1 {
         font-size: calc(0.9rem + 1.2vw);
         font-weight: bolder;
+        margin-left: 1.3rem;
         font-family: 'Acme', sans-serif;
       }
   

@@ -109,10 +109,11 @@ if (isset($_POST['send'])){
               <i class="fa-solid fa-car text-dark"></i> Our tour
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../north/north.php">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="#">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.php">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="../north/north.php">NORTH Tour</a></li>
+              <li><a class="dropdown-item" href="#">SOUTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../weast/weast.php"> WEAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -975,7 +976,7 @@ if (isset($_POST['send'])){
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="Your email">
               <input type="text" name="name" class="w-100" placeholder="Your name" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="Your comments" id="coms">
+              <textarea type="text" name="coms" class="w-100" placeholder="Your comments" id="coms"></textarea>
               <button type="submit" name="send" class="btn p-2">Send</button>
             </div>
           </form>
@@ -1034,7 +1035,7 @@ if (isset($_POST['send'])){
           <div class="tour">
             <h1 class="text-light text-center mt-5 mt-lg-0">Other Tour</h1>
             <ul class="text-center mx-0">
-              <a class="text-decoration-none" href="./../adventures/adventures.html"><li>Adventures tours</li></a>
+              <a class="text-decoration-none" href="./../adventures/adventures.php"><li>Adventures tours</li></a>
            </ul>
           </div>
         </div>
@@ -1057,7 +1058,7 @@ if (isset($_POST['send'])){
         </div>
         <div class="col-12 col-lg-3 col-md-9">
           <div class="phone text-light" id="location">
-            <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
+          <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
           </div>
 
         </div>

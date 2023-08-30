@@ -109,6 +109,7 @@ if (isset($_POST['send'])){
               <li><a class="dropdown-item" href="./../sud/sud.php">Circuit Sud</a></li>
               <li><a class="dropdown-item" href="./../est/est.php">Circuit Est</a></li>
               <li><a class="dropdown-item" href="#">Circuit Ouest</a></li>
+              <li><a class="dropdown-item" href="./../aventures/adventures.php">Circuit Aventures</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -123,7 +124,7 @@ if (isset($_POST['send'])){
               <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../../circuits/weast/weast.html"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+              <li><a class="dropdown-item" href="./../../circuits/weast/weast.php"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
             </ul>
           </li>
         </ul>
@@ -845,7 +846,7 @@ if (isset($_POST['send'])){
             <div class="tour">
               <h1 class="text-light text-center text-md-start">Circuits</h1>
               <ul class="text-center">
-                <a href="#" class="text-decoration-none">
+                <a href="./../nord/nord.php" class="text-decoration-none">
                   <li>Nord</li>
                 </a>
                 <a href="./../sud/sud.php" class="text-decoration-none">
@@ -854,7 +855,7 @@ if (isset($_POST['send'])){
                 <a href="./../est/est.php" class="text-decoration-none">
                   <li>Est</li>
                 </a>
-                <a href="./../ouest/ouest.php" class="text-decoration-none">
+                <a href="#" class="text-decoration-none">
                   <li>Ouest</li>
                 </a>
               </ul>
@@ -889,7 +890,7 @@ if (isset($_POST['send'])){
           </div>
           <div class="col-12 col-lg-3 col-md-9">
             <div class="phone text-light" id="location">
-              <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
+            <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
             </div>
 
           </div>
@@ -902,7 +903,7 @@ if (isset($_POST['send'])){
             <div class="col-12">
               <h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Compagny | fait
                 par
-                Johan</h3>
+                JohanEmades</h3>
             </div>
           </div>
         </div>

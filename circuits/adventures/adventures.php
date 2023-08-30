@@ -105,10 +105,11 @@ if (isset($_POST['send'])){
               <i class="fa-solid fa-car text-dark"></i> Our tour
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../north/north.php">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="./../south/south.php">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.php">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="./../north/north.php">NORTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../south/south.php">SOUTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../weast/weast.php">WEAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -499,7 +500,7 @@ if (isset($_POST['send'])){
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="Your email">
               <input type="text" name="name" class="w-100" placeholder="Your name" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="Your comments" id="coms">
+              <textarea type="text" name="coms" class="w-100" placeholder="Your comments" id="coms"></textarea>
               <button type="submit" name="send" class="btn p-2">Send</button>
             </div>
           </form>

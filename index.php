@@ -77,10 +77,11 @@
                   <i class="fa-solid fa-car text-dark"></i> Our tour
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./circuits/north/north.php">Circuit NORTH</a></li>
-                  <li><a class="dropdown-item" href="./circuits/south/south.php">Circuit SOUTH</a></li>
-                  <li><a class="dropdown-item" href="./circuits/east/east.PHP">Circuit EAST</a></li>
-                  <li><a class="dropdown-item" href="./circuits/weast/weast.php">Circuit WEAST</a></li>
+                  <li><a class="dropdown-item" href="./circuits/north/north.php">NORTH Tour</a></li>
+                  <li><a class="dropdown-item" href="./circuits/south/south.php">SOUTH Tour</a></li>
+                  <li><a class="dropdown-item" href="./circuits/east/east.PHP">EAST Tour</a></li>
+                  <li><a class="dropdown-item" href="./circuits/weast/weast.php">WEAST Tour</a></li>
+                  <li><a class="dropdown-item" href="./circuits/adventures/adventures.php">Aventures Tour</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -279,6 +280,16 @@
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box p-2">
+                        <img src="./logo/adansonia-1140x420.jpg" alt="Image">
+                        <h4> Madagascar Tour</h4>
+                        <h2> <i class="fa-solid fa-location-dot"></i> Adventures tour and looping tour</h2>
+                        <a class="f text-decoration-none z-50" href="./circuits_francais/aventures/adventures.php" target="_self"> <button class="btn">Book Now <i
+                                class="fa-solid fa-arrow-right"></i></button></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -359,11 +370,11 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-12 col-lg-3">
                     <div class="tour">
-                        <h1 class="text-light text-center mt-5 mt-lg-0">Other tour</h1>
+                        <h1 class="text-light text-center mt-5 mt-lg-0" id="a">Other tour</h1>
                         <ul class="text-center mx-0">
-                            <a class="text-decoration-none" href="./circuits/adventures/adventures.html"><li>Adventures tours</li></a>
+                            <a class="text-decoration-none" href="./circuits/adventures/adventures.php"><li>Adventures tours</li></a>
                         </ul>
                            
                     </div>
@@ -372,7 +383,7 @@
 
             <div class="row mt-5" id="row2">
                     <div class="border"></div>
-                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Contact us: </h1></div>
+                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start text-md-center text-lg-start text-light">Contact us: </h1></div>
                     <div class="col-9 -ml-2 col-md-6 col-lg-3 text-center" id="ii1">
                         <div class="phone text-light">
                             <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45

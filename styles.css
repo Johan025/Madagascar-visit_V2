@@ -1176,15 +1176,19 @@ footer .tour {
 footer .tour h1 {
   font-size: calc(0.9rem + 1.2vw);
   font-weight: bolder;
+  margin-left: 3.5rem;
   font-family: "Acme", sans-serif;
 }
 footer .tour ul {
-  margin-left: -10.8rem;
+  margin-left: -5rem;
 }
 footer .tour ul li {
   font-size: 21px;
   color: white;
   margin-top: 10px;
+}
+footer #a {
+  margin-left: 0.5rem;
 }
 footer #row2 {
   position: relative;
@@ -1276,6 +1280,9 @@ footer .copryght .row h3 {
     margin-top: 0.4rem;
     font-size: 20px;
   }
+  footer #a {
+    margin-left: -1rem;
+  }
   footer .tour {
     position: relative;
     top: 7rem;
@@ -1283,6 +1290,7 @@ footer .copryght .row h3 {
   footer .tour h1 {
     font-size: calc(1.5rem + 1.2vw);
     font-weight: bolder;
+    margin-left: 0.5rem;
     font-family: "Acme", sans-serif;
   }
   footer .tour ul {
@@ -1305,7 +1313,7 @@ footer .copryght .row h3 {
 }
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 45rem;
+    height: 53rem;
     position: relative;
     top: 15rem;
   }
@@ -1357,6 +1365,7 @@ footer .copryght .row h3 {
   footer .tour h1 {
     font-size: calc(0.9rem + 1.2vw);
     font-weight: bolder;
+    margin-left: 1.3rem;
     font-family: "Acme", sans-serif;
   }
   footer .tour ul {

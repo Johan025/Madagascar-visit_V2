@@ -81,6 +81,7 @@
                   <li><a class="dropdown-item" href="./circuits_francais/sud/sud.php">Circuit Sud</a></li>
                   <li><a class="dropdown-item" href="./circuits_francais/est/est.php">Circuit Est</a></li>
                   <li><a class="dropdown-item" href="./circuits_francais/ouest/ouest.php">Circuit Ouest</a></li>
+                  <li><a class="dropdown-item" href="./circuits_francais/aventures/adventures.php">Circuit Aventures</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -110,7 +111,7 @@
             <div class="carousel-item active">
                 <img src="pictures/maki-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="w-100 text-start">Voyage à Madagascar avec les lémuriens maki-catta</h1>
+                    <h1 class="w-100 text-start">Voyager à Madagascar avec les lémuriens maki-catta</h1>
                     <a class="f text-decoration-none z-50" href="./circuits_francais/sud/sud.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
@@ -144,7 +145,7 @@
             <div class="carousel-item active">
                 <img src="pictures/maki-1_respons.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="w-100 text-start">Voyage à Madagascar avec les lémuriens maki-catta</h1>
+                    <h1 class="w-100 text-start">Voyager à Madagascar avec les lémuriens maki-catta</h1>
                    <a class="f text-decoration-none z-50" href="./circuits_francais/sud/sud.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
@@ -246,7 +247,7 @@
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="box p-2">
                         <img src="./circuits/north/pictures/nosyIranja.jpg" alt="Image">
-                        <h4> Madagascar Visite</h4>
+                        <h4> Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Découvrir le Nord de Madagascar</h2>
                         <a class="f text-decoration-none z-50" href="./circuits_francais/nord/nord.php" target="_self"><button class="btn"> Explorer <i class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
@@ -263,7 +264,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="box p-2">
                         <img src="./circuits/pictures/Indri-indri.jpg" alt="Image">
-                        <h4>Madagascar Visite</h4>
+                        <h4>Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Voyager à l' Est de Madagascar</h2>
                         <a class="f text-decoration-none z-50" href="./circuits_francais/est/est.php" target="_self"><button class="btn">Explorer <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
@@ -273,9 +274,19 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="box p-2">
                         <img src="./logo/adansonia-1140x420.jpg" alt="Image">
-                        <h4> Madagascar Trip</h4>
+                        <h4> Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Voyager à l' Ouest de  Madagascar</h2>
                         <a class="f text-decoration-none z-50" href="./circuits_francais/ouest/ouest.php" target="_self"> <button class="btn">Explorer <i
+                                class="fa-solid fa-arrow-right"></i></button></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="box p-2">
+                        <img src="./logo/adansonia-1140x420.jpg" alt="Image">
+                        <h4> Madagascar Tour</h4>
+                        <h2> <i class="fa-solid fa-location-dot"></i> Aventures tour et boucles</h2>
+                        <a class="f text-decoration-none z-50" href="./circuits_francais/aventures/adventures.php" target="_self"> <button class="btn">Explorer <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -347,7 +358,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
+                <div class="col-12 col-md-3 mt-md-5 mt-lg-0 mx-0">
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Circuits</h1>
                         <ul class="text-center">
@@ -359,9 +370,9 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-11 col-lg-3">
                     <div class="tour">
-                        <h1 class="text-light text-center mt-5 mt-lg-0">Autre circuit</h1>
+                        <h1 class="text-light text-center mt-5 mt-lg-0" id="a">Autre circuit</h1>
                         <ul class="text-center mx-0">
                             <a class="text-decoration-none" href="./circuits_francais/aventures/adventures.php"><li>Aventures Tours</li></a>
                         </ul>
@@ -371,7 +382,7 @@
 
             <div class="row mt-5" id="row2">
                     <div class="border"></div>
-                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Contact us: </h1></div>
+                    <div class="col-12 col-lg-3 col-md-12"><h1 class=" text-start text-md-center text-lg-start text-light">Nous contacter: </h1></div>
                     <div class="col-9 -ml-2 col-md-6 col-lg-3 text-center" id="ii1">
                         <div class="phone text-light">
                             <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45

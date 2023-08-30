@@ -114,6 +114,7 @@ if (isset($_POST['send'])){
               <li><a class="dropdown-item" href="#">Circuit Sud</a></li>
               <li><a class="dropdown-item" href="./../../circuits_francais/est/est.php">Circuit Est</a></li>
               <li><a class="dropdown-item" href="./../../circuits_francais/ouest/ouest.php">Circuit Ouest</a></li>
+              <li><a class="dropdown-item" href="./../aventures/adventures.php">Circuit Adventures</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -1006,7 +1007,7 @@ if (isset($_POST['send'])){
         </div>
         <div class="col-12 col-lg-3 col-md-9">
           <div class="phone text-light" id="location">
-            <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
+          <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
           </div>
 
         </div>

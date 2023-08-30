@@ -107,10 +107,11 @@ if (isset($_POST['send'])){
               <i class="fa-solid fa-car text-dark"></i> Our tour
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="./../south/south.php">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.php">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="#">NORTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../south/south.php">SOUTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../weast/weast.php">WEAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -720,9 +721,9 @@ The water is clear with his white beach and beautiful sand bar.
           <h1 class="text-light text-center text-md-start">Our tours</h1>
           <ul class="text-center">
            <a href="#"  class="text-decoration-none"> <li>North Tour</li></a>
-           <a href="./../south/south.html"  class="text-decoration-none"> <li>South Tour</li></a>
-            <a href="./../east/east.html"  class="text-decoration-none"><li>East Tour</li></a>
-              <a href="./../weast/weast.html"  class="text-decoration-none"><li>Weast Tour</li></a>
+           <a href="./../south/south.php"  class="text-decoration-none"> <li>South Tour</li></a>
+            <a href="./../east/east.PHP"  class="text-decoration-none"><li>East Tour</li></a>
+              <a href="./../weast/weast.php"  class="text-decoration-none"><li>Weast Tour</li></a>
           </ul>
         </div>
       </div>
@@ -732,7 +733,7 @@ The water is clear with his white beach and beautiful sand bar.
           <h1 class="text-light text-center mt-5 mt-lg-0">Other tour</h1>
 
           <ul class="text-center mx-0">
-              <a class="text-decoration-none" href="./../adventures/adventures.html"><li>Adventures tours</li></a>
+              <a class="text-decoration-none" href="./../adventures/adventures.php"><li>Adventures tours</li></a>
            </ul>
                         
 
@@ -757,7 +758,7 @@ The water is clear with his white beach and beautiful sand bar.
       </div>
       <div class="col-12 col-lg-3 col-md-9">
         <div class="phone text-light" id="location">
-          <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
+        <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
         </div>
 
       </div>

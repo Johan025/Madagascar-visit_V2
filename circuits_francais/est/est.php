@@ -107,6 +107,7 @@ if (isset($_POST['send'])){
               <li><a class="dropdown-item" href="./../../circuits_francais/sud/sud.php">Circuit Sud</a></li>
               <li><a class="dropdown-item" href="#">Circuit Est</a></li>
               <li><a class="dropdown-item" href="./../../circuits_francais/ouest/ouest.php">Circuit Ouest</a></li>
+              <li><a class="dropdown-item" href="./../adventures/adventures.php">Circuit Adventures</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -451,7 +452,7 @@ if (isset($_POST['send'])){
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="email">
               <input type="text" name="name" class="w-100" placeholder="nom" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="commentaire" id="coms">
+              <textarea type="text" name="coms" class="w-100" placeholder="commentaires" id="coms"></textarea>
               <button type="submit" name="send" class="btn p-2">Envoyer</button>
             </div>
           </form>
@@ -529,7 +530,7 @@ if (isset($_POST['send'])){
                     </div>
                     <div class="col-12 col-lg-3 col-md-9">
                         <div class="phone text-light" id="location">
-                            <i class="fa-solid fa-location-dot text-light"></i></i></i>  LOT III A 40 D TER
+                        <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
                         </div>
                         
                     </div>
@@ -539,7 +540,7 @@ if (isset($_POST['send'])){
         <div class="copryght">
                  <div class="container">
                     <div class="row">
-                        <div class="col-12"><h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Compagny  |  fait par Johan</h3></div>
+                        <div class="col-12"><h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Compagny  |  fait par JohanEmades</h3></div>
                  </div>
         </div>
     </footer>

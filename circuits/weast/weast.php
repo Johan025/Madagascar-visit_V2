@@ -104,14 +104,15 @@ if (isset($_POST['send'])){
               <i class="fa-solid fa-car text-dark"></i> Our tour
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../north/north.php">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="./../south/south.php">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="#">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="./../north/north.php">NORTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../south/south.php">SOUTH Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="#">WEAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.php#"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
+            <a class="nav-link  text-dark" href="../../index.php#book"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
           </li>
           <li class="nav-item">
             <a class="nav-link  text-dark" href="../../index.php#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
@@ -122,7 +123,7 @@ if (isset($_POST['send'])){
               <img src="./../../logo/ang.jpg" class="drap" alt=""> English
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../../circuits_francais/ouest/ouest.html"> <img src="./../../pictures/francais.png" class="drap"
+              <li><a class="dropdown-item" href="./../../circuits_francais/ouest/ouest.php"> <img src="./../../pictures/francais.png" class="drap"
                     alt=""> French</a></li>
             </ul>
           </li>
@@ -801,7 +802,7 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
               <div class="row gy-5">
                 <input type="email" name="email" class="w-100" placeholder="Your email">
                 <input type="text" name="name" class="w-100" placeholder="Your name" id="name">
-                <input type="text" name="coms" class="w-100" placeholder="Your comments" id="coms">
+                <textarea type="text" name="coms" class="w-100" placeholder="Your comments" id="coms"></textarea>
                 <button type="submit" name="send" class="btn p-2">Send</button>
               </div>
             </form>
@@ -866,7 +867,7 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
             <div class="tour">
               <h1 class="text-light text-center mt-5 mt-lg-0">Other Page</h1>
               <ul class="text-center mx-0">
-                <a class="text-decoration-none" href="../adventures/adventures.html"><li>Adventures tours</li></a>
+                <a class="text-decoration-none" href="../adventures/adventures.php"><li>Adventures tours</li></a>
             </ul>
 
             </div>
@@ -890,7 +891,7 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
           </div>
           <div class="col-12 col-lg-3 col-md-9">
             <div class="phone text-light" id="location">
-              <i class="fa-solid fa-location-dot text-light"></i></i></i> email: lovasson@yahoo.fr
+            <i class="icon fa-brands fa-whatsapp text-light"></i> +261(0)347344045
             </div>
 
           </div>

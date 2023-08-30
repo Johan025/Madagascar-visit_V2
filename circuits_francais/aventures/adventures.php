@@ -109,6 +109,7 @@ if (isset($_POST['send'])){
               <li><a class="dropdown-item" href="./../sud/sud.php">Circuit SOUTH</a></li>
               <li><a class="dropdown-item" href="./../est/est.php">Circuit EAST</a></li>
               <li><a class="dropdown-item" href="./../ouest/ouest.php">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="#">Circuit Aventures</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -125,7 +126,7 @@ if (isset($_POST['send'])){
                   <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./../../circuits/adventures/adventures.html"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+                  <li><a class="dropdown-item" href="./../../circuits/adventures/adventures.php"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
                 </ul>
               </li>
         </ul>
@@ -137,7 +138,7 @@ if (isset($_POST['send'])){
     <div class="w-100" id="couv_"><img src="../pictures/COUVERTURE_EST.jpg" class="w-100"></div>
     <div class="w-100" id="couv_1"><img src="../pictures/EST.jpg" class="w-100"></div>
 
-    <h1 class="text-center">Circuit Aventures & Circuits boucles</h1>
+    <h1 class="text-center">Circuit Aventures & Circuit boucles</h1>
 
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
@@ -476,7 +477,7 @@ if (isset($_POST['send'])){
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="email">
               <input type="text" name="name" class="w-100" placeholder="nom" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="commentaires" id="coms">
+              <textarea type="text" name="coms" class="w-100" placeholder="commentaires" id="coms"></textarea>
               <button type="submit" name="send" class="btn p-2">Send</button>
             </div>
           </form>

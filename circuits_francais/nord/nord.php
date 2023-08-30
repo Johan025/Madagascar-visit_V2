@@ -112,6 +112,7 @@ if (isset($_POST['send'])){
               <li><a class="dropdown-item" href="./../sud/sud.php">Circuit Sud</a></li>
               <li><a class="dropdown-item" href="./../est/est.php">Circuit Est</a></li>
               <li><a class="dropdown-item" href="./../ouest/ouest.php">Circuit Ouest</a></li>
+              <li><a class="dropdown-item" href="./../aventures/adventures.php">Circuit Aventures</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -696,7 +697,7 @@ if (isset($_POST['send'])){
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="email">
               <input type="text" name="name" class="w-100" placeholder="nom" id="name">
-              <input type="text" name="coms" class="w-100" placeholder="commentaire" id="coms">
+              <textarea type="text" name="coms" class="w-100" placeholder="commentaires" id="coms"></textarea>
               <button type="submit" name="send" class="btn p-2">Send</button>
             </div>
           </form>
@@ -741,7 +742,7 @@ if (isset($_POST['send'])){
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Circuits</h1>
                         <ul class="text-center">
-                            <a class="text-decoration-none" href="./../nord/nord.php"><li>Nord</li></a>
+                            <a class="text-decoration-none" href="#"><li>Nord</li></a>
                             <a  class="text-decoration-none" href="./../sud/sud.php"><li>Sud</li></a>
                             <a class="text-decoration-none" href="./../est/est.php"><li>Est</li></a>
                             <a class="text-decoration-none" href="./../ouest/ouest.php"><li>Ouest</li></a>
@@ -761,7 +762,7 @@ if (isset($_POST['send'])){
 
             <div class="row mt-5" id="row2">
                     <div class="border"></div>
-                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Contact us: </h1></div>
+                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Nous contacter: </h1></div>
                     <div class="col-9 -ml-2 col-md-6 col-lg-3 text-center" id="ii1">
                         <div class="phone text-light">
                             <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45

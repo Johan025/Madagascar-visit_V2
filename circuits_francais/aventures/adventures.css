@@ -849,6 +849,7 @@ footer .tour {
 footer .tour h1 {
   font-size: calc(0.9rem + 1.2vw);
   font-weight: bolder;
+  margin-left: 1rem;
   font-family: "Acme", sans-serif;
 }
 footer .tour ul {
