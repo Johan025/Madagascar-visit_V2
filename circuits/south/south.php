@@ -42,6 +42,21 @@
 
 <?php
 
+function validerEmail($email) {
+
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $domain = explode('@', $email)[1];
+
+    if (getmxrr($domain, $mxhosts)) {
+        return true; // L'adresse e-mail est valide
+    } else {
+        return false; // Le domaine de messagerie n'a pas d'enregistrements MX
+    }
+} else {
+    return false; // L'adresse e-mail a une syntaxe incorrecte
+}
+}
+
 $bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
 
 $bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
@@ -55,9 +70,7 @@ if (isset($_POST['send'])){
     $date = date("Y-m-d H:i:s");
     
 
-  if (isset($email) && isset($name) && isset($coms)){
-
-    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (validerEmail($email)) {
     $requete1=$bd ->prepare('INSERT INTO md_comments(comment_author,comment_author_email,comment_content,comment_date) VALUES(:nom, :adresse_email, :coms, :date)');
     $requete1->bindvalue(':nom', $name);
     $requete1->bindvalue(':adresse_email', $email);
@@ -65,17 +78,9 @@ if (isset($_POST['send'])){
    $requete1->bindvalue(':date', $date);
    $requete1 ->execute();
 
-   echo" <script type=\"text/javascript\">alert ('message envoyé')</script>";
+   echo" <script type=\"text/javascript\">alert ('commentaire envoyé')</script>";
   }
 }
-
-  else {
-    echo "case vide";
-   
-  }
-  
-  }
-
   ?> 
 
 
@@ -966,7 +971,7 @@ if (isset($_POST['send'])){
           <h1 id="h_comments">Leave us a comments</h1>
           <div class="borde2"></div>
 
-          <form action="" method="POST">
+          <form action="" method="POST" onsubmit="return checkWordCount(this, 120);">
             <div class="row gy-5">
               <input type="email" name="email" class="w-100" placeholder="Your email">
               <input type="text" name="name" class="w-100" placeholder="Your name" id="name">
@@ -1098,6 +1103,19 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="./map.js"></script>
   <script>
+
+    
+function checkWordCount(form, maxWords) {
+      var textarea = form.querySelector('#coms');
+            var words = textarea.value.split(/\s+/); // Diviser le texte en mots en utilisant l'espace comme délimiteur
+            var wordCount = words.length;
+
+            if (wordCount > maxWords) {
+               alert('Enter 120 words maximum');
+               event.preventDefault(); 
+            
+        }
+      }
     document.addEventListener('DOMContentLoaded', function () {
       const scrollButtons = document.querySelectorAll('.scroll');
 

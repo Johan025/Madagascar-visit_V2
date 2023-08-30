@@ -93,6 +93,8 @@
   const Bekopaka = [-19.7433 , 44.3833 ];
    const Morondava = [ -20.2847 , 44.3178];
    const Bemaraha=[ -19.1522 , 44.3917];
+   const Kirindy=[ -20.5000 , 44.4000];
+
    
 
 const places = [
@@ -121,6 +123,10 @@ const places = [
   {
     name: 'Bemaraha',
     location:Bemaraha,
+  },
+  {
+    name: 'Kirindy',
+    location:Kirindy,
   },
   
 

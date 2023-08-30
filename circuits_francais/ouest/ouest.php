@@ -36,6 +36,50 @@
 
 <body>
 
+<?php
+
+function validerEmail($email) {
+
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $domain = explode('@', $email)[1];
+
+    if (getmxrr($domain, $mxhosts)) {
+        return true; // L'adresse e-mail est valide
+    } else {
+        return false; // Le domaine de messagerie n'a pas d'enregistrements MX
+    }
+} else {
+    return false; // L'adresse e-mail a une syntaxe incorrecte
+}
+}
+
+$bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
+
+$bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+
+if (isset($_POST['send'])){
+    
+    var_dump($_GET['submit']); 
+    $email=$_POST['email'];
+    $name=$_POST['name'];
+    $coms=$_POST['coms'];
+    $date = date("Y-m-d H:i:s");
+    
+
+    if (validerEmail($email)) {
+    $requete1=$bd ->prepare('INSERT INTO md_comments(comment_author,comment_author_email,comment_content,comment_date) VALUES(:nom, :adresse_email, :coms, :date)');
+    $requete1->bindvalue(':nom', $name);
+    $requete1->bindvalue(':adresse_email', $email);
+   $requete1->bindvalue(':coms', $coms);
+   $requete1->bindvalue(':date', $date);
+   $requete1 ->execute();
+
+   echo" <script type=\"text/javascript\">alert ('commentaire envoyé')</script>";
+  }
+}
+  ?> 
+
+
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
     <div class="container-fluid">
       <!-- Logo ou titre -->
@@ -51,7 +95,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i> Accueil</a>
+            <a class="nav-link text-dark" href="./../../index_francais.php"><i class="fa-solid fa-house  text-dark"></i> Accueil</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -61,20 +105,20 @@
               <i class="fa-solid fa-car text-dark"></i> Circuits
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../north/north.html">Circuit Nord</a></li>
-              <li><a class="dropdown-item" href="./../south/south.html">Circuit Sud</a></li>
-              <li><a class="dropdown-item" href="./../east/east.html">Circuit Est</a></li>
+              <li><a class="dropdown-item" href="./../nord/nord.php">Circuit Nord</a></li>
+              <li><a class="dropdown-item" href="./../sud/sud.php">Circuit Sud</a></li>
+              <li><a class="dropdown-item" href="./../est/est.php">Circuit Est</a></li>
               <li><a class="dropdown-item" href="#">Circuit Ouest</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> Livre d'or</a>
+            <a class="nav-link  text-dark" href="../../index_francais.php#book"><i class="fa-solid fa-book text-dark"></i> Livre d'or</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i class="fa-solid fa-info"></i></strong> A propos</a>
+            <a class="nav-link  text-dark" href="../../index_francais.php#about"><strong><i class="fa-solid fa-info"></i></strong> A propos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle text-dark" href="../../index_francais.php#tour" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
             </a>
@@ -752,7 +796,7 @@
             <h1 id="h_comments">Laisser un commentaire</h1>
             <div class="borde2"></div>
 
-            <form action="" method="POST">
+            <form action="" method="POST"  onsubmit="return checkWordCount(this, 120);">
               <div class="row gy-5">
                 <input type="email" name="email" class="w-100" placeholder="email">
                 <input type="text" name="name" class="w-100" placeholder="nom" id="name">
@@ -870,6 +914,18 @@
     <script src="./map.js"></script>
 
     <script>
+
+function checkWordCount(form, maxWords) {
+      var textarea = form.querySelector('#coms');
+            var words = textarea.value.split(/\s+/); // Diviser le texte en mots en utilisant l'espace comme délimiteur
+            var wordCount = words.length;
+
+            if (wordCount > maxWords) {
+               alert('Enter 120 words maximum');
+               event.preventDefault(); 
+            
+        }
+      }
 
       window.onscroll = function () { scrollFunction() };
       const up_ = document.querySelector('.up');
