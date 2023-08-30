@@ -764,7 +764,7 @@ The water is clear with his white beach and beautiful sand bar.
       <div class="row">
         <div class="col-12">
           <h3 class="text-center text-md-center mt-3  text-light">Copyright 2023 Madagascar Visit Compagny | fait par
-            Johan</h3>
+            JohanEmades</h3>
         </div>
       </div>
     </div>

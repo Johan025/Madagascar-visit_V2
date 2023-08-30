@@ -78,7 +78,7 @@
 
     .sainte-marie{
         position: relative;
-        top: 14rem;
+        top: 4rem;
 
         .row {
             margin-left: 6%;
@@ -157,7 +157,7 @@
 
     .sainte-marie{
         position: relative;
-        top: 21.6rem;
+        top: 8rem;
 
 
         h3 {
@@ -176,7 +176,7 @@
         #classic_h1 {
             font-family: 'Acme', sans-serif;
             font-weight: 900;
-            font-size: 47px;
+            font-size: 43px;
             position: relative;
             left: 1.9rem;
             color: #36454f;
@@ -192,6 +192,11 @@
                 //  background-color:  #fef250,;
                 div {
                     background-color: #a5a5a554;
+
+                    #s{
+                        color: rgb(209, 118, 6);
+                        font-size: calc(1.2rem + 1.7vw);
+                    }
 
                     h2 {
                         color: rgb(51, 44, 48);
@@ -245,7 +250,7 @@
 
     .sainte-marie {
         position: relative;
-        top: 145vw;
+        top: 55vw;
 
         h3 {
             color: #7851a9;
@@ -278,6 +283,11 @@
                 div {
 
                     background-color: #a5a5a554;
+
+                    #s{
+                        color: rgb(209, 118, 6);
+                        font-size: calc(1.8rem + 1.7vw);
+                    }
 
                     h2 {
                         color: rgb(51, 44, 48);

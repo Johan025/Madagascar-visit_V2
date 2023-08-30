@@ -88,7 +88,7 @@ if (isset($_POST['send'])){
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i> Home</a>
+            <a class="nav-link text-dark" href="./../../index.php"><i class="fa-solid fa-house  text-dark"></i> Home</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -105,14 +105,19 @@ if (isset($_POST['send'])){
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-sm text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
+            <a class="nav-link text-sm text-dark" href="../../index.php#book"><i class="fa-solid fa-book text-dark"></i> GUESTBOOK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
+            <a class="nav-link  text-dark" href="../../index.php#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
           </li>
-          <li class="nav-item">
-            <a class="scroll nav-link  text-dark"  style="cursor:pointer" data-target="contact"><i class="fa-sharp fa-regular fa-address-book text-dark"></i>
-              Contact</a>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="../../index.php#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./../../logo/ang.jpg" class="drap" alt=""> English
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./../../circuits_francais/est/est.php"> <img src="./../../pictures/francais.png" class="drap" alt="">  French</a></li>
+                </ul>
           </li>
         </ul>
       </div>
@@ -408,10 +413,30 @@ if (isset($_POST['send'])){
       <div class="row gy-5">
         <div class=" col-10 w-100 col-md-7">
           <div class="bg-md-danger p-3 rounded">
-            <h2><i class="fa-solid fa-location-dot"></i> Sainte-Marie</h2>
+            <h2 id="s"><i class="fa-solid fa-location-dot"></i> Sainte-Marie</h2>
             <p class="p-1">
               Sainte Marie's Island with his cliché of tropical ,like a post card offers you a endless long beaches overhung by coconut palms, fisheman village.
               It's a place of appointement for the whales
+            </p>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7 mt-6">
+          <div class="bg-md-danger bg-light p-3 rounded">
+
+            <h2><i class="fa-solid fa-circle fa-flip all"></i> Les activités possibles à Sainte-Marie: </h2>
+          </div>
+        </div>
+
+        <div class=" col-10 w-100 col-md-7 -mt-5">
+          <div class="bg-light p-3 rounded">
+
+            <p class="p-1">
+             <br> • Surf et plongée sous marine 
+             <br> • Location de motocyclette ou quad pour visiter le nord de lîle où se trouve la piscine naturelle , comme l' aquarium 
+             <br> • Sainte Marie est seulement 50 km de long et 7km de large 
+             <br> • Observation des baleines à bosses de juillet à septembre
+             <br> • Visite des cimétiéres de pirates 
             </p>
           </div>
         </div>
@@ -480,18 +505,20 @@ if (isset($_POST['send'])){
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Our tours</h1>
                         <ul class="text-center">
-                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>North Tour</li></a>
-                            <a  class="text-decoration-none" href="./circuits/south/south.html"><li>South Tour</li></a>
-                            <a class="text-decoration-none" href="./circuits/east/east.html"><li>East Tour</li></a>
-                            <a class="text-decoration-none" href="./circuits/weast/weast.html"><li>Weast Tour</li></a>
+                            <a class="text-decoration-none" href="./../north/north.php"><li>North Tour</li></a>
+                            <a  class="text-decoration-none" href="./../south/south.php"><li>South Tour</li></a>
+                            <a class="text-decoration-none" href="#"><li>East Tour</li></a>
+                            <a class="text-decoration-none" href="./../weast/weast.php"><li>Weast Tour</li></a>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-11 col-lg-3">
                     <div class="tour">
-                        <h1 class="text-light text-center mt-5 mt-lg-0">Follow our page</h1>
-                           
+                        <h1 class="text-light text-center mt-5 mt-lg-0">Other page</h1>
+                        <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="./../adventures/adventures.php"><li>Adventures tours</li></a>
+                        </ul>
                     </div>
                 </div>
             </div>

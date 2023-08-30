@@ -77,10 +77,10 @@
                   <i class="fa-solid fa-car text-dark"></i> Circuits
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./circuits/north/north.php">Circuit Nord</a></li>
-                  <li><a class="dropdown-item" href="./circuits/south/south.php">Circuit Sud</a></li>
-                  <li><a class="dropdown-item" href="./circuits/east/east.php">Circuit Est</a></li>
-                  <li><a class="dropdown-item" href="./circuits/weast/weast.php">Circuit Ouest</a></li>
+                  <li><a class="dropdown-item" href="./circuits_francais/nord/nord.php">Circuit Nord</a></li>
+                  <li><a class="dropdown-item" href="./circuits_francais/sud/sud.php">Circuit Sud</a></li>
+                  <li><a class="dropdown-item" href="./circuits_francais/est/est.php">Circuit Est</a></li>
+                  <li><a class="dropdown-item" href="./circuits_francais/ouest/ouest.php">Circuit Ouest</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -349,7 +349,7 @@
                 </div>
                 <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
                     <div class="tour">
-                        <h1 class="text-light text-center text-md-start">Our tours</h1>
+                        <h1 class="text-light text-center text-md-start">Circuits</h1>
                         <ul class="text-center">
                             <a class="text-decoration-none" href="./circuits_francais/nord/nord.php"><li>Nord</li></a>
                             <a  class="text-decoration-none" href="./circuits_francais/sud/sud.php"><li>Sud</li></a>
@@ -363,7 +363,7 @@
                     <div class="tour">
                         <h1 class="text-light text-center mt-5 mt-lg-0">Autre circuit</h1>
                         <ul class="text-center mx-0">
-                            <a class="text-decoration-none" href="./circuits/adventures/adventures.html"><li>Aventures Tours</li></a>
+                            <a class="text-decoration-none" href="./circuits_francais/aventures/adventures.php"><li>Aventures Tours</li></a>
                         </ul>
                     </div>
                 </div>

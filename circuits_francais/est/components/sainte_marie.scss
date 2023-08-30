@@ -92,16 +92,20 @@
                     background-color: #a5a5a554;
                     padding: 0;
 
-                    h2 {
+                    #s{
                         color: rgb(209, 118, 6);
-                        font-family: 'abril_fatfaceregular';
+                        font-size: calc(1.2rem + 1.7vw);
+                    }
+
+                    h2 {
+                        color: rgb(51, 44, 48);
+                        font-family: 'Signika', sans-serif;
                         font-weight: bold;
-                        font-size: calc(1.1rem + 1.7vw);
+                        font-size: calc(0.98rem + 1.7vw);
 
                         i {
-                            color: rgb(209, 118, 6);
+                            color: rgb(240, 136, 8);
                         }
-
                     }
 
                     p {
@@ -283,6 +287,11 @@
                 div {
 
                     background-color: #a5a5a554;
+
+                    #s{
+                        color: rgb(209, 118, 6);
+                        font-size: calc(1.2rem + 1.7vw);
+                    }
 
                     h2 {
                         color: rgb(51, 44, 48);

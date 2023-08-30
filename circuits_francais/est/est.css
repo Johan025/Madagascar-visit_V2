@@ -64,6 +64,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -346,6 +352,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 @font-face {
   font-family: "coneria_script_demoregular";
   src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
@@ -557,6 +569,12 @@ html::-webkit-scrollbar {
 }
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 b {
@@ -1418,14 +1436,18 @@ b {
     background-color: rgba(165, 165, 165, 0.3294117647);
     padding: 0;
   }
-  .sainte-marie .row div div h2 {
+  .sainte-marie .row div div #s {
     color: rgb(209, 118, 6);
-    font-family: "abril_fatfaceregular";
+    font-size: calc(1.2rem + 1.7vw);
+  }
+  .sainte-marie .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
     font-weight: bold;
-    font-size: calc(1.1rem + 1.7vw);
+    font-size: calc(0.98rem + 1.7vw);
   }
   .sainte-marie .row div div h2 i {
-    color: rgb(209, 118, 6);
+    color: rgb(240, 136, 8);
   }
   .sainte-marie .row div div p {
     font-size: calc(0.6rem + 0.95vw);
@@ -1773,7 +1795,7 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 72rem;
+    height: 74rem;
     position: relative;
     top: 29rem;
   }
@@ -1863,9 +1885,9 @@ footer .copryght .row h3 {
 }
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 45rem;
+    height: 50rem;
     position: relative;
-    top: 15rem;
+    top: 19rem;
   }
   footer .follow {
     position: relative;
