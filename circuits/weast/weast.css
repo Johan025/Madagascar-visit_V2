@@ -64,6 +64,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -362,6 +368,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.drap {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 b {
   color: rgb(62, 56, 56);
 }
@@ -461,7 +473,7 @@ b {
     top: -3rem;
   }
   .weast .desc {
-    left: -3vw;
+    left: 0vw;
     width: 90%;
   }
 }
@@ -581,7 +593,7 @@ b {
 }
 .weast_day {
   position: relative;
-  top: 7vw;
+  top: 2vw;
 }
 .weast_day h1 {
   font-family: "Acme", sans-serif;
@@ -654,7 +666,7 @@ b {
   }
   .weasth_day {
     position: relative;
-    top: 2.6rem;
+    top: -2.6rem;
   }
   h3 {
     color: #7851a9;
@@ -739,7 +751,7 @@ b {
   }
   .weast_day {
     position: relative;
-    top: 2.6rem;
+    top: -0.6rem;
   }
   .weast_day h3 {
     color: #7851a9;
@@ -817,7 +829,7 @@ b {
   }
   #plan1 {
     position: relative;
-    top: 9rem;
+    top: 4rem;
     font-size: calc(1.7rem + 1.5vw);
   }
   .borde1 {
@@ -826,7 +838,7 @@ b {
     margin-left: 44%;
     text-align: center;
     position: relative;
-    top: 9.4rem;
+    top: 5.4rem;
   }
   .weast_day {
     position: relative;
@@ -850,7 +862,7 @@ b {
   .weast_day .row {
     position: relative;
     left: 0%;
-    top: 12.4rem;
+    top: 7.8rem;
   }
   .weast_day .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
@@ -877,11 +889,11 @@ b {
     font-size: calc(0.95rem + 0.95vw);
   }
 }
-.with-singy {
+.with-tsingy {
   position: relative;
   top: 7vw;
 }
-.with-singy h1 {
+.with-tsingy h1 {
   font-family: "Acme", sans-serif;
   font-weight: 900;
   font-size: calc(1.275rem + 1.5vw);
@@ -944,7 +956,7 @@ b {
   }
   .with-tsingy {
     position: relative;
-    top: 10rem;
+    top: 5rem;
   }
   .with-tsingy .row {
     margin-left: 6%;
@@ -1008,7 +1020,7 @@ b {
   }
   .with-tsingy {
     position: relative;
-    top: 11.6rem;
+    top: 4rem;
   }
   .with-tsingy h3 {
     color: #7851a9;
@@ -1021,7 +1033,7 @@ b {
     color: #7851a9;
   }
   .with-tsingy #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: 47px;
     position: relative;
@@ -1085,7 +1097,7 @@ b {
   }
   .with-tsingy {
     position: relative;
-    top: 73vw;
+    top: 33vw;
   }
   .with-tsingy h3 {
     color: #7851a9;
@@ -1097,14 +1109,14 @@ b {
     color: #7851a9;
   }
   .with-tsingy #classic_h1 {
-    font-family: "acmeregular";
+    font-family: "Acme", sans-serif;
     font-weight: 900;
     font-size: calc(1.7rem + 1.5vw);
     color: #36454f;
   }
   .with-tsingy #plan1 {
     position: relative;
-    top: 9rem;
+    top: 4rem;
     font-family: "Acme", sans-serif;
     font-size: calc(1.7rem + 1.5vw);
   }
@@ -1114,12 +1126,12 @@ b {
     margin-left: 44%;
     text-align: center;
     position: relative;
-    top: 9.4rem;
+    top: 5.4rem;
   }
   .with-tsingy .row {
     position: relative;
     left: 0%;
-    top: 12.4rem;
+    top: 7.8rem;
   }
   .with-tsingy .row div div {
     background-color: rgba(165, 165, 165, 0.3294117647);
@@ -1198,7 +1210,7 @@ b {
 @media (max-width: 575px) {
   .comments {
     position: relative;
-    top: 38rem;
+    top: 42rem;
     padding: 4px;
   }
 }
@@ -1234,7 +1246,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 35.6rem;
+    top: 38.6rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1251,6 +1263,353 @@ b {
     border-radius: 18px;
     z-index: 20;
     border: 4px solid;
+  }
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("../../..//abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acmeregular";
+  src: url("../../../fonts/acme-regular-webfont.woff2") format("woff2"), url("../../../fonts/") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.point {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5.2rem;
+  box-shadow: 5px 15px 45px rgb(209, 118, 6);
+  left: 0.6rem;
+  border-radius: 50%;
+  background-color: rgb(209, 118, 6);
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+.tsingy {
+  position: relative;
+  top: 7vw;
+}
+.tsingy h1 {
+  font-family: "Acme", sans-serif;
+  font-weight: 900;
+  font-size: calc(1.275rem + 1.5vw);
+}
+
+#carouselExampleControls {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
+#plan1 {
+  position: relative;
+  top: 9rem;
+  font-family: "Acme", sans-serif;
+}
+
+.borde1 {
+  width: 3.4rem;
+  height: 6px;
+  margin-left: 48%;
+  position: relative;
+  top: 9.4rem;
+  border-radius: 18px;
+  background-color: rgb(209, 118, 6);
+}
+
+@media (min-width: 576px) {
+  #carouselExampleControls {
+    width: 82%;
+    height: 40vh;
+    border-radius: 18px;
+    margin-left: 9.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 40vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 40vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  #plan1 {
+    position: relative;
+    top: 4.6rem;
+  }
+  .borde1 {
+    position: relative;
+    top: 5.2rem;
+    width: 2rem;
+  }
+  #point {
+    position: relative;
+    margin-left: -23rem;
+    top: 5.5rem;
+  }
+  .tsingy {
+    position: relative;
+    top: 7.6rem;
+  }
+  h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    font-weight: bold;
+  }
+  h3 i {
+    color: #7851a9;
+  }
+  #classic_h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    color: #36454f;
+  }
+  .tsingy .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .tsingy .row div {
+    width: 91%;
+  }
+  .tsingy .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .tsingy .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.78rem + 1.7vw);
+  }
+  .tsingy .row div div h2 i {
+    color: rgb(240, 136, 8);
+  }
+  .tsingy .row div div p {
+    font-size: calc(0.7rem + 0.95vw);
+  }
+  .tsingy .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1rem + 1.7vw);
+  }
+  .tsingy .row div div h4 i {
+    color: rgb(209, 118, 6);
+  }
+}
+@media (min-width: 992px) {
+  .point {
+    top: 5.2rem;
+    left: 0.3rem;
+  }
+  #point {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+  #carouselExampleControls {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .tsingy {
+    position: relative;
+    top: 8.5rem;
+  }
+  .tsingy h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem;
+    font-weight: 800;
+  }
+  .tsingy h3 i {
+    color: #7851a9;
+  }
+  .tsingy #classic_h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .tsingy .row {
+    margin-left: 20.5%;
+    margin-top: 5rem;
+  }
+  .tsingy .row div {
+    width: 72%;
+  }
+  .tsingy .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .tsingy .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.38rem + 1.7vw);
+  }
+  .tsingy .row div div h2 i {
+    color: rgb(240, 136, 8);
+  }
+  .tsingy .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .tsingy .row div div h4 i {
+    color: rgb(209, 118, 6);
+  }
+  .tsingy .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
+  }
+}
+@media (max-width: 575px) {
+  #point {
+    position: relative;
+    margin-left: 0rem;
+    top: 5rem;
+  }
+  #carouselExampleControls {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControls #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  #plan1 {
+    position: relative;
+    top: 9rem;
+    font-size: calc(1.7rem + 1.5vw);
+  }
+  .borde1 {
+    width: 2.5rem;
+    height: 5.5px;
+    margin-left: 44%;
+    text-align: center;
+    position: relative;
+    top: 9.4rem;
+  }
+  .tsingy {
+    position: relative;
+    top: 69vw;
+  }
+  .tsingy h3 {
+    color: #7851a9;
+    position: relative;
+    top: 3.7rem;
+    font-weight: 800;
+  }
+  .tsingy h3 i {
+    color: #7851a9;
+  }
+  .tsingy #classic_h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: calc(1.7rem + 1.5vw);
+    color: #36454f;
+  }
+  .tsingy .row {
+    position: relative;
+    left: 0%;
+    top: 7.8rem;
+  }
+  .tsingy .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .tsingy .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1.19rem + 1.7vw);
+  }
+  .tsingy .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .tsingy .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1.5rem + 1.7vw);
+  }
+  .tsingy .row div div h4 i {
+    color: rgb(209, 118, 6);
+  }
+  .tsingy .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
   }
 }
 footer {
@@ -1345,9 +1704,9 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 72rem;
+    height: 74rem;
     position: relative;
-    top: 42.5rem;
+    top: 45.5rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1518,6 +1877,353 @@ footer .copryght .row h3 {
   }
   footer .copryght .row h3 {
     font-size: 23px;
+  }
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("../../..//abrilfatface-regular-webfont.woff2") format("woff2"), url("fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acmeregular";
+  src: url("../../../fonts/acme-regular-webfont.woff2") format("woff2"), url("../../../fonts/") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.point {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5.2rem;
+  box-shadow: 5px 15px 45px rgb(209, 118, 6);
+  left: 0.6rem;
+  border-radius: 50%;
+  background-color: rgb(209, 118, 6);
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+.baobab {
+  position: relative;
+  top: 7vw;
+}
+.baobab h1 {
+  font-family: "Acme", sans-serif;
+  font-weight: 900;
+  font-size: calc(1.275rem + 1.5vw);
+}
+
+#carouselExampleControls {
+  width: 58%;
+  height: 73vh;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner {
+  height: 73vh;
+  width: 100%;
+  border-radius: 18px;
+}
+#carouselExampleControls #inner img {
+  height: 73vh;
+  width: 58%;
+  border-radius: 18px;
+}
+
+#plan1 {
+  position: relative;
+  top: 9rem;
+  font-family: "Acme", sans-serif;
+}
+
+.borde1 {
+  width: 3.4rem;
+  height: 6px;
+  margin-left: 48%;
+  position: relative;
+  top: 9.4rem;
+  border-radius: 18px;
+  background-color: rgb(209, 118, 6);
+}
+
+@media (min-width: 576px) {
+  #carouselExampleControls {
+    width: 82%;
+    height: 40vh;
+    border-radius: 18px;
+    margin-left: 9.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 40vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 40vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  #plan1 {
+    position: relative;
+    top: 4.6rem;
+  }
+  .borde1 {
+    position: relative;
+    top: 5.2rem;
+    width: 2rem;
+  }
+  #point {
+    position: relative;
+    margin-left: -23rem;
+    top: 5.5rem;
+  }
+  .baobab {
+    position: relative;
+    top: 11.6rem;
+  }
+  h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    font-weight: bold;
+  }
+  h3 i {
+    color: #7851a9;
+  }
+  #classic_h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    color: #36454f;
+  }
+  .baobab .row {
+    margin-left: 6%;
+    margin-top: 5rem;
+  }
+  .baobab .row div {
+    width: 91%;
+  }
+  .baobab .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .baobab .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.78rem + 1.7vw);
+  }
+  .baobab .row div div h2 i {
+    color: rgb(240, 136, 8);
+  }
+  .baobab .row div div p {
+    font-size: calc(0.7rem + 0.95vw);
+  }
+  .baobab .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1rem + 1.7vw);
+  }
+  .baobab .row div div h4 i {
+    color: rgb(209, 118, 6);
+  }
+}
+@media (min-width: 992px) {
+  .point {
+    top: 5.2rem;
+    left: 0.3rem;
+  }
+  #point {
+    position: relative;
+    margin-left: 0%;
+    top: 5.5rem;
+  }
+  #carouselExampleControls {
+    width: 58%;
+    height: 73vh;
+    border-radius: 18px;
+    margin-left: 20.7%;
+  }
+  #carouselExampleControls #inner {
+    height: 73vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 73vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  .point {
+    position: relative;
+    left: 1.2rem;
+    top: 5.5rem;
+  }
+  .baobab {
+    position: relative;
+    top: 13.6rem;
+  }
+  .baobab h3 {
+    color: #7851a9;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem;
+    font-weight: 800;
+  }
+  .baobab h3 i {
+    color: #7851a9;
+  }
+  .baobab #classic_h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    position: relative;
+    left: 1.9rem;
+    color: #36454f;
+  }
+  .baobab .row {
+    margin-left: 20.5%;
+    margin-top: 5rem;
+  }
+  .baobab .row div {
+    width: 72%;
+  }
+  .baobab .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+    padding: 0;
+  }
+  .baobab .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.38rem + 1.7vw);
+  }
+  .baobab .row div div h2 i {
+    color: rgb(240, 136, 8);
+  }
+  .baobab .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(0.6rem + 1.7vw);
+  }
+  .baobab .row div div h4 i {
+    color: rgb(209, 118, 6);
+  }
+  .baobab .row div div p {
+    font-size: calc(0.5rem + 0.95vw);
+  }
+}
+@media (max-width: 575px) {
+  #point {
+    position: relative;
+    margin-left: 0rem;
+    top: 5rem;
+  }
+  #carouselExampleControls {
+    width: 95%;
+    height: 50vh;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 2.4vw;
+  }
+  #carouselExampleControls #inner {
+    height: 50vh;
+    width: 100%;
+    border-radius: 18px;
+  }
+  #carouselExampleControls #inner img {
+    height: 50vh;
+    width: 58%;
+    border-radius: 18px;
+  }
+  #plan1 {
+    position: relative;
+    top: 4rem;
+    font-size: calc(1.7rem + 1.5vw);
+  }
+  .borde1 {
+    width: 2.5rem;
+    height: 5.5px;
+    margin-left: 44%;
+    text-align: center;
+    position: relative;
+    top: 5.4rem;
+  }
+  .baobab {
+    position: relative;
+    top: 105vw;
+  }
+  .baobab h3 {
+    color: #7851a9;
+    position: relative;
+    top: 3.7rem;
+    font-weight: 800;
+  }
+  .baobab h3 i {
+    color: #7851a9;
+  }
+  .baobab #classic_h1 {
+    font-family: "Acme", sans-serif;
+    font-weight: 900;
+    font-size: calc(1.7rem + 1.5vw);
+    color: #36454f;
+  }
+  .baobab .row {
+    position: relative;
+    left: 0%;
+    top: 7.8rem;
+  }
+  .baobab .row div div {
+    background-color: rgba(165, 165, 165, 0.3294117647);
+  }
+  .baobab .row div div h2 {
+    color: rgb(51, 44, 48);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1.19rem + 1.7vw);
+  }
+  .baobab .row div div h2 i {
+    color: rgb(209, 118, 6);
+  }
+  .baobab .row div div h4 {
+    color: rgb(209, 118, 6);
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+    font-size: calc(1.5rem + 1.7vw);
+  }
+  .baobab .row div div h4 i {
+    color: rgb(209, 118, 6);
+  }
+  .baobab .row div div p {
+    font-size: calc(0.95rem + 0.95vw);
   }
 }
 * {

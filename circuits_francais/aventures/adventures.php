@@ -52,7 +52,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./../../index.html"><i class="fa-solid fa-house  text-dark"></i>
+            <a class="nav-link text-dark" href="./../../index_francais.php"><i class="fa-solid fa-house  text-dark"></i>
               Accueil</a>
           </li>
 
@@ -63,24 +63,29 @@
               <i class="fa-solid fa-car text-dark"></i> Circuits
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../north/north.php">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="./../south/south.php">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="#">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../weast/weast.php">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="./../nord/nord.php">Circuit NORTH</a></li>
+              <li><a class="dropdown-item" href="./../sud/sud.php">Circuit SOUTH</a></li>
+              <li><a class="dropdown-item" href="./../est/est.php">Circuit EAST</a></li>
+              <li><a class="dropdown-item" href="./../ouest/ouest.php">Circuit WEAST</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-sm text-dark" href="#"><i class="fa-solid fa-book text-dark"></i> Livre d' or</a>
+            <a class="nav-link text-sm text-dark" href="./../../index_francais.php#book"><i class="fa-solid fa-book text-dark"></i> Livre d' or</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="../../index.html#about"><strong><i
+            <a class="nav-link  text-dark" href="../../index_francais.php#about"><strong><i
                   class="fa-solid fa-info"></i></strong> A propos</a>
           </li>
-          <li class="nav-item">
-            <a class="scroll nav-link  text-dark" style="cursor:pointer" data-target="contact"><i
-                class="fa-sharp fa-regular fa-address-book text-dark"></i>
-              Contact</a>
-          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+
+                  <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./../../circuits/adventures/adventures.html"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+                </ul>
+              </li>
         </ul>
       </div>
     </div>
@@ -470,19 +475,22 @@
                 </div>
                 <div class="col-12 col-md-3 mt-md-5 mt-lg-0">
                     <div class="tour">
-                        <h1 class="text-light text-center text-md-start">Our tours</h1>
+                        <h1 class="text-light text-center text-md-start">Circuits</h1>
                         <ul class="text-center">
-                            <a class="text-decoration-none" href="./circuits/north/north.html"><li>Nord</li></a>
-                            <a  class="text-decoration-none" href="./circuits/south/south.html"><li>Sud</li></a>
-                            <a class="text-decoration-none" href="./circuits/east/east.html"><li>Est</li></a>
-                            <a class="text-decoration-none" href="./circuits/weast/weast.html"><li>Ouest</li></a>
+                            <a class="text-decoration-none" href="./../nord/nord.php"><li>Nord</li></a>
+                            <a  class="text-decoration-none" href="./../sud/sud.php"><li>Sud</li></a>
+                            <a class="text-decoration-none" href="./../est/est.php"><li>Est</li></a>
+                            <a class="text-decoration-none" href="./../ouest/ouest.php"><li>Ouest</li></a>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-12 col-lg-3">
                     <div class="tour">
-                        <h1 class="text-light text-center mt-5 mt-lg-0">Suivre notre page</h1>
+                        <h1 class="text-light text-center mt-5 mt-lg-0">Autre page</h1>
+                        <ul class="text-center mx-0">
+                            <a class="text-decoration-none" href="#"><li>Aventures tours</li></a>
+                        </ul>
                            
                     </div>
                 </div>

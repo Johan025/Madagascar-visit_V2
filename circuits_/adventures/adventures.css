@@ -888,7 +888,7 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 78rem;
+    height: 77rem;
     position: relative;
     top: 20rem;
   }
@@ -978,7 +978,7 @@ footer .copryght .row h3 {
 }
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 49rem;
+    height: 50rem;
     position: relative;
     top: 12rem;
   }
