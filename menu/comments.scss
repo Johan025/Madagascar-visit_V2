@@ -1,0 +1,206 @@
+
+.comments {
+  position: relative;
+  top: 12rem;
+  padding: 2px;
+  padding-bottom: 50px;
+  
+  left:30.5%;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.541);
+   
+    h1{
+       font-size: 36px;
+       margin-top: 3rem;
+       margin-left: 17%;
+       font-weight: 450;
+       font-family: 'Acme', sans-serif;
+    }
+
+    .borde2{
+      width: 6.6rem;
+      height: 6px;
+      border-radius: 18px;
+      margin-left: 38.5%;
+      margin-top: 1rem;
+      background-color: rgb(209, 118, 6);
+  }
+  
+
+    div{
+       margin-top: -0rem;
+       width: 74%;
+       margin-left: 5%;
+       padding-bottom: 4px;
+
+       input[type="email"]{
+          border: 1.5px solid;
+          border-radius: 16px;
+          padding: 6px;
+          width: 180%;
+          margin-left: 10%;
+          font-size: 16px;
+
+      }
+
+      #name{
+        border: 1.5px solid;
+        border-radius: 16px;
+        padding: 6px;
+        font-size: 16px;
+        margin-left: 10%;
+      }
+
+      #coms{
+          border: 1.5px solid;
+          border-radius: 16px;
+          padding: 6px;
+          padding-bottom: 8rem;
+          font-size: 16px;
+          margin-left: 10%;
+
+
+      }
+        button{
+          background-color: rgb(209, 118, 6);
+          margin-left: 10%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+  .comments {
+      position: relative;
+      top: 16rem;
+      padding: 4px;
+      padding-bottom: 30px;
+      width: 94%;
+      left: 2.9%;
+
+      h1{
+        font-size: 36px;
+        margin-top: 3rem;
+        margin-left: 3%;
+        font-weight: 450;
+        font-family: 'Acme', sans-serif;
+     }
+ 
+     .borde2{
+       width: 6.6rem;
+       height: 6px;
+       border-radius: 18px;
+       margin-left: 3.5%;
+       margin-top: 1rem;
+       background-color: rgb(209, 118, 6);
+   }
+   
+ 
+     div{
+        margin-top: -0rem;
+        margin-left: 5%;
+        padding-bottom: 4px;
+        width: 89%;
+ 
+        input[type="email"]{
+           border: 1.5px solid;
+           width: 150%;
+           border-radius: 16px;
+           padding: 6px;
+           width: 180%;
+           margin-left: 1%;
+           font-size: 16px;
+ 
+       }
+ 
+       #name{
+         border: 1.5px solid;
+         border-radius: 16px;
+         padding: 6px;
+         font-size: 16px;
+         margin-left: 1%;
+       }
+ 
+       #coms{
+           border: 1.5px solid;
+           border-radius: 16px;
+           padding: 6px;
+           padding-bottom: 8rem;
+           font-size: 16px;
+           margin-left: 1%;
+ 
+ 
+       }
+         button{
+           background-color: rgb(209, 118, 6);
+           margin-left: 1%;
+         }
+     }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+  .comments {
+     text-align: center;
+     margin-left: -10%;
+     width: 60%;
+     margin-top: 2rem;
+
+     h1{
+      font-size: 36px;
+      margin-top: 3rem;
+      margin-left: 0%;
+      font-weight: 450;
+      font-family: 'Acme', sans-serif;
+   }
+
+   .borde2{
+     width: 6.6rem;
+     height: 6px;
+     border-radius: 18px;
+     margin-left: 38.5%;
+     margin-top: 1rem;
+     background-color: rgb(209, 118, 6);
+ }
+ 
+
+   div{
+      margin-top: -0rem;
+      margin-left: 5%;
+      padding-bottom: 4px;
+
+      input[type="email"]{
+         border: 1.5px solid;
+         border-radius: 16px;
+         padding: 6px;
+         width: 180%;
+         margin-left: 10%;
+         font-size: 16px;
+
+     }
+
+     #name{
+       border: 1.5px solid;
+       border-radius: 16px;
+       padding: 6px;
+       font-size: 16px;
+       margin-left: 10%;
+     }
+
+     #coms{
+         border: 1.5px solid;
+         border-radius: 16px;
+         padding: 6px;
+         padding-bottom: 8rem;
+         font-size: 16px;
+         margin-left: 10%;
+
+
+     }
+       button{
+         background-color: rgb(209, 118, 6);
+         margin-left: 10%;
+       }
+   }
+  }
+}

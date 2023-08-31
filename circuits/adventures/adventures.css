@@ -90,13 +90,13 @@ body {
   overflow: hidden;
 }
 .couv #couv_ {
-  height: 28rem;
+  height: 29rem;
   overflow: hidden;
   filter: brightness(57%);
 }
 .couv #couv_ img {
   position: relative;
-  height: 34rem;
+  height: 38rem;
   width: 100%;
 }
 .couv #couv_1 {
@@ -890,7 +890,7 @@ footer .copryght .row h3 {
   footer {
     height: 74rem;
     position: relative;
-    top: 32rem;
+    top: 27rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1139,11 +1139,11 @@ footer .copryght .row h3 {
 }
 @media (min-width: 992px) {
   #map {
-    width: 70%;
+    width: 100%;
     position: relative;
     height: 34rem;
     top: 17.5rem;
-    left: 13.9%;
+    left: 23.3%;
     border-radius: 18px;
     z-index: 20;
     border: 4px solid;

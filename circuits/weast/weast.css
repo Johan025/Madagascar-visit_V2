@@ -1231,11 +1231,11 @@ b {
 }
 @media (min-width: 992px) {
   #map {
-    width: 70%;
+    width: 100%;
     position: relative;
     height: 34rem;
     top: 28.6rem;
-    left: 13.9%;
+    left: 25%;
     border-radius: 18px;
     z-index: 20;
     border: 4px solid;
@@ -1708,7 +1708,7 @@ footer .copryght .row h3 {
   footer {
     height: 79rem;
     position: relative;
-    top: 62rem;
+    top: 54rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1794,7 +1794,7 @@ footer .copryght .row h3 {
   footer {
     height: 52rem;
     position: relative;
-    top: 37rem;
+    top: 32rem;
   }
   footer .follow {
     position: relative;

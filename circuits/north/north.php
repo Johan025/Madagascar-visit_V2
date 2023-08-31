@@ -38,49 +38,6 @@
 
 <body>
   
-<?php
-
-function validerEmail($email) {
-
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $domain = explode('@', $email)[1];
-
-    if (getmxrr($domain, $mxhosts)) {
-        return true; // L'adresse e-mail est valide
-    } else {
-        return false; // Le domaine de messagerie n'a pas d'enregistrements MX
-    }
-} else {
-    return false; // L'adresse e-mail a une syntaxe incorrecte
-}
-}
-
-$bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
-
-$bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
-
-if (isset($_POST['send'])){
-    
-    var_dump($_GET['submit']); 
-    $email=$_POST['email'];
-    $name=$_POST['name'];
-    $coms=$_POST['coms'];
-    $date = date("Y-m-d H:i:s");
-    
-
-    if (validerEmail($email)) {
-    $requete1=$bd ->prepare('INSERT INTO md_comments(comment_author,comment_author_email,comment_content,comment_date) VALUES(:nom, :adresse_email, :coms, :date)');
-    $requete1->bindvalue(':nom', $name);
-    $requete1->bindvalue(':adresse_email', $email);
-   $requete1->bindvalue(':coms', $coms);
-   $requete1->bindvalue(':date', $date);
-   $requete1 ->execute();
-
-  }
-}
-  ?> 
-
-  
 
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
     <div class="container-fluid">
@@ -661,7 +618,7 @@ The water is clear with his white beach and beautiful sand bar.
   </div>
 
   <div class="galerie">
-  <h1 text="text-start w-75">Galerie Photo </h1>
+  <h1 text="text-start w-75">Photo Gallery</h1>
   <div class="border5"></div>
 
   <div class="container">
@@ -726,23 +683,6 @@ The water is clear with his white beach and beautiful sand bar.
         <div id="map"></div>
       </div>
     
-      <div class="col-12 col-md-10 col-lg-4" id="coms">
-        <div class="comments p-4">
-          <h1 id="h_comments">Leave us a comments</h1>
-          <div class="borde2"></div>
-
-          <form action="" onsubmit="return checkWordCount(this, 120);" method="POST">
-            <div class="row gy-5">
-              <input type="email" name="email" class="w-100" placeholder="Your email">
-              <input type="text" name="name" class="w-100" placeholder="Your name" id="name">
-              <textarea type="text" name="coms" class="w-100" placeholder="Your comments" id="coms"></textarea>
-              <button type="submit" name="send" class="btn p-2">Send</button>
-            </div>
-          </form>
-        </div>
-
-      </div>
-
 </div>
 
 </div>

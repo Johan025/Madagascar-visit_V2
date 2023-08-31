@@ -36,49 +36,6 @@
 
 <body>
 
-<?php
-
-function validerEmail($email) {
-
-if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $domain = explode('@', $email)[1];
-
-    if (getmxrr($domain, $mxhosts)) {
-        return true; // L'adresse e-mail est valide
-    } else {
-        return false; // Le domaine de messagerie n'a pas d'enregistrements MX
-    }
-} else {
-    return false; // L'adresse e-mail a une syntaxe incorrecte
-}
-}
-
-$bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
-
-$bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
-
-if (isset($_POST['send'])){
-    
-    var_dump($_GET['submit']); 
-    $email=$_POST['email'];
-    $name=$_POST['name'];
-    $coms=$_POST['coms'];
-    $date = date("Y-m-d H:i:s");
-    
-
-    if (validerEmail($email)) {
-    $requete1=$bd ->prepare('INSERT INTO md_comments(comment_author,comment_author_email,comment_content,comment_date) VALUES(:nom, :adresse_email, :coms, :date)');
-    $requete1->bindvalue(':nom', $name);
-    $requete1->bindvalue(':adresse_email', $email);
-   $requete1->bindvalue(':coms', $coms);
-   $requete1->bindvalue(':date', $date);
-   $requete1 ->execute();
-
-   echo" <script type=\"text/javascript\">alert ('commentaire envoyé')</script>";
-  }
-}
-  ?> 
-
 
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
     <div class="container-fluid">
@@ -657,7 +614,7 @@ if (isset($_POST['send'])){
       <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../pictures/fosa_.jp" class="d-block w-100" alt="kirindy reserve">
+            <img src="./../../pictures/fosa_.jpg" class="d-block w-100" alt="kirindy reserve">
           </div>
           <div class="carousel-item">
             <img src="./../../pictures/ouest-.jpg" class="d-block w-100" alt="alley of baobab">
@@ -794,29 +751,21 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/Lac_Tritriva.jpg" class="zoomable-image" alt="South of Madagascar Lac Tritriva">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/pousse-pousse.jpg" class="zoomable-image" alt="Antsirabé South of Madagscar">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
-           </div>
-
-           <div class="col-12 col-md-4 col-lg-3">
-           <div class="overlay">
-               <i class="close fa-solid fa-xmark fa-beat"></i>
-               </div>
-
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/morondava.jpg" class="zoomable-image" alt="Alley of Baobab Morondava Weast of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -824,7 +773,7 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/pigmic.jpg" class="zoomable-image" alt="Pigmy kingfisher Tsingy de Bemaraha Weast of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -832,7 +781,7 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/SIFAKA.jpg" class="zoomable-image" alt="sIFAKA MADAGaSCAR TSINGY DE BEMARAHA WEAST OF MADAGASCAR">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -840,7 +789,7 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/descente_tsiribihina.jpg" class="zoomable-image" alt="Tsiribihina River Weast of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -848,8 +797,10 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/manambola.png" class="zoomable-image" alt="manambolo river tsingy de Bemaraha Weast of Madagascar">
            </div>
+
+          
        </div>
   </div>
   </div>
@@ -861,22 +812,7 @@ if (isset($_POST['send'])){
           <div id="map"></div>
         </div>
 
-        <div class="col-12 col-md-10 col-lg-4" id="coms">
-          <div class="comments p-4">
-            <h1 id="h_comments">Laisser un commentaire</h1>
-            <div class="borde2"></div>
-
-            <form action="" method="POST"  onsubmit="return checkWordCount(this, 120);">
-              <div class="row gy-5">
-                <input type="email" name="email" class="w-100" placeholder="email">
-                <input type="text" name="name" class="w-100" placeholder="nom" id="name">
-                <input type="text" name="coms" class="w-100" placeholder="commentaire" id="coms">
-                <button type="submit" name="send" class="btn p-2">Send</button>
-              </div>
-            </form>
-          </div>
-
-        </div>
+       
 
       </div>
 

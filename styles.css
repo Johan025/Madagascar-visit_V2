@@ -874,7 +874,7 @@ body {
 .guestbook {
   position: relative;
   top: 8rem;
-  height: 38rem;
+  height: 29rem;
   width: 100%;
   background-image: url("./../pictures/parallax.jpg");
   background-repeat: no-repeat;
@@ -1007,7 +1007,7 @@ body {
   .guestbook {
     position: relative;
     top: 10.5rem;
-    height: 53rem;
+    height: 49rem;
     width: 100%;
     background-image: url("./../pictures/parallax.jpg");
     background-repeat: no-repeat;
@@ -1131,7 +1131,7 @@ body {
 footer {
   height: 30rem;
   position: relative;
-  top: 0rem;
+  top: 15rem;
 }
 footer .follow {
   position: relative;
@@ -1215,9 +1215,9 @@ footer .copryght .row h3 {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 75rem;
+    height: 78rem;
     position: relative;
-    top: 3rem;
+    top: 22rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1304,7 +1304,7 @@ footer .copryght .row h3 {
   footer .copryght {
     position: relative;
     top: 8rem;
-    height: 6rem;
+    height: 7rem;
     background: #162b32;
   }
   footer .copryght .row h3 {
@@ -1406,6 +1406,179 @@ footer .copryght .row h3 {
   z-index: 40;
 }
 
+.comments {
+  position: relative;
+  top: 12rem;
+  padding: 2px;
+  padding-bottom: 50px;
+  left: 30.5%;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.541);
+}
+.comments h1 {
+  font-size: 36px;
+  margin-top: 3rem;
+  margin-left: 17%;
+  font-weight: 450;
+  font-family: "Acme", sans-serif;
+}
+.comments .borde2 {
+  width: 6.6rem;
+  height: 6px;
+  border-radius: 18px;
+  margin-left: 38.5%;
+  margin-top: 1rem;
+  background-color: rgb(209, 118, 6);
+}
+.comments div {
+  margin-top: 0rem;
+  width: 74%;
+  margin-left: 5%;
+  padding-bottom: 4px;
+}
+.comments div input[type=email] {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  width: 180%;
+  margin-left: 10%;
+  font-size: 16px;
+}
+.comments div #name {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 16px;
+  margin-left: 10%;
+}
+.comments div #coms {
+  border: 1.5px solid;
+  border-radius: 16px;
+  padding: 6px;
+  padding-bottom: 8rem;
+  font-size: 16px;
+  margin-left: 10%;
+}
+.comments div button {
+  background-color: rgb(209, 118, 6);
+  margin-left: 10%;
+}
+
+@media (max-width: 575px) {
+  .comments {
+    position: relative;
+    top: 16rem;
+    padding: 4px;
+    padding-bottom: 30px;
+    width: 94%;
+    left: 2.9%;
+  }
+  .comments h1 {
+    font-size: 36px;
+    margin-top: 3rem;
+    margin-left: 3%;
+    font-weight: 450;
+    font-family: "Acme", sans-serif;
+  }
+  .comments .borde2 {
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 3.5%;
+    margin-top: 1rem;
+    background-color: rgb(209, 118, 6);
+  }
+  .comments div {
+    margin-top: 0rem;
+    margin-left: 5%;
+    padding-bottom: 4px;
+    width: 89%;
+  }
+  .comments div input[type=email] {
+    border: 1.5px solid;
+    width: 150%;
+    border-radius: 16px;
+    padding: 6px;
+    width: 180%;
+    margin-left: 1%;
+    font-size: 16px;
+  }
+  .comments div #name {
+    border: 1.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 16px;
+    margin-left: 1%;
+  }
+  .comments div #coms {
+    border: 1.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    padding-bottom: 8rem;
+    font-size: 16px;
+    margin-left: 1%;
+  }
+  .comments div button {
+    background-color: rgb(209, 118, 6);
+    margin-left: 1%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .comments {
+    text-align: center;
+    margin-left: -10%;
+    width: 60%;
+    margin-top: 2rem;
+  }
+  .comments h1 {
+    font-size: 36px;
+    margin-top: 3rem;
+    margin-left: 0%;
+    font-weight: 450;
+    font-family: "Acme", sans-serif;
+  }
+  .comments .borde2 {
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 38.5%;
+    margin-top: 1rem;
+    background-color: rgb(209, 118, 6);
+  }
+  .comments div {
+    margin-top: 0rem;
+    margin-left: 5%;
+    padding-bottom: 4px;
+  }
+  .comments div input[type=email] {
+    border: 1.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    width: 180%;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .comments div #name {
+    border: 1.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .comments div #coms {
+    border: 1.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    padding-bottom: 8rem;
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .comments div button {
+    background-color: rgb(209, 118, 6);
+    margin-left: 10%;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
   color: rgb(52, 64, 71);

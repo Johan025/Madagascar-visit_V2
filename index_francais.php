@@ -48,6 +48,43 @@
 
      $comments= $requete-> fetchAll();
 
+     function validerEmail($email) {
+
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $domain = explode('@', $email)[1];
+
+    if (getmxrr($domain, $mxhosts)) {
+        return true; // L'adresse e-mail est valide
+    } else {
+        return false; // Le domaine de messagerie n'a pas d'enregistrements MX
+    }
+} else {
+    return false; // L'adresse e-mail a une syntaxe incorrecte
+}
+}
+
+if (isset($_POST['send'])){
+    
+    var_dump($_GET['submit']); 
+    $email=$_POST['email'];
+    $name=$_POST['name'];
+    $coms=$_POST['coms'];
+    $date = date("Y-m-d H:i:s");
+    
+
+    if (validerEmail($email)) {
+    $requete1=$bd ->prepare('INSERT INTO md_comments(comment_author,comment_author_email,comment_content,comment_date) VALUES(:nom, :adresse_email, :coms, :date)');
+    $requete1->bindvalue(':nom', $name);
+    $requete1->bindvalue(':adresse_email', $email);
+   $requete1->bindvalue(':coms', $coms);
+   $requete1->bindvalue(':date', $date);
+   $requete1 ->execute();
+
+   echo" <script type=\"text/javascript\">alert ('commentaire envoyé')</script>";
+  }
+}
+
+
    ?> 
 
 
@@ -330,6 +367,20 @@
         </section><div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
     </div>
     
+    <div class="comments">
+
+<h1 id="h_comments">Laisser votre commentaire</h1>
+<div class="borde2"></div>
+
+<form action="" method="POST" onsubmit="return checkWordCount(this, 120);">
+  <div class="row gy-5  w-md-75">
+    <input type="email" name="email" class="w-100" placeholder="Votre email">
+    <input type="text" name="name" class="w-100" placeholder="Votre Nom" id="name">
+    <textarea type="text" name="coms" class="w-100" placeholder="Votre Commentaire" id="coms"></textarea>
+    <button type="submit" name="send" class="btn p-2">Send</button>
+  </div>
+</form>
+</div>
 
 
     <footer class="w-100 bg-dark">
@@ -417,6 +468,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
     <script>
+
+function checkWordCount(form, maxWords) {
+      var textarea = form.querySelector('#coms');
+            var words = textarea.value.split(/\s+/); // Diviser le texte en mots en utilisant l'espace comme délimiteur
+            var wordCount = words.length;
+
+            if (wordCount > maxWords) {
+               alert('Tapez  au maximum 120 mots');
+               event.preventDefault(); 
+            
+        }
+      }
+
+
         window.onscroll = function () { scrollFunction() };
         const up_ = document.querySelector('.up');
 
