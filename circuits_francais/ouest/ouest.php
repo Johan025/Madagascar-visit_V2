@@ -139,7 +139,7 @@ if (isset($_POST['send'])){
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
 
-  <div class="weast">
+  <div class="weast mt-4 mt-md-0">
     <h1 class=" title_weast text-start text-md-start">Details du circuit
 
     </h1>
@@ -508,30 +508,27 @@ if (isset($_POST['send'])){
       <div class="point text-start" id="point"></div>
       <h1 class="text-center text-lg-start  m-5" id="classic_h1"> Tsingy de Bemaraha</h1>
 
-      <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
+      <div id="carouselExampleControl1" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../logo/tsingy.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/tsingy2.jpg" class="d-block w-100" alt="tsingy de bemaraha">
           </div>
           <div class="carousel-item">
             <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
-          </div>
+        
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl1"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl1"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
       <h1 class="text-center" id="plan1">Plan du Voyage</h1>
       <div class="  text-center borde1"> </div>
 
@@ -657,29 +654,28 @@ if (isset($_POST['send'])){
       <div class="point text-start" id="point"></div>
       <h1 class="text-center text-lg-start  m-5" id="classic_h1"> Baobab Tour et Kirindy Reserve</h1>
 
-      <div id="carouselExampleControl" class="carousel slide " data-bs-ride="carousel">
+      <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../logo/tsingy.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/fosa_.jp" class="d-block w-100" alt="kirindy reserve">
           </div>
           <div class="carousel-item">
-            <img src="./../../pictures/alley.jpg" class="d-block w-100" alt="...">
+            <img src="./../../pictures/ouest-.jpg" class="d-block w-100" alt="alley of baobab">
           </div>
-          <div class="carousel-item">
-            <img src="./../pictures/fleuve1.jpg" class="d-block w-100" alt="...">
-          </div>
+        
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl2"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl2"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
 
       <h1 class="text-center" id="plan1">Plan du Voyage</h1>
       <div class="  text-center borde1"> </div>
@@ -786,6 +782,79 @@ if (isset($_POST['send'])){
       </div>
     </div> 
 
+    <div class="galerie">
+  <h1 text="text-start w-75">Galerie Photo </h1>
+  <div class="border5"></div>
+
+  <div class="container">
+       <div class="row">
+           <div class="col-12 col-md-4 col-lg-3">
+             
+               <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+       </div>
+  </div>
+  </div>
+
+
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-8">
@@ -862,7 +931,7 @@ if (isset($_POST['send'])){
             </div>
           </div>
 
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-11 col-lg-3">
             <div class="tour">
               <h1 class="text-light text-center mt-5 mt-lg-0">Autre page</h1>
               <ul class="text-center mx-0">
@@ -876,7 +945,7 @@ if (isset($_POST['send'])){
         <div class="row mt-5" id="row2">
           <div class="border"></div>
           <div class="col-12 col-lg-3 col-md-12">
-            <h1 class="text-start  text-light">Nous contacter: </h1>
+            <h1 class="text-start text-md-center text-lg-start  text-light">Nous contacter: </h1>
           </div>
           <div class="col-8 col-md-6 col-lg-3 text-center">
             <div class="phone text-light">
@@ -915,6 +984,37 @@ if (isset($_POST['send'])){
     <script src="./map.js"></script>
 
     <script>
+
+const images = document.querySelectorAll('.zoomable-image');
+    const overlay = document.querySelector('.overlay');
+    const close = document.querySelector('.close');
+
+// Ajoutez un gestionnaire d'événements clic à chaque image
+images.forEach(image => {
+    let isZoomed = false; // Variable pour suivre l'état de l'image
+
+    image.addEventListener('click', () => {
+        // Vérifiez si l'image est agrandie ou non
+        
+        if (!isZoomed) {
+            // Si elle n'est pas agrandie, agrandissez-la
+            image.classList.add('zoomed-image');
+            overlay.classList.add('ok');
+            close.classList.add('ok2');
+        } else {
+            // Si elle est déjà agrandie, réduisez-la
+            image.classList.remove('zoomed-image');
+            overlay.classList.remove('ok');
+            close.classList.remove('ok2');
+        }
+
+        // Inversez l'état de l'image
+        isZoomed = !isZoomed;
+    });
+});
+
+
+
 
 function checkWordCount(form, maxWords) {
       var textarea = form.querySelector('#coms');

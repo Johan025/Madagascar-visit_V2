@@ -682,6 +682,78 @@ if (isset($_POST['send'])){
     </div>
   </div>
 
+  <div class="galerie">
+  <h1 text="text-start w-75">Galerie Photo </h1>
+  <div class="border5"></div>
+
+  <div class="container">
+       <div class="row">
+           <div class="col-12 col-md-4 col-lg-3">
+             
+               <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+       </div>
+  </div>
+  </div>
+
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8">
@@ -819,6 +891,36 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="./map.js"></script>
   <script>
+
+const images = document.querySelectorAll('.zoomable-image');
+    const overlay = document.querySelector('.overlay');
+    const close = document.querySelector('.close');
+
+// Ajoutez un gestionnaire d'événements clic à chaque image
+images.forEach(image => {
+    let isZoomed = false; // Variable pour suivre l'état de l'image
+
+    image.addEventListener('click', () => {
+        // Vérifiez si l'image est agrandie ou non
+        
+        if (!isZoomed) {
+            // Si elle n'est pas agrandie, agrandissez-la
+            image.classList.add('zoomed-image');
+            overlay.classList.add('ok');
+            close.classList.add('ok2');
+        } else {
+            // Si elle est déjà agrandie, réduisez-la
+            image.classList.remove('zoomed-image');
+            overlay.classList.remove('ok');
+            close.classList.remove('ok2');
+        }
+
+        // Inversez l'état de l'image
+        isZoomed = !isZoomed;
+    });
+});
+
+
 
 function checkWordCount(form, maxWords) {
       var textarea = form.querySelector('#coms');

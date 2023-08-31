@@ -1,41 +1,41 @@
 @media (min-width: 992px) {
 
-#map{
-    width: 70%;
-    position: relative;
-    height: 34rem;
-    top: 22.6rem;
-    left: 13.9%;
-    border-radius: 18px;
-    z-index: 20;
-    border: 4px solid;
-    display: block;
-}
-
-}
-
-@media (max-width: 575px) {
     #map{
-        width: 97%;
+        width: 70%;
         position: relative;
-        height: 27rem;
-        top: 38.6rem;
-        left: 2%;
+        height: 34rem;
+        top: 28.6rem;
+        left: 13.9%;
         border-radius: 18px;
         z-index: 20;
         border: 4px solid;
+        display: block;
     }
-}
-
-@media (min-width: 576px) and (max-width: 991px){
-    #map{
-        width: 85%;
-        position: relative;
-        height: 27rem;
-        top: 18rem;
-        left: 7%;
-        border-radius: 18px;
-        z-index: 20;
-        border: 4px solid;
+    
     }
-}
+    
+    @media (max-width: 575px) {
+        #map{
+            width: 97%;
+            position: relative;
+            height: 27rem;
+            top: 48.6rem;
+            left: 2%;
+            border-radius: 18px;
+            z-index: 20;
+            border: 4px solid;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 991px){
+        #map{
+            width: 85%;
+            position: relative;
+            height: 27rem;
+            top: 26rem;
+            left: 7%;
+            border-radius: 18px;
+            z-index: 20;
+            border: 4px solid;
+        }
+    }

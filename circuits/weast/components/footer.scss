@@ -1,7 +1,7 @@
 footer {
   height: 30rem;
   position: relative;
-  top: 28rem;
+  top: 34rem;
 
   .follow {
 
@@ -65,6 +65,7 @@ footer {
     h1 {
       font-size: calc(0.9rem + 1.2vw);
       font-weight: bolder;
+      margin-left: 1rem;
       font-family: 'Acme', sans-serif;
     }
 
@@ -120,9 +121,9 @@ footer {
 
 @media screen and (max-width: 575px) {
   footer {
-    height: 74rem;
+    height: 79rem;
     position: relative;
-    top: 45.5rem;
+    top: 62rem;
 
 
     .follow {
@@ -240,9 +241,9 @@ footer {
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 48rem;
+    height: 52rem;
     position: relative;
-    top: 28rem;
+    top: 37rem;
   
     .follow {
   

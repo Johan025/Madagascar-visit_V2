@@ -1604,7 +1604,7 @@ b {
     width: 70%;
     position: relative;
     height: 34rem;
-    top: 17.6rem;
+    top: 28.6rem;
     left: 13.9%;
     border-radius: 18px;
     z-index: 20;
@@ -1617,7 +1617,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 31.6rem;
+    top: 45rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1629,7 +1629,7 @@ b {
     width: 85%;
     position: relative;
     height: 27rem;
-    top: 20rem;
+    top: 25rem;
     left: 7%;
     border-radius: 18px;
     z-index: 20;
@@ -1638,7 +1638,7 @@ b {
 }
 .comments {
   position: relative;
-  top: 20rem;
+  top: 30.5rem;
   padding: 4px;
   border-radius: 10px;
   box-shadow: 2px 8px 25px;
@@ -1688,7 +1688,7 @@ b {
 @media (max-width: 575px) {
   .comments {
     position: relative;
-    top: 36rem;
+    top: 48rem;
     padding: 4px;
   }
 }
@@ -1696,6 +1696,8 @@ b {
   .comments {
     text-align: center;
     margin-left: 20%;
+    position: relative;
+    top: 30rem;
   }
   .comments .borde2 {
     width: 6.6rem;
@@ -1709,7 +1711,7 @@ b {
 footer {
   height: 30rem;
   position: relative;
-  top: 25rem;
+  top: 35rem;
 }
 footer .follow {
   position: relative;
@@ -1759,7 +1761,6 @@ footer .tour {
 footer .tour h1 {
   font-size: calc(0.9rem + 1.2vw);
   font-weight: bolder;
-  margin-left: 1rem;
   font-family: "Acme", sans-serif;
   margin-left: 1rem;
 }
@@ -1802,7 +1803,7 @@ footer .copryght .row h3 {
   footer {
     height: 74rem;
     position: relative;
-    top: 40rem;
+    top: 55rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1881,7 +1882,7 @@ footer .copryght .row h3 {
   footer .copryght {
     position: relative;
     top: 8rem;
-    height: 6rem;
+    height: 7rem;
     background: #162b32;
   }
   footer .copryght .row h3 {
@@ -1890,9 +1891,9 @@ footer .copryght .row h3 {
 }
 @media screen and (min-width: 576px) and (max-width: 991px) {
   footer {
-    height: 45rem;
+    height: 48rem;
     position: relative;
-    top: 26rem;
+    top: 35rem;
   }
   footer .follow {
     position: relative;
@@ -1977,6 +1978,221 @@ footer .copryght .row h3 {
   }
   footer .copryght .row h3 {
     font-size: 23px;
+  }
+}
+.galerie {
+  position: relative;
+  top: 18rem;
+}
+.galerie h1 {
+  color: rgb(209, 118, 6);
+  margin-left: 3rem;
+  font-weight: bold;
+  font-family: "Acme", sans-serif;
+  font-size: calc(1.3rem + 1.5vw);
+}
+.galerie .border5 {
+  width: 6.6rem;
+  height: 6px;
+  border-radius: 18px;
+  margin-left: 3.3rem;
+  background-color: rgb(209, 118, 6);
+}
+.galerie .row {
+  position: relative;
+  top: 5rem;
+}
+.galerie .row .zoomable-image {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.galerie .row .zoomed-image {
+  position: fixed;
+  top: 10rem;
+  left: 24%;
+  width: 50%;
+  border-radius: 1%;
+  z-index: 40;
+  height: 70%;
+  object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+}
+.galerie .row .overlay {
+  position: fixed;
+  top: 0rem;
+  display: none;
+  left: 0;
+  width: 100%;
+  border-radius: 1%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.342);
+  object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+  z-index: 10;
+}
+.galerie .row .overlay .close {
+  color: #e2cfcf;
+  position: fixed;
+  display: block;
+  z-index: 1000;
+  top: 7rem;
+  left: 25%;
+  cursor: pointer;
+  font-size: 30px;
+}
+.galerie .row .ok {
+  display: block;
+}
+.galerie .row .ok2 {
+  display: block;
+  z-index: 10000;
+}
+
+@media (max-width: 575px) {
+  .galerie {
+    position: relative;
+    top: 35rem;
+  }
+  .galerie h1 {
+    color: rgb(209, 118, 6);
+    margin-left: 3rem;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+    font-size: calc(1.95rem + 1.5vw);
+  }
+  .galerie .border5 {
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 3.3rem;
+    background-color: rgb(209, 118, 6);
+  }
+  .galerie .row {
+    position: relative;
+    top: 5rem;
+  }
+  .galerie .row .zoomable-image {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 20rem;
+    border-radius: 10%;
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .galerie .row .zoomed-image {
+    position: fixed;
+    top: 13rem;
+    left: 0;
+    width: 100%;
+    border-radius: 0%;
+    z-index: 40;
+    height: 60%;
+    object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+  }
+  .galerie .row .overlay {
+    position: fixed;
+    top: 0rem;
+    display: none;
+    left: 0;
+    width: 100%;
+    border-radius: 1%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+    object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+    z-index: 10;
+  }
+  .galerie .row .overlay .close {
+    color: #e2cfcf;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    top: 10.7rem;
+    left: 5%;
+    cursor: pointer;
+    font-size: 36px;
+  }
+  .galerie .row .ok {
+    display: block;
+  }
+  .galerie .row .ok2 {
+    display: block;
+    z-index: 10000;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .galerie {
+    position: relative;
+    top: 15rem;
+  }
+  .galerie h1 {
+    color: rgb(209, 118, 6);
+    margin-left: 3rem;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+    font-size: calc(1.95rem + 1.5vw);
+  }
+  .galerie .border5 {
+    width: 6.6rem;
+    height: 6px;
+    border-radius: 18px;
+    margin-left: 3.3rem;
+    background-color: rgb(209, 118, 6);
+  }
+  .galerie .row {
+    position: relative;
+    top: 5rem;
+  }
+  .galerie .row .zoomable-image {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 14rem;
+    border-radius: 10%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .galerie .row .zoomed-image {
+    position: fixed;
+    top: 13rem;
+    left: 0;
+    width: 100%;
+    border-radius: 0%;
+    z-index: 40;
+    height: 60%;
+    object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+  }
+  .galerie .row .overlay {
+    position: fixed;
+    top: 0rem;
+    display: none;
+    left: 0;
+    width: 100%;
+    border-radius: 1%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+    object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+    z-index: 10;
+  }
+  .galerie .row .overlay .close {
+    color: #e2cfcf;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    top: 10.7rem;
+    left: 5%;
+    cursor: pointer;
+    font-size: 36px;
+  }
+  .galerie .row .ok {
+    display: block;
+  }
+  .galerie .row .ok2 {
+    display: block;
+    z-index: 10000;
   }
 }
 * {

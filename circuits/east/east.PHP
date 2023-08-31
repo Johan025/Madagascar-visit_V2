@@ -452,6 +452,79 @@ if (isset($_POST['send'])){
     </div>
   </div>
 
+  <div class="galerie">
+  <h1 text="text-start w-75">Galerie Photo </h1>
+  <div class="border5"></div>
+
+  <div class="container">
+       <div class="row">
+           <div class="col-12 col-md-4 col-lg-3">
+             
+               <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+           </div>
+       </div>
+  </div>
+  </div>
+
+
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8">
@@ -531,7 +604,7 @@ if (isset($_POST['send'])){
 
             <div class="row mt-5" id="row2">
                     <div class="border"></div>
-                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start  text-light">Contact us: </h1></div>
+                    <div class="col-12 col-lg-3 col-md-12"><h1 class="text-start text-md-center text-lg-start text-light">Contact us: </h1></div>
                     <div class="col-9 -ml-2 col-md-6 col-lg-3 text-center" id="ii1">
                         <div class="phone text-light">
                             <i class="fa-solid fa-phone text-light"></i> +261(0)34 73 440 45
@@ -567,6 +640,35 @@ if (isset($_POST['send'])){
   <script src="./map.js"></script>
   
   <script>
+
+const images = document.querySelectorAll('.zoomable-image');
+    const overlay = document.querySelector('.overlay');
+    const close = document.querySelector('.close');
+
+// Ajoutez un gestionnaire d'événements clic à chaque image
+images.forEach(image => {
+    let isZoomed = false; // Variable pour suivre l'état de l'image
+
+    image.addEventListener('click', () => {
+        // Vérifiez si l'image est agrandie ou non
+        
+        if (!isZoomed) {
+            // Si elle n'est pas agrandie, agrandissez-la
+            image.classList.add('zoomed-image');
+            overlay.classList.add('ok');
+            close.classList.add('ok2');
+        } else {
+            // Si elle est déjà agrandie, réduisez-la
+            image.classList.remove('zoomed-image');
+            overlay.classList.remove('ok');
+            close.classList.remove('ok2');
+        }
+
+        // Inversez l'état de l'image
+        isZoomed = !isZoomed;
+    });
+});
+
       function checkWordCount(form, maxWords) {
       var textarea = form.querySelector('#coms');
             var words = textarea.value.split(/\s+/); // Diviser le texte en mots en utilisant l'espace comme délimiteur
