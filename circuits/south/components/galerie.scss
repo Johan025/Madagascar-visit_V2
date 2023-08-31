@@ -33,6 +33,8 @@
                transition: transform 0.3s ease;
            }
 
+         
+
            .zoomed-image {
             position: fixed;
             top: 10rem;
@@ -216,6 +218,10 @@
                 object-fit: cover; /* Ajustez cette propriété selon vos besoins */
     
             
+          }
+
+          #e1{
+            object-fit: cover;
           }
     
           .overlay{

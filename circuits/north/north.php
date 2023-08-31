@@ -672,37 +672,30 @@ The water is clear with his white beach and beautiful sand bar.
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/brookesia2.jpg" class="zoomable-image" alt="brookesia north of Madagascar">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
-           </div>
-           <div class="col-12 col-md-4 col-lg-3">
-           <div class="overlay">
-               <i class="close fa-solid fa-xmark fa-beat"></i>
-               </div>
-
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/north3.jpg" class="zoomable-image" alt="diego north of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
-               </div>
+            </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/diego.jpg" class="zoomable-image" alt="Diego north of madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
-
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/North 5.jpg" class="zoomable-image" alt="lemur coronatus north of Madagascar">
+               
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -710,7 +703,7 @@ The water is clear with his white beach and beautiful sand bar.
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/SAINTE MARIE1n.jpg" class="zoomable-image" alt="diego north of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -718,16 +711,10 @@ The water is clear with his white beach and beautiful sand bar.
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/Ankarana2.jpg" class="zoomable-image" alt="tsingy d' Ankarana north of Madagascar">
            </div>
 
-           <div class="col-12 col-md-4 col-lg-3">
-           <div class="overlay">
-               <i class="close fa-solid fa-xmark fa-beat"></i>
-               </div>
-
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
-           </div>
+          
        </div>
   </div>
   </div>

@@ -215,7 +215,7 @@
 
                 </div>
                 <div class="col-12 col-md-6 col-lg-4" id="col2">
-                    <img src="./pictures/fosa.jpg" alt="">
+                    <img src="./pictures/tsingy.jpg" alt="">
                 </div>
                 <div class="col-10 col-md-7 col-lg-4" id="col3">
                     <h2><b>Chaque fois nous fournissons un meilleur service</b></h2>
@@ -283,7 +283,7 @@
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="box p-2">
-                        <img src="./logo/adansonia-1140x420.jpg" alt="Image">
+                    <img src="./pictures/Baobabs-andavadaoka.jpg" alt="Image">
                         <h4> Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Aventures tour et boucles</h2>
                         <a class="f text-decoration-none z-50" href="./circuits_francais/aventures/adventures.php" target="_self"> <button class="btn">Explorer <i

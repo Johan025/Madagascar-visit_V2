@@ -968,29 +968,21 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/Isalo3.jpg" class="zoomable-image" alt="parc national Isalo">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/isalo__3.jpg" class="zoomable-image" alt="south of Madagascar parc National of Isalo">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
-           </div>
-
-           <div class="col-12 col-md-4 col-lg-3">
-           <div class="overlay">
-               <i class="close fa-solid fa-xmark fa-beat"></i>
-               </div>
-
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/SOUTH.jpg" class="zoomable-image" alt="parc National Isalo">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -998,7 +990,7 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/fulvus sulvus.jpg" class="zoomable-image" alt="common brown lemur parc National Isalo">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -1006,7 +998,7 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/ZAFIMANIRY1n.jpg" class="zoomable-image" alt="Zafimaniry South of Madagascar Ambositra">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -1014,7 +1006,7 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/bird.jpg" class="zoomable-image" alt="Parc National Ranomafana" id="e1">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -1022,7 +1014,15 @@ if (isset($_POST['send'])){
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/sifaka.jpg" class="zoomable-image" alt="parc National Ranomafana">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../../pictures/SAINTE MARIE2.jpg" class="zoomable-image" alt="whaleWatching Ifaty">
            </div>
        </div>
   </div>

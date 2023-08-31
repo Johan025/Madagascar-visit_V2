@@ -2165,6 +2165,9 @@ footer .copryght .row h3 {
     height: 60%;
     object-fit: cover; /* Ajustez cette propriété selon vos besoins */
   }
+  .galerie .row #e1 {
+    object-fit: cover;
+  }
   .galerie .row .overlay {
     position: fixed;
     top: 0rem;

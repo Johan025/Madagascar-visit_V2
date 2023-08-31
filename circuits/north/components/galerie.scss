@@ -27,7 +27,7 @@
                margin-bottom: 50px;
                width: 100%;
                height: 17rem;
-               object-fit: cover;
+              //  object-fit: cover;
                border-radius: 10%;
                cursor: pointer;
                transition: transform 0.3s ease;
@@ -85,14 +85,14 @@
 @media (max-width: 575px) {
     .galerie{
         position: relative;
-        top: 25rem;
+        top: 28rem;
     
           h1{
             color: rgb(209, 118, 6);
                 margin-left: 3rem;
                 font-weight: bold;
                 font-family: 'Acme', sans-serif;
-                font-size: calc(1.95rem + 1.5vw);
+                font-size: calc(2.3rem + 1.5vw);
                 ;
           }
     

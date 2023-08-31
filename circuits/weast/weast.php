@@ -658,7 +658,7 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
       <div id="carouselExampleControl2" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner" id="inner">
           <div class="carousel-item active">
-            <img src="./../../pictures/fosa_.jp" class="d-block w-100" alt="kirindy reserve">
+            <img src="./../../pictures/fosa_.jpg" class="d-block w-100" alt="kirindy reserve">
           </div>
           <div class="carousel-item">
             <img src="./../../pictures/ouest-.jpg" class="d-block w-100" alt="alley of baobab">
@@ -795,29 +795,21 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/Lac_Tritriva.jpg" class="zoomable-image" alt="South of Madagascar Lac Tritriva">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/pousse-pousse.jpg" class="zoomable-image" alt="Antsirabé South of Madagscar">
            </div>
            <div class="col-12 col-md-4 col-lg-3">
            <div class="overlay">
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
-           </div>
-
-           <div class="col-12 col-md-4 col-lg-3">
-           <div class="overlay">
-               <i class="close fa-solid fa-xmark fa-beat"></i>
-               </div>
-
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/morondava.jpg" class="zoomable-image" alt="Alley of Baobab Morondava Weast of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -825,7 +817,7 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/pigmic.jpg" class="zoomable-image" alt="Pigmy kingfisher Tsingy de Bemaraha Weast of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
@@ -833,7 +825,15 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
                <i class="close fa-solid fa-xmark fa-beat"></i>
                </div>
 
-               <img src="./../pictures/andringitra.jpg" class="zoomable-image" alt="">
+               <img src="./../../pictures/SIFAKA.jpg" class="zoomable-image" alt="sIFAKA MADAGaSCAR TSINGY DE BEMARAHA WEAST OF MADAGASCAR">
+           </div>
+
+           <div class="col-12 col-md-4 col-lg-3">
+           <div class="overlay">
+               <i class="close fa-solid fa-xmark fa-beat"></i>
+               </div>
+
+               <img src="./../../pictures/descente_tsiribihina.jpg" class="zoomable-image" alt="Tsiribihina River Weast of Madagascar">
            </div>
 
            <div class="col-12 col-md-4 col-lg-3">
