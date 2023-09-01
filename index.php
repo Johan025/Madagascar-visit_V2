@@ -199,7 +199,7 @@ if (isset($_POST['send'])){
                 <img src="./pictures/cameleoon-respons.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
                 <h1 class="w-100 text-start">Madagascar Tour with the Cameleon to the east</h1>
-                    <a class="text-decoration-none" href="./circuits/east/east.PHP">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
+                    <a class="text-decoration-none" href="./circuits/east/east.php">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
