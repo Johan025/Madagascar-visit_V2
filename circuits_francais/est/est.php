@@ -10,7 +10,7 @@
     content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
   <meta name="keywords"
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA, Madagascar Tour, Madagascar travel, Madagascar Trip , Madagascar Holidays, Madagascar Guid, Visit Madagascar, Tour of Madagascar ">
-  <title>Madagascar visite tours</title>
+  <title>Madagascar visite tours/est</title>
   
   <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
   <link rel="stylesheet" href="est.css">
@@ -64,7 +64,7 @@
               <li><a class="dropdown-item" href="./../../circuits_francais/sud/sud.php">Circuit Sud</a></li>
               <li><a class="dropdown-item" href="#">Circuit Est</a></li>
               <li><a class="dropdown-item" href="./../../circuits_francais/ouest/ouest.php">Circuit Ouest</a></li>
-              <li><a class="dropdown-item" href="./../adventures/adventures.php">Circuit Adventures</a></li>
+              <li><a class="dropdown-item" href="./../aventures/adventures.php">Circuit Adventures</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -80,7 +80,7 @@
                   <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./../../circuits/east/east.PHP"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
+                  <li><a class="dropdown-item" href="./../../circuits/east/east.php"> <img src="./../../logo/ang.jpg" class="drap" alt="">  Anglais</a></li>
                 </ul>
               </li>
         </ul>
@@ -512,10 +512,10 @@
                     <div class="tour">
                         <h1 class="text-light text-center text-md-start">Circuits</h1>
                         <ul class="text-center">
-                            <a class="text-decoration-none" href="./../../circuits_francais/nord/nord.php"><li>North Tour</li></a>
-                            <a  class="text-decoration-none" href="./../../circuits_francais/sud/sud.php"><li>South Tour</li></a>
-                            <a class="text-decoration-none" href="#"><li>East Tour</li></a>
-                            <a class="text-decoration-none" href="./../../circuits_francais/ouest/ouest.php"><li>Weast Tour</li></a>
+                            <a class="text-decoration-none" href="./../../circuits_francais/nord/nord.php"><li>Nord</li></a>
+                            <a  class="text-decoration-none" href="./../../circuits_francais/sud/sud.php"><li>Sud</li></a>
+                            <a class="text-decoration-none" href="#"><li>Est</li></a>
+                            <a class="text-decoration-none" href="./../../circuits_francais/ouest/ouest.php"><li>Ouest</li></a>
                         </ul>
                     </div>
                 </div>

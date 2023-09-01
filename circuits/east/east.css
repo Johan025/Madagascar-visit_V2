@@ -1040,7 +1040,7 @@ b {
   }
   .east_day {
     position: relative;
-    top: -17vw;
+    top: -26.5vw;
   }
   .east_day h3 {
     color: #7851a9;
@@ -1295,7 +1295,7 @@ b {
   }
   .east_day_pang {
     position: relative;
-    top: 23vw;
+    top: 13vw;
   }
   .east_day_pang h3 {
     color: #7851a9;
@@ -1550,7 +1550,7 @@ b {
   }
   .sainte-marie {
     position: relative;
-    top: 55vw;
+    top: 40vw;
   }
   .sainte-marie h3 {
     color: #7851a9;
@@ -1610,7 +1610,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 33rem;
+    top: 23rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1794,7 +1794,7 @@ footer .copryght .row h3 {
   footer {
     height: 74rem;
     position: relative;
-    top: 38rem;
+    top: 26rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1873,7 +1873,7 @@ footer .copryght .row h3 {
   footer .copryght {
     position: relative;
     top: 8rem;
-    height: 6rem;
+    height: 7rem;
     background: #162b32;
   }
   footer .copryght .row h3 {
@@ -2045,7 +2045,7 @@ footer .copryght .row h3 {
 @media (max-width: 575px) {
   .galerie {
     position: relative;
-    top: 25rem;
+    top: 16rem;
   }
   .galerie h1 {
     color: rgb(209, 118, 6);
@@ -2076,7 +2076,7 @@ footer .copryght .row h3 {
   }
   .galerie .row .zoomed-image {
     position: fixed;
-    top: 13rem;
+    top: 11rem;
     left: 0;
     width: 100%;
     border-radius: 0%;

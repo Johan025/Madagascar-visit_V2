@@ -63,7 +63,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="./../north/north.php">NORTH Tour</a></li>
               <li><a class="dropdown-item" href="./../south/south.php">SOUTH Tour</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.php">EAST Tour</a></li>
               <li><a class="dropdown-item" href="#">WEAST Tour</a></li>
               <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
@@ -96,7 +96,7 @@
     <!-- <div class="couvertureNord-responsive"><img src="../pictures/couvertureNord-responsive.jpg" alt=""></div> -->
   </div>
 
-  <div class="weast mt-4 mt-md-0">
+  <div class="weast -mt-4 md-0">
     <h1 class=" title_weast text-start text-md-start">Tour detail
 
     </h1>
@@ -859,7 +859,7 @@ The Tsingy gives you opportunity to see  different species of lemurs such as Dec
                 <a href="./../south/south.php" class="text-decoration-none">
                   <li>South Tour</li>
                 </a>
-                <a href="./../east/east.PHP" class="text-decoration-none">
+                <a href="./../east/east.php" class="text-decoration-none">
                   <li>East Tour</li>
                 </a>
                 <a href="#" class="text-decoration-none">

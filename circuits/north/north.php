@@ -66,7 +66,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">NORTH Tour</a></li>
               <li><a class="dropdown-item" href="./../south/south.php">SOUTH Tour</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.php">EAST Tour</a></li>
               <li><a class="dropdown-item" href="./../weast/weast.php">WEAST Tour</a></li>
               <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
@@ -409,9 +409,6 @@
           <div class="p-3 rounded">
             <h4><i class="fa-regular fa-calendar-days"></i> Day 2:</h4>
             <h2><i class="fa-solid fa-location-dot"></i> Tana-Ankarafantsika</h2>
-            <p class="text-dark"> Lore ipsum dolor sit amet consectetur adipisicing elit. Et neque sapiente deleniti
-              alias error commodi sit similique placeat, doloribus earum, aut asperiores necessitque, aperiam?
-            </p>
           </div>
         </div>
 
@@ -511,15 +508,17 @@
           <img src="./../../pictures/nosy-be.webp" class="d-block w-100" alt="...">
         </div>
 
-        <div class="carousel-item active">
+        <div class="carousel-item">
           <img src="./../pictures/couvertureNord.jpg" class="d-block w-100" alt="...">
         </div>
-        
-    </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplecontrol2" data-bs-slide="prev">
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplecontrol2"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl2" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl2"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -722,7 +721,7 @@ The water is clear with his white beach and beautiful sand bar.
           <ul class="text-center">
            <a href="#"  class="text-decoration-none"> <li>North Tour</li></a>
            <a href="./../south/south.php"  class="text-decoration-none"> <li>South Tour</li></a>
-            <a href="./../east/east.PHP"  class="text-decoration-none"><li>East Tour</li></a>
+            <a href="./../east/east.php"  class="text-decoration-none"><li>East Tour</li></a>
               <a href="./../weast/weast.php"  class="text-decoration-none"><li>Weast Tour</li></a>
           </ul>
         </div>

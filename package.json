@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass circuits/east/east.scss circuits/east/east.css",
-    "watch": "sass -w  styles.scss styles.css"
+    "compile": "node-sass circuits/north/north.scss circuits/north/north.css",
+    "watch": "sass -w  circuits_francais/nord/nord.scss circuits_francais/nord/nord.css"
   },
   "keywords": [],
   "author": "",

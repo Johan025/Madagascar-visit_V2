@@ -162,7 +162,7 @@ body {
     font-weight: 900;
     font-size: calc(1.7rem + 1.3vw);
     position: relative;
-    top: -24vh;
+    top: -25vh;
     left: 5vw;
     width: 90%;
   }
@@ -890,7 +890,7 @@ footer .copryght .row h3 {
   footer {
     height: 74rem;
     position: relative;
-    top: 19rem;
+    top: 27rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1155,7 +1155,7 @@ footer .copryght .row h3 {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 15rem;
+    top: 20rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1248,7 +1248,7 @@ footer .copryght .row h3 {
 @media (max-width: 575px) {
   .galerie {
     position: relative;
-    top: 9rem;
+    top: 11rem;
   }
   .galerie h1 {
     color: rgb(209, 118, 6);

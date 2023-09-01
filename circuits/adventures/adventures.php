@@ -64,7 +64,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="./../north/north.php">NORTH Tour</a></li>
               <li><a class="dropdown-item" href="./../south/south.php">SOUTH Tour</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.php">EAST Tour</a></li>
               <li><a class="dropdown-item" href="./../weast/weast.php">WEAST Tour</a></li>
               <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
@@ -560,7 +560,7 @@
               <a class="text-decoration-none" href="./../south/south.php">
                 <li>South Tour</li>
               </a>
-              <a class="text-decoration-none" href="./../east/east.PHP">
+              <a class="text-decoration-none" href="./../east/east.php">
                 <li>East Tour</li>
               </a>
               <a class="text-decoration-none" href="./../weast/weast.php">

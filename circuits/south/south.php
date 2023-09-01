@@ -67,7 +67,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="../north/north.php">NORTH Tour</a></li>
               <li><a class="dropdown-item" href="#">SOUTH Tour</a></li>
-              <li><a class="dropdown-item" href="./../east/east.PHP">EAST Tour</a></li>
+              <li><a class="dropdown-item" href="./../east/east.php">EAST Tour</a></li>
               <li><a class="dropdown-item" href="./../weast/weast.php"> WEAST Tour</a></li>
               <li><a class="dropdown-item" href="./../adventures/adventures.php">Adventures Tour</a></li>
             </ul>
@@ -624,10 +624,10 @@
           <img src="./../pictures/andringitra.jpg" class="d-block w-100" alt="parc national andringintra ">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/tsaranoropg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/tsaranoro.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/Parc-national-dAndringitrawebp" class="d-block w-100" alt="...">
+          <img src="./../../pictures/Parc-national-dAndringitra.webp" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl2"
@@ -1033,7 +1033,7 @@
             <ul class="text-center">
              <a href="./../north/north.php"  class="text-decoration-none"> <li>North Tour</li></a>
              <a href="#"  class="text-decoration-none"> <li>South Tour</li></a>
-              <a href="./../east/east.PHP"  class="text-decoration-none"><li>East Tour</li></a>
+              <a href="./../east/east.php"  class="text-decoration-none"><li>East Tour</li></a>
                 <a href="./../weast/weast.php"  class="text-decoration-none"><li>Weast Tour</li></a>
             </ul>
           </div>

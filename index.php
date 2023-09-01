@@ -39,7 +39,7 @@
 
 
 <?php
-     $bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
+$bd= new PDO('mysql:host=185.98.131.93;dbname=madag906129','madag906129','3vdophg5mf');
 
      $bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
@@ -82,7 +82,7 @@ if (isset($_POST['send'])){
    $requete1->bindvalue(':date', $date);
    $requete1 ->execute();
 
-   echo" <script type=\"text/javascript\">alert ('commentaire envoyé')</script>";
+   echo" <script type=\"text/javascript\">alert ('Comments sent')</script>";
   }
 }
 
@@ -118,7 +118,7 @@ if (isset($_POST['send'])){
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="./circuits/north/north.php">NORTH Tour</a></li>
                   <li><a class="dropdown-item" href="./circuits/south/south.php">SOUTH Tour</a></li>
-                  <li><a class="dropdown-item" href="./circuits/east/east.PHP">EAST Tour</a></li>
+                  <li><a class="dropdown-item" href="./circuits/east/east.php">EAST Tour</a></li>
                   <li><a class="dropdown-item" href="./circuits/weast/weast.php">WEAST Tour</a></li>
                   <li><a class="dropdown-item" href="./circuits/adventures/adventures.php">Aventures Tour</a></li>
                 </ul>
@@ -165,7 +165,7 @@ if (isset($_POST['send'])){
                 <img src="./pictures/cameleoon.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption  d-md-block">
                     <h1 class="w-100 text-start">Madagascar Tour with the Cameleon to the east</h1>
-                    <a class="text-decoration-none" href="./circuits/east/east.PHP">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
+                    <a class="text-decoration-none" href="./circuits/east/east.php">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -191,7 +191,7 @@ if (isset($_POST['send'])){
             <div class="carousel-item">
                 <img src="./pictures/alley.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
-                <h1 class="w-100 text-start">Madagascar Holidays for the Alley of Baobab to the Weast </h1>
+                <h1 class="w-100 text-start">Madagascar Holidays for the Alley of Baobab</h1>
                     <a class="text-decoration-none" href="./circuits/weast/weast.php">  <button class="btn">Book Now <i class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
@@ -262,8 +262,8 @@ if (isset($_POST['send'])){
                     <span>
 
                         <div class="item"></div>
-                        <h3><b>Experimented Agency</b></h3>
-                        <p>We are an experimented Agency</p>
+                        <h3><b>Local tour guide</b></h3>
+                        <p>We are an experimented tour guide</p>
                     </span>
                     <span>
 
@@ -305,7 +305,7 @@ if (isset($_POST['send'])){
                         <img src="./circuits/pictures/Indri-indri.jpg" alt="Image">
                         <h4> Madgascar Travel</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Trip to the East of Madagascar</h2>
-                        <a href="./circuits/east/east.PHP" target="_self"><button class="btn">Book Now <i
+                        <a href="./circuits/east/east.php" target="_self"><button class="btn">Book Now <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -325,7 +325,7 @@ if (isset($_POST['send'])){
                         <img src="./pictures/Baobabs-andavadaoka.jpg" alt="Image">
                         <h4> Madagascar Tour</h4>
                         <h2> <i class="fa-solid fa-location-dot"></i> Adventures tour and looping tour</h2>
-                        <a class="f text-decoration-none z-50" href="./circuits_francais/aventures/adventures.php" target="_self"> <button class="btn">Book Now <i
+                        <a class="f text-decoration-none z-50" href="./circuits/adventures/adventures.php" target="_self"> <button class="btn">Book Now <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -349,7 +349,7 @@ if (isset($_POST['send'])){
                             <div class="box-area">
                            
                                 <div class="img-area">
-                                    <img src="./logo/image" alt="">
+                                        <img src="https://www.transparentpng.com/thumb/user/black-male-icon-clipart-png-Uc8rbw.png" alt="black male icon clipart png @transparentpng.com">
                                 </div>
                                 <img src="./logo/quote_droit.png" alt="" id="quote">
                                 <h5> <?= $value["comment_author"]?> <a href="mailto:<?= $value["comment_author_email"]?>"><i class="fa-solid fa-envelope"></i></a></h5>
@@ -421,7 +421,7 @@ if (isset($_POST['send'])){
                         <ul class="text-center">
                             <a class="text-decoration-none" href="./circuits/north/north.php"><li>North Tour</li></a>
                             <a  class="text-decoration-none" href="./circuits/south/south.php"><li>South Tour</li></a>
-                            <a class="text-decoration-none" href="./circuits/east/east.PHP"><li>East Tour</li></a>
+                            <a class="text-decoration-none" href="./circuits/east/east.php"><li>East Tour</li></a>
                             <a class="text-decoration-none" href="./circuits/weast/weast.php"><li>Weast Tour</li></a>
                         </ul>
                     </div>

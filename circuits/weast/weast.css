@@ -842,7 +842,7 @@ b {
   }
   .weast_day {
     position: relative;
-    top: -7vw;
+    top: -20vw;
   }
   .weast_day h3 {
     color: #7851a9;
@@ -1097,7 +1097,7 @@ b {
   }
   .with-tsingy {
     position: relative;
-    top: 33vw;
+    top: 16vw;
   }
   .with-tsingy h3 {
     color: #7851a9;
@@ -1247,7 +1247,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 48.6rem;
+    top: 35rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1566,7 +1566,7 @@ b {
   }
   .tsingy {
     position: relative;
-    top: 69vw;
+    top: 49vw;
   }
   .tsingy h3 {
     color: #7851a9;
@@ -1708,7 +1708,7 @@ footer .copryght .row h3 {
   footer {
     height: 79rem;
     position: relative;
-    top: 54rem;
+    top: 38rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -2181,7 +2181,7 @@ footer .copryght .row h3 {
   }
   .baobab {
     position: relative;
-    top: 105vw;
+    top: 83vw;
   }
   .baobab h3 {
     color: #7851a9;
@@ -2302,7 +2302,7 @@ footer .copryght .row h3 {
 @media (max-width: 575px) {
   .galerie {
     position: relative;
-    top: 40rem;
+    top: 30rem;
   }
   .galerie h1 {
     color: rgb(209, 118, 6);
@@ -2333,7 +2333,7 @@ footer .copryght .row h3 {
   }
   .galerie .row .zoomed-image {
     position: fixed;
-    top: 13rem;
+    top: 10.5rem;
     left: 0;
     width: 100%;
     border-radius: 0%;

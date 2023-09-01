@@ -38,7 +38,7 @@
 <body>
 
 <?php
-     $bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
+$bd= new PDO('mysql:host=185.98.131.93;dbname=madag906129','madag906129','3vdophg5mf');
 
      $bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
@@ -155,7 +155,7 @@ if (isset($_POST['send'])){
             <div class="carousel-item">
                 <img src="./pictures/alley.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="w-100 text-start">Vacances à Madagascar  pour l ' Allée des Baobab à l' Ouest</h1>
+                    <h1 class="w-100 text-start">Vacances à Madagascar  pour l ' Allée des Baobab</h1>
                     <a class="f text-decoration-none z-50" href="./circuits_francais/ouest/ouest.php"><button class="btn">Explorer <i class="fa-solid fa-arrow-right"></i></button></a> 
                 </div>
             </div>
@@ -260,8 +260,8 @@ if (isset($_POST['send'])){
                     <span>
 
                         <div class="item"></div>
-                        <h3><b>Agence Experimenté</b></h3>
-                        <p>Nous sommes un agence expérimenté</p>
+                        <h3><b>Guide touristique local</b></h3>
+                        <p>Un guide touristique local  expérimenté</p>
                     </span>
                     <span>
 
@@ -347,7 +347,7 @@ if (isset($_POST['send'])){
                             <div class="box-area">
                            
                                 <div class="img-area">
-                                    <img src="./logo/image" alt="">
+                                      <img src="https://www.transparentpng.com/thumb/user/black-male-icon-clipart-png-Uc8rbw.png" alt="black male icon clipart png @transparentpng.com">
                                 </div>
                                 <img src="./logo/quote_droit.png" alt="" id="quote">
                                 <h5> <?= $value["comment_author"]?> <a href="mailto:<?= $value["comment_author_email"]?>"><i class="fa-solid fa-envelope"></i></a></h5>

@@ -10,7 +10,7 @@
     content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
   <meta name="keywords"
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA, Madagascar Tour, Madagascar travel, Madagascar Trip , Madagascar Holidays, Madagascar Guid, Visit Madagascar, Tour of Madagascar ">
-  <title>Madagascar visite tours/Adventures tour and Boucle</title>
+  <title>Madagascar visite tours/Aventures tour et Boucle</title>
 
   <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
   <link rel="stylesheet" href="adventures.css">
@@ -61,10 +61,10 @@
               <i class="fa-solid fa-car text-dark"></i> Circuits
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./../nord/nord.php">Circuit NORTH</a></li>
-              <li><a class="dropdown-item" href="./../sud/sud.php">Circuit SOUTH</a></li>
-              <li><a class="dropdown-item" href="./../est/est.php">Circuit EAST</a></li>
-              <li><a class="dropdown-item" href="./../ouest/ouest.php">Circuit WEAST</a></li>
+              <li><a class="dropdown-item" href="./../nord/nord.php">Circuit NORD</a></li>
+              <li><a class="dropdown-item" href="./../sud/sud.php">Circuit SUD</a></li>
+              <li><a class="dropdown-item" href="./../est/est.php">Circuit EST</a></li>
+              <li><a class="dropdown-item" href="./../ouest/ouest.php">Circuit Ouest</a></li>
               <li><a class="dropdown-item" href="#">Circuit Aventures</a></li>
             </ul>
           </li>
@@ -100,7 +100,7 @@
   </div>
 
 
-  <div class="adv mt-5">
+  <div class="adv mt-0 mt-md-5">
     <h1 class=" title_adv  text-start text-md-start">Details du circuit
 
     </h1>

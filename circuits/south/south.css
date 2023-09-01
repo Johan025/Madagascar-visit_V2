@@ -817,7 +817,7 @@ b {
   }
   .south_day {
     position: relative;
-    top: -21vw;
+    top: -35.5vw;
   }
   .south_day h3 {
     color: #7851a9;
@@ -1072,7 +1072,7 @@ b {
   }
   .comb {
     position: relative;
-    top: 23vw;
+    top: 6.5vw;
   }
   .comb h3 {
     color: #7851a9;
@@ -1392,7 +1392,7 @@ b {
   }
   .adventure {
     position: relative;
-    top: 70vw;
+    top: 44vw;
   }
   .adventure h3 {
     color: #7851a9;
@@ -1485,7 +1485,7 @@ b {
 @media (max-width: 575px) {
   .anakao {
     position: relative;
-    top: 29rem;
+    top: 21rem;
   }
   .anakao h1 {
     font-family: "Acme", sans-serif;
@@ -1555,7 +1555,7 @@ b {
 @media (max-width: 575px) {
   .zafimaniry {
     position: relative;
-    top: 30rem;
+    top: 21rem;
   }
   .zafimaniry h1 {
     font-family: "Acme", sans-serif;
@@ -1617,7 +1617,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 45rem;
+    top: 30rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1803,7 +1803,7 @@ footer .copryght .row h3 {
   footer {
     height: 74rem;
     position: relative;
-    top: 51rem;
+    top: 34rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -2054,7 +2054,7 @@ footer .copryght .row h3 {
 @media (max-width: 575px) {
   .galerie {
     position: relative;
-    top: 35rem;
+    top: 23rem;
   }
   .galerie h1 {
     color: rgb(209, 118, 6);
@@ -2085,7 +2085,7 @@ footer .copryght .row h3 {
   }
   .galerie .row .zoomed-image {
     position: fixed;
-    top: 13rem;
+    top: 11rem;
     left: 0;
     width: 100%;
     border-radius: 0%;

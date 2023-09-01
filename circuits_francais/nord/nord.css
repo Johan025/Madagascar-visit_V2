@@ -556,7 +556,7 @@ body {
   }
   .north_day {
     position: relative;
-    top: -17vw;
+    top: -25.6vw;
   }
   .north_day h3 {
     color: #7851a9;
@@ -1066,7 +1066,7 @@ b {
   }
   .north_nosy {
     position: relative;
-    top: 30vw;
+    top: 13vw;
   }
   .north_nosy h3 {
     color: #7851a9;
@@ -1323,7 +1323,7 @@ b {
   }
   .nosy-Be {
     position: relative;
-    top: 60vw;
+    top: 39vw;
   }
   .nosy-Be h3 {
     color: #7851a9;
@@ -1379,7 +1379,7 @@ b {
     width: 97%;
     position: relative;
     height: 27rem;
-    top: 32.6rem;
+    top: 24.2rem;
     left: 2%;
     border-radius: 18px;
     z-index: 20;
@@ -1564,7 +1564,7 @@ footer .copryght .row h3 {
   footer {
     height: 74rem;
     position: relative;
-    top: 38rem;
+    top: 27rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1819,7 +1819,7 @@ footer .copryght .row h3 {
 @media (max-width: 575px) {
   .galerie {
     position: relative;
-    top: 25rem;
+    top: 17rem;
   }
   .galerie h1 {
     color: rgb(209, 118, 6);
