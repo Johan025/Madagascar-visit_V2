@@ -1647,7 +1647,7 @@ footer .copryght .row h3 {
   footer .copryght {
     position: relative;
     top: 8rem;
-    height: 6rem;
+    height: 8rem;
     background: #162b32;
   }
   footer .copryght .row h3 {
@@ -1850,7 +1850,7 @@ footer .copryght .row h3 {
   }
   .galerie .row .zoomed-image {
     position: fixed;
-    top: 13rem;
+    top: 1;
     left: 0;
     width: 100%;
     border-radius: 0%;

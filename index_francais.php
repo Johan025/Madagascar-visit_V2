@@ -248,7 +248,7 @@ if (isset($_POST['send'])){
             <div class="border1"></div>
             <div class="row gy-5 gx-md-5">
                 <div class="col-12 col-md-6 col-lg-4" id="col1">
-                    <img src="./pictures/item_1jpg.jpg" id="i1" alt="">
+                    <img src="./pictures/indri.jpg" id="i1" alt="">
 
                 </div>
                 <div class="col-12 col-md-6 col-lg-4" id="col2">
@@ -261,7 +261,7 @@ if (isset($_POST['send'])){
 
                         <div class="item"></div>
                         <h3><b>Guide touristique local</b></h3>
-                        <p>Un guide touristique local  expérimenté</p>
+                        <p>Un guide touristique local expérimenté</p>
                     </span>
                     <span>
 

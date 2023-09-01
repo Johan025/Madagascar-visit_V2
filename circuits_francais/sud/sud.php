@@ -368,7 +368,7 @@
           <img src="./../../pictures/leafted gecko.jpg" class="d-block w-100" alt="parc national ranomafana">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/fulvusisalo.jpg" class="d-block w-100" alt="common brown lemur, parc national isalo">
+          <img src="./../pictures/train.jpg" class="d-block w-100" alt="common brown lemur, parc national isalo">
         </div>
   
       </div>
@@ -587,10 +587,10 @@
           <img src="./../pictures/andringitra.jpg" class="d-block w-100" alt="parc national andringintra ">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/tsaranoropg" class="d-block w-100" alt="...">
+          <img src="./../../pictures/tsaranoro.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/Parc-national-dAndringitrawebp" class="d-block w-100" alt="...">
+          <img src="./../../pictures/Parc-national-dAndringitra.webp" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl2"
@@ -802,12 +802,6 @@
             </p>
           </div>
         </div>
-
-
-
-
-
-
 
       </div>
     </div>

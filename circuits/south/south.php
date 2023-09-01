@@ -389,7 +389,7 @@
           <img src="./../../pictures/leafted gecko.jpg" class="d-block w-100" alt="parc national ranomafana">
         </div>
         <div class="carousel-item">
-          <img src="./../../pictures/fulvusisalo.jpg" class="d-block w-100" alt="common brown lemur, parc national isalo">
+        <img src="./../pictures/train.jpg" class="d-block w-100" alt="common brown lemur, parc national isalo">
         </div>
   
       </div>
