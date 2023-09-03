@@ -116,7 +116,7 @@ body {
     height: 21rem;
     display: block;
     overflow: hidden;
-    filter: brightness(52%);
+    filter: brightness(70%);
   }
   .couv #couv_1 img {
     position: relative;
@@ -130,7 +130,7 @@ body {
 @media (min-width: 576px) {
   #couverture {
     height: 21rem;
-    filter: brightness(50%);
+    filter: brightness(70%);
   }
   .couv h1 {
     font-size: calc(1.6rem + 1.5vw);
@@ -169,7 +169,7 @@ body {
   .couv #couv_ {
     height: 18.4rem;
     overflow: hidden;
-    filter: brightness(65%);
+    filter: brightness(70%);
     display: none;
   }
   .couv #couv_ img {
@@ -178,6 +178,19 @@ body {
     width: 100%;
   }
 }
+#icone1 {
+  width: 29px;
+  border: 5px solid rgb(243, 146, 0);
+  height: 29px;
+  position: relative;
+  left: 70%;
+}
+
+#icone2 {
+  width: 23px;
+  height: 23px;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -256,6 +269,21 @@ body {
 }
 
 @media (min-width: 576px) {
+  .ic1 {
+    position: relative;
+    left: 8rem;
+  }
+  #icone1 {
+    width: 29px;
+    border: 5px solid rgb(243, 146, 0);
+    height: 29px;
+    position: relative;
+    left: 70%;
+  }
+  #icone2 {
+    width: 23px;
+    height: 23px;
+  }
   .logo {
     width: 130px;
     height: 65px;

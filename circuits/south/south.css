@@ -361,7 +361,7 @@ b {
 @media (min-width: 576px) {
   #couverture {
     height: 21rem;
-    filter: brightness(64%);
+    filter: brightness(70%);
   }
   .couv h1 {
     font-size: calc(1.6rem + 1.5vw);
@@ -394,7 +394,7 @@ b {
   .couv #couv_ {
     height: 21.1rem;
     overflow: hidden;
-    filter: brightness(67%);
+    filter: brightness(70%);
   }
   .couv #couv_ img {
     position: relative;
@@ -412,6 +412,19 @@ b {
     width: 50%;
   }
 }
+#icone1 {
+  width: 29px;
+  border: 5px solid rgb(243, 146, 0);
+  height: 29px;
+  position: relative;
+  left: 70%;
+}
+
+#icone2 {
+  width: 23px;
+  height: 23px;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -490,6 +503,21 @@ b {
 }
 
 @media (min-width: 576px) {
+  .ic1 {
+    position: relative;
+    left: 8rem;
+  }
+  #icone1 {
+    width: 29px;
+    border: 5px solid rgb(243, 146, 0);
+    height: 29px;
+    position: relative;
+    left: 8rem;
+  }
+  #icone2 {
+    width: 23px;
+    height: 23px;
+  }
   .logo {
     width: 130px;
     height: 65px;

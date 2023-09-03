@@ -58,7 +58,7 @@
         height: 21rem;
         display: block;
         overflow: hidden;
-        filter: brightness(52%);
+        filter: brightness(70%);
 
         img {
             position: relative;
@@ -76,7 +76,7 @@
 @media (min-width: 576px) {
     #couverture {
         height: 21rem;
-        filter: brightness(50%);
+        filter: brightness(70%);
     }
 
     .couv {
@@ -131,7 +131,7 @@
         #couv_ {
             height: 18.4rem;
             overflow: hidden;
-            filter: brightness(65%);
+            filter: brightness(70%);
             display: none;
 
             img {

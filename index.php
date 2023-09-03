@@ -74,7 +74,7 @@ if (isset($_POST['send'])){
     $date = date("Y-m-d H:i:s");
     
 
-    if (validerEmail($email)) {
+    if ((validerEmail($email)) && !(preg_match('/_/', $name))) {
     $requete1=$bd ->prepare('INSERT INTO md_comments(comment_author,comment_author_email,comment_content,comment_date) VALUES(:nom, :adresse_email, :coms, :date)');
     $requete1->bindvalue(':nom', $name);
     $requete1->bindvalue(':adresse_email', $email);
