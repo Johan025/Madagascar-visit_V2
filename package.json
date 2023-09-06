@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "node-sass circuits/north/north.scss circuits/north/north.css",
-    "watch": "sass -w  circuits/south/south.scss circuits/south/south.css"
+    "watch": "sass -w  styles.scss styles.css"
   },
   "keywords": [],
   "author": "",
@@ -16,3 +16,5 @@
     "sass": "^1.63.2"
   }
 }
+
+

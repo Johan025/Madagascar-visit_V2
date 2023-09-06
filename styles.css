@@ -70,6 +70,102 @@ body {
   border-radius: 50%;
 }
 
+.loader {
+  position: fixed;
+  display: block;
+  top: 12vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.loader #gif {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  left: 45%;
+  top: 50%;
+}
+.loader h1 {
+  position: fixed;
+  top: 62%;
+  left: 40%;
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.load {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 10vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+@media screen and (min-width: 596px) and (max-width: 991px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 3rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+#icone1 {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  left: 70%;
+}
+
+#icone2 {
+  width: 23px;
+  height: 23px;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -148,6 +244,20 @@ body {
 }
 
 @media (min-width: 576px) {
+  .ic1 {
+    position: relative;
+    left: 8rem;
+  }
+  #icone1 {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 8rem;
+  }
+  #icone2 {
+    width: 23px;
+    height: 23px;
+  }
   .logo {
     width: 130px;
     height: 65px;
@@ -221,7 +331,7 @@ body {
 #carousel #inner img {
   width: 100%;
   height: 100vh;
-  filter: brightness(57%);
+  filter: brightness(70%);
 }
 #carousel .carousel-indicators {
   list-style: none;
@@ -287,7 +397,7 @@ body {
 #carousel_responsive #inner1 img {
   width: 100%;
   height: 100vh;
-  filter: brightness(57%);
+  filter: brightness(70%);
 }
 #carousel_responsive .carousel-indicators {
   list-style: none;
@@ -436,7 +546,7 @@ body {
   #carousel #inner img {
     width: 100%;
     height: 28rem;
-    filter: brightness(57%);
+    filter: brightness(70%);
   }
   #carousel .icon {
     font-size: 42px;
@@ -554,7 +664,7 @@ body {
 }
 .us {
   position: relative;
-  top: 7rem;
+  top: 5rem;
 }
 .us .container h1 {
   color: rgb(209, 118, 6);
@@ -720,7 +830,7 @@ body {
   }
 }
 .circuit {
-  margin-top: 13.5rem;
+  margin-top: 5.5rem;
 }
 .circuit .container .tour_t {
   color: rgb(209, 118, 6);
@@ -861,7 +971,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .circuit {
-    margin-top: 13.5rem;
+    margin-top: 9.5rem;
   }
   .circuit .container .tour_t {
     color: rgb(209, 118, 6);
@@ -873,7 +983,7 @@ body {
 }
 .guestbook {
   position: relative;
-  top: 8rem;
+  top: 5rem;
   height: 29rem;
   width: 100%;
   background-repeat: no-repeat;
@@ -1006,7 +1116,7 @@ body {
   .guestbook {
     position: relative;
     top: 10.5rem;
-    height: 49rem;
+    height: 47rem;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -1215,7 +1325,7 @@ footer .copryght .row h3 {
   footer {
     height: 78rem;
     position: relative;
-    top: 22rem;
+    top: 24rem;
   }
   footer .follow {
     margin-top: 4rem;
@@ -1404,20 +1514,24 @@ footer .copryght .row h3 {
   z-index: 40;
 }
 
-.comments {
+#cont {
   position: relative;
   top: 12rem;
+}
+
+.comments {
+  position: relative;
   padding: 2px;
   padding-bottom: 50px;
-  left: 30.5%;
-  width: 40%;
+  width: 60%;
+  left: 25%;
   border-radius: 10px;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.541);
 }
 .comments h1 {
-  font-size: 36px;
+  font-size: 32px;
   margin-top: 3rem;
-  margin-left: 17%;
+  margin-left: 0%;
   font-weight: 450;
   font-family: "Acme", sans-serif;
 }
@@ -1431,8 +1545,8 @@ footer .copryght .row h3 {
 }
 .comments div {
   margin-top: 0rem;
-  width: 74%;
-  margin-left: 5%;
+  width: 84%;
+  margin-left: 0%;
   padding-bottom: 4px;
 }
 .comments div input[type=email] {
@@ -1453,8 +1567,8 @@ footer .copryght .row h3 {
 .comments div #coms {
   border: 1.5px solid;
   border-radius: 16px;
-  padding: 6px;
-  padding-bottom: 8rem;
+  padding: 3px;
+  padding-bottom: 5rem;
   font-size: 16px;
   margin-left: 10%;
 }
@@ -1463,17 +1577,38 @@ footer .copryght .row h3 {
   margin-left: 10%;
 }
 
+.links {
+  position: relative;
+  left: 18%;
+  top: 5rem;
+}
+.links h1 {
+  font-size: 36px;
+  font-family: "Acme", sans-serif;
+  font-weight: bold;
+}
+.links img {
+  width: 140px;
+  height: 140px;
+  margin-top: -1rem;
+  margin-left: 3rem;
+}
+.links img:nth-child(2) {
+  width: 65px;
+  height: 65px;
+}
+
 @media (max-width: 575px) {
   .comments {
     position: relative;
-    top: 16rem;
+    top: 8rem;
     padding: 4px;
     padding-bottom: 30px;
     width: 94%;
     left: 2.9%;
   }
   .comments h1 {
-    font-size: 36px;
+    font-size: 32px;
     margin-top: 3rem;
     margin-left: 3%;
     font-weight: 450;
@@ -1483,7 +1618,6 @@ footer .copryght .row h3 {
     width: 6.6rem;
     height: 6px;
     border-radius: 18px;
-    margin-left: 3.5%;
     margin-top: 1rem;
     background-color: rgb(209, 118, 6);
   }
@@ -1521,18 +1655,58 @@ footer .copryght .row h3 {
     background-color: rgb(209, 118, 6);
     margin-left: 1%;
   }
+  .links {
+    position: relative;
+    left: 2%;
+    top: 5rem;
+  }
+  .links h1 {
+    font-size: calc(1.5rem + 1.5vw);
+    font-family: "Acme", sans-serif;
+    font-weight: bold;
+  }
+  .links img {
+    width: 150px;
+    height: 150px;
+    margin-top: -1rem;
+    margin-left: 9.5%;
+  }
+  .links img:nth-child(2) {
+    width: 65px;
+    height: 65px;
+  }
 }
 @media (min-width: 576px) and (max-width: 991px) {
+  .links {
+    position: relative;
+    left: 3%;
+    top: 5rem;
+  }
+  .links h1 {
+    font-size: 33px;
+    font-family: "Acme", sans-serif;
+    font-weight: bold;
+  }
+  .links img {
+    width: 120px;
+    height: 120px;
+    margin-top: -1rem;
+    margin-left: 3rem;
+  }
+  .links img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+  }
   .comments {
     text-align: center;
-    margin-left: -10%;
+    margin-left: -4.5%;
     width: 60%;
-    margin-top: 2rem;
+    margin-top: 8rem;
   }
   .comments h1 {
     font-size: 36px;
     margin-top: 3rem;
-    margin-left: 0%;
+    margin-left: 2%;
     font-weight: 450;
     font-family: "Acme", sans-serif;
   }
@@ -1540,7 +1714,6 @@ footer .copryght .row h3 {
     width: 6.6rem;
     height: 6px;
     border-radius: 18px;
-    margin-left: 38.5%;
     margin-top: 1rem;
     background-color: rgb(209, 118, 6);
   }
@@ -1554,7 +1727,7 @@ footer .copryght .row h3 {
     border-radius: 16px;
     padding: 6px;
     width: 180%;
-    margin-left: 10%;
+    margin-left: 4%;
     font-size: 16px;
   }
   .comments div #name {
@@ -1562,7 +1735,7 @@ footer .copryght .row h3 {
     border-radius: 16px;
     padding: 6px;
     font-size: 16px;
-    margin-left: 10%;
+    margin-left: 4%;
   }
   .comments div #coms {
     border: 1.5px solid;
@@ -1570,11 +1743,11 @@ footer .copryght .row h3 {
     padding: 6px;
     padding-bottom: 8rem;
     font-size: 16px;
-    margin-left: 10%;
+    margin-left: 4%;
   }
   .comments div button {
     background-color: rgb(209, 118, 6);
-    margin-left: 10%;
+    margin-left: 4%;
   }
 }
 * {

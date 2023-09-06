@@ -18,7 +18,7 @@
     #couv_ {
         height: 28rem;
         overflow: hidden;
-        filter: brightness(57%);
+        filter: brightness(70%);
 
         img {
             position: relative;
@@ -34,7 +34,7 @@
 @media (min-width: 576px) {
     #couverture {
         height: 21rem;
-        filter: brightness(50%);
+        filter: brightness(70%);
     }
 
     .couv {
@@ -59,7 +59,7 @@
 @media (min-width: 992px) {
     #couverture {
         height: 60vh;
-        filter: brightness(50%);
+        filter: brightness(70%);
     }
 }
 
@@ -70,7 +70,7 @@
             font-weight: 900;
             font-size: calc(1.650rem + 1.5vw);
             position: relative;
-            top: -25vh;
+            top: -23vh;
             left: 5vw;
             width: 90%;
         }
@@ -79,7 +79,7 @@
         #couv_ {
             height: 21.1rem;
             overflow: hidden;
-            filter: brightness(65%);
+            filter: brightness(70%);
     
             img {
                 position: relative;

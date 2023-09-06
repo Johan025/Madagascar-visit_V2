@@ -11,7 +11,7 @@
   <meta name="keywords"
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA">
   <title>Madagascar visit tours/north</title>
-  <link rel="stylesheet" href="north.css">
+  <link rel="stylesheet" href="north.css?v=2">
   <link rel="icon" type="image/x-icon" href="./../../logo/madagascar-visite-ico.png">
 
   <!-- <script src="../../css/bootstrap_file/jquery.min.js"></script>
@@ -690,6 +690,12 @@ The water is clear with his white beach and beautiful sand bar.
 
 <div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
 
+<div class="loader">
+        <img src="./../../logo/gif_.gif" alt="" class="text-center" id="gif">
+        <h1>Please wait...</h1>
+    </div>
+
+
 
 <footer class="w-100 bg-dark" id="contact">
   <div class="container">
@@ -807,6 +813,15 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
   <script src="./map.js"></script>
  
   <script>
+
+    
+const gifImage = document.querySelector(".loader");
+
+window.addEventListener("load", function () {
+    
+        gifImage.classList.add('load');  
+});
+
 
 const images = document.querySelectorAll('.zoomable-image');
     const overlay = document.querySelector('.overlay');

@@ -44,7 +44,7 @@
 @media (min-width: 576px) {
     #couverture {
         height: 21rem;
-        filter: brightness(50%);
+        filter: brightness(70%);
     }
 
     .couv {
@@ -69,7 +69,7 @@
 @media (min-width: 992px) {
     #couverture {
         height: 25rem;
-        filter: brightness(50%);
+        filter: brightness(70%);
     }
 }
 
@@ -82,7 +82,7 @@
             font-weight: 900;
             font-size: calc(1.600rem + 1.5vw);
             position: relative;
-            top: -24vh;
+            top: -23vh;
             left: 5vw;
             width: 90%;
             font-family: 'Acme', sans-serif;
@@ -92,7 +92,7 @@
         #couv_ {
             height: 17.1rem;
             overflow: hidden;
-            filter: brightness(65%);
+            filter: brightness(75%);
     
             img {
                 position: relative;

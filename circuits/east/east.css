@@ -70,6 +70,90 @@ body {
   border-radius: 50%;
 }
 
+.loader {
+  position: fixed;
+  display: block;
+  top: 12vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.loader #gif {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  left: 45%;
+  top: 50%;
+}
+.loader h1 {
+  position: fixed;
+  top: 62%;
+  left: 40%;
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.load {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 10vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+@media screen and (min-width: 596px) and (max-width: 991px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 3rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
 #icone1 {
   width: 29px;
   border: 5px solid rgb(243, 146, 0);
@@ -386,6 +470,90 @@ body {
   border-radius: 50%;
 }
 
+.loader {
+  position: fixed;
+  display: block;
+  top: 12vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.loader #gif {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  left: 45%;
+  top: 50%;
+}
+.loader h1 {
+  position: fixed;
+  top: 62%;
+  left: 40%;
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.load {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 10vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+@media screen and (min-width: 596px) and (max-width: 991px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 3rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
 @font-face {
   font-family: "coneria_script_demoregular";
   src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
@@ -605,6 +773,90 @@ body {
   border-radius: 50%;
 }
 
+.loader {
+  position: fixed;
+  display: block;
+  top: 12vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.loader #gif {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  left: 45%;
+  top: 50%;
+}
+.loader h1 {
+  position: fixed;
+  top: 62%;
+  left: 40%;
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.load {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 10vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+@media screen and (min-width: 596px) and (max-width: 991px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 3rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
 b {
   color: rgb(62, 56, 56);
 }
@@ -862,27 +1114,27 @@ b {
 @media (min-width: 576px) {
   #carouselExampleControls {
     width: 82%;
-    height: 40vh;
+    height: 25rem;
     border-radius: 18px;
     margin-left: 9.7%;
   }
   #carouselExampleControls #inner {
-    height: 40vh;
+    height: 25rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControls #inner img {
-    height: 40vh;
+    height: 25rem;
     width: 58%;
     border-radius: 18px;
   }
   #plan1 {
     position: relative;
-    top: 4.6rem;
+    top: 3.6rem;
   }
   .borde1 {
     position: relative;
-    top: 5.2rem;
+    top: 4.2rem;
     width: 2rem;
   }
   #point {
@@ -892,7 +1144,7 @@ b {
   }
   .east_day {
     position: relative;
-    top: -2.6rem;
+    top: -4.6rem;
   }
   h3 {
     color: #7851a9;
@@ -913,7 +1165,7 @@ b {
   }
   .east_day .row {
     margin-left: 6%;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .east_day .row div {
     width: 91%;
@@ -956,17 +1208,17 @@ b {
   }
   #carouselExampleControls {
     width: 58%;
-    height: 73vh;
+    height: 30rem;
     border-radius: 18px;
     margin-left: 20.7%;
   }
   #carouselExampleControls #inner {
-    height: 73vh;
+    height: 30rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControls #inner img {
-    height: 73vh;
+    height: 30rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1149,17 +1401,17 @@ b {
   }
   #carouselExampleControl {
     width: 80%;
-    height: 40vh;
+    height: 25rem;
     border-radius: 18px;
     margin-left: 9.7%;
   }
   #carouselExampleControl #inner {
-    height: 40vh;
+    height: 25rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl #inner img {
-    height: 40vh;
+    height: 25rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1182,7 +1434,7 @@ b {
   }
   .east_day_pang {
     position: relative;
-    top: 2rem;
+    top: 0rem;
   }
   .east_day_pang .row {
     margin-left: 6%;
@@ -1225,17 +1477,17 @@ b {
   }
   #carouselExampleControl {
     width: 58%;
-    height: 73vh;
+    height: 30rem;
     border-radius: 18px;
     margin-left: 20.7%;
   }
   #carouselExampleControl #inner {
-    height: 73vh;
+    height: 30rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl #inner img {
-    height: 73vh;
+    height: 30rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1415,17 +1667,17 @@ b {
   }
   #carouselExampleControl2 {
     width: 82%;
-    height: 40vh;
+    height: 25rem;
     border-radius: 18px;
     margin-left: 9.7%;
   }
   #carouselExampleControl2 #inner {
-    height: 40vh;
+    height: 25rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl2 #inner img {
-    height: 40vh;
+    height: 25rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1487,17 +1739,17 @@ b {
   }
   #carouselExampleControl2 {
     width: 58%;
-    height: 73vh;
+    height: 30rem;
     border-radius: 18px;
     margin-left: 20.7%;
   }
   #carouselExampleControl2 #inner {
-    height: 73vh;
+    height: 30rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl2 #inner img {
-    height: 73vh;
+    height: 30rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1530,7 +1782,7 @@ b {
   }
   .sainte-marie .row {
     margin-left: 15%;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
   .sainte-marie .row div {
     width: 75%;
@@ -1625,7 +1877,7 @@ b {
     width: 100%;
     position: relative;
     height: 34rem;
-    top: 24rem;
+    top: 18rem;
     left: 23.9%;
     border-radius: 18px;
     z-index: 20;
@@ -1731,7 +1983,7 @@ b {
 footer {
   height: 30rem;
   position: relative;
-  top: 29rem;
+  top: 25rem;
 }
 footer .follow {
   position: relative;
@@ -2001,7 +2253,7 @@ footer .copryght .row h3 {
 }
 .galerie {
   position: relative;
-  top: 15rem;
+  top: 10rem;
 }
 .galerie h1 {
   color: rgb(209, 118, 6);

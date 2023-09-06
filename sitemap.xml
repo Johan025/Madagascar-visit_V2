@@ -38,3 +38,5 @@
   <priority>0.80</priority>
 </url>
 </urlset>
+
+$bd= new PDO('mysql:host=185.98.131.93;dbname=madag906129','madag906129','3vdophg5mf');

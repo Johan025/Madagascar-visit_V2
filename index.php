@@ -5,13 +5,13 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=1">
     <meta name="description"
         content="Madagascar Visit is a local Tour guid in Madagascar, For your Holidays in Madagascar .It's a pleasure for us to guid you through our beautiful country, Madagascar Visit est un guide touristique local à Madagascar, pour vos vacances à Madagascar, c'est un plaisir pour nous de vous guider à travers notre beau pays.">
     <meta name="keywords"
         content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA">
     <title>Madagascar Visit, Madagascar Holidays, Madagascar Tours Guid, Madagascar Travel</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css?v=2">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
@@ -39,7 +39,7 @@
 
 
 <?php
-$bd= new PDO('mysql:host=185.98.131.93;dbname=madag906129','madag906129','3vdophg5mf');
+$bd= new PDO('mysql:host=localhost;dbname=md_comment','root','');
 
      $bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
@@ -96,6 +96,8 @@ if (isset($_POST['send'])){
           <!-- Logo ou titre -->
           <a class="navbar-brand" href="#"><img class="logo" src="logo/madagascar-visite-logo.png"></a>
     
+          <a href="#" class="ic1"><img src="./logo/ang.jpg" class="d-flex d-lg-none" id="icone1"></a>
+      <a href="./index_francais.php" class="ic1"><img src="./pictures/francais.png" class="d-flex d-lg-none" id="icone2"></a>
           <!-- Bouton pour les petits écrans -->
           <button class="navbar-toggler bg-warning text-light" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,7 +132,7 @@ if (isset($_POST['send'])){
               <li class="nav-item">
                 <a class="nav-link  text-dark" href="#about"><strong><i class="fa-solid fa-info"></i></strong> About us</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown d-none d-lg-inline">
                 <a class="nav-link dropdown-toggle text-dark" href="#tour" id="navbarDropdown" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   <div class="active"></div>
@@ -369,26 +371,44 @@ if (isset($_POST['send'])){
         </section><div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
     </div>
 
-    <div class="comments">
-
-          <h1 id="h_comments">Leave us a comments</h1>
-          <div class="borde2"></div>
-
-    <form action="" method="POST" onsubmit="return checkWordCount(this, 120);">
-            <div class="row gy-5">
-              <input type="email" name="email" class="w-100" placeholder="your email">
-              <input type="text" name="name" class="w-100" placeholder="your name" id="name">
-              <textarea type="text" name="coms" class="w-100" placeholder="your comments" id="coms"></textarea>
-              <button type="submit" name="send" class="btn p-2">Send</button>
+    <div class="container" id="cont">
+      <div class="row">
+            <div class="col-12 col-lg-5">
+                <div class="links">
+              <h1> You can also see Madagascar Visit Compagny on </h1>
+              <div class="icones">
+              <a class="f text-decoration-none z-50" href="https://www.tripadvisor.co.nz/ShowTopic-g293808-i9291-k9517276-Tour_in_Mada_with_Madagascar_Visite_Company-Madagascar.html" target="_self"> <img src="./logo/tripadvisor.svg" alt=""></a>
+              <a class="f text-decoration-none z-50" href="./circuits/adventures/adventures.php" target="_self"> <img src="./logo/linkedin.png" alt=""></a>
+               </div>
+                  
+                </div>
             </div>
-        </form>
+
+              <div class="col-12 col-md-13 col-lg-7">
+                <div class="comments">
+
+                    <h1 id="h_comments" class="text-center">Leave us a comments</h1>
+                    <div class="borde2 text-center"></div>
+
+                    <form action="" method="POST" onsubmit="return checkWordCount(this, 120);">
+                        <div class="row gy-5  w-md-75">
+                            <input type="email" name="email" class="w-100" placeholder="Your email">
+                            <input type="text" name="name" class="w-100" placeholder="Your Name" id="name">
+                            <textarea type="text" name="coms" class="w-100" placeholder="Your Comments"
+                                id="coms"></textarea>
+                            <button type="submit" name="send" class="btn p-2">Send</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </div>
     </div>
 
-
-
+    <div class="loader">
+        <img src="./logo/gif_.gif" alt="" class="text-center" id="gif">
+        <h1>Please wait...</h1>
+    </div>
     
-
-
     <footer class="w-100 bg-dark">
         <div class="container">
             <div class="row gx-3">
@@ -493,6 +513,15 @@ if (isset($_POST['send'])){
         up();
     </script>
     <script>
+
+const gifImage = document.querySelector(".loader");
+
+window.addEventListener("load", function () {
+    
+        gifImage.classList.add('load');
+    
+});
+
          function checkWordCount(form, maxWords) {
       var textarea = form.querySelector('#coms');
             var words = textarea.value.split(/\s+/); // Diviser le texte en mots en utilisant l'espace comme délimiteur
@@ -571,6 +600,7 @@ if (isset($_POST['send'])){
 
 
     </script>
+    <script src="./TypeWriter.js"></script>
 </body>
 
 </html>

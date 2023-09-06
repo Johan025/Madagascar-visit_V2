@@ -12,7 +12,7 @@
     content="Holidays Madagascar, Tour Guid Madagascar, Visit Madagascar, Madagascar birding Tour, Madagascar Circuit Tour, Madagascar Travel Tour, Madagascar Tour Package, Madagascar exclusive Tour, LEMURS, baobab, Adansonia, Chameleon, INDRI INDRI, AYE AYE, MAKI CATTA, SIFAKA, Madagascar Tour, Madagascar travel, Madagascar Trip , Madagascar Holidays, Madagascar Guid, Visit Madagascar, Tour of Madagascar ">
   <title>Madagascar visite tours</title>
   <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
-  <link rel="stylesheet" href="sud.css">
+  <link rel="stylesheet" href="sud.css?v=2">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -47,6 +47,8 @@
       <!-- Logo ou titre -->
       <a class="navbar-brand" href="#"><img class="logo" src="../../logo/madagascar-visite-logo.png"></a>
 
+      <a href="./../../circuits/south/south.php" class="ic1"><img src="./../../logo/ang.jpg" class="d-flex d-lg-none" id="icone1"></a>
+      <a href="#" class="ic1"><img src="./../../pictures/francais.png" class="d-flex d-lg-none" id="icone2"></a>
       <!-- Bouton pour les petits écrans -->
       <button class="navbar-toggler bg-warning text-light" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +85,7 @@
             <a class="nav-link  text-dark" href="../../index_francais.php#about"><strong><i
                   class="fa-solid fa-info"></i></strong> A propos</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown d-none d-lg-inline">
                 <a class="nav-link dropdown-toggle text-dark" href="../../index_francais.php#tour" id="navbarDropdown" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="./../../pictures/francais.png" class="drap" alt=""> Francais
@@ -940,6 +942,11 @@
 
 
   <div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
+  <div class="loader">
+        <img src="./../../logo/gif_.gif" alt="" class="text-center" id="gif">
+        <h1>Please wait...</h1>
+    </div>
+  
 
   <footer class="w-100 bg-dark" id="contact">
     <div class="container">
@@ -1061,6 +1068,14 @@ Madagascar Visite 2023 - All right reserved - Politique de confidentialité - Me
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="./map.js"></script>
   <script>
+
+const gifImage = document.querySelector(".loader");
+
+window.addEventListener("load", function () {
+    
+        gifImage.classList.add('load');  
+});
+
     const images = document.querySelectorAll('.zoomable-image');
     const overlay = document.querySelector('.overlay');
     const close = document.querySelector('.close');

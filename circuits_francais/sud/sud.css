@@ -70,6 +70,90 @@ body {
   border-radius: 50%;
 }
 
+.loader {
+  position: fixed;
+  display: block;
+  top: 12vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.loader #gif {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  left: 45%;
+  top: 50%;
+}
+.loader h1 {
+  position: fixed;
+  top: 62%;
+  left: 40%;
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.load {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 10vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+@media screen and (min-width: 596px) and (max-width: 991px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 3rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
 font-face {
   font-family: "coneria_script_demoregular";
   src: url("./../../../fonts/demo_coneriascript-webfont.woff2") format("woff2"), url("./../../../fonts/demo_coneriascript-webfont.woff") format("woff");
@@ -172,6 +256,90 @@ body {
   border-radius: 50%;
 }
 
+.loader {
+  position: fixed;
+  display: block;
+  top: 12vh;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.loader #gif {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  left: 45%;
+  top: 50%;
+}
+.loader h1 {
+  position: fixed;
+  top: 62%;
+  left: 40%;
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.load {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 10vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
+@media screen and (min-width: 596px) and (max-width: 991px) {
+  .loader {
+    position: fixed;
+    display: block;
+    top: 3rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+  }
+  .loader #gif {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+  }
+  .loader h1 {
+    position: fixed;
+    top: 62%;
+    left: 35%;
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  .load {
+    display: none;
+  }
+}
 b {
   color: rgb(62, 56, 56);
 }
@@ -412,6 +580,19 @@ b {
     width: 50%;
   }
 }
+#icone1 {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  left: 70%;
+}
+
+#icone2 {
+  width: 29px;
+  border: 5px solid rgb(243, 146, 0);
+  height: 29px;
+}
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -490,6 +671,22 @@ b {
 }
 
 @media (min-width: 576px) {
+  .ic1 {
+    position: relative;
+    left: 8rem;
+  }
+  #icone1 {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 9.5rem;
+  }
+  #icone2 {
+    width: 29px;
+    border: 5px solid rgb(243, 146, 0);
+    height: 29px;
+    position: relative;
+  }
   .logo {
     width: 130px;
     height: 65px;
@@ -611,17 +808,17 @@ b {
 @media (min-width: 576px) {
   #carouselExampleControls {
     width: 82%;
-    height: 40vh;
+    height: 25rem;
     border-radius: 18px;
     margin-left: 9.7%;
   }
   #carouselExampleControls #inner {
-    height: 40vh;
+    height: 25rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControls #inner img {
-    height: 40vh;
+    height: 25rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -705,17 +902,17 @@ b {
   }
   #carouselExampleControls {
     width: 58%;
-    height: 73vh;
+    height: 30rem;
     border-radius: 18px;
     margin-left: 20.7%;
   }
   #carouselExampleControls #inner {
-    height: 73vh;
+    height: 30rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControls #inner img {
-    height: 73vh;
+    height: 30rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -898,17 +1095,17 @@ b {
   }
   #carouselExampleControl {
     width: 80%;
-    height: 40vh;
+    height: 25rem;
     border-radius: 18px;
     margin-left: 9.7%;
   }
   #carouselExampleControl #inner {
-    height: 40vh;
+    height: 25rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl #inner img {
-    height: 40vh;
+    height: 25rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -974,17 +1171,17 @@ b {
   }
   #carouselExampleControl {
     width: 58%;
-    height: 73vh;
+    height: 30rem;
     border-radius: 18px;
     margin-left: 20.7%;
   }
   #carouselExampleControl #inner {
-    height: 73vh;
+    height: 30rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl #inner img {
-    height: 73vh;
+    height: 30rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1210,17 +1407,17 @@ b {
 @media (min-width: 576px) {
   #carouselExampleControl2 {
     width: 82%;
-    height: 40vh;
+    height: 25rem;
     border-radius: 18px;
     margin-left: 9.7%;
   }
   #carouselExampleControl2 #inner {
-    height: 40vh;
+    height: 25rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl2 #inner img {
-    height: 40vh;
+    height: 25rem;
     width: 58%;
     border-radius: 18px;
   }
@@ -1299,17 +1496,17 @@ b {
   }
   #carouselExampleControl2 {
     width: 58%;
-    height: 73vh;
+    height: 30rem;
     border-radius: 18px;
     margin-left: 20.7%;
   }
   #carouselExampleControl2 #inner {
-    height: 73vh;
+    height: 30rem;
     width: 100%;
     border-radius: 18px;
   }
   #carouselExampleControl2 #inner img {
-    height: 73vh;
+    height: 30rem;
     width: 58%;
     border-radius: 18px;
   }

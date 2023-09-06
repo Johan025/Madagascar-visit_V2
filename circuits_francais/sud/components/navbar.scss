@@ -14,6 +14,21 @@
 //     z-index: 4;
 //     top: 0;
 //    }
+#icone1{
+  width: 23px;
+  height: 23px;
+  position: relative;
+  left: 70%;
+}
+
+#icone2{
+  width: 29px;
+  border: 5px solid rgb(243, 146, 0);
+  height: 29px;
+
+}
+
+
 .navbar-nav li:hover ul.dropdown-menu {
   display: block;
 }
@@ -96,6 +111,26 @@
 }
 
 @media (min-width: 576px) {
+  .ic1{
+    position: relative;
+    left: 8rem;
+ }
+
+ #icone1{
+   width: 23px;
+   height: 23px;
+   position: relative;
+   left: 9.5rem;
+ }
+ 
+ #icone2{
+   width: 29px;
+   border: 5px solid rgb(243, 146, 0);
+   height: 29px;
+   position: relative;
+ 
+ }
+ 
   .logo{
     width: 130px;
     height: 65px;
@@ -111,6 +146,7 @@
 }
 
 @media (min-width: 992px) { 
+  
   #navbarNav{
     float: right;
     margin-left: 20vw;

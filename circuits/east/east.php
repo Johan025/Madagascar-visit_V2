@@ -13,7 +13,7 @@
   <title>Madagascar visite tours</title>
   
   <link rel="icon" type="image/x-icon" href="../../logo/madagascar-visite-ico.png">
-  <link rel="stylesheet" href="east.css">
+  <link rel="stylesheet" href="east.css?v=2">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -497,6 +497,11 @@
 
   <div class="up" id="Button"><i class="fa-solid fa-chevron-up"></i></div>
 
+  <div class="loader">
+        <img src="./../../logo/gif_.gif" alt="" class="text-center" id="gif">
+        <h1>Please wait...</h1>
+    </div>
+
 <footer class="w-100 bg-dark">
         <div class="container">
             <div class="row gx-3">
@@ -583,6 +588,15 @@
   <script src="./map.js"></script>
   
   <script>
+
+const gifImage = document.querySelector(".loader");
+
+window.addEventListener("load", function () {
+    
+        gifImage.classList.add('load');  
+});
+
+    
 
 const images = document.querySelectorAll('.zoomable-image');
     const overlay = document.querySelector('.overlay');
